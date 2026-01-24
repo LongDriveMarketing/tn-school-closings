@@ -1,9 +1,9 @@
 {
   "meta": {
-    "generated_at": "2026-01-24T16:52:46.712730+00:00",
-    "total_closings": 13,
+    "generated_at": "2026-01-24T17:39:04.811465+00:00",
+    "total_closings": 14,
     "by_status": {
-      "CLOSED": 11,
+      "CLOSED": 12,
       "REMOTE": 2
     },
     "sources": [
@@ -71,6 +71,13 @@
       "name": "Lancaster Early Learn. Centers",
       "status": "CLOSED",
       "status_detail": "CLOSED Monday 1/26/26",
+      "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Lewis",
+      "status": "CLOSED",
+      "status_detail": "Closed Monday January 26th, Extended care closed",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
