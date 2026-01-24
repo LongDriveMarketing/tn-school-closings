@@ -1,0 +1,105 @@
+name: Scrape TN School Closings
+
+on:
+  # Run every 30 minutes during typical school closure hours (5 AM - 10 AM CST)
+  schedule:
+    - cron: '*/30 5-15 * * 1-5'  # Every 30 min, 5 AM - 3 PM UTC (midnight-10 AM CST), Mon-Fri
+    - cron: '0 */2 * * *'        # Every 2 hours otherwise
+  
+  # Allow manual trigger
+  workflow_dispatch:
+    inputs:
+      force_run:
+        description: 'Force run even if no weather event'
+        required: false
+        default: 'true'
+
+  # Trigger on push to main (for testing)
+  push:
+    branches: [main]
+    paths:
+      - 'scraper/**'
+      - '.github/workflows/**'
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    
+    permissions:
+      contents: write
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      
+      - name: Run scraper
+        env:
+          OUTPUT_DIR: ./data
+        run: |
+          python scraper/scrape_closings.py
+      
+      - name: Check for changes
+        id: changes
+        run: |
+          git add data/
+          if git diff --staged --quiet; then
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+          else
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+          fi
+      
+      - name: Commit and push changes
+        if: steps.changes.outputs.has_changes == 'true'
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git commit -m "Update closings data - $(date -u '+%Y-%m-%d %H:%M UTC')"
+          git push
+
+  # Optional: Trigger newsletter if there are active closings
+  notify:
+    needs: scrape
+    runs-on: ubuntu-latest
+    if: always()
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          ref: main  # Get latest after scrape job pushed
+      
+      - name: Check for active closings
+        id: check_closings
+        run: |
+          if [ -f data/closings.json ]; then
+            CLOSING_COUNT=$(jq '.meta.total_closings' data/closings.json)
+            echo "closing_count=$CLOSING_COUNT" >> $GITHUB_OUTPUT
+            if [ "$CLOSING_COUNT" -gt "0" ]; then
+              echo "has_closings=true" >> $GITHUB_OUTPUT
+            else
+              echo "has_closings=false" >> $GITHUB_OUTPUT
+            fi
+          else
+            echo "has_closings=false" >> $GITHUB_OUTPUT
+            echo "closing_count=0" >> $GITHUB_OUTPUT
+          fi
+      
+      - name: Log status
+        run: |
+          echo "Active closings: ${{ steps.check_closings.outputs.closing_count }}"
+          echo "Should notify: ${{ steps.check_closings.outputs.has_closings }}"
+      
+      # Uncomment and configure when ready for Campaign Monitor integration
+      # - name: Trigger Campaign Monitor
+      #   if: steps.check_closings.outputs.has_closings == 'true'
+      #   env:
+      #     CM_API_KEY: ${{ secrets.CAMPAIGN_MONITOR_API_KEY }}
+      #     CM_LIST_ID: ${{ secrets.CAMPAIGN_MONITOR_LIST_ID }}
+      #   run: |
+      #     # Trigger transactional email or RSS campaign
+      #     curl -X POST ...
