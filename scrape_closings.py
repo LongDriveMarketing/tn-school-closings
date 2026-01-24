@@ -7,9 +7,6 @@ Sources:
 - NewsChannel 5 Nashville (Middle TN) - Scripps - requests
 - Action News 5 Memphis (West TN) - Gray Media - Playwright
 - WVLT Knoxville (East TN) - Gray Media - Playwright
-
-Requires: pip install requests beautifulsoup4 playwright
-Setup: playwright install chromium
 """
 
 import requests
@@ -18,14 +15,13 @@ import json
 from datetime import datetime, timezone
 import sys
 
-# Try to import playwright, fall back gracefully if not available
+# Try to import playwright
 try:
     from playwright.sync_api import sync_playwright
     PLAYWRIGHT_AVAILABLE = True
 except ImportError:
     PLAYWRIGHT_AVAILABLE = False
     print("Warning: Playwright not installed. Gray Media sources will be skipped.")
-    print("Install with: pip install playwright && playwright install chromium")
 
 # Source URLs
 NC5_URL = "https://www.newschannel5.com/weather/school-closings-delays"
@@ -44,9 +40,7 @@ HEADERS = {
 # =============================================================================
 
 DISTRICT_TO_REGION = {
-    # -------------------------------------------------------------------------
     # EAST TENNESSEE
-    # -------------------------------------------------------------------------
     "Anderson County Schools": "East Tennessee",
     "Clinton City Schools": "East Tennessee",
     "Oak Ridge City Schools": "East Tennessee",
@@ -61,6 +55,7 @@ DISTRICT_TO_REGION = {
     "Elizabethton City Schools": "East Tennessee",
     "Claiborne County Schools": "East Tennessee",
     "Cocke County Schools": "East Tennessee",
+    "Newport City Elementary Schools": "East Tennessee",
     "Newport City Schools": "East Tennessee",
     "Cumberland County Schools": "East Tennessee",
     "Grainger County Schools": "East Tennessee",
@@ -100,16 +95,8 @@ DISTRICT_TO_REGION = {
     "Union County Schools": "East Tennessee",
     "Washington County Schools": "East Tennessee",
     "Johnson City Schools": "East Tennessee",
-    # East TN Private Schools
-    "Maryville Christian School": "East Tennessee",
-    "Maryville College": "East Tennessee",
-    "Legacy Christian Academy": "East Tennessee",
-    "Cleveland State College": "East Tennessee",
-    "Cleveland State Community College": "East Tennessee",
     
-    # -------------------------------------------------------------------------
     # MIDDLE TENNESSEE
-    # -------------------------------------------------------------------------
     "Bedford County Schools": "Middle Tennessee",
     "Cannon County Schools": "Middle Tennessee",
     "Cheatham County Schools": "Middle Tennessee",
@@ -171,7 +158,6 @@ DISTRICT_TO_REGION = {
     "Franklin Special School District": "Middle Tennessee",
     "Wilson County Schools": "Middle Tennessee",
     "Lebanon Special School District": "Middle Tennessee",
-    # Middle TN Private/Other
     "Lancaster Academy": "Middle Tennessee",
     "Lancaster Early Learn. Centers": "Middle Tennessee",
     "Redeemer Academy": "Middle Tennessee",
@@ -189,9 +175,7 @@ DISTRICT_TO_REGION = {
     "Franklin Spec. Sch. Dist.": "Middle Tennessee",
     "Gen. Sessions Court-Davidson Co.": "Middle Tennessee",
     
-    # -------------------------------------------------------------------------
     # WEST TENNESSEE
-    # -------------------------------------------------------------------------
     "Benton County Schools": "West Tennessee",
     "Hollow Rock-Bruceton Special School District": "West Tennessee",
     "Huntingdon Special Schools": "West Tennessee",
@@ -242,12 +226,11 @@ DISTRICT_TO_REGION = {
     "Tipton County Schools": "West Tennessee",
     "Covington City Schools": "West Tennessee",
     "Weakley County Schools": "West Tennessee",
-    # West TN Private Schools & Colleges
+    # West TN Private
     "Briarcrest Christian School": "West Tennessee",
     "Christian Brothers High School": "West Tennessee",
     "Evangelical Christian School": "West Tennessee",
     "St. Benedict at Auburndale": "West Tennessee",
-    "St. Benedict at Aurburndale High School": "West Tennessee",
     "Woodland Presbyterian School": "West Tennessee",
     "Immanuel Lutheran School": "West Tennessee",
     "Christ the King Lutheran School": "West Tennessee",
@@ -262,13 +245,11 @@ DISTRICT_TO_REGION = {
     "STAR Academy Charter School": "West Tennessee",
     "Magnolia Heights": "West Tennessee",
     "Pleasant View School": "West Tennessee",
-    "Nova Life Coach Academy": "West Tennessee",
-    "Expanded Educational Services Success Academy": "West Tennessee",
     "Rhodes College": "West Tennessee",
     "University of Memphis": "West Tennessee",
     "Mid-America Baptist Theological Seminary": "West Tennessee",
     "LeMoyne-Owen College": "West Tennessee",
-    # Mississippi schools (Memphis market)
+    # MS schools in Memphis market
     "Lafayette County School District": "West Tennessee",
     "Oxford School District": "West Tennessee",
     "Senatobia Municipal School District": "West Tennessee",
@@ -314,8 +295,6 @@ COUNTY_REGIONS = {
     "Henry": "West Tennessee", "Lake": "West Tennessee", "Lauderdale": "West Tennessee",
     "Madison": "West Tennessee", "McNairy": "West Tennessee", "Obion": "West Tennessee",
     "Shelby": "West Tennessee", "Tipton": "West Tennessee", "Weakley": "West Tennessee",
-    "Lafayette": "West Tennessee", "Panola": "West Tennessee", "Tate": "West Tennessee",
-    "DeSoto": "West Tennessee", "Marshall": "West Tennessee",
 }
 
 CITY_REGIONS = {
@@ -324,24 +303,16 @@ CITY_REGIONS = {
     "Kingsport": "East Tennessee", "Bristol": "East Tennessee", "Morristown": "East Tennessee",
     "Cleveland": "East Tennessee", "Maryville": "East Tennessee", "Oak Ridge": "East Tennessee",
     "Athens": "East Tennessee", "Greeneville": "East Tennessee", "Elizabethton": "East Tennessee",
-    "Sevierville": "East Tennessee", "Pigeon Forge": "East Tennessee", "Gatlinburg": "East Tennessee",
     # Middle TN
     "Nashville": "Middle Tennessee", "Murfreesboro": "Middle Tennessee", "Franklin": "Middle Tennessee",
     "Clarksville": "Middle Tennessee", "Columbia": "Middle Tennessee", "Gallatin": "Middle Tennessee",
     "Hendersonville": "Middle Tennessee", "Lebanon": "Middle Tennessee", "Cookeville": "Middle Tennessee",
     "Shelbyville": "Middle Tennessee", "Tullahoma": "Middle Tennessee", "Manchester": "Middle Tennessee",
-    "Dickson": "Middle Tennessee", "Springfield": "Middle Tennessee", "Portland": "Middle Tennessee",
-    "Smyrna": "Middle Tennessee", "La Vergne": "Middle Tennessee", "Spring Hill": "Middle Tennessee",
-    "Goodlettsville": "Middle Tennessee", "White House": "Middle Tennessee", "McMinnville": "Middle Tennessee",
+    "Dickson": "Middle Tennessee", "Springfield": "Middle Tennessee",
     # West TN
     "Memphis": "West Tennessee", "Jackson": "West Tennessee", "Bartlett": "West Tennessee",
     "Collierville": "West Tennessee", "Germantown": "West Tennessee", "Dyersburg": "West Tennessee",
-    "Millington": "West Tennessee", "Covington": "West Tennessee", "Ripley": "West Tennessee",
-    "Savannah": "West Tennessee", "Selmer": "West Tennessee", "Bolivar": "West Tennessee",
-    "Lexington": "West Tennessee", "Henderson": "West Tennessee", "Humboldt": "West Tennessee",
-    "Milan": "West Tennessee", "Trenton": "West Tennessee", "Union City": "West Tennessee",
-    "Paris": "West Tennessee", "Martin": "West Tennessee", "McKenzie": "West Tennessee",
-    "Oxford": "West Tennessee", "Senatobia": "West Tennessee",
+    "Millington": "West Tennessee", "Covington": "West Tennessee",
 }
 
 
@@ -350,21 +321,17 @@ def classify_region(name):
     name_clean = name.strip()
     name_upper = name_clean.upper()
     
-    # 1. Exact match
     if name_clean in DISTRICT_TO_REGION:
         return DISTRICT_TO_REGION[name_clean]
     
-    # 2. Partial match
     for district, region in DISTRICT_TO_REGION.items():
         if district.upper() in name_upper or name_upper in district.upper():
             return region
     
-    # 3. County match
     for county, region in COUNTY_REGIONS.items():
         if county.upper() in name_upper:
             return region
     
-    # 4. City match
     for city, region in CITY_REGIONS.items():
         if city.upper() in name_upper:
             return region
@@ -389,7 +356,7 @@ def classify_status(status_text):
 
 
 def scrape_newschannel5():
-    """Scrape NewsChannel 5 Nashville (Middle TN) - Scripps platform."""
+    """Scrape NewsChannel 5 Nashville (Middle TN)."""
     closings = []
     
     try:
@@ -425,7 +392,7 @@ def scrape_newschannel5():
 
 
 def scrape_gray_media(url, source_name):
-    """Scrape Gray Media stations (Action News 5, WVLT) using Playwright."""
+    """Scrape Gray Media stations using Playwright."""
     closings = []
     
     if not PLAYWRIGHT_AVAILABLE:
@@ -438,12 +405,17 @@ def scrape_gray_media(url, source_name):
         with sync_playwright() as p:
             browser = p.chromium.launch(headless=True)
             page = browser.new_page()
-            page.goto(url, wait_until='networkidle', timeout=60000)
             
-            # Wait for table to populate
-            page.wait_for_selector('table.table tbody tr', timeout=10000)
+            # Use domcontentloaded instead of networkidle, then wait for JS
+            page.goto(url, wait_until='domcontentloaded', timeout=90000)
             
-            # Get page content after JS renders
+            # Wait for table to appear
+            try:
+                page.wait_for_selector('table.table tbody tr', timeout=15000)
+            except:
+                # Table might be empty or slow, wait a bit more
+                page.wait_for_timeout(5000)
+            
             content = page.content()
             browser.close()
         
@@ -465,7 +437,7 @@ def scrape_gray_media(url, source_name):
                 
                 status_detail = f"{status_text} - {comments}" if comments else status_text
                 
-                # Only include Schools and Colleges
+                # Only Schools and Colleges
                 if org_type in ['Schools', 'Colleges', '']:
                     closings.append({
                         'name': name,
@@ -505,21 +477,21 @@ def main():
     all_closings = []
     sources_used = []
     
-    # Middle TN - NewsChannel 5 (Scripps)
+    # Middle TN
     print("\n--- NewsChannel 5 (Middle TN) ---")
     nc5 = scrape_newschannel5()
     if nc5:
         all_closings.extend(nc5)
         sources_used.append('NewsChannel 5')
     
-    # West TN - Action News 5 (Gray)
+    # West TN
     print("\n--- Action News 5 (West TN) ---")
     an5 = scrape_gray_media(AN5_URL, 'Action News 5')
     if an5:
         all_closings.extend(an5)
         sources_used.append('Action News 5')
     
-    # East TN - WVLT (Gray)
+    # East TN
     print("\n--- WVLT (East TN) ---")
     wvlt = scrape_gray_media(WVLT_URL, 'WVLT')
     if wvlt:
@@ -536,7 +508,6 @@ def main():
         by_status[c['status']] = by_status.get(c['status'], 0) + 1
         by_region[c['region']] = by_region.get(c['region'], 0) + 1
     
-    # Output
     output = {
         'meta': {
             'generated_at': datetime.now(timezone.utc).isoformat(),
