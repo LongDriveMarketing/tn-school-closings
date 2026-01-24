@@ -1,13 +1,13 @@
 {
   "meta": {
-    "generated_at": "2026-01-24T23:24:15.011500+00:00",
-    "total_closings": 48,
+    "generated_at": "2026-01-24T23:31:48.364324+00:00",
+    "total_closings": 51,
     "by_status": {
-      "CLOSED": 40,
+      "CLOSED": 43,
       "REMOTE": 8
     },
     "by_region": {
-      "Middle Tennessee": 37,
+      "Middle Tennessee": 40,
       "West Tennessee": 3,
       "Other": 8
     },
@@ -66,6 +66,13 @@
       "source": "NewsChannel 5"
     },
     {
+      "name": "Davidson Metro Nashville",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
+      "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
       "name": "DeKalb",
       "status": "CLOSED",
       "status_detail": "CLOSED",
@@ -110,7 +117,7 @@
     {
       "name": "Frist Art Museum",
       "status": "CLOSED",
-      "status_detail": "Closed on Saturday, 1/24",
+      "status_detail": "Closed on Saturday, 1/25",
       "region": "Other",
       "source": "NewsChannel 5"
     },
@@ -339,6 +346,13 @@
       "source": "NewsChannel 5"
     },
     {
+      "name": "Warren Co., TN",
+      "status": "CLOSED",
+      "status_detail": "Monday, January 26 and Tuesday, January 27",
+      "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
       "name": "WeGo Public Transit",
       "status": "CLOSED",
       "status_detail": "Limited Service Saturday",
@@ -349,6 +363,13 @@
       "name": "Williamson",
       "status": "CLOSED",
       "status_detail": "WCS is closed Jan 26-27",
+      "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Wilson",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     }
