@@ -315,6 +315,9 @@ CITY_REGIONS = {
     "Millington": "West Tennessee", "Covington": "West Tennessee",
 }
 
+# Types to EXCLUDE (non-school closings)
+EXCLUDED_TYPES = ['business', 'businesses', 'church', 'churches', 'government', 'daycare', 'day care']
+
 
 def classify_region(name):
     """Classify school/district into TN region."""
@@ -421,7 +424,7 @@ def scrape_gray_media(url, source_name):
         
         soup = BeautifulSoup(content, 'html.parser')
         rows = soup.select('table.table tbody tr')
-        print(f"Found {len(rows)} closings from {source_name}")
+        print(f"Found {len(rows)} rows from {source_name}")
         
         for row in rows:
             name_el = row.select_one('td.organization span.d-block')
@@ -433,12 +436,12 @@ def scrape_gray_media(url, source_name):
                 name = name_el.get_text(strip=True)
                 status_text = status_el.get_text(strip=True) if status_el else 'CLOSED'
                 comments = comments_el.get_text(strip=True) if comments_el else ''
-                org_type = type_el.get_text(strip=True) if type_el else ''
+                org_type = type_el.get_text(strip=True).lower() if type_el else ''
                 
                 status_detail = f"{status_text} - {comments}" if comments else status_text
                 
-                # Only Schools and Colleges
-                if org_type in ['Schools', 'Colleges', '']:
+                # Exclude non-school types
+                if org_type not in EXCLUDED_TYPES:
                     closings.append({
                         'name': name,
                         'status': classify_status(status_text),
@@ -446,6 +449,8 @@ def scrape_gray_media(url, source_name):
                         'region': classify_region(name),
                         'source': source_name
                     })
+        
+        print(f"Kept {len(closings)} school closings from {source_name}")
         
     except Exception as e:
         print(f"Error fetching {source_name}: {e}")
