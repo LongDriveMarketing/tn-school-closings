@@ -1,9 +1,9 @@
 {
   "meta": {
-    "generated_at": "2026-01-24T20:22:53.872053+00:00",
-    "total_closings": 30,
+    "generated_at": "2026-01-24T20:49:07.264904+00:00",
+    "total_closings": 32,
     "by_status": {
-      "CLOSED": 22,
+      "CLOSED": 24,
       "REMOTE": 8
     },
     "sources": [
@@ -61,6 +61,13 @@
       "source": "NewsChannel 5"
     },
     {
+      "name": "Franklin Spec. Sch. Dist.",
+      "status": "CLOSED",
+      "status_detail": "CLOSED MONDAY AND TUESDAY, MAC CLOSED",
+      "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
       "name": "Frist Art Museum",
       "status": "CLOSED",
       "status_detail": "Closed on Saturday, 1/24",
@@ -106,6 +113,13 @@
       "name": "Lancaster Early Learn. Centers",
       "status": "CLOSED",
       "status_detail": "CLOSED Monday 1/26/26",
+      "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Lead Acad.-Goodlettsville",
+      "status": "CLOSED",
+      "status_detail": "Closed Monday January 26 & Tuesday January 27",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
