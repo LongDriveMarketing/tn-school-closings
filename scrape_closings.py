@@ -4,10 +4,12 @@ Tennessee School Closings Scraper
 Scrapes multiple TN news sources for school closings data.
 
 Sources:
-- NewsChannel 5 Nashville (Middle TN) - Scripps
-- Action News 5 Memphis (West TN) - Gray Media
+- NewsChannel 5 Nashville (Middle TN) - Scripps - requests
+- Action News 5 Memphis (West TN) - Gray Media - Playwright
+- WVLT Knoxville (East TN) - Gray Media - Playwright
 
-District-to-region mappings extracted from official TN school data.
+Requires: pip install requests beautifulsoup4 playwright
+Setup: playwright install chromium
 """
 
 import requests
@@ -16,9 +18,19 @@ import json
 from datetime import datetime, timezone
 import sys
 
+# Try to import playwright, fall back gracefully if not available
+try:
+    from playwright.sync_api import sync_playwright
+    PLAYWRIGHT_AVAILABLE = True
+except ImportError:
+    PLAYWRIGHT_AVAILABLE = False
+    print("Warning: Playwright not installed. Gray Media sources will be skipped.")
+    print("Install with: pip install playwright && playwright install chromium")
+
 # Source URLs
 NC5_URL = "https://www.newschannel5.com/weather/school-closings-delays"
 AN5_URL = "https://www.actionnews5.com/weather/closings/"
+WVLT_URL = "https://www.wvlt.tv/weather/closings/"
 
 HEADERS = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
@@ -28,212 +40,138 @@ HEADERS = {
 }
 
 # =============================================================================
-# REGION MAPPINGS - Extracted from TN School Data (schoolData.js)
-# Organized by Grand Division per TCA 4-1-201 through 4-1-204
+# REGION MAPPINGS
 # =============================================================================
 
-# All districts mapped to their region based on county location
 DISTRICT_TO_REGION = {
     # -------------------------------------------------------------------------
     # EAST TENNESSEE
     # -------------------------------------------------------------------------
-    # Anderson County
     "Anderson County Schools": "East Tennessee",
     "Clinton City Schools": "East Tennessee",
     "Oak Ridge City Schools": "East Tennessee",
-    # Bledsoe County
     "Bledsoe County Schools": "East Tennessee",
-    # Blount County
     "Alcoa City Schools": "East Tennessee",
     "Blount County Schools": "East Tennessee",
     "Maryville City Schools": "East Tennessee",
-    # Bradley County
     "Bradley County Schools": "East Tennessee",
     "Cleveland City Schools": "East Tennessee",
-    # Campbell County
     "Campbell County Schools": "East Tennessee",
-    # Carter County
     "Carter County Schools": "East Tennessee",
     "Elizabethton City Schools": "East Tennessee",
-    # Claiborne County
     "Claiborne County Schools": "East Tennessee",
-    # Cocke County
     "Cocke County Schools": "East Tennessee",
-    "Newport City Elementary Schools": "East Tennessee",
     "Newport City Schools": "East Tennessee",
-    # Cumberland County
     "Cumberland County Schools": "East Tennessee",
-    # Grainger County
     "Grainger County Schools": "East Tennessee",
-    # Greene County
     "Greene County Schools": "East Tennessee",
     "Greeneville City Schools": "East Tennessee",
-    # Hamblen County
     "Hamblen County Schools": "East Tennessee",
     "Morristown City Schools": "East Tennessee",
-    # Hamilton County
     "Hamilton County Schools": "East Tennessee",
     "Hamilton County Department of Education": "East Tennessee",
-    # Hancock County
     "Hancock County Schools": "East Tennessee",
-    # Hawkins County
     "Hawkins County Schools": "East Tennessee",
     "Rogersville City Schools": "East Tennessee",
-    # Jefferson County
     "Jefferson County Schools": "East Tennessee",
-    # Johnson County
     "Johnson County Schools": "East Tennessee",
-    # Knox County
     "Knox County Schools": "East Tennessee",
-    # Loudon County
     "Loudon County Schools": "East Tennessee",
     "Lenoir City Schools": "East Tennessee",
-    # Marion County
     "Marion County Schools": "East Tennessee",
-    # McMinn County
     "McMinn County Schools": "East Tennessee",
     "Athens City Schools": "East Tennessee",
     "Etowah City Schools": "East Tennessee",
-    # Meigs County
     "Meigs County Schools": "East Tennessee",
-    # Monroe County
     "Monroe County Schools": "East Tennessee",
     "Sweetwater City Schools": "East Tennessee",
-    # Morgan County
     "Morgan County Schools": "East Tennessee",
-    # Polk County
     "Polk County Schools": "East Tennessee",
-    # Rhea County
     "Rhea County Schools": "East Tennessee",
     "Dayton City Schools": "East Tennessee",
-    # Roane County
     "Roane County Schools": "East Tennessee",
-    # Scott County
     "Scott County Schools": "East Tennessee",
-    # Sevier County
     "Sevier County Schools": "East Tennessee",
-    # Sullivan County
     "Sullivan County Schools": "East Tennessee",
     "Bristol Tennessee City Schools": "East Tennessee",
     "Bristol City Schools": "East Tennessee",
     "Kingsport City Schools": "East Tennessee",
-    # Unicoi County
     "Unicoi County Schools": "East Tennessee",
-    # Union County
     "Union County Schools": "East Tennessee",
-    # Washington County
     "Washington County Schools": "East Tennessee",
     "Johnson City Schools": "East Tennessee",
+    # East TN Private Schools
+    "Maryville Christian School": "East Tennessee",
+    "Maryville College": "East Tennessee",
+    "Legacy Christian Academy": "East Tennessee",
+    "Cleveland State College": "East Tennessee",
+    "Cleveland State Community College": "East Tennessee",
     
     # -------------------------------------------------------------------------
     # MIDDLE TENNESSEE
     # -------------------------------------------------------------------------
-    # Bedford County
     "Bedford County Schools": "Middle Tennessee",
-    # Cannon County
     "Cannon County Schools": "Middle Tennessee",
-    # Cheatham County
     "Cheatham County Schools": "Middle Tennessee",
-    # Clay County
     "Clay County Schools": "Middle Tennessee",
-    # Coffee County
     "Coffee County Schools": "Middle Tennessee",
     "Manchester City Schools": "Middle Tennessee",
     "Manchester City Sch.": "Middle Tennessee",
     "Tullahoma City Schools": "Middle Tennessee",
     "Tullahoma City Sch.": "Middle Tennessee",
-    # Davidson County
     "Achievement School District": "Middle Tennessee",
     "Metropolitan Nashville Public Schools": "Middle Tennessee",
     "Metro Nashville Public Schools": "Middle Tennessee",
     "MNPS": "Middle Tennessee",
     "Tennessee Public Charter School Commission": "Middle Tennessee",
-    # DeKalb County
     "Dekalb County Schools": "Middle Tennessee",
     "DeKalb County Schools": "Middle Tennessee",
-    # Dickson County
     "Dickson County Schools": "Middle Tennessee",
-    # Fentress County
     "Fentress County Schools": "Middle Tennessee",
     "Alvin C. York Agricultural Institute": "Middle Tennessee",
-    # Franklin County
     "Franklin County Schools": "Middle Tennessee",
-    # Giles County
     "Giles County Schools": "Middle Tennessee",
-    # Grundy County
     "Grundy County Schools": "Middle Tennessee",
-    # Hickman County
     "Hickman County Schools": "Middle Tennessee",
-    # Houston County
     "Houston County Schools": "Middle Tennessee",
-    # Humphreys County
     "Humphreys County Schools": "Middle Tennessee",
-    # Jackson County
     "Jackson County Schools": "Middle Tennessee",
-    # Lawrence County
     "Lawrence County Schools": "Middle Tennessee",
-    # Lewis County
     "Lewis County Schools": "Middle Tennessee",
-    # Lincoln County
     "Lincoln County Schools": "Middle Tennessee",
     "Fayetteville City Schools": "Middle Tennessee",
-    # Macon County
     "Macon County Schools": "Middle Tennessee",
-    # Marshall County
     "Marshall County Schools": "Middle Tennessee",
-    # Maury County
     "Maury County Schools": "Middle Tennessee",
     "Maury County Public Schools": "Middle Tennessee",
     "Columbia City Schools": "Middle Tennessee",
-    # Montgomery County
     "Montgomery County Schools": "Middle Tennessee",
     "Clarksville-Montgomery County Schools": "Middle Tennessee",
     "Clarksville-Montgomery County School System": "Middle Tennessee",
     "CMCSS": "Middle Tennessee",
-    # Moore County
     "Moore County Schools": "Middle Tennessee",
-    # Overton County
     "Overton County Schools": "Middle Tennessee",
-    # Perry County
     "Perry County Schools": "Middle Tennessee",
-    # Pickett County
     "Pickett County Schools": "Middle Tennessee",
-    # Putnam County
     "Putnam County Schools": "Middle Tennessee",
     "Putnam County School System": "Middle Tennessee",
-    # Robertson County
     "Robertson County Schools": "Middle Tennessee",
-    # Rutherford County
     "Rutherford County Schools": "Middle Tennessee",
     "Murfreesboro City Schools": "Middle Tennessee",
-    # Sequatchie County
     "Sequatchie County Schools": "Middle Tennessee",
-    # Smith County
     "Smith County Schools": "Middle Tennessee",
-    # Stewart County
     "Stewart County Schools": "Middle Tennessee",
-    # Sumner County
     "Sumner County Schools": "Middle Tennessee",
-    # Trousdale County
     "Trousdale County Schools": "Middle Tennessee",
-    # Van Buren County
     "Van Buren County Schools": "Middle Tennessee",
-    # Warren County
     "Warren County Schools": "Middle Tennessee",
-    # Wayne County
     "Wayne County Schools": "Middle Tennessee",
-    # White County
     "White County Schools": "Middle Tennessee",
-    # Williamson County
     "Williamson County Schools": "Middle Tennessee",
     "Franklin Special School District": "Middle Tennessee",
-    # Wilson County
     "Wilson County Schools": "Middle Tennessee",
     "Lebanon Special School District": "Middle Tennessee",
-    
-    # -------------------------------------------------------------------------
-    # PRIVATE SCHOOLS & INSTITUTIONS (Nashville/Middle TN area)
-    # -------------------------------------------------------------------------
+    # Middle TN Private/Other
     "Lancaster Academy": "Middle Tennessee",
     "Lancaster Early Learn. Centers": "Middle Tennessee",
     "Redeemer Academy": "Middle Tennessee",
@@ -254,62 +192,43 @@ DISTRICT_TO_REGION = {
     # -------------------------------------------------------------------------
     # WEST TENNESSEE
     # -------------------------------------------------------------------------
-    # Benton County
     "Benton County Schools": "West Tennessee",
-    # Carroll County
     "Hollow Rock-Bruceton Special School District": "West Tennessee",
     "Huntingdon Special Schools": "West Tennessee",
     "McKenzie Special School District": "West Tennessee",
     "South Carroll Special School District": "West Tennessee",
     "West Carroll Special School District": "West Tennessee",
     "Carroll County Schools": "West Tennessee",
-    # Chester County
     "Chester County Schools": "West Tennessee",
-    # Crockett County
     "Alamo City Schools": "West Tennessee",
     "Bells City Schools": "West Tennessee",
     "Bells City School": "West Tennessee",
     "Crockett County Schools": "West Tennessee",
-    # Decatur County
     "Decatur County Schools": "West Tennessee",
-    # Dyer County
     "Dyer County Schools": "West Tennessee",
     "Dyersburg City Schools": "West Tennessee",
-    # Fayette County
     "Fayette County Schools": "West Tennessee",
     "Fayette County Public Schools": "West Tennessee",
-    # Gibson County
     "Bradford Special Schools": "West Tennessee",
     "Gibson County Special School District": "West Tennessee",
     "Humboldt City Schools": "West Tennessee",
     "Milan Special School District": "West Tennessee",
     "Trenton City Schools": "West Tennessee",
-    # Hardeman County
     "Hardeman County Schools": "West Tennessee",
-    # Hardin County
     "Hardin County Schools": "West Tennessee",
-    # Haywood County
     "Haywood County Schools": "West Tennessee",
-    # Henderson County
     "Henderson County Schools": "West Tennessee",
     "Lexington City Schools": "West Tennessee",
-    # Henry County
     "Henry County Schools": "West Tennessee",
     "Paris Special School District": "West Tennessee",
-    # Lake County
     "Lake County Schools": "West Tennessee",
-    # Lauderdale County
     "Lauderdale County Schools": "West Tennessee",
-    # Madison County
     "Madison County Schools": "West Tennessee",
     "Jackson-Madison County Schools": "West Tennessee",
     "Jackson-Madison County School System": "West Tennessee",
-    # McNairy County
     "McNairy County Schools": "West Tennessee",
-    # Obion County
     "Obion County Schools": "West Tennessee",
     "Union City Schools": "West Tennessee",
-    # Shelby County
     "Shelby County Schools": "West Tennessee",
     "Memphis-Shelby County Schools": "West Tennessee",
     "Memphis Shelby County Schools": "West Tennessee",
@@ -320,15 +239,10 @@ DISTRICT_TO_REGION = {
     "Germantown Municipal School District": "West Tennessee",
     "Lakeland School System": "West Tennessee",
     "Millington Municipal Schools": "West Tennessee",
-    # Tipton County
     "Tipton County Schools": "West Tennessee",
     "Covington City Schools": "West Tennessee",
-    # Weakley County
     "Weakley County Schools": "West Tennessee",
-    
-    # -------------------------------------------------------------------------
-    # WEST TN PRIVATE SCHOOLS & COLLEGES (from Action News 5)
-    # -------------------------------------------------------------------------
+    # West TN Private Schools & Colleges
     "Briarcrest Christian School": "West Tennessee",
     "Christian Brothers High School": "West Tennessee",
     "Evangelical Christian School": "West Tennessee",
@@ -354,8 +268,7 @@ DISTRICT_TO_REGION = {
     "University of Memphis": "West Tennessee",
     "Mid-America Baptist Theological Seminary": "West Tennessee",
     "LeMoyne-Owen College": "West Tennessee",
-    
-    # Mississippi schools (from Memphis market)
+    # Mississippi schools (Memphis market)
     "Lafayette County School District": "West Tennessee",
     "Oxford School District": "West Tennessee",
     "Senatobia Municipal School District": "West Tennessee",
@@ -365,7 +278,6 @@ DISTRICT_TO_REGION = {
     "University of Mississippi": "West Tennessee",
 }
 
-# County name to region (fallback for pattern matching)
 COUNTY_REGIONS = {
     # East TN
     "Anderson": "East Tennessee", "Bledsoe": "East Tennessee", "Blount": "East Tennessee",
@@ -402,20 +314,18 @@ COUNTY_REGIONS = {
     "Henry": "West Tennessee", "Lake": "West Tennessee", "Lauderdale": "West Tennessee",
     "Madison": "West Tennessee", "McNairy": "West Tennessee", "Obion": "West Tennessee",
     "Shelby": "West Tennessee", "Tipton": "West Tennessee", "Weakley": "West Tennessee",
-    # MS counties in Memphis market
     "Lafayette": "West Tennessee", "Panola": "West Tennessee", "Tate": "West Tennessee",
     "DeSoto": "West Tennessee", "Marshall": "West Tennessee",
 }
 
-# City keywords for fuzzy matching (last resort)
 CITY_REGIONS = {
-    # East TN cities
+    # East TN
     "Knoxville": "East Tennessee", "Chattanooga": "East Tennessee", "Johnson City": "East Tennessee",
     "Kingsport": "East Tennessee", "Bristol": "East Tennessee", "Morristown": "East Tennessee",
     "Cleveland": "East Tennessee", "Maryville": "East Tennessee", "Oak Ridge": "East Tennessee",
     "Athens": "East Tennessee", "Greeneville": "East Tennessee", "Elizabethton": "East Tennessee",
     "Sevierville": "East Tennessee", "Pigeon Forge": "East Tennessee", "Gatlinburg": "East Tennessee",
-    # Middle TN cities
+    # Middle TN
     "Nashville": "Middle Tennessee", "Murfreesboro": "Middle Tennessee", "Franklin": "Middle Tennessee",
     "Clarksville": "Middle Tennessee", "Columbia": "Middle Tennessee", "Gallatin": "Middle Tennessee",
     "Hendersonville": "Middle Tennessee", "Lebanon": "Middle Tennessee", "Cookeville": "Middle Tennessee",
@@ -423,9 +333,7 @@ CITY_REGIONS = {
     "Dickson": "Middle Tennessee", "Springfield": "Middle Tennessee", "Portland": "Middle Tennessee",
     "Smyrna": "Middle Tennessee", "La Vergne": "Middle Tennessee", "Spring Hill": "Middle Tennessee",
     "Goodlettsville": "Middle Tennessee", "White House": "Middle Tennessee", "McMinnville": "Middle Tennessee",
-    "Lawrenceburg": "Middle Tennessee", "Pulaski": "Middle Tennessee", "Fayetteville": "Middle Tennessee",
-    "Lewisburg": "Middle Tennessee", "Sparta": "Middle Tennessee", "Crossville": "Middle Tennessee",
-    # West TN cities
+    # West TN
     "Memphis": "West Tennessee", "Jackson": "West Tennessee", "Bartlett": "West Tennessee",
     "Collierville": "West Tennessee", "Germantown": "West Tennessee", "Dyersburg": "West Tennessee",
     "Millington": "West Tennessee", "Covington": "West Tennessee", "Ripley": "West Tennessee",
@@ -438,43 +346,34 @@ CITY_REGIONS = {
 
 
 def classify_region(name):
-    """
-    Classify school/district into TN region.
-    Priority: exact district match > county in name > city keyword > Other
-    """
+    """Classify school/district into TN region."""
     name_clean = name.strip()
     name_upper = name_clean.upper()
     
-    # 1. Exact district match
+    # 1. Exact match
     if name_clean in DISTRICT_TO_REGION:
         return DISTRICT_TO_REGION[name_clean]
     
-    # 2. Partial district match (handles variations like "Williamson Co Schools")
+    # 2. Partial match
     for district, region in DISTRICT_TO_REGION.items():
-        district_upper = district.upper()
-        # Check if district name is contained in the closing name
-        if district_upper in name_upper:
-            return region
-        # Check if closing name is contained in district (for abbreviations)
-        if len(name_clean) > 5 and name_upper in district_upper:
+        if district.upper() in name_upper or name_upper in district.upper():
             return region
     
-    # 3. County name in the closing name
+    # 3. County match
     for county, region in COUNTY_REGIONS.items():
         if county.upper() in name_upper:
             return region
     
-    # 4. City keyword match
+    # 4. City match
     for city, region in CITY_REGIONS.items():
         if city.upper() in name_upper:
             return region
     
-    # 5. No match found
     return "Other"
 
 
 def classify_status(status_text):
-    """Classify the status based on keywords"""
+    """Classify status based on keywords."""
     text = status_text.upper()
     
     if any(kw in text for kw in ['2 HOUR', '2-HOUR', 'TWO HOUR', '1 HOUR', '1-HOUR', 'DELAY']):
@@ -490,7 +389,7 @@ def classify_status(status_text):
 
 
 def scrape_newschannel5():
-    """Scrape NewsChannel 5 Nashville school closings (Middle TN)"""
+    """Scrape NewsChannel 5 Nashville (Middle TN) - Scripps platform."""
     closings = []
     
     try:
@@ -500,8 +399,6 @@ def scrape_newschannel5():
         print(f"Status: {response.status_code}, Length: {len(response.text)} bytes")
         
         soup = BeautifulSoup(response.text, 'html.parser')
-        
-        # Find all closing articles
         closing_articles = soup.select('article.closing')
         print(f"Found {len(closing_articles)} closings from NewsChannel 5")
         
@@ -512,14 +409,12 @@ def scrape_newschannel5():
             if name_el:
                 name = name_el.get_text(strip=True)
                 status_detail = status_el.get_text(strip=True) if status_el else 'CLOSED'
-                status = classify_status(status_detail)
-                region = classify_region(name)
                 
                 closings.append({
                     'name': name,
-                    'status': status,
+                    'status': classify_status(status_detail),
                     'status_detail': status_detail,
-                    'region': region,
+                    'region': classify_region(name),
                     'source': 'NewsChannel 5'
                 })
         
@@ -529,31 +424,37 @@ def scrape_newschannel5():
     return closings
 
 
-def scrape_actionnews5():
-    """Scrape Action News 5 Memphis school closings (West TN)"""
+def scrape_gray_media(url, source_name):
+    """Scrape Gray Media stations (Action News 5, WVLT) using Playwright."""
     closings = []
     
+    if not PLAYWRIGHT_AVAILABLE:
+        print(f"Skipping {source_name}: Playwright not available")
+        return closings
+    
     try:
-        print(f"Fetching: {AN5_URL}")
-        response = requests.get(AN5_URL, headers=HEADERS, timeout=30)
-        response.raise_for_status()
-        print(f"Status: {response.status_code}, Length: {len(response.text)} bytes")
+        print(f"Fetching with Playwright: {url}")
         
-        soup = BeautifulSoup(response.text, 'html.parser')
+        with sync_playwright() as p:
+            browser = p.chromium.launch(headless=True)
+            page = browser.new_page()
+            page.goto(url, wait_until='networkidle', timeout=60000)
+            
+            # Wait for table to populate
+            page.wait_for_selector('table.table tbody tr', timeout=10000)
+            
+            # Get page content after JS renders
+            content = page.content()
+            browser.close()
         
-        # Action News 5 uses a table structure (Gray Media platform)
-        # Find all table rows in the closings table
+        soup = BeautifulSoup(content, 'html.parser')
         rows = soup.select('table.table tbody tr')
-        print(f"Found {len(rows)} closings from Action News 5")
+        print(f"Found {len(rows)} closings from {source_name}")
         
         for row in rows:
-            # Organization name is in td.organization span.d-block
             name_el = row.select_one('td.organization span.d-block')
-            # Status is in td.status span.closings-status
             status_el = row.select_one('td.status span.closings-status')
-            # Comments (optional) in td.status span.closings-comments
             comments_el = row.select_one('td.status span.closings-comments')
-            # Type in td.type span
             type_el = row.select_one('td.type span')
             
             if name_el:
@@ -562,41 +463,35 @@ def scrape_actionnews5():
                 comments = comments_el.get_text(strip=True) if comments_el else ''
                 org_type = type_el.get_text(strip=True) if type_el else ''
                 
-                # Combine status and comments
                 status_detail = f"{status_text} - {comments}" if comments else status_text
-                status = classify_status(status_text)
-                region = classify_region(name)
                 
-                # Only include Schools and Colleges (skip businesses, churches, etc.)
+                # Only include Schools and Colleges
                 if org_type in ['Schools', 'Colleges', '']:
                     closings.append({
                         'name': name,
-                        'status': status,
+                        'status': classify_status(status_text),
                         'status_detail': status_detail,
-                        'region': region,
-                        'source': 'Action News 5'
+                        'region': classify_region(name),
+                        'source': source_name
                     })
         
-    except requests.RequestException as e:
-        print(f"Error fetching Action News 5: {e}")
+    except Exception as e:
+        print(f"Error fetching {source_name}: {e}")
     
     return closings
 
 
 def deduplicate_closings(closings):
-    """Remove duplicate closings, preferring more detailed entries"""
+    """Remove duplicates, keeping most detailed entry."""
     seen = {}
     
     for closing in closings:
-        name_key = closing['name'].upper().strip()
+        key = closing['name'].upper().strip()
         
-        if name_key not in seen:
-            seen[name_key] = closing
-        else:
-            # Keep the one with more detail in status_detail
-            existing = seen[name_key]
-            if len(closing['status_detail']) > len(existing['status_detail']):
-                seen[name_key] = closing
+        if key not in seen:
+            seen[key] = closing
+        elif len(closing['status_detail']) > len(seen[key]['status_detail']):
+            seen[key] = closing
     
     return list(seen.values())
 
@@ -610,34 +505,38 @@ def main():
     all_closings = []
     sources_used = []
     
-    # Scrape NewsChannel 5 (Middle TN)
+    # Middle TN - NewsChannel 5 (Scripps)
     print("\n--- NewsChannel 5 (Middle TN) ---")
-    nc5_closings = scrape_newschannel5()
-    if nc5_closings:
-        all_closings.extend(nc5_closings)
+    nc5 = scrape_newschannel5()
+    if nc5:
+        all_closings.extend(nc5)
         sources_used.append('NewsChannel 5')
     
-    # Scrape Action News 5 (West TN)
+    # West TN - Action News 5 (Gray)
     print("\n--- Action News 5 (West TN) ---")
-    an5_closings = scrape_actionnews5()
-    if an5_closings:
-        all_closings.extend(an5_closings)
+    an5 = scrape_gray_media(AN5_URL, 'Action News 5')
+    if an5:
+        all_closings.extend(an5)
         sources_used.append('Action News 5')
     
-    # Deduplicate (some schools may appear on both)
+    # East TN - WVLT (Gray)
+    print("\n--- WVLT (East TN) ---")
+    wvlt = scrape_gray_media(WVLT_URL, 'WVLT')
+    if wvlt:
+        all_closings.extend(wvlt)
+        sources_used.append('WVLT')
+    
+    # Deduplicate
     all_closings = deduplicate_closings(all_closings)
     
-    # Count by status
+    # Stats
     by_status = {}
-    for c in all_closings:
-        by_status[c['status']] = by_status.get(c['status'], 0) + 1
-    
-    # Count by region
     by_region = {}
     for c in all_closings:
+        by_status[c['status']] = by_status.get(c['status'], 0) + 1
         by_region[c['region']] = by_region.get(c['region'], 0) + 1
     
-    # Build output
+    # Output
     output = {
         'meta': {
             'generated_at': datetime.now(timezone.utc).isoformat(),
@@ -649,12 +548,11 @@ def main():
         'closings': all_closings
     }
     
-    # Write JSON
     with open('closings.json', 'w') as f:
         json.dump(output, f, indent=2)
     
     print(f"\n{'='*60}")
-    print(f"RESULTS")
+    print("RESULTS")
     print(f"{'='*60}")
     print(f"Total: {len(all_closings)} closings")
     print(f"By status: {by_status}")
@@ -662,7 +560,6 @@ def main():
     print(f"Sources: {sources_used}")
     print("Written to closings.json")
     
-    # List any "Other" regions for debugging
     others = [c['name'] for c in all_closings if c['region'] == 'Other']
     if others:
         print(f"\nUnmapped (Other): {others}")
