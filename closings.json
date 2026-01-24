@@ -1,9 +1,9 @@
 {
   "meta": {
-    "generated_at": "2026-01-24T21:00:05.836398+00:00",
-    "total_closings": 37,
+    "generated_at": "2026-01-24T21:04:40.355567+00:00",
+    "total_closings": 38,
     "by_status": {
-      "CLOSED": 29,
+      "CLOSED": 30,
       "REMOTE": 8
     },
     "sources": [
@@ -140,7 +140,7 @@
     {
       "name": "Manchester City Sch.",
       "status": "CLOSED",
-      "status_detail": "Closed Monday 1/26 and Tuesday 1/27",
+      "status_detail": "CLOSED",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
@@ -183,6 +183,13 @@
       "name": "Nashville State-White Bridge",
       "status": "REMOTE",
       "status_detail": "Virtual operations and classes on Jan. 26 & 27",
+      "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Paris Special School District",
+      "status": "CLOSED",
+      "status_detail": "Closed through Tuesday 1/27",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
@@ -238,7 +245,7 @@
     {
       "name": "Sumner",
       "status": "CLOSED",
-      "status_detail": "CLOSED",
+      "status_detail": "CLOSED; Closed Monday 1/26 and Tuesday 1/27",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
