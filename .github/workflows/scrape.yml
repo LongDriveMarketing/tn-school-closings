@@ -1,17 +1,16 @@
-name: Scrape School Closings
+name: Scrape TN School Closings
 
 on:
   schedule:
-    # Run every 5 minutes
-    - cron: '*/5 * * * *'
-  workflow_dispatch:
+    # Run every 30 minutes during school hours (5 AM - 10 AM CT) on weekdays
+    - cron: '*/30 10-15 * * 1-5'
+    # Run hourly outside peak hours
+    - cron: '0 * * * *'
+  workflow_dispatch:  # Manual trigger
 
 jobs:
   scrape:
     runs-on: ubuntu-latest
-    
-    permissions:
-      contents: write
     
     steps:
       - name: Checkout repository
@@ -23,15 +22,18 @@ jobs:
           python-version: '3.11'
       
       - name: Install dependencies
-        run: pip install requests beautifulsoup4
+        run: |
+          pip install requests beautifulsoup4 playwright
+          playwright install chromium
+          playwright install-deps chromium
       
       - name: Run scraper
         run: python scrape_closings.py
       
       - name: Commit and push if changed
         run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
+          git config --local user.email "actions@github.com"
+          git config --local user.name "actions-user"
           git add closings.json
-          git diff --staged --quiet || git commit -m "Update closings $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git diff --staged --quiet || git commit -m "Update closings $(date -u +%Y-%m-%dT%H:%M:%SZ)"
           git push
