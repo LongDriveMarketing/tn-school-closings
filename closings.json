@@ -1,15 +1,15 @@
 {
   "meta": {
-    "generated_at": "2026-01-24T21:43:36.410325+00:00",
-    "total_closings": 40,
+    "generated_at": "2026-01-24T22:36:11.788099+00:00",
+    "total_closings": 43,
     "by_status": {
-      "CLOSED": 32,
+      "CLOSED": 35,
       "REMOTE": 8
     },
     "by_region": {
-      "Middle Tennessee": 34,
+      "Middle Tennessee": 35,
       "West Tennessee": 2,
-      "Other": 4
+      "Other": 6
     },
     "sources": [
       "NewsChannel 5"
@@ -143,6 +143,13 @@
       "source": "NewsChannel 5"
     },
     {
+      "name": "Lebanon Spec. Sch. Dist.",
+      "status": "CLOSED",
+      "status_detail": "Closed Monday and Tuesday - No Extended Child Care",
+      "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
       "name": "Lewis",
       "status": "CLOSED",
       "status_detail": "Closed Monday January 26th, Extended care closed",
@@ -262,10 +269,24 @@
       "source": "NewsChannel 5"
     },
     {
+      "name": "St. Rose of Lima",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
+      "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
       "name": "Sumner",
       "status": "CLOSED",
       "status_detail": "CLOSED; Closed Monday 1/26 and Tuesday 1/27",
       "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Tennessee School for the Blind",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
+      "region": "Other",
       "source": "NewsChannel 5"
     },
     {
