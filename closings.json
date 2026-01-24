@@ -1,14 +1,14 @@
 {
   "meta": {
-    "generated_at": "2026-01-24T23:47:45.925491+00:00",
-    "total_closings": 120,
+    "generated_at": "2026-01-24T23:50:39.628802+00:00",
+    "total_closings": 122,
     "by_status": {
-      "CLOSED": 109,
+      "CLOSED": 111,
       "REMOTE": 11
     },
     "by_region": {
       "Middle Tennessee": 40,
-      "West Tennessee": 43,
+      "West Tennessee": 45,
       "Other": 15,
       "East Tennessee": 22
     },
@@ -566,9 +566,23 @@
       "source": "Action News 5"
     },
     {
+      "name": "Memphis Business Academy",
+      "status": "CLOSED",
+      "status_detail": "Closed Monday 01/26 - After-school activities canceled",
+      "region": "West Tennessee",
+      "source": "Action News 5"
+    },
+    {
       "name": "Memphis Shelby County Schools",
       "status": "CLOSED",
       "status_detail": "Closed Monday",
+      "region": "West Tennessee",
+      "source": "Action News 5"
+    },
+    {
+      "name": "Memphis STEM Academy",
+      "status": "CLOSED",
+      "status_detail": "Closed Monday 01/26 - After-school activities canceled",
       "region": "West Tennessee",
       "source": "Action News 5"
     },
