@@ -1,13 +1,13 @@
 {
   "meta": {
-    "generated_at": "2026-01-24T22:50:10.310577+00:00",
-    "total_closings": 43,
+    "generated_at": "2026-01-24T23:00:12.474824+00:00",
+    "total_closings": 44,
     "by_status": {
-      "CLOSED": 35,
+      "CLOSED": 36,
       "REMOTE": 8
     },
     "by_region": {
-      "Middle Tennessee": 35,
+      "Middle Tennessee": 36,
       "West Tennessee": 2,
       "Other": 6
     },
@@ -48,6 +48,13 @@
       "name": "Clarksville-Montgomery Co. Schools",
       "status": "CLOSED",
       "status_detail": "through Tuesday",
+      "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Clay",
+      "status": "CLOSED",
+      "status_detail": "Closed Monday and Tuesday",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
