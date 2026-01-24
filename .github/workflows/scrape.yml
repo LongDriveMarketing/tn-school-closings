@@ -2,7 +2,8 @@ name: Scrape School Closings
 
 on:
   schedule:
-    - cron: '*/15 10-16 * * *'
+    - cron: '*/15 11-23 * * *'
+    - cron: '*/15 0-5 * * *'
   workflow_dispatch:
 
 jobs:
