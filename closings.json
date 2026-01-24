@@ -1,15 +1,15 @@
 {
   "meta": {
-    "generated_at": "2026-01-24T23:00:12.474824+00:00",
-    "total_closings": 44,
+    "generated_at": "2026-01-24T23:10:12.928589+00:00",
+    "total_closings": 47,
     "by_status": {
-      "CLOSED": 36,
+      "CLOSED": 39,
       "REMOTE": 8
     },
     "by_region": {
-      "Middle Tennessee": 36,
+      "Middle Tennessee": 37,
       "West Tennessee": 2,
-      "Other": 6
+      "Other": 8
     },
     "sources": [
       "NewsChannel 5"
@@ -62,6 +62,13 @@
       "name": "Coffee",
       "status": "CLOSED",
       "status_detail": "Closed Monday & Tuesday",
+      "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "DeKalb",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
@@ -164,6 +171,13 @@
       "source": "NewsChannel 5"
     },
     {
+      "name": "Mama Lere Hearing School",
+      "status": "CLOSED",
+      "status_detail": "educational and childcare programs",
+      "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
       "name": "Manchester City Sch.",
       "status": "CLOSED",
       "status_detail": "CLOSED",
@@ -230,6 +244,13 @@
       "name": "Possibility Place",
       "status": "CLOSED",
       "status_detail": "CLOSED - MONDAY",
+      "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Purpose Preparatory Academy",
+      "status": "CLOSED",
+      "status_detail": "Closed through Tuesday",
       "region": "Other",
       "source": "NewsChannel 5"
     },
