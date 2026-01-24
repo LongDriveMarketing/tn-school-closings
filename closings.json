@@ -1,19 +1,21 @@
 {
   "meta": {
-    "generated_at": "2026-01-24T23:40:44.077350+00:00",
-    "total_closings": 93,
+    "generated_at": "2026-01-24T23:47:45.925491+00:00",
+    "total_closings": 120,
     "by_status": {
-      "CLOSED": 84,
-      "REMOTE": 9
+      "CLOSED": 109,
+      "REMOTE": 11
     },
     "by_region": {
       "Middle Tennessee": 40,
-      "West Tennessee": 42,
-      "Other": 11
+      "West Tennessee": 43,
+      "Other": 15,
+      "East Tennessee": 22
     },
     "sources": [
       "NewsChannel 5",
-      "Action News 5"
+      "Action News 5",
+      "WVLT"
     ]
   },
   "closings": [
@@ -126,6 +128,13 @@
       "name": "Frist Art Museum",
       "status": "CLOSED",
       "status_detail": "Closed on Saturday, 1/25",
+      "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Fusion Academy",
+      "status": "REMOTE",
+      "status_detail": "Campus Closed, Virtual Learning Days Monday and Tuesday",
       "region": "Other",
       "source": "NewsChannel 5"
     },
@@ -667,6 +676,188 @@
       "status_detail": "Closed Monday 01/26",
       "region": "West Tennessee",
       "source": "Action News 5"
+    },
+    {
+      "name": "Anderson County Schools",
+      "status": "CLOSED",
+      "status_detail": "Closed Through 01/27",
+      "region": "East Tennessee",
+      "source": "WVLT"
+    },
+    {
+      "name": "Blount County Schools",
+      "status": "CLOSED",
+      "status_detail": "Closed Monday the 26th",
+      "region": "East Tennessee",
+      "source": "WVLT"
+    },
+    {
+      "name": "Campbell County Schools",
+      "status": "CLOSED",
+      "status_detail": "Closed Through 01/27",
+      "region": "East Tennessee",
+      "source": "WVLT"
+    },
+    {
+      "name": "Chesterton Academy",
+      "status": "CLOSED",
+      "status_detail": "Closed Through the 26th",
+      "region": "West Tennessee",
+      "source": "WVLT"
+    },
+    {
+      "name": "Cleveland St. All Sites",
+      "status": "CLOSED",
+      "status_detail": "Closed Through 01/27",
+      "region": "East Tennessee",
+      "source": "WVLT"
+    },
+    {
+      "name": "Clinton City Schools",
+      "status": "CLOSED",
+      "status_detail": "Closed Through the 27th",
+      "region": "East Tennessee",
+      "source": "WVLT"
+    },
+    {
+      "name": "Emerald Academy",
+      "status": "CLOSED",
+      "status_detail": "Closed Monday 01/26",
+      "region": "Other",
+      "source": "WVLT"
+    },
+    {
+      "name": "Jefferson County Schools",
+      "status": "CLOSED",
+      "status_detail": "Closed Through Tuesday",
+      "region": "East Tennessee",
+      "source": "WVLT"
+    },
+    {
+      "name": "Knox County, TN Schools",
+      "status": "CLOSED",
+      "status_detail": "Closed Monday 1/26",
+      "region": "East Tennessee",
+      "source": "WVLT"
+    },
+    {
+      "name": "Knoxville Head Start Extended Day",
+      "status": "CLOSED",
+      "status_detail": "Closed Monday 01/26",
+      "region": "East Tennessee",
+      "source": "WVLT"
+    },
+    {
+      "name": "Knoxville Scottish Rite",
+      "status": "CLOSED",
+      "status_detail": "Activity Canceled Sunday - Memorial Service canceled",
+      "region": "East Tennessee",
+      "source": "WVLT"
+    },
+    {
+      "name": "Knoxville-Knox County Head Start Afternoon Session",
+      "status": "CLOSED",
+      "status_detail": "Closed Monday 01/26",
+      "region": "East Tennessee",
+      "source": "WVLT"
+    },
+    {
+      "name": "Knoxville-Knox County Head Start Morning Session",
+      "status": "CLOSED",
+      "status_detail": "Closed Monday 01/26",
+      "region": "East Tennessee",
+      "source": "WVLT"
+    },
+    {
+      "name": "Lenoir City Schools",
+      "status": "CLOSED",
+      "status_detail": "Closed Through 01/27",
+      "region": "East Tennessee",
+      "source": "WVLT"
+    },
+    {
+      "name": "Loudon County Schools",
+      "status": "CLOSED",
+      "status_detail": "Closed Through 01/27",
+      "region": "East Tennessee",
+      "source": "WVLT"
+    },
+    {
+      "name": "Maryville Christian",
+      "status": "CLOSED",
+      "status_detail": "Closed Through 01/26",
+      "region": "East Tennessee",
+      "source": "WVLT"
+    },
+    {
+      "name": "Maryville College",
+      "status": "CLOSED",
+      "status_detail": "Closed Monday 01/26",
+      "region": "East Tennessee",
+      "source": "WVLT"
+    },
+    {
+      "name": "McMinn County Schools",
+      "status": "CLOSED",
+      "status_detail": "Closed Through 01/27",
+      "region": "East Tennessee",
+      "source": "WVLT"
+    },
+    {
+      "name": "Middlesboro Independent",
+      "status": "REMOTE",
+      "status_detail": "Virtual Learning Through 01/27 - NTI Day 4 and NTI Day 5",
+      "region": "Other",
+      "source": "WVLT"
+    },
+    {
+      "name": "Monroe County Schools",
+      "status": "CLOSED",
+      "status_detail": "Closed Through 01/27 - Due to potential winter weather",
+      "region": "East Tennessee",
+      "source": "WVLT"
+    },
+    {
+      "name": "Oak Ridge City Schools",
+      "status": "CLOSED",
+      "status_detail": "Closed Monday 1/26",
+      "region": "East Tennessee",
+      "source": "WVLT"
+    },
+    {
+      "name": "Oneida Special School District",
+      "status": "CLOSED",
+      "status_detail": "Closed Through 01/27",
+      "region": "Other",
+      "source": "WVLT"
+    },
+    {
+      "name": "Roane County Schools",
+      "status": "CLOSED",
+      "status_detail": "Closed Through 01/27",
+      "region": "East Tennessee",
+      "source": "WVLT"
+    },
+    {
+      "name": "Scott County Schools",
+      "status": "CLOSED",
+      "status_detail": "Closed Through 01/27",
+      "region": "East Tennessee",
+      "source": "WVLT"
+    },
+    {
+      "name": "Sweetwater City",
+      "status": "CLOSED",
+      "status_detail": "Closed Through the 27th",
+      "region": "East Tennessee",
+      "source": "WVLT"
+    },
+    {
+      "name": "Union County Schools",
+      "status": "CLOSED",
+      "status_detail": "Closed Through 01/27",
+      "region": "East Tennessee",
+      "source": "WVLT"
     }
   ]
 }
