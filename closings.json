@@ -1,15 +1,15 @@
 {
   "meta": {
-    "generated_at": "2026-01-24T21:18:02.704421+00:00",
-    "total_closings": 39,
+    "generated_at": "2026-01-24T21:37:04.199020+00:00",
+    "total_closings": 40,
     "by_status": {
-      "CLOSED": 31,
+      "CLOSED": 32,
       "REMOTE": 8
     },
     "by_region": {
-      "Middle Tennessee": 26,
-      "West Tennessee": 2,
-      "Other": 11
+      "Middle Tennessee": 27,
+      "West Tennessee": 3,
+      "Other": 10
     },
     "sources": [
       "NewsChannel 5"
@@ -40,7 +40,7 @@
     {
       "name": "Clarksville Christian",
       "status": "CLOSED",
-      "status_detail": "CLOSED",
+      "status_detail": "Closed Monday and Tuesday",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
@@ -139,7 +139,7 @@
       "name": "Lead Acad.-Goodlettsville",
       "status": "CLOSED",
       "status_detail": "Closed Monday January 26 & Tuesday January 27",
-      "region": "Other",
+      "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
     {
@@ -202,7 +202,7 @@
       "name": "Paris Special School District",
       "status": "CLOSED",
       "status_detail": "Closed through Tuesday 1/27",
-      "region": "Other",
+      "region": "West Tennessee",
       "source": "NewsChannel 5"
     },
     {
@@ -210,6 +210,13 @@
       "status": "CLOSED",
       "status_detail": "Closed 1/26 and 1/27",
       "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Possibility Place",
+      "status": "CLOSED",
+      "status_detail": "CLOSED - MONDAY",
+      "region": "Other",
       "source": "NewsChannel 5"
     },
     {
