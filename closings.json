@@ -1,9 +1,9 @@
 {
   "meta": {
-    "generated_at": "2026-01-24T20:49:07.264904+00:00",
-    "total_closings": 32,
+    "generated_at": "2026-01-24T21:00:05.836398+00:00",
+    "total_closings": 37,
     "by_status": {
-      "CLOSED": 24,
+      "CLOSED": 29,
       "REMOTE": 8
     },
     "sources": [
@@ -29,6 +29,13 @@
       "name": "Cheatham",
       "status": "CLOSED",
       "status_detail": "Closed Monday and Tuesday",
+      "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Clarksville Christian",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
@@ -131,6 +138,13 @@
       "source": "NewsChannel 5"
     },
     {
+      "name": "Manchester City Sch.",
+      "status": "CLOSED",
+      "status_detail": "Closed Monday 1/26 and Tuesday 1/27",
+      "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
       "name": "Nashville State-Clarksville",
       "status": "REMOTE",
       "status_detail": "Virtual operations and classes on Jan. 26 & 27",
@@ -169,6 +183,13 @@
       "name": "Nashville State-White Bridge",
       "status": "REMOTE",
       "status_detail": "Virtual operations and classes on Jan. 26 & 27",
+      "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Pickett",
+      "status": "CLOSED",
+      "status_detail": "Closed 1/26 and 1/27",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
@@ -215,6 +236,13 @@
       "source": "NewsChannel 5"
     },
     {
+      "name": "Sumner",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
+      "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
       "name": "Trevecca Nazarene University",
       "status": "REMOTE",
       "status_detail": "Virtual learning day on Saturday",
@@ -232,6 +260,13 @@
       "name": "WeGo Public Transit",
       "status": "CLOSED",
       "status_detail": "Limited Service Saturday",
+      "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Williamson",
+      "status": "CLOSED",
+      "status_detail": "WCS is closed Jan 26-27",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     }
