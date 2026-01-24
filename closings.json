@@ -1,15 +1,15 @@
 {
   "meta": {
-    "generated_at": "2026-01-24T21:37:04.199020+00:00",
+    "generated_at": "2026-01-24T21:43:36.410325+00:00",
     "total_closings": 40,
     "by_status": {
       "CLOSED": 32,
       "REMOTE": 8
     },
     "by_region": {
-      "Middle Tennessee": 27,
-      "West Tennessee": 3,
-      "Other": 10
+      "Middle Tennessee": 34,
+      "West Tennessee": 2,
+      "Other": 4
     },
     "sources": [
       "NewsChannel 5"
@@ -125,14 +125,14 @@
       "name": "Lancaster Academy",
       "status": "CLOSED",
       "status_detail": "Closed Monday, 1/26",
-      "region": "Other",
+      "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
     {
       "name": "Lancaster Early Learn. Centers",
       "status": "CLOSED",
       "status_detail": "CLOSED Monday 1/26/26",
-      "region": "Other",
+      "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
     {
@@ -153,7 +153,7 @@
       "name": "Manchester City Sch.",
       "status": "CLOSED",
       "status_detail": "CLOSED",
-      "region": "West Tennessee",
+      "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
     {
@@ -223,7 +223,7 @@
       "name": "Redeemer Academy",
       "status": "CLOSED",
       "status_detail": "Closed Mon & Tues Jan 26 & 27",
-      "region": "Other",
+      "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
     {
@@ -258,7 +258,7 @@
       "name": "St. Patrick",
       "status": "REMOTE",
       "status_detail": "Closed Monday  & Distance Learning Day Tuesday",
-      "region": "Other",
+      "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
     {
@@ -272,14 +272,14 @@
       "name": "Trevecca Nazarene University",
       "status": "REMOTE",
       "status_detail": "Virtual learning day on Saturday",
-      "region": "Other",
+      "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
     {
       "name": "TriStar Cottage & Homeschool Co-op",
       "status": "CLOSED",
       "status_detail": "All Monday tutorial classes are canceled",
-      "region": "Other",
+      "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
     {
