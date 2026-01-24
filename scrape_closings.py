@@ -1,7 +1,11 @@
 #!/usr/bin/env python3
 """
 Tennessee School Closings Scraper
-Scrapes NewsChannel 5's school closings page - data is server-rendered HTML
+Scrapes multiple TN news sources for school closings data.
+
+Sources:
+- NewsChannel 5 Nashville (Middle TN) - Scripps
+- Action News 5 Memphis (West TN) - Gray Media
 
 District-to-region mappings extracted from official TN school data.
 """
@@ -12,7 +16,9 @@ import json
 from datetime import datetime, timezone
 import sys
 
+# Source URLs
 NC5_URL = "https://www.newschannel5.com/weather/school-closings-delays"
+AN5_URL = "https://www.actionnews5.com/weather/closings/"
 
 HEADERS = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
@@ -256,11 +262,13 @@ DISTRICT_TO_REGION = {
     "McKenzie Special School District": "West Tennessee",
     "South Carroll Special School District": "West Tennessee",
     "West Carroll Special School District": "West Tennessee",
+    "Carroll County Schools": "West Tennessee",
     # Chester County
     "Chester County Schools": "West Tennessee",
     # Crockett County
     "Alamo City Schools": "West Tennessee",
     "Bells City Schools": "West Tennessee",
+    "Bells City School": "West Tennessee",
     "Crockett County Schools": "West Tennessee",
     # Decatur County
     "Decatur County Schools": "West Tennessee",
@@ -269,6 +277,7 @@ DISTRICT_TO_REGION = {
     "Dyersburg City Schools": "West Tennessee",
     # Fayette County
     "Fayette County Schools": "West Tennessee",
+    "Fayette County Public Schools": "West Tennessee",
     # Gibson County
     "Bradford Special Schools": "West Tennessee",
     "Gibson County Special School District": "West Tennessee",
@@ -303,9 +312,11 @@ DISTRICT_TO_REGION = {
     # Shelby County
     "Shelby County Schools": "West Tennessee",
     "Memphis-Shelby County Schools": "West Tennessee",
+    "Memphis Shelby County Schools": "West Tennessee",
     "Arlington Community Schools": "West Tennessee",
     "Bartlett City Schools": "West Tennessee",
     "Collierville Schools": "West Tennessee",
+    "Collierville School District": "West Tennessee",
     "Germantown Municipal School District": "West Tennessee",
     "Lakeland School System": "West Tennessee",
     "Millington Municipal Schools": "West Tennessee",
@@ -314,6 +325,44 @@ DISTRICT_TO_REGION = {
     "Covington City Schools": "West Tennessee",
     # Weakley County
     "Weakley County Schools": "West Tennessee",
+    
+    # -------------------------------------------------------------------------
+    # WEST TN PRIVATE SCHOOLS & COLLEGES (from Action News 5)
+    # -------------------------------------------------------------------------
+    "Briarcrest Christian School": "West Tennessee",
+    "Christian Brothers High School": "West Tennessee",
+    "Evangelical Christian School": "West Tennessee",
+    "St. Benedict at Auburndale": "West Tennessee",
+    "St. Benedict at Aurburndale High School": "West Tennessee",
+    "Woodland Presbyterian School": "West Tennessee",
+    "Immanuel Lutheran School": "West Tennessee",
+    "Christ the King Lutheran School": "West Tennessee",
+    "First Assembly Christian School": "West Tennessee",
+    "New Hope Christian Academy": "West Tennessee",
+    "Compass Community Schools": "West Tennessee",
+    "Concord Academy": "West Tennessee",
+    "Freedom Preparatory Academy": "West Tennessee",
+    "Freedom Prep Academy": "West Tennessee",
+    "KIPP Memphis Public Schools": "West Tennessee",
+    "Power Center Academy": "West Tennessee",
+    "STAR Academy Charter School": "West Tennessee",
+    "Magnolia Heights": "West Tennessee",
+    "Pleasant View School": "West Tennessee",
+    "Nova Life Coach Academy": "West Tennessee",
+    "Expanded Educational Services Success Academy": "West Tennessee",
+    "Rhodes College": "West Tennessee",
+    "University of Memphis": "West Tennessee",
+    "Mid-America Baptist Theological Seminary": "West Tennessee",
+    "LeMoyne-Owen College": "West Tennessee",
+    
+    # Mississippi schools (from Memphis market)
+    "Lafayette County School District": "West Tennessee",
+    "Oxford School District": "West Tennessee",
+    "Senatobia Municipal School District": "West Tennessee",
+    "South Panola School District": "West Tennessee",
+    "Tate County School District": "West Tennessee",
+    "Northwest Mississippi Community College": "West Tennessee",
+    "University of Mississippi": "West Tennessee",
 }
 
 # County name to region (fallback for pattern matching)
@@ -353,6 +402,9 @@ COUNTY_REGIONS = {
     "Henry": "West Tennessee", "Lake": "West Tennessee", "Lauderdale": "West Tennessee",
     "Madison": "West Tennessee", "McNairy": "West Tennessee", "Obion": "West Tennessee",
     "Shelby": "West Tennessee", "Tipton": "West Tennessee", "Weakley": "West Tennessee",
+    # MS counties in Memphis market
+    "Lafayette": "West Tennessee", "Panola": "West Tennessee", "Tate": "West Tennessee",
+    "DeSoto": "West Tennessee", "Marshall": "West Tennessee",
 }
 
 # City keywords for fuzzy matching (last resort)
@@ -381,6 +433,7 @@ CITY_REGIONS = {
     "Lexington": "West Tennessee", "Henderson": "West Tennessee", "Humboldt": "West Tennessee",
     "Milan": "West Tennessee", "Trenton": "West Tennessee", "Union City": "West Tennessee",
     "Paris": "West Tennessee", "Martin": "West Tennessee", "McKenzie": "West Tennessee",
+    "Oxford": "West Tennessee", "Senatobia": "West Tennessee",
 }
 
 
@@ -430,14 +483,14 @@ def classify_status(status_text):
         return 'EARLY_DISMISSAL'
     elif any(kw in text for kw in ['REMOTE', 'VIRTUAL', 'DISTANCE', 'ONLINE']):
         return 'REMOTE'
-    elif any(kw in text for kw in ['CLOSED', 'CANCEL', 'NO SCHOOL']):
+    elif any(kw in text for kw in ['CLOSED', 'CANCEL', 'NO SCHOOL', 'THROUGH']):
         return 'CLOSED'
     else:
         return 'CLOSED'
 
 
 def scrape_newschannel5():
-    """Scrape NewsChannel 5 Nashville school closings"""
+    """Scrape NewsChannel 5 Nashville school closings (Middle TN)"""
     closings = []
     
     try:
@@ -450,7 +503,7 @@ def scrape_newschannel5():
         
         # Find all closing articles
         closing_articles = soup.select('article.closing')
-        print(f"Found {len(closing_articles)} closings")
+        print(f"Found {len(closing_articles)} closings from NewsChannel 5")
         
         for article in closing_articles:
             name_el = article.select_one('.text--primary')
@@ -472,9 +525,80 @@ def scrape_newschannel5():
         
     except requests.RequestException as e:
         print(f"Error fetching NewsChannel 5: {e}")
-        return []
     
     return closings
+
+
+def scrape_actionnews5():
+    """Scrape Action News 5 Memphis school closings (West TN)"""
+    closings = []
+    
+    try:
+        print(f"Fetching: {AN5_URL}")
+        response = requests.get(AN5_URL, headers=HEADERS, timeout=30)
+        response.raise_for_status()
+        print(f"Status: {response.status_code}, Length: {len(response.text)} bytes")
+        
+        soup = BeautifulSoup(response.text, 'html.parser')
+        
+        # Action News 5 uses a table structure (Gray Media platform)
+        # Find all table rows in the closings table
+        rows = soup.select('table.table tbody tr')
+        print(f"Found {len(rows)} closings from Action News 5")
+        
+        for row in rows:
+            # Organization name is in td.organization span.d-block
+            name_el = row.select_one('td.organization span.d-block')
+            # Status is in td.status span.closings-status
+            status_el = row.select_one('td.status span.closings-status')
+            # Comments (optional) in td.status span.closings-comments
+            comments_el = row.select_one('td.status span.closings-comments')
+            # Type in td.type span
+            type_el = row.select_one('td.type span')
+            
+            if name_el:
+                name = name_el.get_text(strip=True)
+                status_text = status_el.get_text(strip=True) if status_el else 'CLOSED'
+                comments = comments_el.get_text(strip=True) if comments_el else ''
+                org_type = type_el.get_text(strip=True) if type_el else ''
+                
+                # Combine status and comments
+                status_detail = f"{status_text} - {comments}" if comments else status_text
+                status = classify_status(status_text)
+                region = classify_region(name)
+                
+                # Only include Schools and Colleges (skip businesses, churches, etc.)
+                if org_type in ['Schools', 'Colleges', '']:
+                    closings.append({
+                        'name': name,
+                        'status': status,
+                        'status_detail': status_detail,
+                        'region': region,
+                        'source': 'Action News 5'
+                    })
+        
+    except requests.RequestException as e:
+        print(f"Error fetching Action News 5: {e}")
+    
+    return closings
+
+
+def deduplicate_closings(closings):
+    """Remove duplicate closings, preferring more detailed entries"""
+    seen = {}
+    
+    for closing in closings:
+        name_key = closing['name'].upper().strip()
+        
+        if name_key not in seen:
+            seen[name_key] = closing
+        else:
+            # Keep the one with more detail in status_detail
+            existing = seen[name_key]
+            if len(closing['status_detail']) > len(existing['status_detail']):
+                seen[name_key] = closing
+    
+    return list(seen.values())
 
 
 def main():
@@ -483,28 +607,46 @@ def main():
     print(f"Run time: {datetime.now(timezone.utc).isoformat()}")
     print("=" * 60)
     
-    closings = scrape_newschannel5()
+    all_closings = []
+    sources_used = []
+    
+    # Scrape NewsChannel 5 (Middle TN)
+    print("\n--- NewsChannel 5 (Middle TN) ---")
+    nc5_closings = scrape_newschannel5()
+    if nc5_closings:
+        all_closings.extend(nc5_closings)
+        sources_used.append('NewsChannel 5')
+    
+    # Scrape Action News 5 (West TN)
+    print("\n--- Action News 5 (West TN) ---")
+    an5_closings = scrape_actionnews5()
+    if an5_closings:
+        all_closings.extend(an5_closings)
+        sources_used.append('Action News 5')
+    
+    # Deduplicate (some schools may appear on both)
+    all_closings = deduplicate_closings(all_closings)
     
     # Count by status
     by_status = {}
-    for c in closings:
+    for c in all_closings:
         by_status[c['status']] = by_status.get(c['status'], 0) + 1
     
     # Count by region
     by_region = {}
-    for c in closings:
+    for c in all_closings:
         by_region[c['region']] = by_region.get(c['region'], 0) + 1
     
     # Build output
     output = {
         'meta': {
             'generated_at': datetime.now(timezone.utc).isoformat(),
-            'total_closings': len(closings),
+            'total_closings': len(all_closings),
             'by_status': by_status,
             'by_region': by_region,
-            'sources': ['NewsChannel 5']
+            'sources': sources_used
         },
-        'closings': closings
+        'closings': all_closings
     }
     
     # Write JSON
@@ -514,13 +656,14 @@ def main():
     print(f"\n{'='*60}")
     print(f"RESULTS")
     print(f"{'='*60}")
-    print(f"Total: {len(closings)} closings")
+    print(f"Total: {len(all_closings)} closings")
     print(f"By status: {by_status}")
     print(f"By region: {by_region}")
+    print(f"Sources: {sources_used}")
     print("Written to closings.json")
     
     # List any "Other" regions for debugging
-    others = [c['name'] for c in closings if c['region'] == 'Other']
+    others = [c['name'] for c in all_closings if c['region'] == 'Other']
     if others:
         print(f"\nUnmapped (Other): {others}")
     
