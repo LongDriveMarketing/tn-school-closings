@@ -1,9 +1,9 @@
 {
   "meta": {
-    "generated_at": "2026-01-24T19:08:24.662971+00:00",
-    "total_closings": 22,
+    "generated_at": "2026-01-24T19:11:58.915700+00:00",
+    "total_closings": 24,
     "by_status": {
-      "CLOSED": 14,
+      "CLOSED": 16,
       "REMOTE": 8
     },
     "sources": [
@@ -22,6 +22,13 @@
       "name": "Benton",
       "status": "CLOSED",
       "status_detail": "Closed Monday, January 26th and Tuesday, January 27 th",
+      "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Clarksville-Montgomery Co. Schools",
+      "status": "CLOSED",
+      "status_detail": "through Tuesday",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
@@ -127,6 +134,13 @@
       "name": "Nashville State-White Bridge",
       "status": "REMOTE",
       "status_detail": "Virtual operations and classes on Jan. 26 & 27",
+      "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Rutherford",
+      "status": "CLOSED",
+      "status_detail": "Monday 1/26/26 & Tuesday 1/27/26",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
