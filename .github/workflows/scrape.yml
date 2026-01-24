@@ -2,9 +2,8 @@ name: Scrape School Closings
 
 on:
   schedule:
-    # Multiple offsets - gives GitHub more chances to trigger
-    - cron: '0,10,20,30,40,50 * * * *'
-    - cron: '5,15,25,35,45,55 * * * *'
+    # Run every 5 minutes
+    - cron: '*/5 * * * *'
   workflow_dispatch:
 
 jobs:
