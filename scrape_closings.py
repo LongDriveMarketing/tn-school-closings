@@ -27,6 +27,97 @@ HEADERS = {
     'Upgrade-Insecure-Requests': '1',
 }
 
+# Official Tennessee Grand Divisions per TCA 4-1-201 through 4-1-204
+WEST_COUNTIES = {
+    "Benton", "Carroll", "Chester", "Crockett", "Decatur", "Dyer", "Fayette",
+    "Gibson", "Hardeman", "Hardin", "Haywood", "Henderson", "Henry", "Lake",
+    "Lauderdale", "Madison", "McNairy", "Obion", "Shelby", "Tipton", "Weakley"
+}
+
+EAST_COUNTIES = {
+    "Anderson", "Bledsoe", "Blount", "Bradley", "Campbell", "Carter", "Claiborne",
+    "Cocke", "Cumberland", "Grainger", "Greene", "Hamblen", "Hamilton", "Hancock",
+    "Hawkins", "Jefferson", "Johnson", "Knox", "Loudon", "Marion", "McMinn",
+    "Meigs", "Monroe", "Morgan", "Polk", "Rhea", "Roane", "Scott", "Sevier",
+    "Sullivan", "Unicoi", "Union", "Washington"
+}
+
+MIDDLE_COUNTIES = {
+    "Bedford", "Cannon", "Cheatham", "Clay", "Coffee", "Davidson", "DeKalb",
+    "Dickson", "Fentress", "Franklin", "Giles", "Grundy", "Hickman", "Houston",
+    "Humphreys", "Jackson", "Lawrence", "Lewis", "Lincoln", "Macon", "Marshall",
+    "Maury", "Montgomery", "Moore", "Overton", "Perry", "Pickett", "Putnam",
+    "Robertson", "Rutherford", "Sequatchie", "Smith", "Stewart", "Sumner",
+    "Trousdale", "Van Buren", "Warren", "Wayne", "White", "Williamson", "Wilson"
+}
+
+# Known city-to-region mappings for schools that use city names instead of counties
+CITY_REGION_MAP = {
+    # Middle TN cities
+    "Nashville": "Middle Tennessee",
+    "Murfreesboro": "Middle Tennessee",
+    "Franklin": "Middle Tennessee",
+    "Clarksville": "Middle Tennessee",
+    "Gallatin": "Middle Tennessee",
+    "Hendersonville": "Middle Tennessee",
+    "Lebanon": "Middle Tennessee",
+    "Columbia": "Middle Tennessee",
+    "Spring Hill": "Middle Tennessee",
+    "Smyrna": "Middle Tennessee",
+    "La Vergne": "Middle Tennessee",
+    "Tullahoma": "Middle Tennessee",
+    "Cookeville": "Middle Tennessee",
+    "Shelbyville": "Middle Tennessee",
+    # West TN cities
+    "Memphis": "West Tennessee",
+    "Jackson": "West Tennessee",
+    "Bartlett": "West Tennessee",
+    "Collierville": "West Tennessee",
+    "Germantown": "West Tennessee",
+    "Dyersburg": "West Tennessee",
+    "Martin": "West Tennessee",
+    "Union City": "West Tennessee",
+    "Brownsville": "West Tennessee",
+    # East TN cities
+    "Knoxville": "East Tennessee",
+    "Chattanooga": "East Tennessee",
+    "Johnson City": "East Tennessee",
+    "Kingsport": "East Tennessee",
+    "Bristol": "East Tennessee",
+    "Morristown": "East Tennessee",
+    "Maryville": "East Tennessee",
+    "Cleveland": "East Tennessee",
+    "Oak Ridge": "East Tennessee",
+    "Sevierville": "East Tennessee",
+    "Gatlinburg": "East Tennessee",
+    "Pigeon Forge": "East Tennessee",
+}
+
+def classify_region(name):
+    """Classify school into TN region based on name"""
+    name_upper = name.upper()
+    
+    # Check for county names
+    for county in WEST_COUNTIES:
+        if county.upper() in name_upper:
+            return "West Tennessee"
+    
+    for county in EAST_COUNTIES:
+        if county.upper() in name_upper:
+            return "East Tennessee"
+    
+    for county in MIDDLE_COUNTIES:
+        if county.upper() in name_upper:
+            return "Middle Tennessee"
+    
+    # Check for city names
+    for city, region in CITY_REGION_MAP.items():
+        if city.upper() in name_upper:
+            return region
+    
+    # No match - return Other
+    return "Other"
+
 def classify_status(status_text):
     """Classify the status based on keywords"""
     text = status_text.upper()
@@ -66,12 +157,13 @@ def scrape_newschannel5():
                 name = name_el.get_text(strip=True)
                 status_detail = status_el.get_text(strip=True) if status_el else 'CLOSED'
                 status = classify_status(status_detail)
+                region = classify_region(name)
                 
                 closings.append({
                     'name': name,
                     'status': status,
                     'status_detail': status_detail,
-                    'region': 'Middle Tennessee',
+                    'region': region,
                     'source': 'NewsChannel 5'
                 })
         
@@ -93,12 +185,18 @@ def main():
     for c in closings:
         by_status[c['status']] = by_status.get(c['status'], 0) + 1
     
+    # Count by region
+    by_region = {}
+    for c in closings:
+        by_region[c['region']] = by_region.get(c['region'], 0) + 1
+    
     # Build output
     output = {
         'meta': {
             'generated_at': datetime.now(timezone.utc).isoformat(),
             'total_closings': len(closings),
             'by_status': by_status,
+            'by_region': by_region,
             'sources': ['NewsChannel 5']
         },
         'closings': closings
@@ -110,10 +208,9 @@ def main():
     
     print(f"\nTotal: {len(closings)} closings")
     print(f"By status: {by_status}")
+    print(f"By region: {by_region}")
     print("Written to closings.json")
     
-    # Exit with error if no closings found during expected weather
-    # (optional - remove if you want 0 closings to be valid)
     return 0
 
 if __name__ == '__main__':
