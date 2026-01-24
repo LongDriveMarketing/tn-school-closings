@@ -133,7 +133,9 @@ DISTRICT_TO_REGION = {
     # Coffee County
     "Coffee County Schools": "Middle Tennessee",
     "Manchester City Schools": "Middle Tennessee",
+    "Manchester City Sch.": "Middle Tennessee",
     "Tullahoma City Schools": "Middle Tennessee",
+    "Tullahoma City Sch.": "Middle Tennessee",
     # Davidson County
     "Achievement School District": "Middle Tennessee",
     "Metropolitan Nashville Public Schools": "Middle Tennessee",
@@ -222,6 +224,26 @@ DISTRICT_TO_REGION = {
     # Wilson County
     "Wilson County Schools": "Middle Tennessee",
     "Lebanon Special School District": "Middle Tennessee",
+    
+    # -------------------------------------------------------------------------
+    # PRIVATE SCHOOLS & INSTITUTIONS (Nashville/Middle TN area)
+    # -------------------------------------------------------------------------
+    "Lancaster Academy": "Middle Tennessee",
+    "Lancaster Early Learn. Centers": "Middle Tennessee",
+    "Redeemer Academy": "Middle Tennessee",
+    "St. Patrick": "Middle Tennessee",
+    "Trevecca Nazarene University": "Middle Tennessee",
+    "TriStar Cottage & Homeschool Co-op": "Middle Tennessee",
+    "Clarksville Christian": "Middle Tennessee",
+    "Lead Acad.-Goodlettsville": "Middle Tennessee",
+    "Nashville State-Clarksville": "Middle Tennessee",
+    "Nashville State-Dickson": "Middle Tennessee",
+    "Nashville State-Humphreys Co.": "Middle Tennessee",
+    "Nashville State-North Davidson": "Middle Tennessee",
+    "Nashville State-Southeast": "Middle Tennessee",
+    "Nashville State-White Bridge": "Middle Tennessee",
+    "Franklin Spec. Sch. Dist.": "Middle Tennessee",
+    "Gen. Sessions Court-Davidson Co.": "Middle Tennessee",
     
     # -------------------------------------------------------------------------
     # WEST TENNESSEE
