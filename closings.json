@@ -1,14 +1,14 @@
 {
   "meta": {
-    "generated_at": "2026-01-25T16:00:41.564306+00:00",
-    "total_closings": 194,
+    "generated_at": "2026-01-25T16:10:42.964241+00:00",
+    "total_closings": 199,
     "by_status": {
-      "CLOSED": 170,
+      "CLOSED": 175,
       "REMOTE": 24
     },
     "by_region": {
-      "Other": 60,
-      "Middle Tennessee": 57,
+      "Other": 64,
+      "Middle Tennessee": 58,
       "West Tennessee": 51,
       "East Tennessee": 26
     },
@@ -23,6 +23,13 @@
       "name": "15th Ave. N. Learning Academy",
       "status": "CLOSED",
       "status_detail": "Closed Monday and Tuesday",
+      "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Advanced Therapy Solutions",
+      "status": "CLOSED",
+      "status_detail": "Closed Monday, 1/26/2026",
       "region": "Other",
       "source": "NewsChannel 5"
     },
@@ -377,6 +384,13 @@
       "source": "NewsChannel 5"
     },
     {
+      "name": "Macon Christian Academy",
+      "status": "CLOSED",
+      "status_detail": "Closed Monday - No Childcare Available",
+      "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
       "name": "Mama Lere Hearing School",
       "status": "CLOSED",
       "status_detail": "educational and childcare programs",
@@ -587,7 +601,21 @@
       "source": "NewsChannel 5"
     },
     {
+      "name": "St. Joseph",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
+      "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
       "name": "St. Matthew School",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
+      "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Stonebrook Day School",
       "status": "CLOSED",
       "status_detail": "CLOSED",
       "region": "Other",
@@ -1088,6 +1116,13 @@
       "status": "CLOSED",
       "status_detail": "Closed Through 01/26",
       "region": "West Tennessee",
+      "source": "Action News 5"
+    },
+    {
+      "name": "Rossville Christian Academy",
+      "status": "CLOSED",
+      "status_detail": "Closed Through 01/28 - After-school activities canceled",
+      "region": "Other",
       "source": "Action News 5"
     },
     {
