@@ -1,13 +1,13 @@
 {
   "meta": {
-    "generated_at": "2026-01-25T02:20:42.696731+00:00",
-    "total_closings": 137,
+    "generated_at": "2026-01-25T02:30:40.206601+00:00",
+    "total_closings": 139,
     "by_status": {
-      "CLOSED": 126,
+      "CLOSED": 128,
       "REMOTE": 11
     },
     "by_region": {
-      "Other": 23,
+      "Other": 25,
       "Middle Tennessee": 42,
       "West Tennessee": 49,
       "East Tennessee": 23
@@ -454,6 +454,13 @@
       "source": "Action News 5"
     },
     {
+      "name": "Arkansas State University Mid-South",
+      "status": "CLOSED",
+      "status_detail": "Closed Monday 01/26",
+      "region": "Other",
+      "source": "Action News 5"
+    },
+    {
       "name": "Bartlett City Schools",
       "status": "CLOSED",
       "status_detail": "Closed Monday 01/26",
@@ -766,6 +773,13 @@
       "status": "CLOSED",
       "status_detail": "Closed Monday 01/26",
       "region": "West Tennessee",
+      "source": "Action News 5"
+    },
+    {
+      "name": "Tunica Academy",
+      "status": "CLOSED",
+      "status_detail": "Closed Monday 01/26",
+      "region": "Other",
       "source": "Action News 5"
     },
     {
