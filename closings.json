@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-01-25T03:50:40.574712+00:00",
+    "generated_at": "2026-01-25T04:00:43.634144+00:00",
     "total_closings": 142,
     "by_status": {
       "CLOSED": 131,
@@ -148,7 +148,7 @@
     {
       "name": "First Baptist-Dickson",
       "status": "CLOSED",
-      "status_detail": "First Baptist Dickson Daycare - Closed January 26 & 27",
+      "status_detail": "First Baptist Dickson Daycare - Closed Mon & Tue",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
