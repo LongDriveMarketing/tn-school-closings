@@ -1,16 +1,16 @@
 {
   "meta": {
-    "generated_at": "2026-01-25T17:00:49.457824+00:00",
-    "total_closings": 217,
+    "generated_at": "2026-01-25T17:10:42.927131+00:00",
+    "total_closings": 222,
     "by_status": {
-      "CLOSED": 192,
-      "REMOTE": 25
+      "CLOSED": 196,
+      "REMOTE": 26
     },
     "by_region": {
-      "Other": 77,
-      "Middle Tennessee": 62,
+      "Other": 79,
+      "Middle Tennessee": 64,
       "West Tennessee": 52,
-      "East Tennessee": 26
+      "East Tennessee": 27
     },
     "sources": [
       "NewsChannel 5",
@@ -226,6 +226,13 @@
       "name": "Dickson",
       "status": "CLOSED",
       "status_detail": "Monday and Tuesday",
+      "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Episcopal School of Nashville",
+      "status": "CLOSED",
+      "status_detail": "Closed, Monday, January 26",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
@@ -643,6 +650,13 @@
       "source": "NewsChannel 5"
     },
     {
+      "name": "St. Bernard Academy",
+      "status": "CLOSED",
+      "status_detail": "CLOSED MONDAY",
+      "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
       "name": "Stewart",
       "status": "CLOSED",
       "status_detail": "CLOSED MONDAY & TUESDAY",
@@ -794,6 +808,13 @@
       "status": "REMOTE",
       "status_detail": "Virtual Learning through Tuesday 1/27",
       "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Vol State-Springfield",
+      "status": "REMOTE",
+      "status_detail": "Virtual Learning through Tuesday 1/27",
+      "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
     {
@@ -1371,6 +1392,13 @@
       "source": "WVLT"
     },
     {
+      "name": "Claiborne County Schools",
+      "status": "CLOSED",
+      "status_detail": "Closed Through 01/27",
+      "region": "East Tennessee",
+      "source": "WVLT"
+    },
+    {
       "name": "Cleveland St. All Sites",
       "status": "CLOSED",
       "status_detail": "Closed Through 01/27",
@@ -1438,6 +1466,13 @@
       "status": "CLOSED",
       "status_detail": "Closed Monday 01/26",
       "region": "East Tennessee",
+      "source": "WVLT"
+    },
+    {
+      "name": "Landmark Christian Academy",
+      "status": "CLOSED",
+      "status_detail": "Closed Monday",
+      "region": "Other",
       "source": "WVLT"
     },
     {
