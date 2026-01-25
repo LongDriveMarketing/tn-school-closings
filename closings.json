@@ -1,15 +1,15 @@
 {
   "meta": {
-    "generated_at": "2026-01-25T19:40:48.946370+00:00",
-    "total_closings": 289,
+    "generated_at": "2026-01-25T19:50:37.205508+00:00",
+    "total_closings": 290,
     "by_status": {
-      "CLOSED": 265,
+      "CLOSED": 266,
       "REMOTE": 24
     },
     "by_region": {
       "Other": 120,
       "Middle Tennessee": 72,
-      "West Tennessee": 56,
+      "West Tennessee": 57,
       "East Tennessee": 41
     },
     "sources": [
@@ -1444,6 +1444,13 @@
       "name": "Memphis STEM Academy",
       "status": "CLOSED",
       "status_detail": "Closed Monday 01/26 - After-school activities canceled",
+      "region": "West Tennessee",
+      "source": "Action News 5"
+    },
+    {
+      "name": "Memphis University School",
+      "status": "CLOSED",
+      "status_detail": "Closed Monday",
       "region": "West Tennessee",
       "source": "Action News 5"
     },
