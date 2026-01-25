@@ -1,13 +1,13 @@
 {
   "meta": {
-    "generated_at": "2026-01-25T13:20:42.416484+00:00",
-    "total_closings": 147,
+    "generated_at": "2026-01-25T13:30:41.438347+00:00",
+    "total_closings": 148,
     "by_status": {
-      "CLOSED": 135,
+      "CLOSED": 136,
       "REMOTE": 12
     },
     "by_region": {
-      "Other": 29,
+      "Other": 30,
       "Middle Tennessee": 43,
       "West Tennessee": 50,
       "East Tennessee": 25
@@ -682,6 +682,13 @@
       "status": "CLOSED",
       "status_detail": "Closed Monday",
       "region": "West Tennessee",
+      "source": "Action News 5"
+    },
+    {
+      "name": "Madonna Learning Center",
+      "status": "CLOSED",
+      "status_detail": "Closed Monday",
+      "region": "Other",
       "source": "Action News 5"
     },
     {
