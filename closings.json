@@ -1,15 +1,15 @@
 {
   "meta": {
-    "generated_at": "2026-01-25T02:10:45.735389+00:00",
-    "total_closings": 136,
+    "generated_at": "2026-01-25T02:20:42.696731+00:00",
+    "total_closings": 137,
     "by_status": {
-      "CLOSED": 125,
+      "CLOSED": 126,
       "REMOTE": 11
     },
     "by_region": {
       "Other": 23,
       "Middle Tennessee": 42,
-      "West Tennessee": 48,
+      "West Tennessee": 49,
       "East Tennessee": 23
     },
     "sources": [
@@ -482,6 +482,13 @@
       "source": "Action News 5"
     },
     {
+      "name": "Catholic Diocese of Memphis Schools",
+      "status": "CLOSED",
+      "status_detail": "Closed Monday",
+      "region": "West Tennessee",
+      "source": "Action News 5"
+    },
+    {
       "name": "Christ the King Lutheran School",
       "status": "CLOSED",
       "status_detail": "Closed Monday 01/26",
@@ -491,7 +498,7 @@
     {
       "name": "Christian Brothers High School",
       "status": "CLOSED",
-      "status_detail": "Closed Through 01/26 - All Campus Activities Canceled",
+      "status_detail": "Closed Monday 01/26",
       "region": "West Tennessee",
       "source": "Action News 5"
     },
