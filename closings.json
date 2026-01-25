@@ -1,16 +1,16 @@
 {
   "meta": {
-    "generated_at": "2026-01-25T18:50:43.777317+00:00",
-    "total_closings": 276,
+    "generated_at": "2026-01-25T19:00:42.504240+00:00",
+    "total_closings": 282,
     "by_status": {
-      "CLOSED": 252,
+      "CLOSED": 258,
       "REMOTE": 24
     },
     "by_region": {
-      "Other": 113,
+      "Other": 116,
       "Middle Tennessee": 70,
-      "West Tennessee": 55,
-      "East Tennessee": 38
+      "West Tennessee": 56,
+      "East Tennessee": 40
     },
     "sources": [
       "NewsChannel 5",
@@ -447,6 +447,13 @@
       "source": "NewsChannel 5"
     },
     {
+      "name": "Image Maker Beauty Inst.",
+      "status": "CLOSED",
+      "status_detail": "Closed Monday",
+      "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
       "name": "Immaculate Conception",
       "status": "CLOSED",
       "status_detail": "Closed Monday/ Tuesday (January 26-27)",
@@ -605,6 +612,13 @@
       "status": "REMOTE",
       "status_detail": "Remote operations Monday-Tuesday, Jan. 26-27",
       "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Monroe",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
+      "region": "East Tennessee",
       "source": "NewsChannel 5"
     },
     {
@@ -1567,6 +1581,13 @@
       "source": "Action News 5"
     },
     {
+      "name": "Tipton-Rosemark Academy",
+      "status": "CLOSED",
+      "status_detail": "Closed Monday",
+      "region": "West Tennessee",
+      "source": "Action News 5"
+    },
+    {
       "name": "Tunica Academy",
       "status": "CLOSED",
       "status_detail": "Closed Monday 01/26",
@@ -1707,6 +1728,13 @@
       "source": "WVLT"
     },
     {
+      "name": "Cocke County Schools",
+      "status": "CLOSED",
+      "status_detail": "Closed Through 01/27",
+      "region": "East Tennessee",
+      "source": "WVLT"
+    },
+    {
       "name": "Concord Christian School",
       "status": "CLOSED",
       "status_detail": "Closed Monday",
@@ -1737,7 +1765,7 @@
     {
       "name": "Grainger County Schools",
       "status": "CLOSED",
-      "status_detail": "Closed Through 01/27 - Teachers Report",
+      "status_detail": "Closed Through 01/27",
       "region": "East Tennessee",
       "source": "WVLT"
     },
@@ -1795,6 +1823,13 @@
       "status": "CLOSED",
       "status_detail": "Closed Monday 01/26",
       "region": "East Tennessee",
+      "source": "WVLT"
+    },
+    {
+      "name": "Ladies of Charity Emergency Assistance",
+      "status": "CLOSED",
+      "status_detail": "Closed Monday",
+      "region": "Other",
       "source": "WVLT"
     },
     {
@@ -1932,6 +1967,13 @@
     },
     {
       "name": "Tennessee Tech University",
+      "status": "CLOSED",
+      "status_detail": "Closed Monday",
+      "region": "Other",
+      "source": "WVLT"
+    },
+    {
+      "name": "Tennessee Wesleyan University",
       "status": "CLOSED",
       "status_detail": "Closed Monday",
       "region": "Other",
