@@ -1,13 +1,13 @@
 {
   "meta": {
-    "generated_at": "2026-01-25T21:20:38.421580+00:00",
-    "total_closings": 315,
+    "generated_at": "2026-01-25T21:30:44.342662+00:00",
+    "total_closings": 317,
     "by_status": {
-      "CLOSED": 297,
+      "CLOSED": 299,
       "REMOTE": 18
     },
     "by_region": {
-      "Other": 136,
+      "Other": 138,
       "Middle Tennessee": 76,
       "West Tennessee": 57,
       "East Tennessee": 46
@@ -2127,6 +2127,13 @@
       "source": "WVLT"
     },
     {
+      "name": "Pellissippi St. Community College",
+      "status": "CLOSED",
+      "status_detail": "Closed Monday",
+      "region": "Other",
+      "source": "WVLT"
+    },
+    {
       "name": "Roane County Schools",
       "status": "CLOSED",
       "status_detail": "Closed Through 01/27",
@@ -2138,6 +2145,13 @@
       "status": "CLOSED",
       "status_detail": "Closed Monday",
       "region": "East Tennessee",
+      "source": "WVLT"
+    },
+    {
+      "name": "Rogersville Schools",
+      "status": "CLOSED",
+      "status_detail": "Closed Monday",
+      "region": "Other",
       "source": "WVLT"
     },
     {
