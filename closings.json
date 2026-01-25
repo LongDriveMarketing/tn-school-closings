@@ -1,16 +1,16 @@
 {
   "meta": {
-    "generated_at": "2026-01-25T18:30:48.095009+00:00",
-    "total_closings": 257,
+    "generated_at": "2026-01-25T18:40:43.690492+00:00",
+    "total_closings": 267,
     "by_status": {
-      "CLOSED": 234,
-      "REMOTE": 23
+      "CLOSED": 243,
+      "REMOTE": 24
     },
     "by_region": {
-      "Other": 105,
+      "Other": 109,
       "Middle Tennessee": 67,
       "West Tennessee": 55,
-      "East Tennessee": 30
+      "East Tennessee": 36
     },
     "sources": [
       "NewsChannel 5",
@@ -30,6 +30,13 @@
       "name": "Advanced Therapy Solutions",
       "status": "CLOSED",
       "status_detail": "Closed Monday, 1/26/2026",
+      "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Aquinas College",
+      "status": "CLOSED",
+      "status_detail": "CLOSED; CLOSED TODAY & TOMORROW",
       "region": "Other",
       "source": "NewsChannel 5"
     },
@@ -324,6 +331,13 @@
       "name": "Fusion Academy",
       "status": "REMOTE",
       "status_detail": "Campus Closed, Virtual Learning Days Monday and Tuesday",
+      "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Gartland Child Development Ctr.",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
       "region": "Other",
       "source": "NewsChannel 5"
     },
@@ -1427,6 +1441,13 @@
       "source": "Action News 5"
     },
     {
+      "name": "Sacred Heart School Southaven",
+      "status": "REMOTE",
+      "status_detail": "Virtual Learning Monday",
+      "region": "Other",
+      "source": "Action News 5"
+    },
+    {
       "name": "SE Academy Private School",
       "status": "CLOSED",
       "status_detail": "Closed Monday",
@@ -1532,6 +1553,13 @@
       "source": "Action News 5"
     },
     {
+      "name": "Word of Faith Christian Academy",
+      "status": "CLOSED",
+      "status_detail": "Closed Monday",
+      "region": "Other",
+      "source": "Action News 5"
+    },
+    {
       "name": "Anderson County Schools",
       "status": "CLOSED",
       "status_detail": "Closed Through 01/27",
@@ -1549,6 +1577,41 @@
       "name": "Blount County Schools",
       "status": "CLOSED",
       "status_detail": "Closed Monday the 26th",
+      "region": "East Tennessee",
+      "source": "WVLT"
+    },
+    {
+      "name": "Boys & Girls Club of Campbell County",
+      "status": "CLOSED",
+      "status_detail": "Closed Monday",
+      "region": "East Tennessee",
+      "source": "WVLT"
+    },
+    {
+      "name": "Boys & Girls Clubs of Anderson County",
+      "status": "CLOSED",
+      "status_detail": "Closed Monday",
+      "region": "East Tennessee",
+      "source": "WVLT"
+    },
+    {
+      "name": "Boys & Girls Clubs of Claiborne County",
+      "status": "CLOSED",
+      "status_detail": "Closed Monday",
+      "region": "East Tennessee",
+      "source": "WVLT"
+    },
+    {
+      "name": "Boys & Girls Clubs of Loudon County",
+      "status": "CLOSED",
+      "status_detail": "Closed Monday",
+      "region": "East Tennessee",
+      "source": "WVLT"
+    },
+    {
+      "name": "Boys & Girls Clubs of the Tennessee Valley - Knox County",
+      "status": "CLOSED",
+      "status_detail": "Closed Monday",
       "region": "East Tennessee",
       "source": "WVLT"
     },
@@ -1752,6 +1815,13 @@
       "name": "Roane County Schools",
       "status": "CLOSED",
       "status_detail": "Closed Through 01/27",
+      "region": "East Tennessee",
+      "source": "WVLT"
+    },
+    {
+      "name": "Roane State - All Campuses",
+      "status": "CLOSED",
+      "status_detail": "Closed Monday",
       "region": "East Tennessee",
       "source": "WVLT"
     },
