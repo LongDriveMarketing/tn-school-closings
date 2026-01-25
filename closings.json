@@ -1,16 +1,16 @@
 {
   "meta": {
-    "generated_at": "2026-01-25T20:30:41.761652+00:00",
-    "total_closings": 308,
+    "generated_at": "2026-01-25T20:40:41.254887+00:00",
+    "total_closings": 312,
     "by_status": {
-      "CLOSED": 290,
+      "CLOSED": 294,
       "REMOTE": 18
     },
     "by_region": {
-      "Other": 134,
-      "Middle Tennessee": 75,
+      "Other": 135,
+      "Middle Tennessee": 76,
       "West Tennessee": 57,
-      "East Tennessee": 42
+      "East Tennessee": 44
     },
     "sources": [
       "NewsChannel 5",
@@ -504,6 +504,20 @@
     },
     {
       "name": "Jackson",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
+      "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Jaymes Academy Clark",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
+      "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Jaymes Academy Old Nashville",
       "status": "CLOSED",
       "status_detail": "CLOSED",
       "region": "Middle Tennessee",
@@ -1868,6 +1882,13 @@
       "source": "WVLT"
     },
     {
+      "name": "Clayton-Bradley Academy",
+      "status": "CLOSED",
+      "status_detail": "Closed Monday",
+      "region": "East Tennessee",
+      "source": "WVLT"
+    },
+    {
       "name": "Cleveland St. All Sites",
       "status": "CLOSED",
       "status_detail": "Closed Through 01/27",
@@ -1927,6 +1948,13 @@
       "name": "Grainger County Schools",
       "status": "CLOSED",
       "status_detail": "Closed Through 01/27",
+      "region": "East Tennessee",
+      "source": "WVLT"
+    },
+    {
+      "name": "Greene County Schools",
+      "status": "CLOSED",
+      "status_detail": "Closed Monday",
       "region": "East Tennessee",
       "source": "WVLT"
     },
