@@ -1,15 +1,15 @@
 {
   "meta": {
-    "generated_at": "2026-01-25T16:20:38.823837+00:00",
-    "total_closings": 201,
+    "generated_at": "2026-01-25T16:30:41.855853+00:00",
+    "total_closings": 205,
     "by_status": {
-      "CLOSED": 177,
+      "CLOSED": 181,
       "REMOTE": 24
     },
     "by_region": {
-      "Other": 66,
-      "Middle Tennessee": 58,
-      "West Tennessee": 51,
+      "Other": 68,
+      "Middle Tennessee": 59,
+      "West Tennessee": 52,
       "East Tennessee": 26
     },
     "sources": [
@@ -48,6 +48,13 @@
       "source": "NewsChannel 5"
     },
     {
+      "name": "Brightstone School",
+      "status": "CLOSED",
+      "status_detail": "Closed through Tuesday",
+      "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
       "name": "Cannon",
       "status": "CLOSED",
       "status_detail": "Closed Monday and Tuesday",
@@ -71,7 +78,7 @@
     {
       "name": "Chapel Hill Academy",
       "status": "CLOSED",
-      "status_detail": "CLOSED",
+      "status_detail": "Closed Monday- Wednesday",
       "region": "Other",
       "source": "NewsChannel 5"
     },
@@ -272,6 +279,13 @@
       "source": "NewsChannel 5"
     },
     {
+      "name": "Grundy",
+      "status": "CLOSED",
+      "status_detail": "Monday",
+      "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
       "name": "Hart to Heart",
       "status": "CLOSED",
       "status_detail": "closed Mon. 1/26 and Tues. 1/27, 2026",
@@ -386,7 +400,7 @@
     {
       "name": "Macon Christian Academy",
       "status": "CLOSED",
-      "status_detail": "Closed Monday - No Childcare Available",
+      "status_detail": "Closed Monday & Tuesday - No Childcare Available",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
@@ -672,6 +686,13 @@
     },
     {
       "name": "The Edison School",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
+      "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "The Youth Academy",
       "status": "CLOSED",
       "status_detail": "CLOSED",
       "region": "Other",
@@ -1017,6 +1038,13 @@
       "name": "Memphis Business Academy",
       "status": "CLOSED",
       "status_detail": "Closed Monday 01/26 - After-school activities canceled",
+      "region": "West Tennessee",
+      "source": "Action News 5"
+    },
+    {
+      "name": "Memphis Electrical JATC",
+      "status": "CLOSED",
+      "status_detail": "Closed Monday - No evening classes",
       "region": "West Tennessee",
       "source": "Action News 5"
     },
