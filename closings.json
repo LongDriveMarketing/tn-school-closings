@@ -1,16 +1,16 @@
 {
   "meta": {
-    "generated_at": "2026-01-25T18:00:49.257856+00:00",
-    "total_closings": 239,
+    "generated_at": "2026-01-25T18:10:41.243736+00:00",
+    "total_closings": 246,
     "by_status": {
-      "CLOSED": 212,
-      "REMOTE": 27
+      "CLOSED": 218,
+      "REMOTE": 28
     },
     "by_region": {
-      "Other": 91,
-      "Middle Tennessee": 65,
+      "Other": 96,
+      "Middle Tennessee": 66,
       "West Tennessee": 55,
-      "East Tennessee": 28
+      "East Tennessee": 29
     },
     "sources": [
       "NewsChannel 5",
@@ -36,7 +36,7 @@
     {
       "name": "Bedford",
       "status": "CLOSED",
-      "status_detail": "CLOSED; Closed Monday & Tuesday",
+      "status_detail": "Closed Mon & Tu. SACP closed Mon.",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
@@ -370,6 +370,13 @@
       "source": "NewsChannel 5"
     },
     {
+      "name": "Highland Rim Academy",
+      "status": "CLOSED",
+      "status_detail": "CLOSED Monday and Tuesday",
+      "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
       "name": "Holy Rosary Academy",
       "status": "CLOSED",
       "status_detail": "CLOSED",
@@ -454,7 +461,21 @@
       "source": "NewsChannel 5"
     },
     {
+      "name": "Lincoln Col. Technology",
+      "status": "REMOTE",
+      "status_detail": "OPEN/REMOTE LEARNING DAY",
+      "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
       "name": "Lipscomb Academy",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
+      "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Little Country Schoolhouse",
       "status": "CLOSED",
       "status_detail": "CLOSED",
       "region": "Other",
@@ -909,6 +930,13 @@
       "source": "NewsChannel 5"
     },
     {
+      "name": "Woodmont Baptist",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
+      "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
       "name": "Zion Christian Acad.",
       "status": "CLOSED",
       "status_detail": "CLOSED",
@@ -1350,6 +1378,13 @@
       "source": "Action News 5"
     },
     {
+      "name": "SE Academy Private School",
+      "status": "CLOSED",
+      "status_detail": "Closed Monday",
+      "region": "Other",
+      "source": "Action News 5"
+    },
+    {
       "name": "Senatobia Municipal School District",
       "status": "CLOSED",
       "status_detail": "Closed Monday 01/26",
@@ -1429,7 +1464,7 @@
     {
       "name": "University of Mississippi",
       "status": "CLOSED",
-      "status_detail": "Closed Monday - Closed Monday; Events canceled starting 7p Friday",
+      "status_detail": "Closed Through Tuesday",
       "region": "West Tennessee",
       "source": "Action News 5"
     },
@@ -1535,6 +1570,13 @@
       "name": "Knox County, TN Schools",
       "status": "CLOSED",
       "status_detail": "Closed Monday 1/26",
+      "region": "East Tennessee",
+      "source": "WVLT"
+    },
+    {
+      "name": "Knoxville Catholic High",
+      "status": "CLOSED",
+      "status_detail": "Closed Monday 01/26",
       "region": "East Tennessee",
       "source": "WVLT"
     },
@@ -1648,6 +1690,13 @@
       "status": "CLOSED",
       "status_detail": "Closed Through 01/27",
       "region": "East Tennessee",
+      "source": "WVLT"
+    },
+    {
+      "name": "Sacred Heart Cathedral School",
+      "status": "CLOSED",
+      "status_detail": "Closed Monday",
+      "region": "Other",
       "source": "WVLT"
     },
     {
