@@ -1,16 +1,16 @@
 {
   "meta": {
-    "generated_at": "2026-01-25T17:50:38.906326+00:00",
-    "total_closings": 233,
+    "generated_at": "2026-01-25T18:00:49.257856+00:00",
+    "total_closings": 239,
     "by_status": {
-      "CLOSED": 206,
+      "CLOSED": 212,
       "REMOTE": 27
     },
     "by_region": {
-      "Other": 86,
+      "Other": 91,
       "Middle Tennessee": 65,
       "West Tennessee": 55,
-      "East Tennessee": 27
+      "East Tennessee": 28
     },
     "sources": [
       "NewsChannel 5",
@@ -49,6 +49,13 @@
     },
     {
       "name": "Bethel Baptist Pre-School",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
+      "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Birch Building Jury Duty",
       "status": "CLOSED",
       "status_detail": "CLOSED",
       "region": "Other",
@@ -566,6 +573,13 @@
       "source": "NewsChannel 5"
     },
     {
+      "name": "OC- West End Preschool",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
+      "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
       "name": "Overton",
       "status": "CLOSED",
       "status_detail": "Monday and Tuesday",
@@ -590,6 +604,13 @@
       "name": "Pleasant View Christian",
       "status": "CLOSED",
       "status_detail": "CLOSED-NO DAY CARE",
+      "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Pope Saint John Paul II",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
       "region": "Other",
       "source": "NewsChannel 5"
     },
@@ -772,6 +793,13 @@
       "name": "Tennessee School for the Blind",
       "status": "CLOSED",
       "status_detail": "Closed January 26 and 27",
+      "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Tennessee Tech",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
       "region": "Other",
       "source": "NewsChannel 5"
     },
@@ -1441,6 +1469,13 @@
       "source": "WVLT"
     },
     {
+      "name": "CAK",
+      "status": "CLOSED",
+      "status_detail": "Closed Monday",
+      "region": "Other",
+      "source": "WVLT"
+    },
+    {
       "name": "Campbell County Schools",
       "status": "CLOSED",
       "status_detail": "Closed Through 01/27",
@@ -1619,6 +1654,13 @@
       "name": "Scott County Schools",
       "status": "CLOSED",
       "status_detail": "Closed Through 01/27",
+      "region": "East Tennessee",
+      "source": "WVLT"
+    },
+    {
+      "name": "St. Joseph School-Knox",
+      "status": "CLOSED",
+      "status_detail": "Closed Monday",
       "region": "East Tennessee",
       "source": "WVLT"
     },
