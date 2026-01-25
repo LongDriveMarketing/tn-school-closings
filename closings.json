@@ -1,14 +1,14 @@
 {
   "meta": {
-    "generated_at": "2026-01-25T16:40:41.772376+00:00",
-    "total_closings": 208,
+    "generated_at": "2026-01-25T16:50:40.199839+00:00",
+    "total_closings": 210,
     "by_status": {
-      "CLOSED": 184,
+      "CLOSED": 186,
       "REMOTE": 24
     },
     "by_region": {
-      "Other": 71,
-      "Middle Tennessee": 59,
+      "Other": 72,
+      "Middle Tennessee": 60,
       "West Tennessee": 52,
       "East Tennessee": 26
     },
@@ -45,6 +45,13 @@
       "status": "CLOSED",
       "status_detail": "Closed Monday and Tuesday",
       "region": "West Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Bethel Baptist Pre-School",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
+      "region": "Other",
       "source": "NewsChannel 5"
     },
     {
@@ -171,6 +178,13 @@
       "status": "CLOSED",
       "status_detail": "Monday and Tuesday",
       "region": "East Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Davidson Academy",
+      "status": "CLOSED",
+      "status_detail": "CLOSED MONDAY AND TUESDAY",
+      "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
     {
@@ -666,7 +680,7 @@
     {
       "name": "TCAT Dickson",
       "status": "REMOTE",
-      "status_detail": "Virtual Monday and Tuesday",
+      "status_detail": "CLOSED MONDAY; VIRTUAL LEARNING TUESDAY",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
