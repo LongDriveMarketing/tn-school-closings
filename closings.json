@@ -1,16 +1,16 @@
 {
   "meta": {
-    "generated_at": "2026-01-25T00:10:43.403918+00:00",
-    "total_closings": 123,
+    "generated_at": "2026-01-25T00:20:46.550904+00:00",
+    "total_closings": 124,
     "by_status": {
-      "CLOSED": 112,
+      "CLOSED": 113,
       "REMOTE": 11
     },
     "by_region": {
       "Middle Tennessee": 41,
       "West Tennessee": 45,
       "Other": 15,
-      "East Tennessee": 22
+      "East Tennessee": 23
     },
     "sources": [
       "NewsChannel 5",
@@ -570,6 +570,13 @@
       "status": "CLOSED",
       "status_detail": "Closed Monday 01/26",
       "region": "West Tennessee",
+      "source": "Action News 5"
+    },
+    {
+      "name": "Marion School District",
+      "status": "CLOSED",
+      "status_detail": "Closed Monday 01/26",
+      "region": "East Tennessee",
       "source": "Action News 5"
     },
     {
