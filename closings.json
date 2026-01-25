@@ -1,14 +1,14 @@
 {
   "meta": {
-    "generated_at": "2026-01-25T19:10:40.046523+00:00",
-    "total_closings": 283,
+    "generated_at": "2026-01-25T19:20:42.016067+00:00",
+    "total_closings": 286,
     "by_status": {
-      "CLOSED": 259,
+      "CLOSED": 262,
       "REMOTE": 24
     },
     "by_region": {
-      "Other": 116,
-      "Middle Tennessee": 70,
+      "Other": 117,
+      "Middle Tennessee": 72,
       "West Tennessee": 56,
       "East Tennessee": 41
     },
@@ -209,6 +209,13 @@
       "source": "NewsChannel 5"
     },
     {
+      "name": "Crievewood Methodist",
+      "status": "CLOSED",
+      "status_detail": "CLOSED; CLOSED",
+      "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
       "name": "Cumberland University",
       "status": "CLOSED",
       "status_detail": "Monday and Tuesday",
@@ -300,6 +307,13 @@
       "source": "NewsChannel 5"
     },
     {
+      "name": "Fayetteville City Schools",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
+      "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
       "name": "Fentress",
       "status": "CLOSED",
       "status_detail": "closed through Tuesday",
@@ -359,6 +373,13 @@
       "name": "Gen. Sessions Court-Davidson Co.",
       "status": "CLOSED",
       "status_detail": "Closed Monday",
+      "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Georgia Institute-Murfreesboro",
+      "status": "CLOSED",
+      "status_detail": "Closed Monday 1/26",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
