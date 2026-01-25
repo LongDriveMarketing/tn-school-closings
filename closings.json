@@ -1,16 +1,16 @@
 {
   "meta": {
-    "generated_at": "2026-01-25T18:40:43.690492+00:00",
-    "total_closings": 267,
+    "generated_at": "2026-01-25T18:50:43.777317+00:00",
+    "total_closings": 276,
     "by_status": {
-      "CLOSED": 243,
+      "CLOSED": 252,
       "REMOTE": 24
     },
     "by_region": {
-      "Other": 109,
-      "Middle Tennessee": 67,
+      "Other": 113,
+      "Middle Tennessee": 70,
       "West Tennessee": 55,
-      "East Tennessee": 36
+      "East Tennessee": 38
     },
     "sources": [
       "NewsChannel 5",
@@ -36,7 +36,7 @@
     {
       "name": "Aquinas College",
       "status": "CLOSED",
-      "status_detail": "CLOSED; CLOSED TODAY & TOMORROW",
+      "status_detail": "CLOSED; Closed Monday and Tuesday",
       "region": "Other",
       "source": "NewsChannel 5"
     },
@@ -115,6 +115,13 @@
       "status": "CLOSED",
       "status_detail": "Closed Monday",
       "region": "West Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Clarksville Academy",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
+      "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
     {
@@ -244,6 +251,13 @@
       "source": "NewsChannel 5"
     },
     {
+      "name": "DCSO Day Reporting",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
+      "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
       "name": "DeKalb",
       "status": "CLOSED",
       "status_detail": "CLOSED",
@@ -349,6 +363,13 @@
       "source": "NewsChannel 5"
     },
     {
+      "name": "Giles",
+      "status": "CLOSED",
+      "status_detail": "CLOSED TODAY & TOMORROW",
+      "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
       "name": "Gingerbread House",
       "status": "CLOSED",
       "status_detail": "CLOSED",
@@ -430,6 +451,13 @@
       "status": "CLOSED",
       "status_detail": "Closed Monday/ Tuesday (January 26-27)",
       "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Jackson",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
+      "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
     {
@@ -587,6 +615,13 @@
       "source": "NewsChannel 5"
     },
     {
+      "name": "Murray Independent",
+      "status": "CLOSED",
+      "status_detail": "CLOSED - NTI DAY #1; CLOSED - NTI DAY #1",
+      "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
       "name": "Nashville Christian School",
       "status": "CLOSED",
       "status_detail": "CLOSED; CLOSED",
@@ -646,6 +681,13 @@
       "name": "OC- West End Preschool",
       "status": "CLOSED",
       "status_detail": "CLOSED",
+      "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Overbrook School",
+      "status": "CLOSED",
+      "status_detail": "CLOSED-NO MAC; Closed Monday and Tuesday",
       "region": "Other",
       "source": "NewsChannel 5"
     },
@@ -779,6 +821,13 @@
       "name": "St. Bernard Academy",
       "status": "CLOSED",
       "status_detail": "CLOSED MONDAY",
+      "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "St. Cecilia Academy",
+      "status": "CLOSED",
+      "status_detail": "Closed Monday and Tuesday",
       "region": "Other",
       "source": "NewsChannel 5"
     },
@@ -1352,7 +1401,7 @@
     {
       "name": "Millington Municipal Schools",
       "status": "CLOSED",
-      "status_detail": "Closed Monday the 26th",
+      "status_detail": "Closed Through 01/27",
       "region": "West Tennessee",
       "source": "Action News 5"
     },
@@ -1672,10 +1721,24 @@
       "source": "WVLT"
     },
     {
+      "name": "Episcopal School of Knox",
+      "status": "CLOSED",
+      "status_detail": "Closed Monday",
+      "region": "East Tennessee",
+      "source": "WVLT"
+    },
+    {
       "name": "Grace Christian Academy-Karns",
       "status": "CLOSED",
       "status_detail": "Closed Monday 01/26",
       "region": "Other",
+      "source": "WVLT"
+    },
+    {
+      "name": "Grainger County Schools",
+      "status": "CLOSED",
+      "status_detail": "Closed Through 01/27 - Teachers Report",
+      "region": "East Tennessee",
       "source": "WVLT"
     },
     {
