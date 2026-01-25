@@ -1,13 +1,13 @@
 {
   "meta": {
-    "generated_at": "2026-01-24T23:50:39.628802+00:00",
-    "total_closings": 122,
+    "generated_at": "2026-01-25T00:00:45.723293+00:00",
+    "total_closings": 123,
     "by_status": {
-      "CLOSED": 111,
+      "CLOSED": 112,
       "REMOTE": 11
     },
     "by_region": {
-      "Middle Tennessee": 40,
+      "Middle Tennessee": 41,
       "West Tennessee": 45,
       "Other": 15,
       "East Tennessee": 22
@@ -359,6 +359,13 @@
       "name": "TriStar Cottage & Homeschool Co-op",
       "status": "CLOSED",
       "status_detail": "All Monday tutorial classes are canceled",
+      "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Van Buren",
+      "status": "CLOSED",
+      "status_detail": "CLOSED through Tuesday",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
