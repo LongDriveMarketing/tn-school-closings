@@ -1,14 +1,14 @@
 {
   "meta": {
-    "generated_at": "2026-01-25T15:50:39.346819+00:00",
-    "total_closings": 184,
+    "generated_at": "2026-01-25T16:00:41.564306+00:00",
+    "total_closings": 194,
     "by_status": {
-      "CLOSED": 164,
-      "REMOTE": 20
+      "CLOSED": 170,
+      "REMOTE": 24
     },
     "by_region": {
-      "Other": 51,
-      "Middle Tennessee": 56,
+      "Other": 60,
+      "Middle Tennessee": 57,
       "West Tennessee": 51,
       "East Tennessee": 26
     },
@@ -58,6 +58,13 @@
       "name": "Cedars Prep. Academy",
       "status": "CLOSED",
       "status_detail": "CLOSED-NO DAY CARE",
+      "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Chapel Hill Academy",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
       "region": "Other",
       "source": "NewsChannel 5"
     },
@@ -272,6 +279,13 @@
       "source": "NewsChannel 5"
     },
     {
+      "name": "Holy Rosary Academy",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
+      "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
       "name": "Houston",
       "status": "CLOSED",
       "status_detail": "closed Monday and Tuesday",
@@ -444,6 +458,13 @@
       "status": "REMOTE",
       "status_detail": "Virtual operations and classes on Jan. 26 & 27",
       "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "New Horizons",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
+      "region": "Other",
       "source": "NewsChannel 5"
     },
     {
@@ -657,6 +678,34 @@
       "source": "NewsChannel 5"
     },
     {
+      "name": "Vol State Comm. Coll.",
+      "status": "REMOTE",
+      "status_detail": "CLOSED - VIRTUAL/REMOTE LEARNING DAY; Virtual Learning through Tuesday 1/27",
+      "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Vol State-Cookeville",
+      "status": "REMOTE",
+      "status_detail": "CLOSED - VIRTUAL/REMOTE LEARNING DAY; Virtual Learning through Tuesday 1/27",
+      "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Vol State-Highland Crest",
+      "status": "REMOTE",
+      "status_detail": "Virtual Learning through Tuesday 1/27",
+      "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Vol State-Livingston",
+      "status": "REMOTE",
+      "status_detail": "Virtual Learning through Tuesday 1/27",
+      "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
       "name": "Warren Co., TN",
       "status": "CLOSED",
       "status_detail": "Monday and Tuesday",
@@ -682,6 +731,13 @@
       "status": "CLOSED",
       "status_detail": "CLOSED; Closed Monday and Tuesday",
       "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Zion Christian Acad.",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
+      "region": "Other",
       "source": "NewsChannel 5"
     },
     {
@@ -864,6 +920,13 @@
       "status": "CLOSED",
       "status_detail": "Closed Through 01/27",
       "region": "West Tennessee",
+      "source": "Action News 5"
+    },
+    {
+      "name": "Hutchison School",
+      "status": "CLOSED",
+      "status_detail": "Closed Monday",
+      "region": "Other",
       "source": "Action News 5"
     },
     {
@@ -1080,6 +1143,13 @@
       "name": "Tunica Academy",
       "status": "CLOSED",
       "status_detail": "Closed Monday 01/26",
+      "region": "Other",
+      "source": "Action News 5"
+    },
+    {
+      "name": "Tunica County School District",
+      "status": "CLOSED",
+      "status_detail": "Closed Through 01/27",
       "region": "Other",
       "source": "Action News 5"
     },
