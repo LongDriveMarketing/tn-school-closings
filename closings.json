@@ -1,13 +1,13 @@
 {
   "meta": {
-    "generated_at": "2026-01-25T01:40:42.547386+00:00",
-    "total_closings": 134,
+    "generated_at": "2026-01-25T01:50:47.006830+00:00",
+    "total_closings": 135,
     "by_status": {
-      "CLOSED": 123,
+      "CLOSED": 124,
       "REMOTE": 11
     },
     "by_region": {
-      "Other": 21,
+      "Other": 22,
       "Middle Tennessee": 43,
       "West Tennessee": 47,
       "East Tennessee": 23
@@ -392,6 +392,13 @@
     },
     {
       "name": "Tennessee School for the Blind",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
+      "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "The Edison School",
       "status": "CLOSED",
       "status_detail": "CLOSED",
       "region": "Other",
