@@ -1,14 +1,14 @@
 {
   "meta": {
-    "generated_at": "2026-01-25T16:50:40.199839+00:00",
-    "total_closings": 210,
+    "generated_at": "2026-01-25T17:00:49.457824+00:00",
+    "total_closings": 217,
     "by_status": {
-      "CLOSED": 186,
-      "REMOTE": 24
+      "CLOSED": 192,
+      "REMOTE": 25
     },
     "by_region": {
-      "Other": 72,
-      "Middle Tennessee": 60,
+      "Other": 77,
+      "Middle Tennessee": 62,
       "West Tennessee": 52,
       "East Tennessee": 26
     },
@@ -181,6 +181,13 @@
       "source": "NewsChannel 5"
     },
     {
+      "name": "Currey Ingram Academy",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
+      "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
       "name": "Davidson Academy",
       "status": "CLOSED",
       "status_detail": "CLOSED MONDAY AND TUESDAY",
@@ -283,6 +290,13 @@
       "status": "CLOSED",
       "status_detail": "Closed Monday",
       "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Gingerbread House",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
+      "region": "Other",
       "source": "NewsChannel 5"
     },
     {
@@ -566,6 +580,13 @@
       "source": "NewsChannel 5"
     },
     {
+      "name": "Putnam",
+      "status": "CLOSED",
+      "status_detail": "Closed Monday and Tuesday",
+      "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
       "name": "Redeemer Academy",
       "status": "CLOSED",
       "status_detail": "Closed Mon & Tues",
@@ -674,6 +695,13 @@
       "name": "Sumner",
       "status": "CLOSED",
       "status_detail": "Closed Monday and Tuesday",
+      "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Sumner Academy",
+      "status": "CLOSED",
+      "status_detail": "CLOSED TODAY & TOMORROW",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
@@ -832,6 +860,13 @@
       "source": "Action News 5"
     },
     {
+      "name": "Bodine School",
+      "status": "CLOSED",
+      "status_detail": "Closed Monday",
+      "region": "Other",
+      "source": "Action News 5"
+    },
+    {
       "name": "Briarcrest Christian School",
       "status": "CLOSED",
       "status_detail": "Closed Monday 01/26",
@@ -905,6 +940,13 @@
       "name": "Cross Creek Christian Academy",
       "status": "CLOSED",
       "status_detail": "Closed Monday",
+      "region": "Other",
+      "source": "Action News 5"
+    },
+    {
+      "name": "Desoto Christian Academy",
+      "status": "CLOSED",
+      "status_detail": "Closed Sunday",
       "region": "Other",
       "source": "Action News 5"
     },
@@ -1003,6 +1045,13 @@
       "name": "Holly Springs School District",
       "status": "CLOSED",
       "status_detail": "Closed Monday",
+      "region": "Other",
+      "source": "Action News 5"
+    },
+    {
+      "name": "Holy Family School",
+      "status": "REMOTE",
+      "status_detail": "Virtual Learning Through 01/27 - Future dates are TBD.",
       "region": "Other",
       "source": "Action News 5"
     },
