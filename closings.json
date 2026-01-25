@@ -1,13 +1,13 @@
 {
   "meta": {
-    "generated_at": "2026-01-25T01:20:44.953397+00:00",
-    "total_closings": 133,
+    "generated_at": "2026-01-25T01:30:44.545114+00:00",
+    "total_closings": 134,
     "by_status": {
-      "CLOSED": 122,
+      "CLOSED": 123,
       "REMOTE": 11
     },
     "by_region": {
-      "Other": 20,
+      "Other": 21,
       "Middle Tennessee": 43,
       "West Tennessee": 47,
       "East Tennessee": 23
@@ -38,6 +38,13 @@
       "status": "CLOSED",
       "status_detail": "Closed Monday, January 26th and Tuesday, January 27 th",
       "region": "West Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Cedars Prep. Academy",
+      "status": "CLOSED",
+      "status_detail": "CLOSED-NO DAY CARE",
+      "region": "Other",
       "source": "NewsChannel 5"
     },
     {
