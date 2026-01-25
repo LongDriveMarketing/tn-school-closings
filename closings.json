@@ -1,15 +1,15 @@
 {
   "meta": {
-    "generated_at": "2026-01-25T00:30:47.368103+00:00",
-    "total_closings": 125,
+    "generated_at": "2026-01-25T00:40:45.458089+00:00",
+    "total_closings": 128,
     "by_status": {
-      "CLOSED": 114,
+      "CLOSED": 117,
       "REMOTE": 11
     },
     "by_region": {
+      "Other": 17,
       "Middle Tennessee": 42,
-      "West Tennessee": 45,
-      "Other": 15,
+      "West Tennessee": 46,
       "East Tennessee": 23
     },
     "sources": [
@@ -19,6 +19,13 @@
     ]
   },
   "closings": [
+    {
+      "name": "15th Ave. N. Learning Academy",
+      "status": "CLOSED",
+      "status_detail": "Closed Monday and Tuesday",
+      "region": "Other",
+      "source": "NewsChannel 5"
+    },
     {
       "name": "Bedford",
       "status": "CLOSED",
@@ -283,6 +290,13 @@
       "status": "CLOSED",
       "status_detail": "CLOSED - MONDAY",
       "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Priest Lake Academy",
+      "status": "CLOSED",
+      "status_detail": "CLOSED-NO EXTENDED CARE; CLOSED-NO SNOW CARE",
+      "region": "West Tennessee",
       "source": "NewsChannel 5"
     },
     {
@@ -885,6 +899,13 @@
       "status": "CLOSED",
       "status_detail": "Closed Through the 27th",
       "region": "East Tennessee",
+      "source": "WVLT"
+    },
+    {
+      "name": "TN School for the Deaf",
+      "status": "CLOSED",
+      "status_detail": "Closed Monday 01/26",
+      "region": "Other",
       "source": "WVLT"
     },
     {
