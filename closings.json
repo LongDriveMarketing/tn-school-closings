@@ -1,16 +1,16 @@
 {
   "meta": {
-    "generated_at": "2026-01-25T20:10:38.577358+00:00",
-    "total_closings": 299,
+    "generated_at": "2026-01-25T20:20:48.790600+00:00",
+    "total_closings": 304,
     "by_status": {
-      "CLOSED": 275,
-      "REMOTE": 24
+      "CLOSED": 286,
+      "REMOTE": 18
     },
     "by_region": {
-      "Other": 128,
-      "Middle Tennessee": 73,
+      "Other": 130,
+      "Middle Tennessee": 75,
       "West Tennessee": 57,
-      "East Tennessee": 41
+      "East Tennessee": 42
     },
     "sources": [
       "NewsChannel 5",
@@ -524,6 +524,13 @@
       "source": "NewsChannel 5"
     },
     {
+      "name": "Kreative Kids 1 & 2",
+      "status": "CLOSED",
+      "status_detail": "CLOSED; CLOSED",
+      "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
       "name": "Lancaster Academy",
       "status": "CLOSED",
       "status_detail": "Closed Monday",
@@ -538,9 +545,23 @@
       "source": "NewsChannel 5"
     },
     {
+      "name": "Lawrence",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
+      "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
       "name": "Lead Acad.-Goodlettsville",
       "status": "CLOSED",
       "status_detail": "Closed Monday & Tuesday",
+      "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Learning Lab-Nashville",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
@@ -707,43 +728,43 @@
     },
     {
       "name": "Nashville State-Clarksville",
-      "status": "REMOTE",
-      "status_detail": "Virtual operations and classes on Jan. 26 & 27",
+      "status": "CLOSED",
+      "status_detail": "CLOSED; Closed on January 26",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
     {
       "name": "Nashville State-Dickson",
-      "status": "REMOTE",
-      "status_detail": "Virtual operations and classes on Jan. 26 & 27",
+      "status": "CLOSED",
+      "status_detail": "CLOSED; Closed on January 26",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
     {
       "name": "Nashville State-Humphreys Co.",
-      "status": "REMOTE",
-      "status_detail": "Virtual operations and classes on Jan. 26 & 27",
+      "status": "CLOSED",
+      "status_detail": "CLOSED; Closed on January 26",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
     {
       "name": "Nashville State-North Davidson",
-      "status": "REMOTE",
-      "status_detail": "Virtual operations and classes on Jan. 26 & 27",
+      "status": "CLOSED",
+      "status_detail": "CLOSED; Closed on January 26",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
     {
       "name": "Nashville State-Southeast",
-      "status": "REMOTE",
-      "status_detail": "Virtual operations and classes on Jan. 26 & 27",
+      "status": "CLOSED",
+      "status_detail": "CLOSED; Closed on January 26",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
     {
       "name": "Nashville State-White Bridge",
-      "status": "REMOTE",
-      "status_detail": "Virtual operations and classes on Jan. 26 & 27",
+      "status": "CLOSED",
+      "status_detail": "Closed on January 26",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
@@ -890,7 +911,7 @@
     {
       "name": "Smith",
       "status": "CLOSED",
-      "status_detail": "CLOSED; CLOSED",
+      "status_detail": "Closed Monday, Tuesday and Wednesday",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
@@ -1735,6 +1756,13 @@
       "source": "WVLT"
     },
     {
+      "name": "Bell County",
+      "status": "CLOSED",
+      "status_detail": "Closed Monday - NIT Day",
+      "region": "East Tennessee",
+      "source": "WVLT"
+    },
+    {
       "name": "Blount County Schools",
       "status": "CLOSED",
       "status_detail": "Closed Monday the 26th",
@@ -2002,6 +2030,13 @@
     },
     {
       "name": "Montessori International School",
+      "status": "CLOSED",
+      "status_detail": "Closed Monday",
+      "region": "Other",
+      "source": "WVLT"
+    },
+    {
+      "name": "New Fellowship Christian Academy",
       "status": "CLOSED",
       "status_detail": "Closed Monday",
       "region": "Other",
