@@ -1,13 +1,13 @@
 {
   "meta": {
-    "generated_at": "2026-01-25T23:20:46.048839+00:00",
-    "total_closings": 331,
+    "generated_at": "2026-01-25T23:30:41.826353+00:00",
+    "total_closings": 332,
     "by_status": {
-      "CLOSED": 313,
+      "CLOSED": 314,
       "REMOTE": 18
     },
     "by_region": {
-      "Other": 146,
+      "Other": 147,
       "Middle Tennessee": 78,
       "West Tennessee": 59,
       "East Tennessee": 48
@@ -464,6 +464,13 @@
       "name": "Grace Baptist CDC",
       "status": "CLOSED",
       "status_detail": "Closed Monday and Tuesday/No power",
+      "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Grandmama's House",
+      "status": "CLOSED",
+      "status_detail": "CLOSED; CLOSED",
       "region": "Other",
       "source": "NewsChannel 5"
     },
