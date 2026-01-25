@@ -1,16 +1,16 @@
 {
   "meta": {
-    "generated_at": "2026-01-25T18:10:41.243736+00:00",
-    "total_closings": 246,
+    "generated_at": "2026-01-25T18:20:48.849258+00:00",
+    "total_closings": 253,
     "by_status": {
-      "CLOSED": 218,
-      "REMOTE": 28
+      "CLOSED": 230,
+      "REMOTE": 23
     },
     "by_region": {
-      "Other": 96,
+      "Other": 102,
       "Middle Tennessee": 66,
       "West Tennessee": 55,
-      "East Tennessee": 29
+      "East Tennessee": 30
     },
     "sources": [
       "NewsChannel 5",
@@ -349,6 +349,20 @@
       "source": "NewsChannel 5"
     },
     {
+      "name": "Goodpasture Christian Sch.",
+      "status": "CLOSED",
+      "status_detail": "CLOSED-NO EXTENDED CARE",
+      "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Grace Baptist CDC",
+      "status": "CLOSED",
+      "status_detail": "Closed Monday and Tuesday/No power",
+      "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
       "name": "Grundy",
       "status": "CLOSED",
       "status_detail": "Monday",
@@ -478,6 +492,13 @@
       "name": "Little Country Schoolhouse",
       "status": "CLOSED",
       "status_detail": "CLOSED",
+      "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Little Miracles",
+      "status": "CLOSED",
+      "status_detail": "CLOSED-NO DAY CARE",
       "region": "Other",
       "source": "NewsChannel 5"
     },
@@ -868,15 +889,15 @@
     },
     {
       "name": "Vol State Comm. Coll.",
-      "status": "REMOTE",
-      "status_detail": "CLOSED - VIRTUAL/REMOTE LEARNING DAY; Virtual Learning through Tuesday 1/27",
+      "status": "CLOSED",
+      "status_detail": "Closed Monday 1/26",
       "region": "Other",
       "source": "NewsChannel 5"
     },
     {
       "name": "Vol State-Cookeville",
-      "status": "REMOTE",
-      "status_detail": "CLOSED - VIRTUAL/REMOTE LEARNING DAY; Virtual Learning through Tuesday 1/27",
+      "status": "CLOSED",
+      "status_detail": "CLOSED; Closed Monday 1/26",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
@@ -889,15 +910,15 @@
     },
     {
       "name": "Vol State-Livingston",
-      "status": "REMOTE",
-      "status_detail": "Virtual Learning through Tuesday 1/27",
+      "status": "CLOSED",
+      "status_detail": "CLOSED; Closed Monday 1/26",
       "region": "Other",
       "source": "NewsChannel 5"
     },
     {
       "name": "Vol State-Springfield",
-      "status": "REMOTE",
-      "status_detail": "Virtual Learning through Tuesday 1/27",
+      "status": "CLOSED",
+      "status_detail": "Closed Monday 1/26",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
@@ -1176,8 +1197,8 @@
     },
     {
       "name": "Holy Family School",
-      "status": "REMOTE",
-      "status_detail": "Virtual Learning Through 01/27 - Future dates are TBD.",
+      "status": "CLOSED",
+      "status_detail": "Closed Through 01/27",
       "region": "Other",
       "source": "Action News 5"
     },
@@ -1546,6 +1567,13 @@
       "source": "WVLT"
     },
     {
+      "name": "Concord Christian School",
+      "status": "CLOSED",
+      "status_detail": "Closed Monday",
+      "region": "Other",
+      "source": "WVLT"
+    },
+    {
       "name": "Emerald Academy",
       "status": "CLOSED",
       "status_detail": "Closed Monday 01/26",
@@ -1672,6 +1700,13 @@
       "source": "WVLT"
     },
     {
+      "name": "Montessori International School",
+      "status": "CLOSED",
+      "status_detail": "Closed Monday",
+      "region": "Other",
+      "source": "WVLT"
+    },
+    {
       "name": "Oak Ridge City Schools",
       "status": "CLOSED",
       "status_detail": "Closed Monday 1/26",
@@ -1714,10 +1749,24 @@
       "source": "WVLT"
     },
     {
+      "name": "St. Mary's-Oak Ridge",
+      "status": "CLOSED",
+      "status_detail": "Closed Monday",
+      "region": "East Tennessee",
+      "source": "WVLT"
+    },
+    {
       "name": "Sweetwater City",
       "status": "CLOSED",
       "status_detail": "Closed Through the 27th",
       "region": "East Tennessee",
+      "source": "WVLT"
+    },
+    {
+      "name": "Tate's School",
+      "status": "CLOSED",
+      "status_detail": "Closed Monday",
+      "region": "Other",
       "source": "WVLT"
     },
     {
