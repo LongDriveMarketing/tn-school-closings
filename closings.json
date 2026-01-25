@@ -1,14 +1,14 @@
 {
   "meta": {
-    "generated_at": "2026-01-25T15:20:41.748373+00:00",
-    "total_closings": 173,
+    "generated_at": "2026-01-25T15:30:45.767197+00:00",
+    "total_closings": 178,
     "by_status": {
-      "CLOSED": 154,
+      "CLOSED": 159,
       "REMOTE": 19
     },
     "by_region": {
-      "Other": 42,
-      "Middle Tennessee": 54,
+      "Other": 46,
+      "Middle Tennessee": 55,
       "West Tennessee": 51,
       "East Tennessee": 26
     },
@@ -129,6 +129,13 @@
       "status": "REMOTE",
       "status_detail": "Campus closed Monday. Virtual learning and work only.",
       "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Cool Springs Montessori",
+      "status": "CLOSED",
+      "status_detail": "Closed Monday and Tuesday",
+      "region": "Other",
       "source": "NewsChannel 5"
     },
     {
@@ -356,6 +363,13 @@
       "source": "NewsChannel 5"
     },
     {
+      "name": "Marshall",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
+      "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
       "name": "Metro Head Start",
       "status": "REMOTE",
       "status_detail": "Staff Remote",
@@ -505,7 +519,7 @@
     {
       "name": "SAE Institute",
       "status": "CLOSED",
-      "status_detail": "No classes/Campus Closed",
+      "status_detail": "Closed Monday-Classes Canceled",
       "region": "Other",
       "source": "NewsChannel 5"
     },
@@ -531,10 +545,24 @@
       "source": "NewsChannel 5"
     },
     {
+      "name": "St. Matthew School",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
+      "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
       "name": "St. Patrick",
       "status": "REMOTE",
       "status_detail": "Closed Monday  & Distance Learning Day Tuesday",
       "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "St. Pius X School",
+      "status": "CLOSED",
+      "status_detail": "Closed Monday, Jan. 26 & Tuesday, Jan. 27",
+      "region": "Other",
       "source": "NewsChannel 5"
     },
     {
@@ -568,7 +596,7 @@
     {
       "name": "Tennessee School for the Blind",
       "status": "CLOSED",
-      "status_detail": "CLOSED",
+      "status_detail": "Closed January 26 and 27",
       "region": "Other",
       "source": "NewsChannel 5"
     },
@@ -589,7 +617,7 @@
     {
       "name": "TriStar Cottage & Homeschool Co-op",
       "status": "CLOSED",
-      "status_detail": "All Monday tutorial classes are canceled",
+      "status_detail": "All Tuesday Cooperative Classes are canceled",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
@@ -1039,6 +1067,13 @@
       "status": "CLOSED",
       "status_detail": "Closed Through 01/27",
       "region": "East Tennessee",
+      "source": "WVLT"
+    },
+    {
+      "name": "Annoor Academy",
+      "status": "CLOSED",
+      "status_detail": "Closed Monday",
+      "region": "Other",
       "source": "WVLT"
     },
     {
