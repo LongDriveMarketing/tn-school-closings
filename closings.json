@@ -1,13 +1,13 @@
 {
   "meta": {
-    "generated_at": "2026-01-25T19:20:42.016067+00:00",
-    "total_closings": 286,
+    "generated_at": "2026-01-25T19:30:38.168789+00:00",
+    "total_closings": 288,
     "by_status": {
-      "CLOSED": 262,
+      "CLOSED": 264,
       "REMOTE": 24
     },
     "by_region": {
-      "Other": 117,
+      "Other": 119,
       "Middle Tennessee": 72,
       "West Tennessee": 56,
       "East Tennessee": 41
@@ -37,6 +37,13 @@
       "name": "Aquinas College",
       "status": "CLOSED",
       "status_detail": "CLOSED; Closed Monday and Tuesday",
+      "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Battle Ground Academy",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
       "region": "Other",
       "source": "NewsChannel 5"
     },
@@ -965,6 +972,13 @@
       "source": "NewsChannel 5"
     },
     {
+      "name": "The Red Barn",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
+      "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
       "name": "The Youth Academy",
       "status": "CLOSED",
       "status_detail": "CLOSED",
@@ -1478,7 +1492,7 @@
     {
       "name": "Oxford School District",
       "status": "CLOSED",
-      "status_detail": "Closed Monday 01/26",
+      "status_detail": "Closed Through 01/30",
       "region": "West Tennessee",
       "source": "Action News 5"
     },
