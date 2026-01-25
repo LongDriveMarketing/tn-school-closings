@@ -1,15 +1,15 @@
 {
   "meta": {
-    "generated_at": "2026-01-25T17:10:42.927131+00:00",
-    "total_closings": 222,
+    "generated_at": "2026-01-25T17:20:41.195878+00:00",
+    "total_closings": 225,
     "by_status": {
-      "CLOSED": 196,
-      "REMOTE": 26
+      "CLOSED": 198,
+      "REMOTE": 27
     },
     "by_region": {
-      "Other": 79,
+      "Other": 81,
       "Middle Tennessee": 64,
-      "West Tennessee": 52,
+      "West Tennessee": 53,
       "East Tennessee": 27
     },
     "sources": [
@@ -286,6 +286,13 @@
       "source": "NewsChannel 5"
     },
     {
+      "name": "Friendship Christian School",
+      "status": "CLOSED",
+      "status_detail": "CLOSED-NO SNOW CARE",
+      "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
       "name": "Fusion Academy",
       "status": "REMOTE",
       "status_detail": "Campus Closed, Virtual Learning Days Monday and Tuesday",
@@ -464,6 +471,13 @@
       "name": "Metro Head Start",
       "status": "REMOTE",
       "status_detail": "Staff Remote",
+      "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Middle Tenn. St. Univ.",
+      "status": "REMOTE",
+      "status_detail": "OPEN/REMOTE LEARNING DAY",
       "region": "Other",
       "source": "NewsChannel 5"
     },
@@ -1052,6 +1066,13 @@
       "name": "Hardin County Schools",
       "status": "CLOSED",
       "status_detail": "Closed Through 01/27",
+      "region": "West Tennessee",
+      "source": "Action News 5"
+    },
+    {
+      "name": "Harding Academy of Memphis",
+      "status": "CLOSED",
+      "status_detail": "Closed Monday",
       "region": "West Tennessee",
       "source": "Action News 5"
     },
