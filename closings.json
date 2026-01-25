@@ -1,16 +1,16 @@
 {
   "meta": {
-    "generated_at": "2026-01-25T23:30:41.826353+00:00",
-    "total_closings": 332,
+    "generated_at": "2026-01-25T23:40:42.603111+00:00",
+    "total_closings": 333,
     "by_status": {
-      "CLOSED": 314,
+      "CLOSED": 315,
       "REMOTE": 18
     },
     "by_region": {
       "Other": 147,
       "Middle Tennessee": 78,
       "West Tennessee": 59,
-      "East Tennessee": 48
+      "East Tennessee": 49
     },
     "sources": [
       "NewsChannel 5",
@@ -1918,6 +1918,13 @@
     },
     {
       "name": "Boys & Girls Clubs of Anderson County",
+      "status": "CLOSED",
+      "status_detail": "Closed Monday",
+      "region": "East Tennessee",
+      "source": "WVLT"
+    },
+    {
+      "name": "Boys & Girls Clubs of Blount County",
       "status": "CLOSED",
       "status_detail": "Closed Monday",
       "region": "East Tennessee",
