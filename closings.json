@@ -1,16 +1,16 @@
 {
   "meta": {
-    "generated_at": "2026-01-25T04:50:39.127883+00:00",
-    "total_closings": 145,
+    "generated_at": "2026-01-25T05:00:49.760665+00:00",
+    "total_closings": 146,
     "by_status": {
-      "CLOSED": 133,
+      "CLOSED": 134,
       "REMOTE": 12
     },
     "by_region": {
       "Other": 29,
       "Middle Tennessee": 42,
       "West Tennessee": 50,
-      "East Tennessee": 24
+      "East Tennessee": 25
     },
     "sources": [
       "NewsChannel 5",
@@ -912,6 +912,13 @@
       "name": "Knoxville Head Start Extended Day",
       "status": "CLOSED",
       "status_detail": "Closed Monday 01/26",
+      "region": "East Tennessee",
+      "source": "WVLT"
+    },
+    {
+      "name": "Knoxville Prep School",
+      "status": "CLOSED",
+      "status_detail": "Closed Monday the 26th",
       "region": "East Tennessee",
       "source": "WVLT"
     },
