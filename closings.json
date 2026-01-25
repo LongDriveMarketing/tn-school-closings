@@ -1,13 +1,13 @@
 {
   "meta": {
-    "generated_at": "2026-01-25T13:40:43.085545+00:00",
-    "total_closings": 149,
+    "generated_at": "2026-01-25T13:50:42.645239+00:00",
+    "total_closings": 151,
     "by_status": {
-      "CLOSED": 137,
+      "CLOSED": 139,
       "REMOTE": 12
     },
     "by_region": {
-      "Other": 31,
+      "Other": 33,
       "Middle Tennessee": 43,
       "West Tennessee": 50,
       "East Tennessee": 25
@@ -220,6 +220,13 @@
       "status": "CLOSED",
       "status_detail": "Closed Monday and Tuesday",
       "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Immaculate Conception",
+      "status": "CLOSED",
+      "status_detail": "Closed Monday/ Tuesday (January 26-27)",
+      "region": "Other",
       "source": "NewsChannel 5"
     },
     {
@@ -437,6 +444,13 @@
       "status": "CLOSED",
       "status_detail": "Closed Monday and Tuesday",
       "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Templeton Academy",
+      "status": "CLOSED",
+      "status_detail": "Closed Monday and Tuesday (no asynchronous learning)",
+      "region": "Other",
       "source": "NewsChannel 5"
     },
     {
