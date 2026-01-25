@@ -1,14 +1,14 @@
 {
   "meta": {
-    "generated_at": "2026-01-25T18:20:48.849258+00:00",
-    "total_closings": 253,
+    "generated_at": "2026-01-25T18:30:48.095009+00:00",
+    "total_closings": 257,
     "by_status": {
-      "CLOSED": 230,
+      "CLOSED": 234,
       "REMOTE": 23
     },
     "by_region": {
-      "Other": 102,
-      "Middle Tennessee": 66,
+      "Other": 105,
+      "Middle Tennessee": 67,
       "West Tennessee": 55,
       "East Tennessee": 30
     },
@@ -538,6 +538,20 @@
       "source": "NewsChannel 5"
     },
     {
+      "name": "Metro Baptist-Goodlettsville",
+      "status": "CLOSED",
+      "status_detail": "MBP - Closed Monday and Tuesday",
+      "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Metro Christian Academy",
+      "status": "CLOSED",
+      "status_detail": "NO School Monday and Tuesday",
+      "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
       "name": "Metro Head Start",
       "status": "REMOTE",
       "status_detail": "Staff Remote",
@@ -923,6 +937,13 @@
       "source": "NewsChannel 5"
     },
     {
+      "name": "Warren Co., KY",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
+      "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
       "name": "Warren Co., TN",
       "status": "CLOSED",
       "status_detail": "Monday and Tuesday",
@@ -1109,6 +1130,13 @@
       "status": "CLOSED",
       "status_detail": "Closed Through Tuesday the 27th - Closed Monday and Tuesday",
       "region": "West Tennessee",
+      "source": "Action News 5"
+    },
+    {
+      "name": "Earle School District",
+      "status": "CLOSED",
+      "status_detail": "Closed Monday",
+      "region": "Other",
       "source": "Action News 5"
     },
     {
@@ -1457,7 +1485,7 @@
     {
       "name": "Tate County School District",
       "status": "CLOSED",
-      "status_detail": "Closed Monday 01/26",
+      "status_detail": "Closed Through Tuesday",
       "region": "West Tennessee",
       "source": "Action News 5"
     },
