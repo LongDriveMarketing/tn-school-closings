@@ -1,13 +1,13 @@
 {
   "meta": {
-    "generated_at": "2026-01-25T13:30:41.438347+00:00",
-    "total_closings": 148,
+    "generated_at": "2026-01-25T13:40:43.085545+00:00",
+    "total_closings": 149,
     "by_status": {
-      "CLOSED": 136,
+      "CLOSED": 137,
       "REMOTE": 12
     },
     "by_region": {
-      "Other": 30,
+      "Other": 31,
       "Middle Tennessee": 43,
       "West Tennessee": 50,
       "East Tennessee": 25
@@ -387,6 +387,13 @@
       "name": "Ridgetoppers",
       "status": "CLOSED",
       "status_detail": "CLOSED",
+      "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "River Christian Academy",
+      "status": "CLOSED",
+      "status_detail": "CLOSED; CLOSED",
       "region": "Other",
       "source": "NewsChannel 5"
     },
