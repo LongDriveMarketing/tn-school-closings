@@ -1,13 +1,13 @@
 {
   "meta": {
-    "generated_at": "2026-01-25T14:30:46.201097+00:00",
-    "total_closings": 156,
+    "generated_at": "2026-01-25T14:40:40.088485+00:00",
+    "total_closings": 160,
     "by_status": {
-      "CLOSED": 143,
-      "REMOTE": 13
+      "CLOSED": 146,
+      "REMOTE": 14
     },
     "by_region": {
-      "Other": 34,
+      "Other": 38,
       "Middle Tennessee": 46,
       "West Tennessee": 50,
       "East Tennessee": 26
@@ -314,6 +314,13 @@
       "source": "NewsChannel 5"
     },
     {
+      "name": "Metro Head Start",
+      "status": "REMOTE",
+      "status_detail": "Staff Remote",
+      "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
       "name": "Mt. Juliet Christ. Acad.",
       "status": "CLOSED",
       "status_detail": "Closed Monday & Tuesday, No Extended Care",
@@ -395,6 +402,13 @@
       "status": "CLOSED",
       "status_detail": "CLOSED-NO EXTENDED CARE; CLOSED-NO SNOW CARE",
       "region": "West Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Providence Academy",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
+      "region": "Other",
       "source": "NewsChannel 5"
     },
     {
@@ -846,6 +860,13 @@
       "source": "Action News 5"
     },
     {
+      "name": "Presbyterian Day School",
+      "status": "CLOSED",
+      "status_detail": "Closed Monday",
+      "region": "Other",
+      "source": "Action News 5"
+    },
+    {
       "name": "Rhodes College",
       "status": "CLOSED",
       "status_detail": "Closed Through 01/26",
@@ -870,6 +891,13 @@
       "name": "Southwest Tennessee Community College",
       "status": "REMOTE",
       "status_detail": "Virtual Learning Monday 01/26",
+      "region": "Other",
+      "source": "Action News 5"
+    },
+    {
+      "name": "St. Mary's Episcopal School",
+      "status": "CLOSED",
+      "status_detail": "Closed Monday",
       "region": "Other",
       "source": "Action News 5"
     },
