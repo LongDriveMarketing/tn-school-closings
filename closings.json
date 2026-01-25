@@ -1,13 +1,13 @@
 {
   "meta": {
-    "generated_at": "2026-01-25T04:20:45.379681+00:00",
-    "total_closings": 142,
+    "generated_at": "2026-01-25T04:30:46.496197+00:00",
+    "total_closings": 143,
     "by_status": {
       "CLOSED": 131,
-      "REMOTE": 11
+      "REMOTE": 12
     },
     "by_region": {
-      "Other": 27,
+      "Other": 28,
       "Middle Tennessee": 42,
       "West Tennessee": 49,
       "East Tennessee": 24
@@ -255,6 +255,13 @@
       "status": "CLOSED",
       "status_detail": "Closed Monday, Extended care closed",
       "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Lighthouse School",
+      "status": "REMOTE",
+      "status_detail": "Closed Monday (01/26) - Remote Learning Day",
+      "region": "Other",
       "source": "NewsChannel 5"
     },
     {
