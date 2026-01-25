@@ -1,13 +1,13 @@
 {
   "meta": {
-    "generated_at": "2026-01-25T13:50:42.645239+00:00",
-    "total_closings": 151,
+    "generated_at": "2026-01-25T14:00:41.130143+00:00",
+    "total_closings": 152,
     "by_status": {
-      "CLOSED": 139,
+      "CLOSED": 140,
       "REMOTE": 12
     },
     "by_region": {
-      "Other": 33,
+      "Other": 34,
       "Middle Tennessee": 43,
       "West Tennessee": 50,
       "East Tennessee": 25
@@ -136,6 +136,13 @@
       "status": "CLOSED",
       "status_detail": "Closed Monday",
       "region": "West Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Fannie Battle",
+      "status": "CLOSED",
+      "status_detail": "Closed Monday and Tuesday",
+      "region": "Other",
       "source": "NewsChannel 5"
     },
     {
