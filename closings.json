@@ -1,16 +1,16 @@
 {
   "meta": {
-    "generated_at": "2026-01-25T21:00:36.682543+00:00",
-    "total_closings": 313,
+    "generated_at": "2026-01-25T21:10:39.321104+00:00",
+    "total_closings": 315,
     "by_status": {
-      "CLOSED": 295,
+      "CLOSED": 297,
       "REMOTE": 18
     },
     "by_region": {
       "Other": 136,
       "Middle Tennessee": 76,
       "West Tennessee": 57,
-      "East Tennessee": 44
+      "East Tennessee": 46
     },
     "sources": [
       "NewsChannel 5",
@@ -1959,10 +1959,24 @@
       "source": "WVLT"
     },
     {
+      "name": "Hamblen County Schools",
+      "status": "CLOSED",
+      "status_detail": "Closed Monday",
+      "region": "East Tennessee",
+      "source": "WVLT"
+    },
+    {
       "name": "Harlan County, KY Schools",
       "status": "CLOSED",
       "status_detail": "Closed Monday - NIT Day",
       "region": "Other",
+      "source": "WVLT"
+    },
+    {
+      "name": "Hawkins County Schools",
+      "status": "CLOSED",
+      "status_detail": "Closed Monday",
+      "region": "East Tennessee",
       "source": "WVLT"
     },
     {
