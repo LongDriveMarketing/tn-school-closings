@@ -1,15 +1,15 @@
 {
   "meta": {
-    "generated_at": "2026-01-25T22:10:47.093020+00:00",
-    "total_closings": 328,
+    "generated_at": "2026-01-25T22:20:45.314651+00:00",
+    "total_closings": 329,
     "by_status": {
-      "CLOSED": 311,
+      "CLOSED": 312,
       "REMOTE": 17
     },
     "by_region": {
       "Other": 144,
       "Middle Tennessee": 78,
-      "West Tennessee": 58,
+      "West Tennessee": 59,
       "East Tennessee": 48
     },
     "sources": [
@@ -84,6 +84,13 @@
     },
     {
       "name": "Benton",
+      "status": "CLOSED",
+      "status_detail": "Closed Monday and Tuesday",
+      "region": "West Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Benton Hall",
       "status": "CLOSED",
       "status_detail": "Closed Monday and Tuesday",
       "region": "West Tennessee",
