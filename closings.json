@@ -1,14 +1,14 @@
 {
   "meta": {
-    "generated_at": "2026-01-25T15:10:43.012697+00:00",
-    "total_closings": 170,
+    "generated_at": "2026-01-25T15:20:41.748373+00:00",
+    "total_closings": 173,
     "by_status": {
-      "CLOSED": 152,
-      "REMOTE": 18
+      "CLOSED": 154,
+      "REMOTE": 19
     },
     "by_region": {
-      "Other": 41,
-      "Middle Tennessee": 52,
+      "Other": 42,
+      "Middle Tennessee": 54,
       "West Tennessee": 51,
       "East Tennessee": 26
     },
@@ -114,6 +114,13 @@
       "name": "Columbia State-Franklin",
       "status": "REMOTE",
       "status_detail": "Campus closed Monday. Virtual learning and work only.",
+      "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Columbia State-Lawrenceburg",
+      "status": "REMOTE",
+      "status_detail": "Campus closed Monday. Virtual learning and work.",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
@@ -363,6 +370,13 @@
       "source": "NewsChannel 5"
     },
     {
+      "name": "Nashville Christian School",
+      "status": "CLOSED",
+      "status_detail": "CLOSED; CLOSED",
+      "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
       "name": "Nashville State-Clarksville",
       "status": "REMOTE",
       "status_detail": "Virtual operations and classes on Jan. 26 & 27",
@@ -500,6 +514,13 @@
       "status": "CLOSED",
       "status_detail": "CLOSED; CLOSED",
       "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "St. Ann",
+      "status": "CLOSED",
+      "status_detail": "Closed Monday and Tuesday",
+      "region": "Other",
       "source": "NewsChannel 5"
     },
     {
