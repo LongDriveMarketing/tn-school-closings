@@ -1,13 +1,13 @@
 {
   "meta": {
-    "generated_at": "2026-01-25T00:40:45.458089+00:00",
-    "total_closings": 128,
+    "generated_at": "2026-01-25T00:50:45.564774+00:00",
+    "total_closings": 131,
     "by_status": {
-      "CLOSED": 117,
+      "CLOSED": 120,
       "REMOTE": 11
     },
     "by_region": {
-      "Other": 17,
+      "Other": 20,
       "Middle Tennessee": 42,
       "West Tennessee": 46,
       "East Tennessee": 23
@@ -125,6 +125,13 @@
       "source": "NewsChannel 5"
     },
     {
+      "name": "First Baptist-Joelton",
+      "status": "CLOSED",
+      "status_detail": "CLOSED Monday and Tuesday",
+      "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
       "name": "Franklin",
       "status": "CLOSED",
       "status_detail": "Closed Monday, 1/26/26",
@@ -227,6 +234,13 @@
       "status": "CLOSED",
       "status_detail": "CLOSED",
       "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Mt. Juliet Christ. Acad.",
+      "status": "CLOSED",
+      "status_detail": "CLOSED-NO EXTENDED CARE; Closed Monday 1/26/26 & Tuesday 1/27/26",
+      "region": "Other",
       "source": "NewsChannel 5"
     },
     {
@@ -486,6 +500,13 @@
       "status": "CLOSED",
       "status_detail": "Closed Monday 01/26",
       "region": "West Tennessee",
+      "source": "Action News 5"
+    },
+    {
+      "name": "DeSoto County Schools",
+      "status": "CLOSED",
+      "status_detail": "Closed Monday",
+      "region": "Other",
       "source": "Action News 5"
     },
     {
