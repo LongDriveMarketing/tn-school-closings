@@ -1,16 +1,16 @@
 {
   "meta": {
-    "generated_at": "2026-01-25T03:10:38.834681+00:00",
-    "total_closings": 140,
+    "generated_at": "2026-01-25T03:20:37.612615+00:00",
+    "total_closings": 141,
     "by_status": {
-      "CLOSED": 129,
+      "CLOSED": 130,
       "REMOTE": 11
     },
     "by_region": {
       "Other": 26,
       "Middle Tennessee": 42,
       "West Tennessee": 49,
-      "East Tennessee": 23
+      "East Tennessee": 24
     },
     "sources": [
       "NewsChannel 5",
@@ -87,6 +87,13 @@
       "status": "CLOSED",
       "status_detail": "Closed Monday & Tuesday",
       "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Covenant Academy-McMinnville",
+      "status": "CLOSED",
+      "status_detail": "Closed Monday and Tuesday",
+      "region": "East Tennessee",
       "source": "NewsChannel 5"
     },
     {
