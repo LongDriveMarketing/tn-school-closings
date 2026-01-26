@@ -1,17 +1,17 @@
 {
   "meta": {
-    "generated_at": "2026-01-26T17:50:40.603342+00:00",
-    "total_closings": 209,
+    "generated_at": "2026-01-26T17:56:22.601560+00:00",
+    "total_closings": 204,
     "by_status": {
-      "CLOSED": 195,
+      "CLOSED": 190,
       "REMOTE": 12,
       "DELAYED": 2
     },
     "by_region": {
-      "Other": 83,
-      "Middle Tennessee": 65,
-      "West Tennessee": 33,
-      "East Tennessee": 28
+      "Other": 79,
+      "Middle Tennessee": 64,
+      "West Tennessee": 32,
+      "East Tennessee": 29
     },
     "sources": [
       "NewsChannel 5",
@@ -525,13 +525,6 @@
       "source": "NewsChannel 5"
     },
     {
-      "name": "Learning Lab-Nashville",
-      "status": "CLOSED",
-      "status_detail": "CLOSED",
-      "region": "Middle Tennessee",
-      "source": "NewsChannel 5"
-    },
-    {
       "name": "Lebanon Spec. Sch. Dist.",
       "status": "CLOSED",
       "status_detail": "Closed Monday and Tuesday - No Extended Child Care",
@@ -564,13 +557,6 @@
       "status": "CLOSED",
       "status_detail": "CLOSED",
       "region": "Middle Tennessee",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "Lipscomb Academy",
-      "status": "CLOSED",
-      "status_detail": "CLOSED",
-      "region": "Other",
       "source": "NewsChannel 5"
     },
     {
@@ -640,13 +626,6 @@
       "name": "Metro Christian Academy",
       "status": "CLOSED",
       "status_detail": "NO School Monday and Tuesday",
-      "region": "Other",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "Middle Tenn. Christian",
-      "status": "CLOSED",
-      "status_detail": "CLOSED",
       "region": "Other",
       "source": "NewsChannel 5"
     },
@@ -728,13 +707,6 @@
       "source": "NewsChannel 5"
     },
     {
-      "name": "Pleasant View Christian",
-      "status": "CLOSED",
-      "status_detail": "CLOSED-NO DAY CARE",
-      "region": "Other",
-      "source": "NewsChannel 5"
-    },
-    {
       "name": "Pope Saint John Paul II",
       "status": "CLOSED",
       "status_detail": "Closed Monday and Tuesday",
@@ -745,20 +717,6 @@
       "name": "Possibility Place",
       "status": "CLOSED",
       "status_detail": "CLOSED - MONDAY & TUESDAY",
-      "region": "Other",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "Priest Lake Academy",
-      "status": "CLOSED",
-      "status_detail": "CLOSED-NO EXTENDED CARE; CLOSED-NO SNOW CARE",
-      "region": "West Tennessee",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "Providence Academy",
-      "status": "CLOSED",
-      "status_detail": "CLOSED",
       "region": "Other",
       "source": "NewsChannel 5"
     },
@@ -1368,6 +1326,13 @@
       "name": "Hamblen County Schools",
       "status": "CLOSED",
       "status_detail": "Closed Tuesday - No ESP",
+      "region": "East Tennessee",
+      "source": "WVLT"
+    },
+    {
+      "name": "Hancock County Schools",
+      "status": "CLOSED",
+      "status_detail": "Closed Tuesday",
       "region": "East Tennessee",
       "source": "WVLT"
     },
