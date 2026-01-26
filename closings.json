@@ -1,14 +1,14 @@
 {
   "meta": {
-    "generated_at": "2026-01-26T01:20:38.991033+00:00",
-    "total_closings": 344,
+    "generated_at": "2026-01-26T01:30:41.125755+00:00",
+    "total_closings": 346,
     "by_status": {
-      "CLOSED": 325,
+      "CLOSED": 327,
       "REMOTE": 19
     },
     "by_region": {
-      "Other": 155,
-      "Middle Tennessee": 79,
+      "Other": 156,
+      "Middle Tennessee": 80,
       "West Tennessee": 60,
       "East Tennessee": 50
     },
@@ -608,6 +608,13 @@
       "source": "NewsChannel 5"
     },
     {
+      "name": "Kuddles For Kids",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
+      "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
       "name": "Lancaster Academy",
       "status": "CLOSED",
       "status_detail": "Closed Monday",
@@ -675,6 +682,13 @@
       "status": "CLOSED",
       "status_detail": "Closed Monday (01/26) and Tuesday (01/27)",
       "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Lincoln",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
+      "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
     {
@@ -946,7 +960,7 @@
     {
       "name": "Pope Saint John Paul II",
       "status": "CLOSED",
-      "status_detail": "Monday and Tuesday",
+      "status_detail": "Closed Monday and Tuesday",
       "region": "Other",
       "source": "NewsChannel 5"
     },
