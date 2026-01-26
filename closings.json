@@ -1,14 +1,14 @@
 {
   "meta": {
-    "generated_at": "2026-01-26T13:20:41.856784+00:00",
-    "total_closings": 382,
+    "generated_at": "2026-01-26T13:30:42.731515+00:00",
+    "total_closings": 383,
     "by_status": {
-      "CLOSED": 361,
+      "CLOSED": 362,
       "REMOTE": 20,
       "DELAYED": 1
     },
     "by_region": {
-      "Other": 174,
+      "Other": 175,
       "Middle Tennessee": 89,
       "West Tennessee": 67,
       "East Tennessee": 52
@@ -2663,6 +2663,13 @@
       "name": "TN School for the Deaf",
       "status": "CLOSED",
       "status_detail": "Closed Monday 01/26",
+      "region": "Other",
+      "source": "WVLT"
+    },
+    {
+      "name": "TN School of Beauty",
+      "status": "CLOSED",
+      "status_detail": "Closed Monday",
       "region": "Other",
       "source": "WVLT"
     },
