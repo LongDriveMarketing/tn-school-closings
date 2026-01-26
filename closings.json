@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-01-26T14:40:45.028130+00:00",
+    "generated_at": "2026-01-26T14:50:41.315445+00:00",
     "total_closings": 384,
     "by_status": {
       "CLOSED": 363,
@@ -351,7 +351,7 @@
     {
       "name": "Davidson Co. Juvenile Court",
       "status": "CLOSED",
-      "status_detail": "Closed Monday",
+      "status_detail": "Closed Tuesday",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
@@ -1947,7 +1947,7 @@
     {
       "name": "Northpoint Christian School",
       "status": "CLOSED",
-      "status_detail": "Closed Monday",
+      "status_detail": "Closed Tuesday",
       "region": "Other",
       "source": "Action News 5"
     },
