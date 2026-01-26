@@ -1,17 +1,17 @@
 {
   "meta": {
-    "generated_at": "2026-01-26T20:10:42.448045+00:00",
-    "total_closings": 272,
+    "generated_at": "2026-01-26T20:20:38.813136+00:00",
+    "total_closings": 275,
     "by_status": {
-      "CLOSED": 250,
+      "CLOSED": 252,
       "REMOTE": 20,
-      "DELAYED": 2
+      "DELAYED": 3
     },
     "by_region": {
-      "Other": 104,
+      "Other": 105,
       "Middle Tennessee": 78,
       "West Tennessee": 53,
-      "East Tennessee": 37
+      "East Tennessee": 39
     },
     "sources": [
       "NewsChannel 5",
@@ -633,6 +633,13 @@
       "name": "Little Country Schoolhouse",
       "status": "CLOSED",
       "status_detail": "CLOSED",
+      "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Little Miracles",
+      "status": "DELAYED",
+      "status_detail": "Open 01/27. 2 hr opening delay",
       "region": "Other",
       "source": "NewsChannel 5"
     },
@@ -1771,6 +1778,13 @@
       "source": "WVLT"
     },
     {
+      "name": "Knoxville Catholic High",
+      "status": "CLOSED",
+      "status_detail": "Closed Tuesday 01/27",
+      "region": "East Tennessee",
+      "source": "WVLT"
+    },
+    {
       "name": "Knoxville Head Start Extended Day",
       "status": "CLOSED",
       "status_detail": "Closed Tuesday",
@@ -1781,6 +1795,13 @@
       "name": "Knoxville Montessori School",
       "status": "CLOSED",
       "status_detail": "Closed Monday",
+      "region": "East Tennessee",
+      "source": "WVLT"
+    },
+    {
+      "name": "Knoxville Preparatory School",
+      "status": "CLOSED",
+      "status_detail": "Closed Tuesday - Wed, Jan 28: 2-hour delay, KPS Busses will Run",
       "region": "East Tennessee",
       "source": "WVLT"
     },
