@@ -1,14 +1,14 @@
 {
   "meta": {
-    "generated_at": "2026-01-26T20:50:45.081466+00:00",
-    "total_closings": 289,
+    "generated_at": "2026-01-26T20:54:12.826899+00:00",
+    "total_closings": 290,
     "by_status": {
       "CLOSED": 266,
-      "REMOTE": 20,
+      "REMOTE": 21,
       "DELAYED": 3
     },
     "by_region": {
-      "Other": 113,
+      "Other": 114,
       "Middle Tennessee": 79,
       "West Tennessee": 56,
       "East Tennessee": 41
@@ -155,8 +155,8 @@
     },
     {
       "name": "Clarksville Christian",
-      "status": "CLOSED",
-      "status_detail": "Closed Monday and Tuesday",
+      "status": "REMOTE",
+      "status_detail": "Wednesday - Remote Learning",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
@@ -640,6 +640,13 @@
       "name": "Lipscomb Academy",
       "status": "CLOSED",
       "status_detail": "CLOSED",
+      "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Lipscomb University",
+      "status": "CLOSED",
+      "status_detail": "Classes canceled. Offices closed. University open for residential students & essential employees..",
       "region": "Other",
       "source": "NewsChannel 5"
     },
