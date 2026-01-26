@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-01-26T16:00:48.279083+00:00",
+    "generated_at": "2026-01-26T16:10:44.384331+00:00",
     "total_closings": 389,
     "by_status": {
       "CLOSED": 366,
@@ -254,7 +254,7 @@
     {
       "name": "Columbia Academy",
       "status": "CLOSED",
-      "status_detail": "Closed Monday 1/26",
+      "status_detail": "Closed Tuesday 1/27",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
