@@ -1,17 +1,17 @@
 {
   "meta": {
-    "generated_at": "2026-01-26T21:00:42.472597+00:00",
-    "total_closings": 292,
+    "generated_at": "2026-01-26T21:10:45.984636+00:00",
+    "total_closings": 293,
     "by_status": {
-      "CLOSED": 267,
-      "REMOTE": 22,
+      "CLOSED": 269,
+      "REMOTE": 21,
       "DELAYED": 3
     },
     "by_region": {
       "Other": 116,
-      "Middle Tennessee": 79,
-      "West Tennessee": 56,
-      "East Tennessee": 41
+      "Middle Tennessee": 78,
+      "West Tennessee": 57,
+      "East Tennessee": 42
     },
     "sources": [
       "NewsChannel 5",
@@ -46,13 +46,6 @@
       "status": "CLOSED",
       "status_detail": "CLOSED; Traditional Snow Day-Monday, NTI-Tuesday",
       "region": "Other",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "A.O. Smith",
-      "status": "CLOSED",
-      "status_detail": "Production Cancelled for both shifts on Monday",
-      "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
     {
@@ -1065,8 +1058,8 @@
     },
     {
       "name": "Tullahoma City Schools",
-      "status": "REMOTE",
-      "status_detail": "CLOSED - VIRTUAL/REMOTE LEARNING DAY",
+      "status": "CLOSED",
+      "status_detail": "Closed Tuesday",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
@@ -1459,6 +1452,13 @@
       "name": "Memphis Business Academy",
       "status": "CLOSED",
       "status_detail": "Closed Tuesday - After-school activities canceled",
+      "region": "West Tennessee",
+      "source": "Action News 5"
+    },
+    {
+      "name": "Memphis Electrical JATC",
+      "status": "CLOSED",
+      "status_detail": "Closed Tuesday - No evening classes",
       "region": "West Tennessee",
       "source": "Action News 5"
     },
@@ -1942,6 +1942,13 @@
       "name": "Loudon County Schools",
       "status": "CLOSED",
       "status_detail": "Closed Through 01/27",
+      "region": "East Tennessee",
+      "source": "WVLT"
+    },
+    {
+      "name": "Maryville Christian",
+      "status": "CLOSED",
+      "status_detail": "Closed Tuesday",
       "region": "East Tennessee",
       "source": "WVLT"
     },
