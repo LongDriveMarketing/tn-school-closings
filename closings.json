@@ -1,14 +1,14 @@
 {
   "meta": {
-    "generated_at": "2026-01-26T01:30:41.125755+00:00",
-    "total_closings": 346,
+    "generated_at": "2026-01-26T01:40:43.871504+00:00",
+    "total_closings": 347,
     "by_status": {
-      "CLOSED": 327,
+      "CLOSED": 328,
       "REMOTE": 19
     },
     "by_region": {
       "Other": 156,
-      "Middle Tennessee": 80,
+      "Middle Tennessee": 81,
       "West Tennessee": 60,
       "East Tennessee": 50
     },
@@ -822,6 +822,13 @@
       "status": "CLOSED",
       "status_detail": "CLOSED",
       "region": "East Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Moore",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
+      "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
     {
