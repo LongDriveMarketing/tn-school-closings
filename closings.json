@@ -1,17 +1,17 @@
 {
   "meta": {
-    "generated_at": "2026-01-26T19:00:40.820829+00:00",
-    "total_closings": 230,
+    "generated_at": "2026-01-26T19:04:34.249551+00:00",
+    "total_closings": 232,
     "by_status": {
-      "CLOSED": 215,
+      "CLOSED": 217,
       "REMOTE": 13,
       "DELAYED": 2
     },
     "by_region": {
       "Other": 87,
       "Middle Tennessee": 65,
-      "West Tennessee": 47,
-      "East Tennessee": 31
+      "West Tennessee": 48,
+      "East Tennessee": 32
     },
     "sources": [
       "NewsChannel 5",
@@ -1372,6 +1372,13 @@
       "source": "Action News 5"
     },
     {
+      "name": "Tipton-Rosemark Academy",
+      "status": "CLOSED",
+      "status_detail": "Closed Tuesday",
+      "region": "West Tennessee",
+      "source": "Action News 5"
+    },
+    {
       "name": "Tunica Academy",
       "status": "CLOSED",
       "status_detail": "Closed Through the 27th",
@@ -1506,6 +1513,13 @@
     },
     {
       "name": "Hancock County Schools",
+      "status": "CLOSED",
+      "status_detail": "Closed Tuesday",
+      "region": "East Tennessee",
+      "source": "WVLT"
+    },
+    {
+      "name": "Hawkins County Schools",
       "status": "CLOSED",
       "status_detail": "Closed Tuesday",
       "region": "East Tennessee",
