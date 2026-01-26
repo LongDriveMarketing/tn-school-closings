@@ -1,17 +1,17 @@
 {
   "meta": {
-    "generated_at": "2026-01-26T21:40:40.800631+00:00",
-    "total_closings": 307,
+    "generated_at": "2026-01-26T21:47:53.096037+00:00",
+    "total_closings": 309,
     "by_status": {
       "CLOSED": 278,
       "REMOTE": 25,
-      "DELAYED": 4
+      "DELAYED": 6
     },
     "by_region": {
-      "Other": 123,
+      "Other": 124,
       "Middle Tennessee": 82,
       "West Tennessee": 60,
-      "East Tennessee": 42
+      "East Tennessee": 43
     },
     "sources": [
       "NewsChannel 5",
@@ -1988,6 +1988,13 @@
       "source": "WVLT"
     },
     {
+      "name": "Knoxville Christian School",
+      "status": "DELAYED",
+      "status_detail": "Opening Late Tuesday 2 Hours",
+      "region": "East Tennessee",
+      "source": "WVLT"
+    },
+    {
       "name": "Knoxville Head Start Extended Day",
       "status": "CLOSED",
       "status_detail": "Closed Tuesday",
@@ -2146,6 +2153,13 @@
       "status": "CLOSED",
       "status_detail": "Closed Through the 27th",
       "region": "East Tennessee",
+      "source": "WVLT"
+    },
+    {
+      "name": "Tate's School",
+      "status": "DELAYED",
+      "status_detail": "Opening Late Tuesday 2 Hours",
+      "region": "Other",
       "source": "WVLT"
     },
     {
