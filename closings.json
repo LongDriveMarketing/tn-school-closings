@@ -1,11 +1,10 @@
 {
   "meta": {
-    "generated_at": "2026-01-26T14:30:38.481356+00:00",
+    "generated_at": "2026-01-26T14:40:45.028130+00:00",
     "total_closings": 384,
     "by_status": {
       "CLOSED": 363,
-      "REMOTE": 20,
-      "DELAYED": 1
+      "REMOTE": 21
     },
     "by_region": {
       "Other": 175,
@@ -2689,8 +2688,8 @@
     },
     {
       "name": "Tusculum University",
-      "status": "DELAYED",
-      "status_detail": "Opening Late 2 hours Monday",
+      "status": "REMOTE",
+      "status_detail": "Virtual Learning Monday - employees work remotely",
       "region": "Other",
       "source": "WVLT"
     },
