@@ -1,17 +1,17 @@
 {
   "meta": {
-    "generated_at": "2026-01-26T22:00:44.721495+00:00",
-    "total_closings": 317,
+    "generated_at": "2026-01-26T22:10:48.567734+00:00",
+    "total_closings": 319,
     "by_status": {
-      "CLOSED": 286,
+      "CLOSED": 287,
       "REMOTE": 25,
-      "DELAYED": 6
+      "DELAYED": 7
     },
     "by_region": {
-      "Other": 130,
+      "Other": 131,
       "Middle Tennessee": 82,
       "West Tennessee": 61,
-      "East Tennessee": 44
+      "East Tennessee": 45
     },
     "sources": [
       "NewsChannel 5",
@@ -1309,6 +1309,13 @@
       "source": "Action News 5"
     },
     {
+      "name": "Coahoma County School District",
+      "status": "CLOSED",
+      "status_detail": "Closed Through Friday the 30th - Instruction to continue virtually",
+      "region": "Other",
+      "source": "Action News 5"
+    },
+    {
       "name": "Collierville School District",
       "status": "CLOSED",
       "status_detail": "Closed Tuesday",
@@ -1950,6 +1957,13 @@
       "status": "CLOSED",
       "status_detail": "Closed Tuesday",
       "region": "Other",
+      "source": "WVLT"
+    },
+    {
+      "name": "Episcopal School of Knox",
+      "status": "DELAYED",
+      "status_detail": "Delayed Tuesday 2 Hours",
+      "region": "East Tennessee",
       "source": "WVLT"
     },
     {
