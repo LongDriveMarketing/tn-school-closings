@@ -1,15 +1,16 @@
 {
   "meta": {
-    "generated_at": "2026-01-26T22:50:42.258907+00:00",
-    "total_closings": 341,
+    "generated_at": "2026-01-26T23:00:40.403647+00:00",
+    "total_closings": 344,
     "by_status": {
       "CLOSED": 306,
       "REMOTE": 25,
-      "DELAYED": 10
+      "EARLY_DISMISSAL": 2,
+      "DELAYED": 11
     },
     "by_region": {
-      "Other": 145,
-      "Middle Tennessee": 85,
+      "Other": 147,
+      "Middle Tennessee": 86,
       "West Tennessee": 63,
       "East Tennessee": 48
     },
@@ -570,6 +571,20 @@
       "name": "Jackson",
       "status": "CLOSED",
       "status_detail": "CLOSED",
+      "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Jaymes Academy Clark",
+      "status": "EARLY_DISMISSAL",
+      "status_detail": "OPEN AT 9:00; CLOSING AT 4:30",
+      "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Jaymes Academy Old Nashville",
+      "status": "EARLY_DISMISSAL",
+      "status_detail": "OPEN AT 9:00; CLOSING AT 4:30",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
@@ -1157,7 +1172,7 @@
     {
       "name": "The Youth Academy",
       "status": "CLOSED",
-      "status_detail": "CLOSED; CLOSED",
+      "status_detail": "CLOSED",
       "region": "Other",
       "source": "NewsChannel 5"
     },
@@ -2030,6 +2045,13 @@
       "source": "WVLT"
     },
     {
+      "name": "Cedar Springs Weekday School",
+      "status": "CLOSED",
+      "status_detail": "Closed Tuesday",
+      "region": "Other",
+      "source": "WVLT"
+    },
+    {
       "name": "Chesterton Academy",
       "status": "CLOSED",
       "status_detail": "Closed Tuesday - No Teachers Report",
@@ -2296,6 +2318,13 @@
       "source": "WVLT"
     },
     {
+      "name": "Pellissippi St. Community College",
+      "status": "DELAYED",
+      "status_detail": "Delayed Tuesday 2 Hours",
+      "region": "Other",
+      "source": "WVLT"
+    },
+    {
       "name": "Pineville Independent Schools",
       "status": "CLOSED",
       "status_detail": "Closed Tuesday - NTI DAY 4",
@@ -2342,13 +2371,6 @@
       "status": "CLOSED",
       "status_detail": "Closed Through 01/27",
       "region": "East Tennessee",
-      "source": "WVLT"
-    },
-    {
-      "name": "Seymour Community Christian School",
-      "status": "CLOSED",
-      "status_detail": "Closed Monday",
-      "region": "Other",
       "source": "WVLT"
     },
     {
