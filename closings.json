@@ -1,17 +1,17 @@
 {
   "meta": {
-    "generated_at": "2026-01-26T20:20:38.813136+00:00",
-    "total_closings": 275,
+    "generated_at": "2026-01-26T20:30:42.104736+00:00",
+    "total_closings": 280,
     "by_status": {
-      "CLOSED": 252,
+      "CLOSED": 257,
       "REMOTE": 20,
       "DELAYED": 3
     },
     "by_region": {
-      "Other": 105,
+      "Other": 107,
       "Middle Tennessee": 78,
-      "West Tennessee": 53,
-      "East Tennessee": 39
+      "West Tennessee": 54,
+      "East Tennessee": 41
     },
     "sources": [
       "NewsChannel 5",
@@ -1659,10 +1659,31 @@
       "source": "WVLT"
     },
     {
+      "name": "Boys & Girls Club of Campbell County",
+      "status": "CLOSED",
+      "status_detail": "Closed Tuesday",
+      "region": "East Tennessee",
+      "source": "WVLT"
+    },
+    {
+      "name": "Boys & Girls Clubs of Claiborne County",
+      "status": "CLOSED",
+      "status_detail": "Closed Tuesday",
+      "region": "East Tennessee",
+      "source": "WVLT"
+    },
+    {
       "name": "Campbell County Schools",
       "status": "CLOSED",
       "status_detail": "Closed Through 01/27",
       "region": "East Tennessee",
+      "source": "WVLT"
+    },
+    {
+      "name": "Chesterton Academy",
+      "status": "CLOSED",
+      "status_detail": "Closed Tuesday - No Teachers Report",
+      "region": "West Tennessee",
       "source": "WVLT"
     },
     {
@@ -1691,6 +1712,13 @@
       "status": "CLOSED",
       "status_detail": "Closed Through 01/27",
       "region": "East Tennessee",
+      "source": "WVLT"
+    },
+    {
+      "name": "Concord Christian School",
+      "status": "CLOSED",
+      "status_detail": "Closed Tuesday",
+      "region": "Other",
       "source": "WVLT"
     },
     {
@@ -1894,6 +1922,13 @@
       "status": "CLOSED",
       "status_detail": "Closed Through 01/27",
       "region": "East Tennessee",
+      "source": "WVLT"
+    },
+    {
+      "name": "Rogersville Schools",
+      "status": "CLOSED",
+      "status_detail": "Closed Tuesday",
+      "region": "Other",
       "source": "WVLT"
     },
     {
