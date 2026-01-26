@@ -1,17 +1,17 @@
 {
   "meta": {
-    "generated_at": "2026-01-26T22:10:48.567734+00:00",
-    "total_closings": 319,
+    "generated_at": "2026-01-26T22:20:42.737604+00:00",
+    "total_closings": 332,
     "by_status": {
-      "CLOSED": 287,
+      "CLOSED": 298,
       "REMOTE": 25,
-      "DELAYED": 7
+      "DELAYED": 9
     },
     "by_region": {
-      "Other": 131,
-      "Middle Tennessee": 82,
+      "Other": 142,
+      "Middle Tennessee": 83,
       "West Tennessee": 61,
-      "East Tennessee": 45
+      "East Tennessee": 46
     },
     "sources": [
       "NewsChannel 5",
@@ -53,6 +53,13 @@
       "status": "CLOSED",
       "status_detail": "CLOSED",
       "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "A.O. Smith",
+      "status": "CLOSED",
+      "status_detail": "Production Cancelled for both shifts on Tuesday",
+      "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
     {
@@ -567,9 +574,23 @@
       "source": "NewsChannel 5"
     },
     {
+      "name": "Kiddie College Inc.",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
+      "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
       "name": "King's Academy",
       "status": "CLOSED",
       "status_detail": "CLOSED TUESDAY, JANUARY 27",
+      "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Kuddles For Kids",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
       "region": "Other",
       "source": "NewsChannel 5"
     },
@@ -742,6 +763,20 @@
       "source": "NewsChannel 5"
     },
     {
+      "name": "Metro Head Start",
+      "status": "CLOSED",
+      "status_detail": "CLOSED-NO MAC",
+      "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Middle Tenn. Christian",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
+      "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
       "name": "Middle Tenn. St. Univ.",
       "status": "REMOTE",
       "status_detail": "Remote operations Monday-Tuesday, Jan. 26-27",
@@ -896,6 +931,13 @@
       "source": "NewsChannel 5"
     },
     {
+      "name": "Portland Learning Center",
+      "status": "CLOSED",
+      "status_detail": "CLOSED; CLOSED",
+      "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
       "name": "Possibility Place",
       "status": "CLOSED",
       "status_detail": "CLOSED - MONDAY & TUESDAY",
@@ -921,6 +963,13 @@
       "status": "CLOSED",
       "status_detail": "Closed Mon & Tues",
       "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Rhythm & Rhymes",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
+      "region": "Other",
       "source": "NewsChannel 5"
     },
     {
@@ -1074,6 +1123,13 @@
       "name": "The Red Barn",
       "status": "CLOSED",
       "status_detail": "CLOSED",
+      "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "The Youth Academy",
+      "status": "CLOSED",
+      "status_detail": "CLOSED; CLOSED",
       "region": "Other",
       "source": "NewsChannel 5"
     },
@@ -1305,6 +1361,13 @@
       "name": "Christian Brothers University",
       "status": "REMOTE",
       "status_detail": "Virtual Learning Through Wednesday",
+      "region": "Other",
+      "source": "Action News 5"
+    },
+    {
+      "name": "Clarksdale Municipal School District",
+      "status": "CLOSED",
+      "status_detail": "Closed Through Tuesday the 27th - Instruction to continue virtually",
       "region": "Other",
       "source": "Action News 5"
     },
@@ -1855,10 +1918,24 @@
       "source": "Action News 5"
     },
     {
+      "name": "Alcoa Schools",
+      "status": "CLOSED",
+      "status_detail": "Closed Tuesday",
+      "region": "Other",
+      "source": "WVLT"
+    },
+    {
       "name": "Anderson County Schools",
       "status": "CLOSED",
       "status_detail": "Closed Through 01/27",
       "region": "East Tennessee",
+      "source": "WVLT"
+    },
+    {
+      "name": "Annoor Academy",
+      "status": "DELAYED",
+      "status_detail": "Opening Late Tuesday 2 Hours",
+      "region": "Other",
       "source": "WVLT"
     },
     {
@@ -2205,9 +2282,23 @@
       "source": "WVLT"
     },
     {
+      "name": "Seymour Community Christian School",
+      "status": "CLOSED",
+      "status_detail": "Closed Monday",
+      "region": "Other",
+      "source": "WVLT"
+    },
+    {
       "name": "St. Joseph School-Knox",
       "status": "CLOSED",
       "status_detail": "Closed Tuesday",
+      "region": "East Tennessee",
+      "source": "WVLT"
+    },
+    {
+      "name": "St. Mary's-Oak Ridge",
+      "status": "DELAYED",
+      "status_detail": "Opening Late Tuesday 1 Hour",
       "region": "East Tennessee",
       "source": "WVLT"
     },
