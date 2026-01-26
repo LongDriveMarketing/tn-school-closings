@@ -1,14 +1,14 @@
 {
   "meta": {
-    "generated_at": "2026-01-26T17:56:22.601560+00:00",
-    "total_closings": 204,
+    "generated_at": "2026-01-26T18:00:45.896306+00:00",
+    "total_closings": 203,
     "by_status": {
-      "CLOSED": 190,
+      "CLOSED": 189,
       "REMOTE": 12,
       "DELAYED": 2
     },
     "by_region": {
-      "Other": 79,
+      "Other": 78,
       "Middle Tennessee": 64,
       "West Tennessee": 32,
       "East Tennessee": 29
@@ -578,13 +578,6 @@
       "status": "CLOSED",
       "status_detail": "Closed Monday & Tuesday - No Childcare Available",
       "region": "Middle Tennessee",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "Mama Lere Hearing School",
-      "status": "CLOSED",
-      "status_detail": "educational and childcare programs",
-      "region": "Other",
       "source": "NewsChannel 5"
     },
     {
