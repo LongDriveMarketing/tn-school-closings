@@ -1,17 +1,17 @@
 {
   "meta": {
-    "generated_at": "2026-01-26T22:30:52.901815+00:00",
-    "total_closings": 337,
+    "generated_at": "2026-01-26T22:40:51.421292+00:00",
+    "total_closings": 341,
     "by_status": {
-      "CLOSED": 302,
+      "CLOSED": 306,
       "REMOTE": 25,
       "DELAYED": 10
     },
     "by_region": {
-      "Other": 144,
-      "Middle Tennessee": 83,
+      "Other": 145,
+      "Middle Tennessee": 85,
       "West Tennessee": 63,
-      "East Tennessee": 47
+      "East Tennessee": 48
     },
     "sources": [
       "NewsChannel 5",
@@ -753,6 +753,13 @@
       "status": "CLOSED",
       "status_detail": "CLOSED",
       "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Meharry Medical College",
+      "status": "CLOSED",
+      "status_detail": "Closed Tuesday. Campus medical, dental clinics closed",
+      "region": "Other",
       "source": "NewsChannel 5"
     },
     {
@@ -1666,6 +1673,20 @@
       "source": "Action News 5"
     },
     {
+      "name": "Marshall Academy",
+      "status": "CLOSED",
+      "status_detail": "Closed Through Tuesday the 27th",
+      "region": "Middle Tennessee",
+      "source": "Action News 5"
+    },
+    {
+      "name": "Marshall County School District",
+      "status": "CLOSED",
+      "status_detail": "Closed Through Tuesday the 27th",
+      "region": "Middle Tennessee",
+      "source": "Action News 5"
+    },
+    {
       "name": "Memphis Business Academy",
       "status": "CLOSED",
       "status_detail": "Closed Tuesday - After-school activities canceled",
@@ -2019,6 +2040,13 @@
       "name": "Claiborne County Schools",
       "status": "CLOSED",
       "status_detail": "Closed Through 01/27",
+      "region": "East Tennessee",
+      "source": "WVLT"
+    },
+    {
+      "name": "Clayton-Bradley Academy",
+      "status": "CLOSED",
+      "status_detail": "Closed Tuesday",
       "region": "East Tennessee",
       "source": "WVLT"
     },
