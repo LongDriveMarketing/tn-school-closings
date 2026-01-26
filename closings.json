@@ -1,17 +1,17 @@
 {
   "meta": {
-    "generated_at": "2026-01-26T18:30:47.407854+00:00",
-    "total_closings": 224,
+    "generated_at": "2026-01-26T18:40:44.267448+00:00",
+    "total_closings": 227,
     "by_status": {
-      "CLOSED": 209,
+      "CLOSED": 212,
       "REMOTE": 13,
       "DELAYED": 2
     },
     "by_region": {
-      "Other": 84,
+      "Other": 86,
       "Middle Tennessee": 64,
       "West Tennessee": 46,
-      "East Tennessee": 30
+      "East Tennessee": 31
     },
     "sources": [
       "NewsChannel 5",
@@ -142,7 +142,7 @@
     {
       "name": "Clarksville-Montgomery Co. Schools",
       "status": "CLOSED",
-      "status_detail": "through Tuesday",
+      "status_detail": "through Wednesday",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
@@ -777,6 +777,13 @@
       "source": "NewsChannel 5"
     },
     {
+      "name": "St. Bernard Academy",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
+      "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
       "name": "St. Cecilia Academy",
       "status": "CLOSED",
       "status_detail": "Closed Monday and Tuesday",
@@ -1169,6 +1176,13 @@
       "source": "Action News 5"
     },
     {
+      "name": "Hutchison School",
+      "status": "CLOSED",
+      "status_detail": "Closed Tuesday - Remote Learning",
+      "region": "Other",
+      "source": "Action News 5"
+    },
+    {
       "name": "Immanuel Lutheran School",
       "status": "CLOSED",
       "status_detail": "Closed Tuesday",
@@ -1332,7 +1346,7 @@
     {
       "name": "Tate County School District",
       "status": "CLOSED",
-      "status_detail": "Closed Through Tuesday",
+      "status_detail": "Closed Through Wednesday",
       "region": "West Tennessee",
       "source": "Action News 5"
     },
@@ -1396,6 +1410,13 @@
       "name": "Bell County",
       "status": "CLOSED",
       "status_detail": "Closed Tuesday - NIT Day",
+      "region": "East Tennessee",
+      "source": "WVLT"
+    },
+    {
+      "name": "Blount County Schools",
+      "status": "CLOSED",
+      "status_detail": "Closed Tuesday",
       "region": "East Tennessee",
       "source": "WVLT"
     },
