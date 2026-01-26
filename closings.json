@@ -1,17 +1,17 @@
 {
   "meta": {
-    "generated_at": "2026-01-26T21:47:53.096037+00:00",
-    "total_closings": 309,
+    "generated_at": "2026-01-26T21:50:40.300154+00:00",
+    "total_closings": 312,
     "by_status": {
-      "CLOSED": 278,
+      "CLOSED": 281,
       "REMOTE": 25,
       "DELAYED": 6
     },
     "by_region": {
-      "Other": 124,
+      "Other": 126,
       "Middle Tennessee": 82,
       "West Tennessee": 60,
-      "East Tennessee": 43
+      "East Tennessee": 44
     },
     "sources": [
       "NewsChannel 5",
@@ -45,6 +45,13 @@
       "name": "Allen",
       "status": "CLOSED",
       "status_detail": "CLOSED; Traditional Snow Day-Monday, NTI-Tuesday",
+      "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Angels Watching Over Me",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
       "region": "Other",
       "source": "NewsChannel 5"
     },
@@ -246,6 +253,13 @@
     },
     {
       "name": "Cumberland Co., KY",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
+      "region": "East Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Cumberland Co., TN",
       "status": "CLOSED",
       "status_detail": "CLOSED",
       "region": "East Tennessee",
@@ -527,7 +541,7 @@
     {
       "name": "Humphreys",
       "status": "CLOSED",
-      "status_detail": "Closed Monday and Tuesday",
+      "status_detail": "Closed through Friday 1/30",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
@@ -919,8 +933,15 @@
     {
       "name": "Rutherford",
       "status": "CLOSED",
-      "status_detail": "Closed Monday & Tuesday",
+      "status_detail": "Closed Tuesday 1/27/26 & Wed 1/28/26",
       "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "SAE Institute",
+      "status": "CLOSED",
+      "status_detail": "Closed Tuesday-No Classes",
+      "region": "Other",
       "source": "NewsChannel 5"
     },
     {
