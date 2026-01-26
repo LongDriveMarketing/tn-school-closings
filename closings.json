@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-01-26T13:40:42.168280+00:00",
+    "generated_at": "2026-01-26T13:50:42.334650+00:00",
     "total_closings": 383,
     "by_status": {
       "CLOSED": 362,
@@ -1710,7 +1710,7 @@
     {
       "name": "Fayette Academy",
       "status": "CLOSED",
-      "status_detail": "Closed Monday",
+      "status_detail": "Closed Tuesday",
       "region": "West Tennessee",
       "source": "Action News 5"
     },
