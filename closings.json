@@ -1,15 +1,15 @@
 {
   "meta": {
-    "generated_at": "2026-01-26T19:40:42.120712+00:00",
-    "total_closings": 256,
+    "generated_at": "2026-01-26T19:50:45.083442+00:00",
+    "total_closings": 260,
     "by_status": {
       "CLOSED": 239,
-      "REMOTE": 15,
+      "REMOTE": 19,
       "DELAYED": 2
     },
     "by_region": {
       "Other": 96,
-      "Middle Tennessee": 72,
+      "Middle Tennessee": 76,
       "West Tennessee": 52,
       "East Tennessee": 36
     },
@@ -189,7 +189,35 @@
       "source": "NewsChannel 5"
     },
     {
+      "name": "Columbia State-Clifton",
+      "status": "REMOTE",
+      "status_detail": "Campus closed Tuesday. Virtual classes and work only.",
+      "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
       "name": "Columbia State-Columbia",
+      "status": "REMOTE",
+      "status_detail": "Campus closed Tuesday. Virtual classes and work only.",
+      "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Columbia State-Franklin",
+      "status": "REMOTE",
+      "status_detail": "Campus closed Tuesday. Virtual classes and work only.",
+      "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Columbia State-Lawrenceburg",
+      "status": "REMOTE",
+      "status_detail": "Campus closed Tuesday. Virtual classes and work only.",
+      "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Columbia State-Lewisburg",
       "status": "REMOTE",
       "status_detail": "Campus closed Tuesday. Virtual classes and work only.",
       "region": "Middle Tennessee",
