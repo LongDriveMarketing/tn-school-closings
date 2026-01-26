@@ -1,16 +1,16 @@
 {
   "meta": {
-    "generated_at": "2026-01-26T18:50:42.273895+00:00",
-    "total_closings": 228,
+    "generated_at": "2026-01-26T19:00:40.820829+00:00",
+    "total_closings": 230,
     "by_status": {
-      "CLOSED": 213,
+      "CLOSED": 215,
       "REMOTE": 13,
       "DELAYED": 2
     },
     "by_region": {
-      "Other": 86,
+      "Other": 87,
       "Middle Tennessee": 65,
-      "West Tennessee": 46,
+      "West Tennessee": 47,
       "East Tennessee": 31
     },
     "sources": [
@@ -31,6 +31,13 @@
       "name": "Aaron Academy",
       "status": "CLOSED",
       "status_detail": "Closed Monday and Tuesday",
+      "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Advanced Therapy Solutions",
+      "status": "CLOSED",
+      "status_detail": "Closed Tuesday, 1/27",
       "region": "Other",
       "source": "NewsChannel 5"
     },
@@ -1193,6 +1200,13 @@
       "name": "Immanuel Lutheran School",
       "status": "CLOSED",
       "status_detail": "Closed Tuesday",
+      "region": "West Tennessee",
+      "source": "Action News 5"
+    },
+    {
+      "name": "KIPP Memphis Public Schools",
+      "status": "CLOSED",
+      "status_detail": "Closed Tuesday 01/27",
       "region": "West Tennessee",
       "source": "Action News 5"
     },
