@@ -1,15 +1,15 @@
 {
   "meta": {
-    "generated_at": "2026-01-26T01:40:43.871504+00:00",
-    "total_closings": 347,
+    "generated_at": "2026-01-26T01:50:40.790994+00:00",
+    "total_closings": 356,
     "by_status": {
-      "CLOSED": 328,
+      "CLOSED": 337,
       "REMOTE": 19
     },
     "by_region": {
-      "Other": 156,
-      "Middle Tennessee": 81,
-      "West Tennessee": 60,
+      "Other": 157,
+      "Middle Tennessee": 85,
+      "West Tennessee": 64,
       "East Tennessee": 50
     },
     "sources": [
@@ -101,6 +101,13 @@
       "status": "CLOSED",
       "status_detail": "CLOSED",
       "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Bethlehem Ctrs of Nashville",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
+      "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
     {
@@ -328,6 +335,13 @@
       "source": "NewsChannel 5"
     },
     {
+      "name": "Decatur",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
+      "region": "West Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
       "name": "DeKalb",
       "status": "CLOSED",
       "status_detail": "CLOSED",
@@ -339,6 +353,13 @@
       "status": "CLOSED",
       "status_detail": "Monday and Tuesday",
       "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Dodson Chapel Daycare",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
+      "region": "Other",
       "source": "NewsChannel 5"
     },
     {
@@ -503,10 +524,24 @@
       "source": "NewsChannel 5"
     },
     {
+      "name": "Hardin",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
+      "region": "West Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
       "name": "Hart to Heart",
       "status": "CLOSED",
       "status_detail": "closed Mon. 1/26 and Tues. 1/27, 2026",
       "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Henry",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
+      "region": "West Tennessee",
       "source": "NewsChannel 5"
     },
     {
@@ -909,6 +944,13 @@
       "source": "NewsChannel 5"
     },
     {
+      "name": "New Hope-Franklin",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
+      "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
       "name": "New Horizons",
       "status": "CLOSED",
       "status_detail": "CLOSED",
@@ -948,6 +990,13 @@
       "status": "CLOSED",
       "status_detail": "Closed through Tuesday",
       "region": "West Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Perry",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
+      "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
     {
@@ -1095,6 +1144,13 @@
       "status": "CLOSED",
       "status_detail": "CLOSED MONDAY & TUESDAY",
       "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "St. Henry School",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
+      "region": "West Tennessee",
       "source": "NewsChannel 5"
     },
     {
@@ -1304,6 +1360,13 @@
       "name": "Warren Co., TN",
       "status": "CLOSED",
       "status_detail": "Monday and Tuesday",
+      "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Wayne",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
