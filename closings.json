@@ -1,15 +1,15 @@
 {
   "meta": {
-    "generated_at": "2026-01-26T19:50:45.083442+00:00",
-    "total_closings": 260,
+    "generated_at": "2026-01-26T20:00:42.975455+00:00",
+    "total_closings": 266,
     "by_status": {
-      "CLOSED": 239,
-      "REMOTE": 19,
+      "CLOSED": 244,
+      "REMOTE": 20,
       "DELAYED": 2
     },
     "by_region": {
-      "Other": 96,
-      "Middle Tennessee": 76,
+      "Other": 101,
+      "Middle Tennessee": 77,
       "West Tennessee": 52,
       "East Tennessee": 36
     },
@@ -483,6 +483,13 @@
       "source": "NewsChannel 5"
     },
     {
+      "name": "Heritage Acad./Hopkinsville",
+      "status": "CLOSED",
+      "status_detail": "Closed Tuesday, January 27 and Wednesday, January 28",
+      "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
       "name": "Hickman",
       "status": "CLOSED",
       "status_detail": "CLOSED",
@@ -767,6 +774,13 @@
       "status": "CLOSED",
       "status_detail": "CLOSED",
       "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Nossi College of Art & Design",
+      "status": "REMOTE",
+      "status_detail": "CLOSED - VIRTUAL/REMOTE LEARNING DAY",
+      "region": "Other",
       "source": "NewsChannel 5"
     },
     {
@@ -1162,6 +1176,13 @@
       "source": "Action News 5"
     },
     {
+      "name": "Creative Life Preparatory School",
+      "status": "CLOSED",
+      "status_detail": "Closed Tuesday - Creative Life Prep Afterschool/ CLECT Daycare",
+      "region": "Other",
+      "source": "Action News 5"
+    },
+    {
       "name": "Cross Creek Christian Academy",
       "status": "CLOSED",
       "status_detail": "Closed Tuesday",
@@ -1341,6 +1362,13 @@
       "status": "CLOSED",
       "status_detail": "Closed Tuesday",
       "region": "West Tennessee",
+      "source": "Action News 5"
+    },
+    {
+      "name": "Maria Montessori School",
+      "status": "CLOSED",
+      "status_detail": "Closed Tuesday",
+      "region": "Other",
       "source": "Action News 5"
     },
     {
@@ -1558,6 +1586,13 @@
       "status": "CLOSED",
       "status_detail": "Closed Monday",
       "region": "West Tennessee",
+      "source": "Action News 5"
+    },
+    {
+      "name": "William R. Moore College of Technology",
+      "status": "CLOSED",
+      "status_detail": "Closed Tuesday",
+      "region": "Middle Tennessee",
       "source": "Action News 5"
     },
     {
@@ -1795,6 +1830,13 @@
       "name": "Oneida Special School District",
       "status": "CLOSED",
       "status_detail": "Closed Through 01/27",
+      "region": "Other",
+      "source": "WVLT"
+    },
+    {
+      "name": "Pineville Independent Schools",
+      "status": "CLOSED",
+      "status_detail": "Closed Tuesday - NTI DAY 4",
       "region": "Other",
       "source": "WVLT"
     },
