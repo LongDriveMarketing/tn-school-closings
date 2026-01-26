@@ -1,17 +1,17 @@
 {
   "meta": {
-    "generated_at": "2026-01-26T21:10:45.984636+00:00",
-    "total_closings": 293,
+    "generated_at": "2026-01-26T21:20:46.872472+00:00",
+    "total_closings": 306,
     "by_status": {
-      "CLOSED": 269,
-      "REMOTE": 21,
+      "CLOSED": 278,
+      "REMOTE": 25,
       "DELAYED": 3
     },
     "by_region": {
-      "Other": 116,
-      "Middle Tennessee": 78,
-      "West Tennessee": 57,
-      "East Tennessee": 42
+      "Other": 122,
+      "Middle Tennessee": 82,
+      "West Tennessee": 59,
+      "East Tennessee": 43
     },
     "sources": [
       "NewsChannel 5",
@@ -826,6 +826,13 @@
       "source": "NewsChannel 5"
     },
     {
+      "name": "OC- West End Preschool",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
+      "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
       "name": "Overbrook School",
       "status": "CLOSED",
       "status_detail": "CLOSED-NO MAC; Closed Monday and Tuesday",
@@ -1029,10 +1036,24 @@
       "source": "NewsChannel 5"
     },
     {
+      "name": "The Red Barn",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
+      "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
       "name": "Todd",
       "status": "CLOSED",
       "status_detail": "CLOSED",
       "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Trevecca Nazarene University",
+      "status": "CLOSED",
+      "status_detail": "Campus closed Tuesday",
+      "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
     {
@@ -1067,6 +1088,41 @@
       "name": "Van Buren",
       "status": "CLOSED",
       "status_detail": "CLOSED through Tuesday",
+      "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Victory Baptist-Shelbyville",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
+      "region": "West Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Vol State-Cookeville",
+      "status": "REMOTE",
+      "status_detail": "CLOSED; Closed Tuesday 1/27, Open remotely 1/28",
+      "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Vol State-Gallatin",
+      "status": "REMOTE",
+      "status_detail": "Closed Tuesday 1/27, Open remotely 1/28",
+      "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Vol State-Livingston",
+      "status": "REMOTE",
+      "status_detail": "CLOSED; Closed Tuesday 1/27, Open remotely Wed. 1/28",
+      "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Vol State-Springfield",
+      "status": "REMOTE",
+      "status_detail": "Closed Tuesday 1/27, Open remotely Wed. 1/28",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
@@ -1240,6 +1296,13 @@
     },
     {
       "name": "Cross Creek Christian Academy",
+      "status": "CLOSED",
+      "status_detail": "Closed Tuesday",
+      "region": "Other",
+      "source": "Action News 5"
+    },
+    {
+      "name": "Delta Technical College",
       "status": "CLOSED",
       "status_detail": "Closed Tuesday",
       "region": "Other",
@@ -1466,6 +1529,13 @@
       "name": "Memphis Oral School for the Deaf",
       "status": "CLOSED",
       "status_detail": "Closed Monday",
+      "region": "West Tennessee",
+      "source": "Action News 5"
+    },
+    {
+      "name": "Memphis Shelby County Schools",
+      "status": "CLOSED",
+      "status_detail": "Closed Through Tuesday the 27th - After-school activities also canceled",
       "region": "West Tennessee",
       "source": "Action News 5"
     },
@@ -1750,6 +1820,13 @@
       "source": "WVLT"
     },
     {
+      "name": "CAK",
+      "status": "CLOSED",
+      "status_detail": "Closed Tuesday",
+      "region": "Other",
+      "source": "WVLT"
+    },
+    {
       "name": "Campbell County Schools",
       "status": "CLOSED",
       "status_detail": "Closed Through 01/27",
@@ -1800,6 +1877,13 @@
     },
     {
       "name": "Crossroads Christian Academy - Lenoir City",
+      "status": "CLOSED",
+      "status_detail": "Closed Tuesday",
+      "region": "Other",
+      "source": "WVLT"
+    },
+    {
+      "name": "Emerald Academy",
       "status": "CLOSED",
       "status_detail": "Closed Tuesday",
       "region": "Other",
@@ -2005,6 +2089,13 @@
       "name": "Roane County Schools",
       "status": "CLOSED",
       "status_detail": "Closed Through 01/27",
+      "region": "East Tennessee",
+      "source": "WVLT"
+    },
+    {
+      "name": "Roane State - All Campuses",
+      "status": "CLOSED",
+      "status_detail": "Opening Late Tuesday 11:00 AM - Local Time",
       "region": "East Tennessee",
       "source": "WVLT"
     },
