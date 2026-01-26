@@ -1,17 +1,17 @@
 {
   "meta": {
-    "generated_at": "2026-01-26T19:20:41.361969+00:00",
-    "total_closings": 241,
+    "generated_at": "2026-01-26T19:30:51.378897+00:00",
+    "total_closings": 249,
     "by_status": {
-      "CLOSED": 226,
-      "REMOTE": 13,
+      "CLOSED": 233,
+      "REMOTE": 14,
       "DELAYED": 2
     },
     "by_region": {
-      "Other": 91,
-      "Middle Tennessee": 67,
+      "Other": 94,
+      "Middle Tennessee": 71,
       "West Tennessee": 51,
-      "East Tennessee": 32
+      "East Tennessee": 33
     },
     "sources": [
       "NewsChannel 5",
@@ -81,6 +81,13 @@
       "status": "CLOSED",
       "status_detail": "Closed through Wednesday, January 28th",
       "region": "West Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Bethel Baptist Pre-School",
+      "status": "CLOSED",
+      "status_detail": "Closed - Tuesday (1/27)",
+      "region": "Other",
       "source": "NewsChannel 5"
     },
     {
@@ -567,6 +574,13 @@
       "source": "NewsChannel 5"
     },
     {
+      "name": "Little Country Schoolhouse",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
+      "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
       "name": "Logan",
       "status": "CLOSED",
       "status_detail": "CLOSED",
@@ -669,6 +683,34 @@
       "status": "CLOSED",
       "status_detail": "CLOSED - NTI DAY #2; CLOSED - NTI DAY #2",
       "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Nashville State-Clarksville",
+      "status": "CLOSED",
+      "status_detail": "CLOSED; Closed on January 27",
+      "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Nashville State-Dickson",
+      "status": "CLOSED",
+      "status_detail": "CLOSED; Closed on January 27",
+      "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Nashville State-Humphreys Co.",
+      "status": "CLOSED",
+      "status_detail": "CLOSED; Closed on January 27",
+      "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Nashville State-North Davidson",
+      "status": "CLOSED",
+      "status_detail": "CLOSED; Closed on January 27",
+      "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
     {
@@ -1386,6 +1428,13 @@
       "source": "Action News 5"
     },
     {
+      "name": "St. Georges Independent School",
+      "status": "CLOSED",
+      "status_detail": "Closed Tuesday - All after school activities/games are canceled.",
+      "region": "Other",
+      "source": "Action News 5"
+    },
+    {
       "name": "St. Mary's Episcopal School",
       "status": "CLOSED",
       "status_detail": "Closed Tuesday",
@@ -1528,7 +1577,7 @@
     {
       "name": "Crossroads Christian Academy - Lenoir City",
       "status": "CLOSED",
-      "status_detail": "Closed Monday",
+      "status_detail": "Closed Tuesday",
       "region": "Other",
       "source": "WVLT"
     },
@@ -1620,6 +1669,13 @@
       "name": "Loudon County Schools",
       "status": "CLOSED",
       "status_detail": "Closed Through 01/27",
+      "region": "East Tennessee",
+      "source": "WVLT"
+    },
+    {
+      "name": "Maryville College",
+      "status": "REMOTE",
+      "status_detail": "Virtual Learning Tuesday",
       "region": "East Tennessee",
       "source": "WVLT"
     },
