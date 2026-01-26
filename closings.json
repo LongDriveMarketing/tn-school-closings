@@ -1,13 +1,13 @@
 {
   "meta": {
-    "generated_at": "2026-01-26T01:00:43.902747+00:00",
-    "total_closings": 341,
+    "generated_at": "2026-01-26T01:10:45.827798+00:00",
+    "total_closings": 342,
     "by_status": {
-      "CLOSED": 322,
+      "CLOSED": 323,
       "REMOTE": 19
     },
     "by_region": {
-      "Other": 153,
+      "Other": 154,
       "Middle Tennessee": 79,
       "West Tennessee": 60,
       "East Tennessee": 49
@@ -2065,6 +2065,13 @@
     },
     {
       "name": "First Baptist Academy-Powell",
+      "status": "CLOSED",
+      "status_detail": "Closed Monday",
+      "region": "Other",
+      "source": "WVLT"
+    },
+    {
+      "name": "First Lutheran School and ECE",
       "status": "CLOSED",
       "status_detail": "Closed Monday",
       "region": "Other",
