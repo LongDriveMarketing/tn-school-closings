@@ -1,15 +1,15 @@
 {
   "meta": {
-    "generated_at": "2026-01-26T23:20:57.956254+00:00",
-    "total_closings": 343,
+    "generated_at": "2026-01-26T23:30:39.435325+00:00",
+    "total_closings": 344,
     "by_status": {
       "CLOSED": 303,
       "REMOTE": 26,
-      "EARLY_DISMISSAL": 2,
+      "EARLY_DISMISSAL": 3,
       "DELAYED": 12
     },
     "by_region": {
-      "Other": 149,
+      "Other": 150,
       "Middle Tennessee": 86,
       "West Tennessee": 60,
       "East Tennessee": 48
@@ -1090,6 +1090,13 @@
       "status": "CLOSED",
       "status_detail": "CLOSED-NO EXTENDED CARE",
       "region": "West Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Stonebrook Day School",
+      "status": "EARLY_DISMISSAL",
+      "status_detail": "OPEN AT 8:00; CLOSING AT 4:00",
+      "region": "Other",
       "source": "NewsChannel 5"
     },
     {
