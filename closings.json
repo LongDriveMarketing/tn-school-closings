@@ -1,15 +1,15 @@
 {
   "meta": {
-    "generated_at": "2026-01-26T23:10:45.563099+00:00",
-    "total_closings": 342,
+    "generated_at": "2026-01-26T23:20:57.956254+00:00",
+    "total_closings": 343,
     "by_status": {
       "CLOSED": 303,
       "REMOTE": 26,
       "EARLY_DISMISSAL": 2,
-      "DELAYED": 11
+      "DELAYED": 12
     },
     "by_region": {
-      "Other": 148,
+      "Other": 149,
       "Middle Tennessee": 86,
       "West Tennessee": 60,
       "East Tennessee": 48
@@ -2287,6 +2287,13 @@
       "status": "CLOSED",
       "status_detail": "Closed Through 01/27 - Due to potential winter weather",
       "region": "East Tennessee",
+      "source": "WVLT"
+    },
+    {
+      "name": "New Fellowship Christian Academy",
+      "status": "DELAYED",
+      "status_detail": "Opening Late Tuesday 2 Hours",
+      "region": "Other",
       "source": "WVLT"
     },
     {
