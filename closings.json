@@ -1,16 +1,16 @@
 {
   "meta": {
-    "generated_at": "2026-01-26T18:00:45.896306+00:00",
-    "total_closings": 203,
+    "generated_at": "2026-01-26T18:10:44.158862+00:00",
+    "total_closings": 210,
     "by_status": {
-      "CLOSED": 189,
+      "CLOSED": 196,
       "REMOTE": 12,
       "DELAYED": 2
     },
     "by_region": {
-      "Other": 78,
+      "Other": 80,
       "Middle Tennessee": 64,
-      "West Tennessee": 32,
+      "West Tennessee": 37,
       "East Tennessee": 29
     },
     "sources": [
@@ -401,7 +401,7 @@
     {
       "name": "Grundy",
       "status": "CLOSED",
-      "status_detail": "Monday",
+      "status_detail": "Tuesday",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
@@ -821,7 +821,7 @@
     {
       "name": "TCAT Dickson",
       "status": "REMOTE",
-      "status_detail": "CLOSED MONDAY; VIRTUAL LEARNING TUESDAY",
+      "status_detail": "Virtual Learning - Tuesday & Wednesday",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
@@ -966,6 +966,13 @@
       "source": "Action News 5"
     },
     {
+      "name": "Bartlett City Schools",
+      "status": "CLOSED",
+      "status_detail": "Closed Monday",
+      "region": "West Tennessee",
+      "source": "Action News 5"
+    },
+    {
       "name": "Bells City School",
       "status": "CLOSED",
       "status_detail": "Closed Through 01/27",
@@ -1071,6 +1078,13 @@
       "source": "Action News 5"
     },
     {
+      "name": "Fayette Christian School",
+      "status": "CLOSED",
+      "status_detail": "Closed Tuesday",
+      "region": "West Tennessee",
+      "source": "Action News 5"
+    },
+    {
       "name": "Fayette County Public Schools",
       "status": "CLOSED",
       "status_detail": "Closed Through 01/30 - After-school activities canceled",
@@ -1092,6 +1106,13 @@
       "source": "Action News 5"
     },
     {
+      "name": "Harding Academy of Memphis",
+      "status": "CLOSED",
+      "status_detail": "Closed Tuesday",
+      "region": "West Tennessee",
+      "source": "Action News 5"
+    },
+    {
       "name": "Haywood County Schools",
       "status": "CLOSED",
       "status_detail": "Closed Through 01/30",
@@ -1103,6 +1124,13 @@
       "status": "CLOSED",
       "status_detail": "Closed Through 01/27",
       "region": "Other",
+      "source": "Action News 5"
+    },
+    {
+      "name": "Lakeland School System",
+      "status": "CLOSED",
+      "status_detail": "Closed Tuesday",
+      "region": "West Tennessee",
       "source": "Action News 5"
     },
     {
@@ -1144,6 +1172,13 @@
       "name": "Millington Municipal Schools",
       "status": "CLOSED",
       "status_detail": "Closed Through 01/27",
+      "region": "West Tennessee",
+      "source": "Action News 5"
+    },
+    {
+      "name": "New Hope Christian Academy",
+      "status": "CLOSED",
+      "status_detail": "Closed Through the 28th",
       "region": "West Tennessee",
       "source": "Action News 5"
     },
@@ -1215,6 +1250,13 @@
       "status": "CLOSED",
       "status_detail": "Closed Through Tuesday",
       "region": "West Tennessee",
+      "source": "Action News 5"
+    },
+    {
+      "name": "Tunica Academy",
+      "status": "CLOSED",
+      "status_detail": "Closed Through the 27th",
+      "region": "Other",
       "source": "Action News 5"
     },
     {
@@ -1348,6 +1390,13 @@
       "status": "CLOSED",
       "status_detail": "Closed Monday",
       "region": "East Tennessee",
+      "source": "WVLT"
+    },
+    {
+      "name": "Landmark Christian Academy",
+      "status": "CLOSED",
+      "status_detail": "Closed Tuesday",
+      "region": "Other",
       "source": "WVLT"
     },
     {
