@@ -1,16 +1,16 @@
 {
   "meta": {
-    "generated_at": "2026-01-26T02:10:43.871371+00:00",
-    "total_closings": 364,
+    "generated_at": "2026-01-26T02:20:42.940777+00:00",
+    "total_closings": 367,
     "by_status": {
-      "CLOSED": 345,
+      "CLOSED": 348,
       "REMOTE": 19
     },
     "by_region": {
-      "Other": 161,
-      "Middle Tennessee": 86,
+      "Other": 162,
+      "Middle Tennessee": 87,
       "West Tennessee": 67,
-      "East Tennessee": 50
+      "East Tennessee": 51
     },
     "sources": [
       "NewsChannel 5",
@@ -125,6 +125,13 @@
       "source": "NewsChannel 5"
     },
     {
+      "name": "Butler",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
+      "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
       "name": "Cannon",
       "status": "CLOSED",
       "status_detail": "Closed Monday and Tuesday",
@@ -206,6 +213,13 @@
       "status": "CLOSED",
       "status_detail": "Closed Monday and Tuesday",
       "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Clinton",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
+      "region": "East Tennessee",
       "source": "NewsChannel 5"
     },
     {
@@ -1367,6 +1381,13 @@
       "name": "Vol State-Cookeville",
       "status": "CLOSED",
       "status_detail": "CLOSED; Closed Monday 1/26",
+      "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Vol State-Gallatin",
+      "status": "CLOSED",
+      "status_detail": "Closed Monday 1/26",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
