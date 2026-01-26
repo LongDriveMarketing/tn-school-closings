@@ -1,15 +1,15 @@
 {
   "meta": {
-    "generated_at": "2026-01-26T23:40:36.039308+00:00",
-    "total_closings": 346,
+    "generated_at": "2026-01-26T23:42:37.988445+00:00",
+    "total_closings": 347,
     "by_status": {
-      "CLOSED": 305,
+      "CLOSED": 306,
       "REMOTE": 26,
       "EARLY_DISMISSAL": 3,
       "DELAYED": 12
     },
     "by_region": {
-      "Other": 152,
+      "Other": 153,
       "Middle Tennessee": 86,
       "West Tennessee": 60,
       "East Tennessee": 48
@@ -73,7 +73,7 @@
     {
       "name": "Barren",
       "status": "CLOSED",
-      "status_detail": "closed Monday snow day",
+      "status_detail": "Closed Tuesday, NTI Day 1",
       "region": "Other",
       "source": "NewsChannel 5"
     },
@@ -319,6 +319,13 @@
       "name": "Dayspring Academy",
       "status": "CLOSED",
       "status_detail": "Closed Monday and Tuesday",
+      "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "DCSO Day Reporting",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
       "region": "Other",
       "source": "NewsChannel 5"
     },
