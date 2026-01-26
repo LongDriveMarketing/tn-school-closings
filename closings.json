@@ -1,17 +1,17 @@
 {
   "meta": {
-    "generated_at": "2026-01-26T23:00:40.403647+00:00",
-    "total_closings": 344,
+    "generated_at": "2026-01-26T23:10:45.563099+00:00",
+    "total_closings": 342,
     "by_status": {
-      "CLOSED": 306,
-      "REMOTE": 25,
+      "CLOSED": 303,
+      "REMOTE": 26,
       "EARLY_DISMISSAL": 2,
       "DELAYED": 11
     },
     "by_region": {
-      "Other": 147,
+      "Other": 148,
       "Middle Tennessee": 86,
-      "West Tennessee": 63,
+      "West Tennessee": 60,
       "East Tennessee": 48
     },
     "sources": [
@@ -941,7 +941,7 @@
     {
       "name": "Paris Special School District",
       "status": "CLOSED",
-      "status_detail": "Closed through Tuesday",
+      "status_detail": "CLOSED THROUGH THURSDAY 1/29",
       "region": "West Tennessee",
       "source": "NewsChannel 5"
     },
@@ -1319,7 +1319,7 @@
     {
       "name": "Williamson",
       "status": "CLOSED",
-      "status_detail": "Closed Monday and Tuesday",
+      "status_detail": "We will be closed through Thursday, 1/29/26",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
@@ -1356,13 +1356,6 @@
       "status": "CLOSED",
       "status_detail": "Closed Tuesday",
       "region": "Other",
-      "source": "Action News 5"
-    },
-    {
-      "name": "Bartlett City Schools",
-      "status": "CLOSED",
-      "status_detail": "Closed Monday",
-      "region": "West Tennessee",
       "source": "Action News 5"
     },
     {
@@ -1562,13 +1555,6 @@
       "source": "Action News 5"
     },
     {
-      "name": "Freedom Preparatory Academy",
-      "status": "CLOSED",
-      "status_detail": "Closed Monday - After-school activities canceled",
-      "region": "West Tennessee",
-      "source": "Action News 5"
-    },
-    {
       "name": "Greater Praise Christian Academy",
       "status": "CLOSED",
       "status_detail": "Closed Through 01/28",
@@ -1712,13 +1698,6 @@
       "name": "Memphis Electrical JATC",
       "status": "CLOSED",
       "status_detail": "Closed Tuesday - No evening classes",
-      "region": "West Tennessee",
-      "source": "Action News 5"
-    },
-    {
-      "name": "Memphis Oral School for the Deaf",
-      "status": "CLOSED",
-      "status_detail": "Closed Monday",
       "region": "West Tennessee",
       "source": "Action News 5"
     },
@@ -2412,6 +2391,13 @@
       "name": "Tri-State Christian Academy",
       "status": "CLOSED",
       "status_detail": "Closed Tuesday",
+      "region": "Other",
+      "source": "WVLT"
+    },
+    {
+      "name": "Tusculum University",
+      "status": "REMOTE",
+      "status_detail": "Virtual Learning Tuesday",
       "region": "Other",
       "source": "WVLT"
     },
