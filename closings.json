@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-01-26T14:10:43.688024+00:00",
+    "generated_at": "2026-01-26T14:20:42.187838+00:00",
     "total_closings": 384,
     "by_status": {
       "CLOSED": 363,
@@ -716,7 +716,7 @@
     {
       "name": "Lancaster Academy",
       "status": "CLOSED",
-      "status_detail": "Closed Monday",
+      "status_detail": "Closed Tuesday 1/27",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
@@ -1332,7 +1332,7 @@
     {
       "name": "Tennessee State University",
       "status": "REMOTE",
-      "status_detail": "Remote Learning Monday-Tuesday",
+      "status_detail": "CLOSED TODAY, VIRTUAL TOMORROW",
       "region": "Other",
       "source": "NewsChannel 5"
     },
