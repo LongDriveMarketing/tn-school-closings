@@ -1,14 +1,14 @@
 {
   "meta": {
-    "generated_at": "2026-01-26T15:40:47.027281+00:00",
-    "total_closings": 387,
+    "generated_at": "2026-01-26T15:50:51.478348+00:00",
+    "total_closings": 389,
     "by_status": {
-      "CLOSED": 364,
+      "CLOSED": 366,
       "REMOTE": 22,
       "DELAYED": 1
     },
     "by_region": {
-      "Other": 177,
+      "Other": 179,
       "Middle Tennessee": 89,
       "West Tennessee": 68,
       "East Tennessee": 53
@@ -1505,6 +1505,20 @@
       "source": "NewsChannel 5"
     },
     {
+      "name": "WeGo Regional Bus",
+      "status": "CLOSED",
+      "status_detail": "CLOSED; CLOSED",
+      "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "WeGo Star",
+      "status": "CLOSED",
+      "status_detail": "CLOSED; CLOSED",
+      "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
       "name": "White",
       "status": "CLOSED",
       "status_detail": "Closed Monday and Tuesday",
@@ -1955,7 +1969,7 @@
     {
       "name": "North Panola School District",
       "status": "CLOSED",
-      "status_detail": "Closed Monday",
+      "status_detail": "Closed Through 01/30",
       "region": "Other",
       "source": "Action News 5"
     },
