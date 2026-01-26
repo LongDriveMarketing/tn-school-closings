@@ -1,17 +1,17 @@
 {
   "meta": {
-    "generated_at": "2026-01-26T19:30:51.378897+00:00",
-    "total_closings": 249,
+    "generated_at": "2026-01-26T19:40:42.120712+00:00",
+    "total_closings": 256,
     "by_status": {
-      "CLOSED": 233,
-      "REMOTE": 14,
+      "CLOSED": 239,
+      "REMOTE": 15,
       "DELAYED": 2
     },
     "by_region": {
-      "Other": 94,
-      "Middle Tennessee": 71,
-      "West Tennessee": 51,
-      "East Tennessee": 33
+      "Other": 96,
+      "Middle Tennessee": 72,
+      "West Tennessee": 52,
+      "East Tennessee": 36
     },
     "sources": [
       "NewsChannel 5",
@@ -185,6 +185,13 @@
       "name": "Columbia Academy",
       "status": "CLOSED",
       "status_detail": "Closed Tuesday 1/27",
+      "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Columbia State-Columbia",
+      "status": "REMOTE",
+      "status_detail": "Campus closed Tuesday. Virtual classes and work only.",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
@@ -1344,6 +1351,13 @@
       "source": "Action News 5"
     },
     {
+      "name": "Mid-America Baptist Theological Seminary",
+      "status": "CLOSED",
+      "status_detail": "Closed Tuesday - Virtual Learning Day",
+      "region": "West Tennessee",
+      "source": "Action News 5"
+    },
+    {
       "name": "Millington Municipal Schools",
       "status": "CLOSED",
       "status_detail": "Closed Through 01/27",
@@ -1403,6 +1417,13 @@
       "name": "Rossville Christian Academy",
       "status": "CLOSED",
       "status_detail": "Closed Through 01/28",
+      "region": "Other",
+      "source": "Action News 5"
+    },
+    {
+      "name": "Sacred Heart School Southaven",
+      "status": "REMOTE",
+      "status_detail": "Virtual Learning Tuesday",
       "region": "Other",
       "source": "Action News 5"
     },
@@ -1589,6 +1610,20 @@
       "source": "WVLT"
     },
     {
+      "name": "First Lutheran School and ECE",
+      "status": "CLOSED",
+      "status_detail": "Closed Tuesday",
+      "region": "Other",
+      "source": "WVLT"
+    },
+    {
+      "name": "Grace Christian Academy-Karns",
+      "status": "CLOSED",
+      "status_detail": "Closed Tuesday 01/27",
+      "region": "Other",
+      "source": "WVLT"
+    },
+    {
       "name": "Grainger County Schools",
       "status": "CLOSED",
       "status_detail": "Closed Through 01/27",
@@ -1645,9 +1680,30 @@
       "source": "WVLT"
     },
     {
+      "name": "Knoxville Head Start Extended Day",
+      "status": "CLOSED",
+      "status_detail": "Closed Tuesday",
+      "region": "East Tennessee",
+      "source": "WVLT"
+    },
+    {
       "name": "Knoxville Montessori School",
       "status": "CLOSED",
       "status_detail": "Closed Monday",
+      "region": "East Tennessee",
+      "source": "WVLT"
+    },
+    {
+      "name": "Knoxville-Knox County Head Start Afternoon Session",
+      "status": "CLOSED",
+      "status_detail": "Closed Tuesday",
+      "region": "East Tennessee",
+      "source": "WVLT"
+    },
+    {
+      "name": "Knoxville-Knox County Head Start Morning Session",
+      "status": "CLOSED",
+      "status_detail": "Closed Tuesday",
       "region": "East Tennessee",
       "source": "WVLT"
     },
@@ -1746,13 +1802,6 @@
       "name": "Tennessee Tech University",
       "status": "CLOSED",
       "status_detail": "Closed Tuesday",
-      "region": "Other",
-      "source": "WVLT"
-    },
-    {
-      "name": "Tusculum University",
-      "status": "REMOTE",
-      "status_detail": "Virtual Learning Monday - employees work remotely",
       "region": "Other",
       "source": "WVLT"
     },
