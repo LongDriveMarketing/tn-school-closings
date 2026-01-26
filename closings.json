@@ -1,16 +1,16 @@
 {
   "meta": {
-    "generated_at": "2026-01-26T19:04:34.249551+00:00",
-    "total_closings": 232,
+    "generated_at": "2026-01-26T19:10:37.280637+00:00",
+    "total_closings": 235,
     "by_status": {
-      "CLOSED": 217,
+      "CLOSED": 220,
       "REMOTE": 13,
       "DELAYED": 2
     },
     "by_region": {
-      "Other": 87,
+      "Other": 89,
       "Middle Tennessee": 65,
-      "West Tennessee": 48,
+      "West Tennessee": 49,
       "East Tennessee": 32
     },
     "sources": [
@@ -1309,6 +1309,13 @@
       "source": "Action News 5"
     },
     {
+      "name": "Pleasant View School",
+      "status": "CLOSED",
+      "status_detail": "Closed Tuesday",
+      "region": "West Tennessee",
+      "source": "Action News 5"
+    },
+    {
       "name": "Presbyterian Day School",
       "status": "CLOSED",
       "status_detail": "Closed Through 01/27",
@@ -1519,6 +1526,13 @@
       "source": "WVLT"
     },
     {
+      "name": "Harlan County, KY Schools",
+      "status": "CLOSED",
+      "status_detail": "Closed Tuesday - NIT Day",
+      "region": "Other",
+      "source": "WVLT"
+    },
+    {
       "name": "Hawkins County Schools",
       "status": "CLOSED",
       "status_detail": "Closed Tuesday",
@@ -1535,7 +1549,7 @@
     {
       "name": "Knox County, TN Schools",
       "status": "CLOSED",
-      "status_detail": "Closed Monday 1/26",
+      "status_detail": "Closed Tuesday - 2-hour delay Wednesday, Jan. 28",
       "region": "East Tennessee",
       "source": "WVLT"
     },
@@ -1628,6 +1642,13 @@
       "status": "CLOSED",
       "status_detail": "Closed Through the 27th",
       "region": "East Tennessee",
+      "source": "WVLT"
+    },
+    {
+      "name": "Tennessee Tech University",
+      "status": "CLOSED",
+      "status_detail": "Closed Tuesday",
+      "region": "Other",
       "source": "WVLT"
     },
     {
