@@ -1,13 +1,13 @@
 {
   "meta": {
-    "generated_at": "2026-01-25T23:50:39.185089+00:00",
-    "total_closings": 334,
+    "generated_at": "2026-01-26T00:00:39.140730+00:00",
+    "total_closings": 335,
     "by_status": {
-      "CLOSED": 316,
+      "CLOSED": 317,
       "REMOTE": 18
     },
     "by_region": {
-      "Other": 148,
+      "Other": 149,
       "Middle Tennessee": 78,
       "West Tennessee": 59,
       "East Tennessee": 49
@@ -667,6 +667,13 @@
       "name": "Lipscomb Academy",
       "status": "CLOSED",
       "status_detail": "CLOSED",
+      "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Lipscomb University",
+      "status": "CLOSED",
+      "status_detail": "Classes canceled. Offices closed. University open for residential students & essential employees..",
       "region": "Other",
       "source": "NewsChannel 5"
     },
