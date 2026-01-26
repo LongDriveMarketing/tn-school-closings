@@ -1,15 +1,15 @@
 {
   "meta": {
-    "generated_at": "2026-01-26T02:00:43.691272+00:00",
-    "total_closings": 362,
+    "generated_at": "2026-01-26T02:10:43.871371+00:00",
+    "total_closings": 364,
     "by_status": {
-      "CLOSED": 343,
+      "CLOSED": 345,
       "REMOTE": 19
     },
     "by_region": {
-      "Other": 160,
+      "Other": 161,
       "Middle Tennessee": 86,
-      "West Tennessee": 66,
+      "West Tennessee": 67,
       "East Tennessee": 50
     },
     "sources": [
@@ -1133,6 +1133,13 @@
       "source": "NewsChannel 5"
     },
     {
+      "name": "Simpson",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
+      "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
       "name": "Smith",
       "status": "CLOSED",
       "status_detail": "Closed Monday, Tuesday and Wednesday",
@@ -1787,6 +1794,13 @@
       "name": "Memphis Oral School for the Deaf",
       "status": "CLOSED",
       "status_detail": "Closed Monday 01/26",
+      "region": "West Tennessee",
+      "source": "Action News 5"
+    },
+    {
+      "name": "Memphis Performing Arts & Creative Academy",
+      "status": "CLOSED",
+      "status_detail": "Closed Monday - After-school activities canceled",
       "region": "West Tennessee",
       "source": "Action News 5"
     },
