@@ -1,15 +1,15 @@
 {
   "meta": {
-    "generated_at": "2026-01-26T00:20:40.669791+00:00",
-    "total_closings": 337,
+    "generated_at": "2026-01-26T00:30:43.070445+00:00",
+    "total_closings": 339,
     "by_status": {
-      "CLOSED": 319,
-      "REMOTE": 18
+      "CLOSED": 320,
+      "REMOTE": 19
     },
     "by_region": {
       "Other": 151,
-      "Middle Tennessee": 78,
-      "West Tennessee": 59,
+      "Middle Tennessee": 79,
+      "West Tennessee": 60,
       "East Tennessee": 49
     },
     "sources": [
@@ -387,6 +387,13 @@
       "name": "Franklin",
       "status": "CLOSED",
       "status_detail": "Closed Monday and Tuesday",
+      "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Franklin Hair Academy",
+      "status": "CLOSED",
+      "status_detail": "CLOSED; CLOSED",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
@@ -1606,6 +1613,13 @@
       "status": "CLOSED",
       "status_detail": "Closed Monday 01/26",
       "region": "East Tennessee",
+      "source": "Action News 5"
+    },
+    {
+      "name": "Memphis Area Real Estate School",
+      "status": "REMOTE",
+      "status_detail": "Virtual Learning Monday",
+      "region": "West Tennessee",
       "source": "Action News 5"
     },
     {
