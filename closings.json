@@ -1,17 +1,17 @@
 {
   "meta": {
-    "generated_at": "2026-01-26T22:20:42.737604+00:00",
-    "total_closings": 332,
+    "generated_at": "2026-01-26T22:30:52.901815+00:00",
+    "total_closings": 337,
     "by_status": {
-      "CLOSED": 298,
+      "CLOSED": 302,
       "REMOTE": 25,
-      "DELAYED": 9
+      "DELAYED": 10
     },
     "by_region": {
-      "Other": 142,
+      "Other": 144,
       "Middle Tennessee": 83,
-      "West Tennessee": 61,
-      "East Tennessee": 46
+      "West Tennessee": 63,
+      "East Tennessee": 47
     },
     "sources": [
       "NewsChannel 5",
@@ -158,6 +158,13 @@
       "status": "CLOSED",
       "status_detail": "CLOSED",
       "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Christian Community Pre-school",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
+      "region": "Other",
       "source": "NewsChannel 5"
     },
     {
@@ -415,7 +422,7 @@
     {
       "name": "Franklin Spec. Sch. Dist.",
       "status": "CLOSED",
-      "status_detail": "CLOSED MONDAY AND TUESDAY, MAC CLOSED",
+      "status_detail": "Closed through Thursday. Snow MAC open Wednesday and Thursday",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
@@ -707,6 +714,13 @@
       "source": "NewsChannel 5"
     },
     {
+      "name": "Love Child Care",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
+      "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
       "name": "Macon",
       "status": "CLOSED",
       "status_detail": "Closed Monday and Tuesday",
@@ -933,7 +947,7 @@
     {
       "name": "Portland Learning Center",
       "status": "CLOSED",
-      "status_detail": "CLOSED; CLOSED",
+      "status_detail": "CLOSED",
       "region": "Other",
       "source": "NewsChannel 5"
     },
@@ -1047,6 +1061,13 @@
       "status": "CLOSED",
       "status_detail": "CLOSED ALL WEEK",
       "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "St. Henry School",
+      "status": "CLOSED",
+      "status_detail": "CLOSED-NO EXTENDED CARE",
+      "region": "West Tennessee",
       "source": "NewsChannel 5"
     },
     {
@@ -1326,6 +1347,13 @@
       "name": "Bells City School",
       "status": "CLOSED",
       "status_detail": "Closed Through 01/27",
+      "region": "West Tennessee",
+      "source": "Action News 5"
+    },
+    {
+      "name": "Benton County School District",
+      "status": "CLOSED",
+      "status_detail": "Closed Through Tuesday the 27th",
       "region": "West Tennessee",
       "source": "Action News 5"
     },
@@ -2194,6 +2222,13 @@
       "name": "Maryville Christian",
       "status": "CLOSED",
       "status_detail": "Closed Tuesday",
+      "region": "East Tennessee",
+      "source": "WVLT"
+    },
+    {
+      "name": "Maryville City Schools",
+      "status": "DELAYED",
+      "status_detail": "Opening Late 2 hours Tuesday",
       "region": "East Tennessee",
       "source": "WVLT"
     },
