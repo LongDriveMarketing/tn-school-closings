@@ -1,15 +1,15 @@
 {
   "meta": {
-    "generated_at": "2026-01-26T23:30:39.435325+00:00",
-    "total_closings": 344,
+    "generated_at": "2026-01-26T23:40:36.039308+00:00",
+    "total_closings": 346,
     "by_status": {
-      "CLOSED": 303,
+      "CLOSED": 305,
       "REMOTE": 26,
       "EARLY_DISMISSAL": 3,
       "DELAYED": 12
     },
     "by_region": {
-      "Other": 150,
+      "Other": 152,
       "Middle Tennessee": 86,
       "West Tennessee": 60,
       "East Tennessee": 48
@@ -480,6 +480,13 @@
       "name": "Grace Baptist CDC",
       "status": "CLOSED",
       "status_detail": "Closed Monday and Tuesday/No power",
+      "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Grandmama's House",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
       "region": "Other",
       "source": "NewsChannel 5"
     },
@@ -1171,6 +1178,13 @@
     },
     {
       "name": "The Red Barn",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
+      "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "The Settlement",
       "status": "CLOSED",
       "status_detail": "CLOSED",
       "region": "Other",
