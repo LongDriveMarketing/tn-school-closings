@@ -1,9 +1,9 @@
 {
   "meta": {
-    "generated_at": "2026-01-26T16:40:39.610692+00:00",
-    "total_closings": 282,
+    "generated_at": "2026-01-26T16:50:41.866180+00:00",
+    "total_closings": 284,
     "by_status": {
-      "CLOSED": 259,
+      "CLOSED": 261,
       "REMOTE": 22,
       "DELAYED": 1
     },
@@ -11,7 +11,7 @@
       "Other": 131,
       "Middle Tennessee": 88,
       "West Tennessee": 38,
-      "East Tennessee": 25
+      "East Tennessee": 27
     },
     "sources": [
       "NewsChannel 5",
@@ -345,7 +345,7 @@
     {
       "name": "Currey Ingram Academy",
       "status": "CLOSED",
-      "status_detail": "CLOSED",
+      "status_detail": "Through Tuesday",
       "region": "Other",
       "source": "NewsChannel 5"
     },
@@ -1890,6 +1890,13 @@
       "source": "WVLT"
     },
     {
+      "name": "Greene County Schools",
+      "status": "CLOSED",
+      "status_detail": "Closed Tuesday",
+      "region": "East Tennessee",
+      "source": "WVLT"
+    },
+    {
       "name": "Jefferson County Schools",
       "status": "CLOSED",
       "status_detail": "Closed Through Tuesday",
@@ -1900,6 +1907,13 @@
       "name": "Knox County, TN Schools",
       "status": "CLOSED",
       "status_detail": "Closed Monday 1/26",
+      "region": "East Tennessee",
+      "source": "WVLT"
+    },
+    {
+      "name": "Knoxville Montessori School",
+      "status": "CLOSED",
+      "status_detail": "Closed Monday",
       "region": "East Tennessee",
       "source": "WVLT"
     },
