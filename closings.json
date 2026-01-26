@@ -1,17 +1,17 @@
 {
   "meta": {
-    "generated_at": "2026-01-26T17:10:42.228252+00:00",
-    "total_closings": 286,
+    "generated_at": "2026-01-26T17:20:40.784233+00:00",
+    "total_closings": 287,
     "by_status": {
-      "CLOSED": 268,
+      "CLOSED": 269,
       "REMOTE": 17,
       "DELAYED": 1
     },
     "by_region": {
-      "Other": 132,
+      "Other": 133,
       "Middle Tennessee": 88,
-      "West Tennessee": 37,
-      "East Tennessee": 29
+      "West Tennessee": 38,
+      "East Tennessee": 28
     },
     "sources": [
       "NewsChannel 5",
@@ -31,13 +31,6 @@
       "name": "Aaron Academy",
       "status": "CLOSED",
       "status_detail": "Closed Monday and Tuesday",
-      "region": "Other",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "Advanced Therapy Solutions",
-      "status": "CLOSED",
-      "status_detail": "Closed Monday, 1/26/2026",
       "region": "Other",
       "source": "NewsChannel 5"
     },
@@ -141,6 +134,13 @@
     },
     {
       "name": "Caldwell",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
+      "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Calvary Young Children's School",
       "status": "CLOSED",
       "status_detail": "CLOSED",
       "region": "Other",
@@ -323,13 +323,6 @@
     },
     {
       "name": "Cumberland Co., KY",
-      "status": "CLOSED",
-      "status_detail": "CLOSED",
-      "region": "East Tennessee",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "Cumberland Co., TN",
       "status": "CLOSED",
       "status_detail": "CLOSED",
       "region": "East Tennessee",
@@ -646,7 +639,7 @@
     {
       "name": "Image Maker Beauty Inst.",
       "status": "CLOSED",
-      "status_detail": "Closed Monday",
+      "status_detail": "CLOSED",
       "region": "Other",
       "source": "NewsChannel 5"
     },
@@ -702,7 +695,7 @@
     {
       "name": "King's Academy",
       "status": "CLOSED",
-      "status_detail": "CLOSED; CLOSED MONDAY",
+      "status_detail": "CLOSED TUESDAY, JANUARY 27",
       "region": "Other",
       "source": "NewsChannel 5"
     },
@@ -1033,13 +1026,6 @@
       "status": "CLOSED",
       "status_detail": "CLOSED",
       "region": "Middle Tennessee",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "New Horizons",
-      "status": "CLOSED",
-      "status_detail": "CLOSED",
-      "region": "Other",
       "source": "NewsChannel 5"
     },
     {
@@ -1582,6 +1568,13 @@
       "source": "Action News 5"
     },
     {
+      "name": "Christ the King Lutheran School",
+      "status": "CLOSED",
+      "status_detail": "Closed Tuesday 01/27",
+      "region": "West Tennessee",
+      "source": "Action News 5"
+    },
+    {
       "name": "Christian Brothers University",
       "status": "REMOTE",
       "status_detail": "Virtual Learning Through Wednesday",
@@ -1694,6 +1687,13 @@
       "source": "Action News 5"
     },
     {
+      "name": "Lamplighter Montessori School",
+      "status": "CLOSED",
+      "status_detail": "Closed Monday - through Tuesday",
+      "region": "Other",
+      "source": "Action News 5"
+    },
+    {
       "name": "Lausanne Collegiate School",
       "status": "CLOSED",
       "status_detail": "Closed Through 01/27",
@@ -1747,6 +1747,13 @@
       "status": "CLOSED",
       "status_detail": "Closed Monday",
       "region": "West Tennessee",
+      "source": "Action News 5"
+    },
+    {
+      "name": "Presbyterian Day School",
+      "status": "CLOSED",
+      "status_detail": "Closed Through 01/27",
+      "region": "Other",
       "source": "Action News 5"
     },
     {
