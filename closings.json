@@ -1,14 +1,14 @@
 {
   "meta": {
-    "generated_at": "2026-01-26T16:50:41.866180+00:00",
-    "total_closings": 284,
+    "generated_at": "2026-01-26T17:00:42.255134+00:00",
+    "total_closings": 285,
     "by_status": {
-      "CLOSED": 261,
+      "CLOSED": 262,
       "REMOTE": 22,
       "DELAYED": 1
     },
     "by_region": {
-      "Other": 131,
+      "Other": 132,
       "Middle Tennessee": 88,
       "West Tennessee": 38,
       "East Tennessee": 27
@@ -527,7 +527,7 @@
     {
       "name": "Georgia Institute-Murfreesboro",
       "status": "CLOSED",
-      "status_detail": "Closed Monday 1/26",
+      "status_detail": "Closed Tuesday 1/27",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
@@ -541,7 +541,7 @@
     {
       "name": "Gingerbread House",
       "status": "CLOSED",
-      "status_detail": "CLOSED",
+      "status_detail": "CLOSED TODAY & TOMORROW",
       "region": "Other",
       "source": "NewsChannel 5"
     },
@@ -1684,6 +1684,13 @@
       "status": "CLOSED",
       "status_detail": "Closed Monday",
       "region": "West Tennessee",
+      "source": "Action News 5"
+    },
+    {
+      "name": "Lausanne Collegiate School",
+      "status": "CLOSED",
+      "status_detail": "Closed Through 01/27",
+      "region": "Other",
       "source": "Action News 5"
     },
     {
