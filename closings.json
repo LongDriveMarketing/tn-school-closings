@@ -1,16 +1,16 @@
 {
   "meta": {
-    "generated_at": "2026-01-26T21:50:40.300154+00:00",
-    "total_closings": 312,
+    "generated_at": "2026-01-26T22:00:44.721495+00:00",
+    "total_closings": 317,
     "by_status": {
-      "CLOSED": 281,
+      "CLOSED": 286,
       "REMOTE": 25,
       "DELAYED": 6
     },
     "by_region": {
-      "Other": 126,
+      "Other": 130,
       "Middle Tennessee": 82,
-      "West Tennessee": 60,
+      "West Tennessee": 61,
       "East Tennessee": 44
     },
     "sources": [
@@ -623,6 +623,13 @@
       "source": "NewsChannel 5"
     },
     {
+      "name": "Lighthouse Kids Ctrs. for Autism",
+      "status": "CLOSED",
+      "status_detail": "CLOSED; CLOSED; Franklin and Columbia locations closed",
+      "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
       "name": "Lighthouse Preschool",
       "status": "CLOSED",
       "status_detail": "Closed Monday (01/26) and Tuesday (01/27)",
@@ -956,6 +963,13 @@
       "status": "CLOSED",
       "status_detail": "Closed Monday, Tuesday and Wednesday",
       "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Somerset Comm. College",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
+      "region": "Other",
       "source": "NewsChannel 5"
     },
     {
@@ -1365,6 +1379,13 @@
       "source": "Action News 5"
     },
     {
+      "name": "Earle School District",
+      "status": "CLOSED",
+      "status_detail": "Closed Tuesday",
+      "region": "Other",
+      "source": "Action News 5"
+    },
+    {
       "name": "East Arkansas Community College",
       "status": "CLOSED",
       "status_detail": "Closed Tuesday - Remote learning and registration will continue",
@@ -1494,6 +1515,13 @@
       "name": "KIPP Memphis Public Schools",
       "status": "CLOSED",
       "status_detail": "Closed Tuesday 01/27",
+      "region": "West Tennessee",
+      "source": "Action News 5"
+    },
+    {
+      "name": "Lafayette County School District",
+      "status": "CLOSED",
+      "status_detail": "Closed Through the 30th",
       "region": "West Tennessee",
       "source": "Action News 5"
     },
@@ -2202,6 +2230,13 @@
       "status": "CLOSED",
       "status_detail": "Closed Through 01/27",
       "region": "East Tennessee",
+      "source": "WVLT"
+    },
+    {
+      "name": "Webb School",
+      "status": "CLOSED",
+      "status_detail": "Opening Late Tuesday 10:00 AM",
+      "region": "Other",
       "source": "WVLT"
     }
   ]
