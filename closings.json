@@ -1,16 +1,16 @@
 {
   "meta": {
-    "generated_at": "2026-01-26T15:10:42.459288+00:00",
-    "total_closings": 384,
+    "generated_at": "2026-01-26T15:20:42.142389+00:00",
+    "total_closings": 386,
     "by_status": {
-      "CLOSED": 362,
-      "REMOTE": 21,
+      "CLOSED": 363,
+      "REMOTE": 22,
       "DELAYED": 1
     },
     "by_region": {
-      "Other": 175,
+      "Other": 176,
       "Middle Tennessee": 89,
-      "West Tennessee": 67,
+      "West Tennessee": 68,
       "East Tennessee": 53
     },
     "sources": [
@@ -1248,7 +1248,7 @@
     {
       "name": "St. Henry School",
       "status": "CLOSED",
-      "status_detail": "CLOSED",
+      "status_detail": "CLOSED-NO EXTENDED CARE",
       "region": "West Tennessee",
       "source": "NewsChannel 5"
     },
@@ -1831,6 +1831,13 @@
       "status": "CLOSED",
       "status_detail": "Closed Monday",
       "region": "Other",
+      "source": "Action News 5"
+    },
+    {
+      "name": "LeMoyne-Owen College",
+      "status": "REMOTE",
+      "status_detail": "Virtual Learning Monday",
+      "region": "West Tennessee",
       "source": "Action News 5"
     },
     {
@@ -2703,6 +2710,13 @@
     },
     {
       "name": "Webb School",
+      "status": "CLOSED",
+      "status_detail": "Closed Monday",
+      "region": "Other",
+      "source": "WVLT"
+    },
+    {
+      "name": "Wesley House Community Center",
       "status": "CLOSED",
       "status_detail": "Closed Monday",
       "region": "Other",
