@@ -1,16 +1,16 @@
 {
   "meta": {
-    "generated_at": "2026-01-26T18:20:46.010419+00:00",
-    "total_closings": 220,
+    "generated_at": "2026-01-26T18:30:47.407854+00:00",
+    "total_closings": 224,
     "by_status": {
-      "CLOSED": 206,
-      "REMOTE": 12,
+      "CLOSED": 209,
+      "REMOTE": 13,
       "DELAYED": 2
     },
     "by_region": {
-      "Other": 83,
+      "Other": 84,
       "Middle Tennessee": 64,
-      "West Tennessee": 43,
+      "West Tennessee": 46,
       "East Tennessee": 30
     },
     "sources": [
@@ -987,6 +987,13 @@
       "source": "Action News 5"
     },
     {
+      "name": "Bodine School",
+      "status": "CLOSED",
+      "status_detail": "Closed Tuesday",
+      "region": "Other",
+      "source": "Action News 5"
+    },
+    {
       "name": "Carroll County Schools",
       "status": "CLOSED",
       "status_detail": "Closed Through 01/28",
@@ -1016,6 +1023,13 @@
     },
     {
       "name": "Collierville School District",
+      "status": "CLOSED",
+      "status_detail": "Closed Tuesday",
+      "region": "West Tennessee",
+      "source": "Action News 5"
+    },
+    {
+      "name": "Compass Community Schools",
       "status": "CLOSED",
       "status_detail": "Closed Tuesday",
       "region": "West Tennessee",
@@ -1309,6 +1323,13 @@
       "source": "Action News 5"
     },
     {
+      "name": "STAR Academy Charter School",
+      "status": "CLOSED",
+      "status_detail": "Closed Tuesday 01/27",
+      "region": "West Tennessee",
+      "source": "Action News 5"
+    },
+    {
       "name": "Tate County School District",
       "status": "CLOSED",
       "status_detail": "Closed Through Tuesday",
@@ -1334,6 +1355,13 @@
       "status": "CLOSED",
       "status_detail": "Closed Through 01/27",
       "region": "East Tennessee",
+      "source": "Action News 5"
+    },
+    {
+      "name": "University of Memphis",
+      "status": "REMOTE",
+      "status_detail": "Virtual Learning Tuesday",
+      "region": "West Tennessee",
       "source": "Action News 5"
     },
     {
