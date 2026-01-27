@@ -1,18 +1,18 @@
 {
   "meta": {
-    "generated_at": "2026-01-27T22:46:37.092098+00:00",
-    "total_closings": 286,
+    "generated_at": "2026-01-27T22:50:40.281149+00:00",
+    "total_closings": 290,
     "by_status": {
-      "CLOSED": 241,
+      "CLOSED": 245,
       "REMOTE": 33,
       "DELAYED": 9,
       "EARLY_DISMISSAL": 3
     },
     "by_region": {
-      "Other": 120,
+      "Other": 123,
       "Middle Tennessee": 79,
       "West Tennessee": 63,
-      "East Tennessee": 24
+      "East Tennessee": 25
     },
     "sources": [
       "NewsChannel 5",
@@ -250,6 +250,13 @@
       "status": "CLOSED",
       "status_detail": "CLOSED",
       "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Covenant Academy-McMinnville",
+      "status": "CLOSED",
+      "status_detail": "Wednesday, January 28",
+      "region": "East Tennessee",
       "source": "NewsChannel 5"
     },
     {
@@ -561,9 +568,23 @@
       "source": "NewsChannel 5"
     },
     {
+      "name": "Kiddie College Inc.",
+      "status": "CLOSED",
+      "status_detail": "OPEN AT 8:00",
+      "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
       "name": "King's Academy",
       "status": "CLOSED",
       "status_detail": "CLOSED WEDNESDAY",
+      "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Kuddles For Kids",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
       "region": "Other",
       "source": "NewsChannel 5"
     },
@@ -842,6 +863,13 @@
     },
     {
       "name": "Pope Saint John Paul II",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
+      "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Portland Learning Center",
       "status": "CLOSED",
       "status_detail": "CLOSED",
       "region": "Other",
