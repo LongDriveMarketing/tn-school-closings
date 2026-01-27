@@ -1,16 +1,16 @@
 {
   "meta": {
-    "generated_at": "2026-01-27T20:50:40.545142+00:00",
-    "total_closings": 179,
+    "generated_at": "2026-01-27T21:00:36.971547+00:00",
+    "total_closings": 184,
     "by_status": {
-      "CLOSED": 150,
+      "CLOSED": 155,
       "REMOTE": 25,
       "DELAYED": 4
     },
     "by_region": {
-      "Other": 69,
+      "Other": 70,
       "Middle Tennessee": 46,
-      "West Tennessee": 48,
+      "West Tennessee": 52,
       "East Tennessee": 16
     },
     "sources": [
@@ -770,6 +770,20 @@
       "source": "Action News 5"
     },
     {
+      "name": "Dyer County Schools",
+      "status": "CLOSED",
+      "status_detail": "Closed Wednesday 01/28",
+      "region": "West Tennessee",
+      "source": "Action News 5"
+    },
+    {
+      "name": "Dyersburg City Schools",
+      "status": "CLOSED",
+      "status_detail": "Closed Wednesday",
+      "region": "West Tennessee",
+      "source": "Action News 5"
+    },
+    {
       "name": "Earle School District",
       "status": "CLOSED",
       "status_detail": "Closed Wednesday",
@@ -973,6 +987,13 @@
       "source": "Action News 5"
     },
     {
+      "name": "Memphis Theological Seminary",
+      "status": "CLOSED",
+      "status_detail": "Closed Through 01/31 - Virtual Learning Only",
+      "region": "West Tennessee",
+      "source": "Action News 5"
+    },
+    {
       "name": "Memphis University School",
       "status": "REMOTE",
       "status_detail": "Virtual Learning Wednesday - Campus is closed",
@@ -1078,6 +1099,13 @@
       "source": "Action News 5"
     },
     {
+      "name": "St. Agnes Academy-St. Dominic School",
+      "status": "CLOSED",
+      "status_detail": "Closed Wednesday",
+      "region": "Other",
+      "source": "Action News 5"
+    },
+    {
       "name": "St. Mary's Episcopal School",
       "status": "CLOSED",
       "status_detail": "Closed Tuesday",
@@ -1159,6 +1187,13 @@
       "status": "CLOSED",
       "status_detail": "Closed Wednesday",
       "region": "Middle Tennessee",
+      "source": "Action News 5"
+    },
+    {
+      "name": "Woodland Presbyterian School",
+      "status": "CLOSED",
+      "status_detail": "Closed Tuesday",
+      "region": "West Tennessee",
       "source": "Action News 5"
     },
     {
