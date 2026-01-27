@@ -1,9 +1,9 @@
 {
   "meta": {
-    "generated_at": "2026-01-27T11:50:39.883685+00:00",
-    "total_closings": 356,
+    "generated_at": "2026-01-27T12:00:52.078419+00:00",
+    "total_closings": 355,
     "by_status": {
-      "CLOSED": 316,
+      "CLOSED": 315,
       "REMOTE": 25,
       "EARLY_DISMISSAL": 3,
       "DELAYED": 12
@@ -12,7 +12,7 @@
       "Other": 157,
       "Middle Tennessee": 87,
       "West Tennessee": 62,
-      "East Tennessee": 50
+      "East Tennessee": 49
     },
     "sources": [
       "NewsChannel 5",
@@ -1457,6 +1457,13 @@
       "source": "Action News 5"
     },
     {
+      "name": "City University Schools",
+      "status": "CLOSED",
+      "status_detail": "Closed Tuesday",
+      "region": "Other",
+      "source": "Action News 5"
+    },
+    {
       "name": "Clarksdale Municipal School District",
       "status": "CLOSED",
       "status_detail": "Closed Through Tuesday the 27th - Instruction to continue virtually",
@@ -2010,13 +2017,6 @@
       "source": "Action News 5"
     },
     {
-      "name": "University of Tennessee Health Science Center",
-      "status": "CLOSED",
-      "status_detail": "Closed Through Tuesday the 27th - On-campus operations suspended through Tues",
-      "region": "Other",
-      "source": "Action News 5"
-    },
-    {
       "name": "West Memphis School District",
       "status": "CLOSED",
       "status_detail": "Closed Through Wednesday the 28th",
@@ -2251,13 +2251,6 @@
       "name": "Hawkins County Schools",
       "status": "CLOSED",
       "status_detail": "Closed Tuesday",
-      "region": "East Tennessee",
-      "source": "WVLT"
-    },
-    {
-      "name": "Jefferson County Schools",
-      "status": "CLOSED",
-      "status_detail": "Closed Through Tuesday",
       "region": "East Tennessee",
       "source": "WVLT"
     },
