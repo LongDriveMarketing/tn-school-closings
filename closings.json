@@ -1,16 +1,16 @@
 {
   "meta": {
-    "generated_at": "2026-01-27T23:10:43.794824+00:00",
-    "total_closings": 289,
+    "generated_at": "2026-01-27T23:20:39.206759+00:00",
+    "total_closings": 292,
     "by_status": {
-      "CLOSED": 243,
+      "CLOSED": 245,
       "REMOTE": 34,
-      "DELAYED": 9,
+      "DELAYED": 10,
       "EARLY_DISMISSAL": 3
     },
     "by_region": {
-      "Other": 123,
-      "Middle Tennessee": 80,
+      "Other": 124,
+      "Middle Tennessee": 82,
       "West Tennessee": 63,
       "East Tennessee": 23
     },
@@ -89,6 +89,13 @@
       "status": "CLOSED",
       "status_detail": "Closed - Wednesday (1/28)",
       "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Bethlehem Ctrs of Nashville",
+      "status": "CLOSED",
+      "status_detail": "CLOSED TODAY & TOMORROW",
+      "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
     {
@@ -603,6 +610,13 @@
       "source": "NewsChannel 5"
     },
     {
+      "name": "Lancaster Academy",
+      "status": "DELAYED",
+      "status_detail": "TWO HOURS LATE",
+      "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
       "name": "Lancaster Early Learn. Centers",
       "status": "DELAYED",
       "status_detail": "CLOSED Tuesday 1/27 and TWO-HOUR DELAY Wednesday 1/28",
@@ -981,6 +995,13 @@
       "source": "NewsChannel 5"
     },
     {
+      "name": "Somerset Comm. College",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
+      "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
       "name": "St. Ann",
       "status": "CLOSED",
       "status_detail": "CLOSED-NO EXTENDED CARE",
@@ -1214,7 +1235,7 @@
     {
       "name": "WeGo Regional Bus",
       "status": "CLOSED",
-      "status_detail": "CLOSED",
+      "status_detail": "No RTA bus service Wednesday",
       "region": "Other",
       "source": "NewsChannel 5"
     },
