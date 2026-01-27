@@ -1,17 +1,17 @@
 {
   "meta": {
-    "generated_at": "2026-01-27T20:00:44.559688+00:00",
-    "total_closings": 167,
+    "generated_at": "2026-01-27T20:10:40.589487+00:00",
+    "total_closings": 170,
     "by_status": {
-      "CLOSED": 140,
-      "REMOTE": 23,
+      "CLOSED": 142,
+      "REMOTE": 24,
       "DELAYED": 4
     },
     "by_region": {
-      "Other": 64,
+      "Other": 65,
       "Middle Tennessee": 46,
       "West Tennessee": 45,
-      "East Tennessee": 12
+      "East Tennessee": 14
     },
     "sources": [
       "NewsChannel 5",
@@ -1064,6 +1064,13 @@
       "source": "Action News 5"
     },
     {
+      "name": "Tennessee College of Applied Technology",
+      "status": "REMOTE",
+      "status_detail": "Virtual Learning Wednesday",
+      "region": "Other",
+      "source": "Action News 5"
+    },
+    {
       "name": "Tipton Christian Academy",
       "status": "CLOSED",
       "status_detail": "Closed Through 01/30",
@@ -1141,6 +1148,13 @@
       "source": "WVLT"
     },
     {
+      "name": "Grainger County Schools",
+      "status": "CLOSED",
+      "status_detail": "Closed Wednesday",
+      "region": "East Tennessee",
+      "source": "WVLT"
+    },
+    {
       "name": "Knox County, TN Schools",
       "status": "DELAYED",
       "status_detail": "Opening Late 2 hours Wednesday",
@@ -1186,6 +1200,13 @@
       "name": "Scott County Schools",
       "status": "CLOSED",
       "status_detail": "Closed Wednesday",
+      "region": "East Tennessee",
+      "source": "WVLT"
+    },
+    {
+      "name": "Union County Schools",
+      "status": "CLOSED",
+      "status_detail": "Closed Tuesday",
       "region": "East Tennessee",
       "source": "WVLT"
     }
