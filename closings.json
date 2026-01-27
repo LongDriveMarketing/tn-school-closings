@@ -1,15 +1,15 @@
 {
   "meta": {
-    "generated_at": "2026-01-27T21:20:46.361349+00:00",
-    "total_closings": 244,
+    "generated_at": "2026-01-27T21:30:43.919353+00:00",
+    "total_closings": 251,
     "by_status": {
-      "CLOSED": 208,
-      "REMOTE": 31,
+      "CLOSED": 214,
+      "REMOTE": 32,
       "DELAYED": 5
     },
     "by_region": {
-      "Other": 94,
-      "Middle Tennessee": 70,
+      "Other": 100,
+      "Middle Tennessee": 71,
       "West Tennessee": 58,
       "East Tennessee": 22
     },
@@ -231,6 +231,13 @@
       "source": "NewsChannel 5"
     },
     {
+      "name": "Cool Springs Montessori",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
+      "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
       "name": "Crievewood Methodist",
       "status": "CLOSED",
       "status_detail": "CLOSED",
@@ -311,6 +318,13 @@
       "name": "Dodson Chapel Daycare",
       "status": "CLOSED",
       "status_detail": "CLOSED",
+      "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Donelson Christian Acad.",
+      "status": "CLOSED",
+      "status_detail": "CLOSED-NO EXTENDED CARE",
       "region": "Other",
       "source": "NewsChannel 5"
     },
@@ -679,9 +693,23 @@
       "source": "NewsChannel 5"
     },
     {
+      "name": "New Hope-Franklin",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
+      "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
       "name": "New Horizons",
       "status": "CLOSED",
       "status_detail": "CLOSED",
+      "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Nossi College of Art & Design",
+      "status": "REMOTE",
+      "status_detail": "CLOSED - VIRTUAL/REMOTE LEARNING DAY",
       "region": "Other",
       "source": "NewsChannel 5"
     },
@@ -802,6 +830,13 @@
       "status": "CLOSED",
       "status_detail": "CLOSED WED, THU & FRI",
       "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "St. Joseph",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
+      "region": "Other",
       "source": "NewsChannel 5"
     },
     {
@@ -1316,6 +1351,13 @@
       "source": "Action News 5"
     },
     {
+      "name": "Lords Tabernacle Christian Academy",
+      "status": "CLOSED",
+      "status_detail": "Closed Wednesday",
+      "region": "Other",
+      "source": "Action News 5"
+    },
+    {
       "name": "Magnolia Heights",
       "status": "CLOSED",
       "status_detail": "Closed Wednesday",
@@ -1480,6 +1522,13 @@
       "name": "St. Agnes Academy-St. Dominic School",
       "status": "CLOSED",
       "status_detail": "Closed Wednesday",
+      "region": "Other",
+      "source": "Action News 5"
+    },
+    {
+      "name": "St. Georges Independent School",
+      "status": "CLOSED",
+      "status_detail": "Closed Wednesday - After-school activities canceled",
       "region": "Other",
       "source": "Action News 5"
     },
