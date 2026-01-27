@@ -1,10 +1,10 @@
 {
   "meta": {
-    "generated_at": "2026-01-27T15:10:42.296196+00:00",
+    "generated_at": "2026-01-27T15:20:41.768881+00:00",
     "total_closings": 355,
     "by_status": {
-      "CLOSED": 315,
-      "REMOTE": 25,
+      "CLOSED": 314,
+      "REMOTE": 26,
       "EARLY_DISMISSAL": 3,
       "DELAYED": 12
     },
@@ -1515,7 +1515,7 @@
     {
       "name": "Desoto Christian Academy",
       "status": "CLOSED",
-      "status_detail": "Closed Through the 27th",
+      "status_detail": "Closed Wednesday",
       "region": "Other",
       "source": "Action News 5"
     },
@@ -1836,8 +1836,8 @@
     },
     {
       "name": "Northpoint Christian School",
-      "status": "CLOSED",
-      "status_detail": "Closed Tuesday",
+      "status": "REMOTE",
+      "status_detail": "Virtual Learning Wednesday",
       "region": "Other",
       "source": "Action News 5"
     },
