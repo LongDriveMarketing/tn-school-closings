@@ -1,18 +1,18 @@
 {
   "meta": {
-    "generated_at": "2026-01-27T22:30:45.387862+00:00",
-    "total_closings": 279,
+    "generated_at": "2026-01-27T22:40:43.726067+00:00",
+    "total_closings": 284,
     "by_status": {
-      "CLOSED": 234,
+      "CLOSED": 239,
       "REMOTE": 33,
       "DELAYED": 9,
       "EARLY_DISMISSAL": 3
     },
     "by_region": {
-      "Other": 115,
-      "Middle Tennessee": 78,
+      "Other": 118,
+      "Middle Tennessee": 79,
       "West Tennessee": 63,
-      "East Tennessee": 23
+      "East Tennessee": 24
     },
     "sources": [
       "NewsChannel 5",
@@ -263,6 +263,13 @@
       "name": "Cumberland Co., KY",
       "status": "CLOSED",
       "status_detail": "CLOSED WED, THU & FRI",
+      "region": "East Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Cumberland Co., TN",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
       "region": "East Tennessee",
       "source": "NewsChannel 5"
     },
@@ -659,6 +666,13 @@
       "source": "NewsChannel 5"
     },
     {
+      "name": "Meharry Medical College",
+      "status": "CLOSED",
+      "status_detail": "Closed Wednesday. Campus medical, dental clinics closed",
+      "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
       "name": "Metcalfe",
       "status": "CLOSED",
       "status_detail": "CLOSED WED, THU & FRI",
@@ -967,6 +981,13 @@
       "source": "NewsChannel 5"
     },
     {
+      "name": "Sumner",
+      "status": "CLOSED",
+      "status_detail": "CLOSED WED, THU & FRI",
+      "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
       "name": "Sumner Academy",
       "status": "CLOSED",
       "status_detail": "CLOSED TODAY & TOMORROW",
@@ -1010,6 +1031,13 @@
     },
     {
       "name": "The Edison School",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
+      "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "The Red Barn",
       "status": "CLOSED",
       "status_detail": "CLOSED",
       "region": "Other",
@@ -1635,6 +1663,13 @@
       "name": "Presbyterian Day School",
       "status": "CLOSED",
       "status_detail": "Closed Through 01/28",
+      "region": "Other",
+      "source": "Action News 5"
+    },
+    {
+      "name": "Remington College",
+      "status": "CLOSED",
+      "status_detail": "Closed Wednesday",
       "region": "Other",
       "source": "Action News 5"
     },
