@@ -1,16 +1,16 @@
 {
   "meta": {
-    "generated_at": "2026-01-27T17:20:40.358595+00:00",
-    "total_closings": 102,
+    "generated_at": "2026-01-27T17:30:36.911754+00:00",
+    "total_closings": 91,
     "by_status": {
-      "CLOSED": 80,
+      "CLOSED": 69,
       "REMOTE": 21,
       "DELAYED": 1
     },
     "by_region": {
-      "Other": 48,
-      "West Tennessee": 22,
-      "Middle Tennessee": 27,
+      "Other": 42,
+      "West Tennessee": 20,
+      "Middle Tennessee": 24,
       "East Tennessee": 5
     },
     "sources": [
@@ -24,6 +24,13 @@
       "name": "15th Ave. N. Learning Academy",
       "status": "CLOSED",
       "status_detail": "Closed on Wednesday",
+      "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Advanced Therapy Solutions",
+      "status": "CLOSED",
+      "status_detail": "Closed Wednesday, 1/28",
       "region": "Other",
       "source": "NewsChannel 5"
     },
@@ -100,7 +107,7 @@
     {
       "name": "Crievewood Methodist",
       "status": "CLOSED",
-      "status_detail": "CLOSED; CLOSED",
+      "status_detail": "CLOSED",
       "region": "Other",
       "source": "NewsChannel 5"
     },
@@ -168,6 +175,13 @@
       "source": "NewsChannel 5"
     },
     {
+      "name": "King's Academy",
+      "status": "CLOSED",
+      "status_detail": "CLOSED WEDNESDAY",
+      "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
       "name": "Lancaster Early Learn. Centers",
       "status": "DELAYED",
       "status_detail": "CLOSED Tuesday 1/27 and TWO-HOUR DELAY Wednesday 1/28",
@@ -217,23 +231,9 @@
       "source": "NewsChannel 5"
     },
     {
-      "name": "Middle Tenn. Christian",
-      "status": "CLOSED",
-      "status_detail": "CLOSED",
-      "region": "Other",
-      "source": "NewsChannel 5"
-    },
-    {
       "name": "Middle Tenn. St. Univ.",
       "status": "REMOTE",
       "status_detail": "Remote operations through Wed., Jan. 28",
-      "region": "Other",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "Mt. Juliet Christ. Acad.",
-      "status": "CLOSED",
-      "status_detail": "Closed Monday & Tuesday, No Extended Care",
       "region": "Other",
       "source": "NewsChannel 5"
     },
@@ -245,31 +245,10 @@
       "source": "NewsChannel 5"
     },
     {
-      "name": "New Hope-Franklin",
-      "status": "CLOSED",
-      "status_detail": "CLOSED",
-      "region": "Middle Tennessee",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "Overbrook School",
-      "status": "CLOSED",
-      "status_detail": "CLOSED-NO MAC; Closed Monday and Tuesday",
-      "region": "Other",
-      "source": "NewsChannel 5"
-    },
-    {
       "name": "Paris Special School District",
       "status": "CLOSED",
       "status_detail": "CLOSED THROUGH THURSDAY 1/29",
       "region": "West Tennessee",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "Pope Saint John Paul II",
-      "status": "CLOSED",
-      "status_detail": "Closed Monday and Tuesday",
-      "region": "Other",
       "source": "NewsChannel 5"
     },
     {
@@ -296,7 +275,7 @@
     {
       "name": "River Christian Academy",
       "status": "CLOSED",
-      "status_detail": "CLOSED; CLOSED",
+      "status_detail": "CLOSED",
       "region": "Other",
       "source": "NewsChannel 5"
     },
@@ -322,27 +301,6 @@
       "source": "NewsChannel 5"
     },
     {
-      "name": "St. Bernard Academy",
-      "status": "CLOSED",
-      "status_detail": "CLOSED",
-      "region": "Other",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "St. Cecilia Academy",
-      "status": "CLOSED",
-      "status_detail": "Closed Monday and Tuesday",
-      "region": "Other",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "St. Henry School",
-      "status": "CLOSED",
-      "status_detail": "CLOSED-NO EXTENDED CARE",
-      "region": "West Tennessee",
-      "source": "NewsChannel 5"
-    },
-    {
       "name": "St. Matthew School",
       "status": "CLOSED",
       "status_detail": "CLOSED",
@@ -364,20 +322,6 @@
       "source": "NewsChannel 5"
     },
     {
-      "name": "St. Pius X School",
-      "status": "CLOSED",
-      "status_detail": "Closed Monday, Jan. 26 & Tuesday, Jan. 27",
-      "region": "Other",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "Sumner Academy",
-      "status": "CLOSED",
-      "status_detail": "CLOSED TODAY & TOMORROW",
-      "region": "Middle Tennessee",
-      "source": "NewsChannel 5"
-    },
-    {
       "name": "TCAT Dickson",
       "status": "REMOTE",
       "status_detail": "Virtual Learning - Tuesday & Wednesday",
@@ -389,34 +333,6 @@
       "status": "REMOTE",
       "status_detail": "CLOSED - VIRTUAL/REMOTE LEARNING DAY; CLOSED - VIRTUAL/REMOTE LEARNING DAY",
       "region": "East Tennessee",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "Temple School-Manchester",
-      "status": "CLOSED",
-      "status_detail": "CLOSED TODAY & TOMORROW",
-      "region": "West Tennessee",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "Templeton Academy",
-      "status": "CLOSED",
-      "status_detail": "Closed Monday and Tuesday (no asynchronous learning)",
-      "region": "Other",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "TriStar Cottage & Homeschool Co-op",
-      "status": "CLOSED",
-      "status_detail": "All Tuesday Cooperative Classes are canceled",
-      "region": "Middle Tennessee",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "Victory Baptist-Shelbyville",
-      "status": "CLOSED",
-      "status_detail": "CLOSED",
-      "region": "West Tennessee",
       "source": "NewsChannel 5"
     },
     {
@@ -476,11 +392,11 @@
       "source": "NewsChannel 5"
     },
     {
-      "name": "Zion Christian Acad.",
+      "name": "Arkansas State University Mid-South",
       "status": "CLOSED",
-      "status_detail": "Closed Tuesday",
+      "status_detail": "Closed Wednesday - Students check Canvas for further instruction",
       "region": "Other",
-      "source": "NewsChannel 5"
+      "source": "Action News 5"
     },
     {
       "name": "Bodine School",
@@ -543,6 +459,13 @@
       "status": "CLOSED",
       "status_detail": "Closed Through Wednesday",
       "region": "Other",
+      "source": "Action News 5"
+    },
+    {
+      "name": "Evangelical Christian School",
+      "status": "CLOSED",
+      "status_detail": "Closed Wednesday",
+      "region": "West Tennessee",
       "source": "Action News 5"
     },
     {
