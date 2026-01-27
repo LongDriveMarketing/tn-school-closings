@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-01-27T02:10:40.366066+00:00",
+    "generated_at": "2026-01-27T02:20:47.417568+00:00",
     "total_closings": 354,
     "by_status": {
       "CLOSED": 313,
@@ -710,7 +710,7 @@
     {
       "name": "Lighthouse Preschool",
       "status": "CLOSED",
-      "status_detail": "Closed Monday (01/26) and Tuesday (01/27)",
+      "status_detail": "Closed Through Wednesday (01/28)",
       "region": "Other",
       "source": "NewsChannel 5"
     },
