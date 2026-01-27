@@ -1,17 +1,17 @@
 {
   "meta": {
-    "generated_at": "2026-01-27T22:10:45.200845+00:00",
-    "total_closings": 270,
+    "generated_at": "2026-01-27T22:20:40.873224+00:00",
+    "total_closings": 275,
     "by_status": {
-      "CLOSED": 227,
+      "CLOSED": 232,
       "REMOTE": 33,
       "DELAYED": 9,
       "EARLY_DISMISSAL": 1
     },
     "by_region": {
-      "Other": 110,
-      "Middle Tennessee": 76,
-      "West Tennessee": 61,
+      "Other": 112,
+      "Middle Tennessee": 77,
+      "West Tennessee": 63,
       "East Tennessee": 23
     },
     "sources": [
@@ -201,6 +201,13 @@
       "status": "CLOSED",
       "status_detail": "CLOSED",
       "region": "East Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Columbia Academy",
+      "status": "CLOSED",
+      "status_detail": "Closed Wednesday, 1/28",
+      "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
     {
@@ -633,7 +640,7 @@
     {
       "name": "Maury",
       "status": "CLOSED",
-      "status_detail": "CLOSED TODAY & TOMORROW",
+      "status_detail": "CLOSED",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
@@ -753,6 +760,13 @@
       "name": "Nossi College of Art & Design",
       "status": "REMOTE",
       "status_detail": "CLOSED - VIRTUAL/REMOTE LEARNING DAY",
+      "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Overbrook School",
+      "status": "CLOSED",
+      "status_detail": "CLOSED; Closed -Wednesday and Thursday",
       "region": "Other",
       "source": "NewsChannel 5"
     },
@@ -886,6 +900,13 @@
       "name": "St. Bernard Academy",
       "status": "CLOSED",
       "status_detail": "CLOSED WED, THU & FRI",
+      "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "St. Cecilia Academy",
+      "status": "CLOSED",
+      "status_detail": "CLOSED; Closed Wednesday and Thursday",
       "region": "Other",
       "source": "NewsChannel 5"
     },
@@ -1345,6 +1366,13 @@
       "source": "Action News 5"
     },
     {
+      "name": "Goodwill Excel Center Memphis",
+      "status": "CLOSED",
+      "status_detail": "Closed Wednesday",
+      "region": "West Tennessee",
+      "source": "Action News 5"
+    },
+    {
       "name": "Greater Praise Christian Academy",
       "status": "CLOSED",
       "status_detail": "Closed Through 01/28",
@@ -1481,6 +1509,13 @@
       "name": "Memphis Electrical JATC",
       "status": "CLOSED",
       "status_detail": "Closed Through 01/30",
+      "region": "West Tennessee",
+      "source": "Action News 5"
+    },
+    {
+      "name": "Memphis Oral School for the Deaf",
+      "status": "CLOSED",
+      "status_detail": "Closed Through 01/28",
       "region": "West Tennessee",
       "source": "Action News 5"
     },
