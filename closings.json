@@ -1,16 +1,16 @@
 {
   "meta": {
-    "generated_at": "2026-01-26T23:50:42.900020+00:00",
-    "total_closings": 347,
+    "generated_at": "2026-01-27T00:00:46.504410+00:00",
+    "total_closings": 348,
     "by_status": {
-      "CLOSED": 306,
+      "CLOSED": 307,
       "REMOTE": 26,
       "EARLY_DISMISSAL": 3,
       "DELAYED": 12
     },
     "by_region": {
       "Other": 153,
-      "Middle Tennessee": 86,
+      "Middle Tennessee": 87,
       "West Tennessee": 60,
       "East Tennessee": 48
     },
@@ -103,6 +103,13 @@
       "status": "CLOSED",
       "status_detail": "Closed - Tuesday (1/27)",
       "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Bethlehem Ctrs of Nashville",
+      "status": "CLOSED",
+      "status_detail": "CLOSED TODAY & TOMORROW",
+      "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
     {
