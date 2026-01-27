@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-01-27T13:10:41.105919+00:00",
+    "generated_at": "2026-01-27T13:20:36.920251+00:00",
     "total_closings": 355,
     "by_status": {
       "CLOSED": 315,
@@ -1627,7 +1627,7 @@
     {
       "name": "Hardin County Schools",
       "status": "CLOSED",
-      "status_detail": "Closed Through 01/27",
+      "status_detail": "Closed Tuesday",
       "region": "West Tennessee",
       "source": "Action News 5"
     },
