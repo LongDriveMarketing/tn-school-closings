@@ -1,17 +1,17 @@
 {
   "meta": {
-    "generated_at": "2026-01-27T21:10:41.492605+00:00",
-    "total_closings": 187,
+    "generated_at": "2026-01-27T21:20:46.361349+00:00",
+    "total_closings": 244,
     "by_status": {
-      "CLOSED": 157,
-      "REMOTE": 26,
-      "DELAYED": 4
+      "CLOSED": 208,
+      "REMOTE": 31,
+      "DELAYED": 5
     },
     "by_region": {
-      "Other": 72,
-      "Middle Tennessee": 46,
-      "West Tennessee": 52,
-      "East Tennessee": 17
+      "Other": 94,
+      "Middle Tennessee": 70,
+      "West Tennessee": 58,
+      "East Tennessee": 22
     },
     "sources": [
       "NewsChannel 5",
@@ -35,6 +35,27 @@
       "source": "NewsChannel 5"
     },
     {
+      "name": "Allen",
+      "status": "CLOSED",
+      "status_detail": "Closed Wednesday and Thursday NTI Days #1 & #2",
+      "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Barren",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
+      "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Battle Ground Academy",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
+      "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
       "name": "Bedford",
       "status": "CLOSED",
       "status_detail": "Closed Wed; SACP open - Thomas Magnet location only",
@@ -49,9 +70,37 @@
       "source": "NewsChannel 5"
     },
     {
+      "name": "Benton Hall",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
+      "region": "West Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
       "name": "Bethel Baptist Pre-School",
       "status": "CLOSED",
       "status_detail": "Closed - Wednesday (1/28)",
+      "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Brightstone School",
+      "status": "CLOSED",
+      "status_detail": "Closed Wednesday",
+      "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Butler",
+      "status": "CLOSED",
+      "status_detail": "CLOSED WED, THU & FRI",
+      "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Caldwell",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
       "region": "Other",
       "source": "NewsChannel 5"
     },
@@ -60,6 +109,13 @@
       "status": "CLOSED",
       "status_detail": "CLOSED WEDNESDAY AND THURSDAY",
       "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Cannon",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
+      "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
     {
@@ -77,6 +133,20 @@
       "source": "NewsChannel 5"
     },
     {
+      "name": "Cheatham",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
+      "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Christian",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
+      "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
       "name": "Christian Community Pre-school",
       "status": "CLOSED",
       "status_detail": "CLOSED",
@@ -91,9 +161,23 @@
       "source": "NewsChannel 5"
     },
     {
+      "name": "Clarksville Academy",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
+      "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
       "name": "Clarksville Christian",
       "status": "REMOTE",
       "status_detail": "Wednesday - Remote Learning",
+      "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Clarksville-Montgomery Co. Schools",
+      "status": "CLOSED",
+      "status_detail": "Through Thursday",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
@@ -105,10 +189,59 @@
       "source": "NewsChannel 5"
     },
     {
+      "name": "Clinton",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
+      "region": "East Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Columbia State-Clifton",
+      "status": "REMOTE",
+      "status_detail": "Campus closed Wednesday. Virtual learning and work only.",
+      "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Columbia State-Columbia",
+      "status": "REMOTE",
+      "status_detail": "Campus closed Wednesday. Virtual learning and work only.",
+      "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Columbia State-Franklin",
+      "status": "REMOTE",
+      "status_detail": "Campus closed Wednesday. Virtual learning and work only.",
+      "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Columbia State-Lawrenceburg",
+      "status": "REMOTE",
+      "status_detail": "Campus closed Wednesday. Virtual learning and work only.",
+      "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Columbia State-Lewisburg",
+      "status": "REMOTE",
+      "status_detail": "Campus closed Wednesday. Virtual learning and work only.",
+      "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
       "name": "Crievewood Methodist",
       "status": "CLOSED",
       "status_detail": "CLOSED",
       "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Cumberland Co., KY",
+      "status": "CLOSED",
+      "status_detail": "CLOSED WED, THU & FRI",
+      "region": "East Tennessee",
       "source": "NewsChannel 5"
     },
     {
@@ -133,6 +266,13 @@
       "source": "NewsChannel 5"
     },
     {
+      "name": "Davidson Co. Juvenile Court",
+      "status": "CLOSED",
+      "status_detail": "Closed Wednesday",
+      "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
       "name": "Davidson Metro Nashville",
       "status": "CLOSED",
       "status_detail": "CLOSED WEDNESDAY & THURSDAY",
@@ -144,6 +284,13 @@
       "status": "CLOSED",
       "status_detail": "CLOSED",
       "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Decatur",
+      "status": "CLOSED",
+      "status_detail": "CLOSED WED, THU & FRI",
+      "region": "West Tennessee",
       "source": "NewsChannel 5"
     },
     {
@@ -161,10 +308,31 @@
       "source": "NewsChannel 5"
     },
     {
+      "name": "Dodson Chapel Daycare",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
+      "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Edmonson",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
+      "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
       "name": "Episcopal School of Nashville",
       "status": "CLOSED",
       "status_detail": "CLOSED; Closed Wednesday",
       "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Fannie Battle",
+      "status": "CLOSED",
+      "status_detail": "WEDNESDAY (01/28)",
+      "region": "Other",
       "source": "NewsChannel 5"
     },
     {
@@ -203,10 +371,59 @@
       "source": "NewsChannel 5"
     },
     {
+      "name": "Friendship Christian School",
+      "status": "CLOSED",
+      "status_detail": "CLOSED-NO EXTENDED CARE",
+      "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Gen. Sessions Court-Davidson Co.",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
+      "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Giles",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
+      "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
       "name": "Goodpasture Christian Sch.",
       "status": "CLOSED",
       "status_detail": "CLOSED-NO EXTENDED CARE",
       "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Grace Baptist CDC",
+      "status": "CLOSED",
+      "status_detail": "Wednesday",
+      "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Hardin",
+      "status": "CLOSED",
+      "status_detail": "CLOSED WED, THU & FRI",
+      "region": "West Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Henderson",
+      "status": "CLOSED",
+      "status_detail": "CLOSED WED, THU & FRI",
+      "region": "West Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Henry",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
+      "region": "West Tennessee",
       "source": "NewsChannel 5"
     },
     {
@@ -289,7 +506,7 @@
     {
       "name": "Lead Acad.-Goodlettsville",
       "status": "CLOSED",
-      "status_detail": "Closed Through 1/28",
+      "status_detail": "Closed through Friday, January 30",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
@@ -297,6 +514,13 @@
       "name": "Lebanon Spec. Sch. Dist.",
       "status": "CLOSED",
       "status_detail": "CLOSED",
+      "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Lewis",
+      "status": "CLOSED",
+      "status_detail": "CLOSED WED, THU & FRI",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
@@ -311,6 +535,13 @@
       "name": "Lighthouse School",
       "status": "CLOSED",
       "status_detail": "Closed Through Wednesday (01/28)",
+      "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Logan",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
       "region": "Other",
       "source": "NewsChannel 5"
     },
@@ -350,6 +581,13 @@
       "source": "NewsChannel 5"
     },
     {
+      "name": "Metcalfe",
+      "status": "CLOSED",
+      "status_detail": "CLOSED WED, THU & FRI",
+      "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
       "name": "Metro Christian Academy",
       "status": "CLOSED",
       "status_detail": "Closed Wednesday",
@@ -361,6 +599,13 @@
       "status": "REMOTE",
       "status_detail": "Remote operations through Wed., Jan. 28",
       "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Monroe",
+      "status": "CLOSED",
+      "status_detail": "CLOSED WED, THU & FRI",
+      "region": "East Tennessee",
       "source": "NewsChannel 5"
     },
     {
@@ -434,6 +679,13 @@
       "source": "NewsChannel 5"
     },
     {
+      "name": "New Horizons",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
+      "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
       "name": "Overton",
       "status": "CLOSED",
       "status_detail": "CLOSED; Wednesday",
@@ -445,6 +697,20 @@
       "status": "CLOSED",
       "status_detail": "CLOSED THROUGH THURSDAY 1/29",
       "region": "West Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Perry",
+      "status": "CLOSED",
+      "status_detail": "CLOSED WED, THU & FRI",
+      "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Pickett",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
+      "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
     {
@@ -469,6 +735,13 @@
       "source": "NewsChannel 5"
     },
     {
+      "name": "Putnam",
+      "status": "CLOSED",
+      "status_detail": "CLOSED; CLOSED-EXTENDED CARE OPEN",
+      "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
       "name": "Redeemer Academy",
       "status": "CLOSED",
       "status_detail": "Closed thru Wednesday",
@@ -483,10 +756,24 @@
       "source": "NewsChannel 5"
     },
     {
+      "name": "Robertson",
+      "status": "CLOSED",
+      "status_detail": "CLOSED ALL WEEK",
+      "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
       "name": "Rutherford",
       "status": "CLOSED",
       "status_detail": "Closed Tuesday & Wed",
       "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Simpson",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
+      "region": "Other",
       "source": "NewsChannel 5"
     },
     {
@@ -508,6 +795,13 @@
       "status": "CLOSED",
       "status_detail": "CLOSED WED, THU & FRI",
       "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Stewart",
+      "status": "CLOSED",
+      "status_detail": "CLOSED WED, THU & FRI",
+      "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
     {
@@ -553,7 +847,49 @@
       "source": "NewsChannel 5"
     },
     {
+      "name": "Templeton Academy",
+      "status": "CLOSED",
+      "status_detail": "Closed Wednesday and Thursday",
+      "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Tennessee School for the Blind",
+      "status": "CLOSED",
+      "status_detail": "Closed Wednesday",
+      "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "The Settlement",
+      "status": "CLOSED",
+      "status_detail": "OPEN AT 8:00",
+      "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Todd",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
+      "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Trevecca Nazarene University",
+      "status": "CLOSED",
+      "status_detail": "Closed Wednesday",
+      "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
       "name": "Trousdale",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
+      "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Van Buren",
       "status": "CLOSED",
       "status_detail": "CLOSED",
       "region": "Middle Tennessee",
@@ -595,6 +931,27 @@
       "source": "NewsChannel 5"
     },
     {
+      "name": "Warren Co., TN",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
+      "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Wayne",
+      "status": "CLOSED",
+      "status_detail": "CLOSED WED, THU & FRI",
+      "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Weakley",
+      "status": "CLOSED",
+      "status_detail": "CLOSED WED, THU & FRI",
+      "region": "West Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
       "name": "WeGo Public Transit",
       "status": "CLOSED",
       "status_detail": "Limited service visit website",
@@ -616,6 +973,13 @@
       "source": "NewsChannel 5"
     },
     {
+      "name": "White",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
+      "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
       "name": "Williamson",
       "status": "CLOSED",
       "status_detail": "Closed through Thursday",
@@ -627,6 +991,20 @@
       "status": "CLOSED",
       "status_detail": "CLOSED",
       "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Woodmont Baptist",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
+      "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Zion Christian Acad.",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
+      "region": "Other",
       "source": "NewsChannel 5"
     },
     {
@@ -1197,6 +1575,13 @@
       "source": "Action News 5"
     },
     {
+      "name": "Word of Faith Christian Academy",
+      "status": "CLOSED",
+      "status_detail": "Closed Wednesday",
+      "region": "Other",
+      "source": "Action News 5"
+    },
+    {
       "name": "Bell County",
       "status": "CLOSED",
       "status_detail": "Closed Wednesday - NIT Day",
@@ -1225,9 +1610,23 @@
       "source": "WVLT"
     },
     {
+      "name": "Cocke County Schools",
+      "status": "CLOSED",
+      "status_detail": "Closed Wednesday",
+      "region": "East Tennessee",
+      "source": "WVLT"
+    },
+    {
       "name": "Grainger County Schools",
       "status": "CLOSED",
       "status_detail": "Closed Wednesday",
+      "region": "East Tennessee",
+      "source": "WVLT"
+    },
+    {
+      "name": "Greene County Schools",
+      "status": "DELAYED",
+      "status_detail": "Opening Late Wednesday 2 Hours",
       "region": "East Tennessee",
       "source": "WVLT"
     },
