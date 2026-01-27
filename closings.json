@@ -1,14 +1,14 @@
 {
   "meta": {
-    "generated_at": "2026-01-27T19:17:54.750442+00:00",
-    "total_closings": 161,
+    "generated_at": "2026-01-27T19:20:46.921054+00:00",
+    "total_closings": 162,
     "by_status": {
-      "CLOSED": 131,
-      "REMOTE": 27,
+      "CLOSED": 133,
+      "REMOTE": 26,
       "DELAYED": 3
     },
     "by_region": {
-      "Other": 64,
+      "Other": 65,
       "Middle Tennessee": 45,
       "West Tennessee": 41,
       "East Tennessee": 11
@@ -974,8 +974,8 @@
     },
     {
       "name": "Rhodes College",
-      "status": "REMOTE",
-      "status_detail": "Virtual Learning Wednesday",
+      "status": "CLOSED",
+      "status_detail": "Closed Wednesday",
       "region": "West Tennessee",
       "source": "Action News 5"
     },
@@ -1011,6 +1011,13 @@
       "name": "Southwest Tennessee Community College",
       "status": "REMOTE",
       "status_detail": "Virtual Learning Through 01/28",
+      "region": "Other",
+      "source": "Action News 5"
+    },
+    {
+      "name": "St. Mary's Episcopal School",
+      "status": "CLOSED",
+      "status_detail": "Closed Tuesday",
       "region": "Other",
       "source": "Action News 5"
     },
