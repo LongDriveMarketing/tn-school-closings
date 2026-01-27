@@ -1,18 +1,18 @@
 {
   "meta": {
-    "generated_at": "2026-01-27T16:50:40.273272+00:00",
-    "total_closings": 235,
+    "generated_at": "2026-01-27T17:00:45.935337+00:00",
+    "total_closings": 187,
     "by_status": {
-      "CLOSED": 207,
+      "CLOSED": 158,
+      "EARLY_DISMISSAL": 4,
       "REMOTE": 23,
-      "EARLY_DISMISSAL": 3,
       "DELAYED": 2
     },
     "by_region": {
-      "Other": 114,
-      "Middle Tennessee": 84,
-      "West Tennessee": 27,
-      "East Tennessee": 10
+      "Other": 107,
+      "Middle Tennessee": 51,
+      "West Tennessee": 23,
+      "East Tennessee": 6
     },
     "sources": [
       "NewsChannel 5",
@@ -24,7 +24,7 @@
     {
       "name": "15th Ave. N. Learning Academy",
       "status": "CLOSED",
-      "status_detail": "Closed Monday and Tuesday",
+      "status_detail": "Closed on Wednesday",
       "region": "Other",
       "source": "NewsChannel 5"
     },
@@ -39,13 +39,6 @@
       "name": "Advanced Therapy Solutions",
       "status": "CLOSED",
       "status_detail": "Closed Tuesday, 1/27",
-      "region": "Other",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "Allen",
-      "status": "CLOSED",
-      "status_detail": "CLOSED; Traditional Snow Day-Monday, NTI-Tuesday",
       "region": "Other",
       "source": "NewsChannel 5"
     },
@@ -71,31 +64,10 @@
       "source": "NewsChannel 5"
     },
     {
-      "name": "Barren",
-      "status": "CLOSED",
-      "status_detail": "Closed Tuesday, NTI Day 1",
-      "region": "Other",
-      "source": "NewsChannel 5"
-    },
-    {
       "name": "Battle Ground Academy",
       "status": "CLOSED",
       "status_detail": "CLOSED",
       "region": "Other",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "Bedford",
-      "status": "CLOSED",
-      "status_detail": "Closed Tues; SACP open - Thomas Magnet location",
-      "region": "Middle Tennessee",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "Benton",
-      "status": "CLOSED",
-      "status_detail": "Closed through Wednesday, January 28th",
-      "region": "West Tennessee",
       "source": "NewsChannel 5"
     },
     {
@@ -120,27 +92,6 @@
       "source": "NewsChannel 5"
     },
     {
-      "name": "Butler",
-      "status": "CLOSED",
-      "status_detail": "CLOSED",
-      "region": "Other",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "Caldwell",
-      "status": "CLOSED",
-      "status_detail": "CLOSED",
-      "region": "Other",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "Cannon",
-      "status": "CLOSED",
-      "status_detail": "Closed Monday and Tuesday",
-      "region": "Middle Tennessee",
-      "source": "NewsChannel 5"
-    },
-    {
       "name": "Carroll",
       "status": "CLOSED",
       "status_detail": "CLOSED MON, TUE. AND WED.",
@@ -149,8 +100,8 @@
     },
     {
       "name": "Cedars Prep. Academy",
-      "status": "CLOSED",
-      "status_detail": "CLOSED-NO EXTENDED CARE",
+      "status": "EARLY_DISMISSAL",
+      "status_detail": "OPEN AT 8:00; CLOSING AT 4:00",
       "region": "Other",
       "source": "NewsChannel 5"
     },
@@ -159,20 +110,6 @@
       "status": "CLOSED",
       "status_detail": "CLOSED TODAY & TOMORROW",
       "region": "Other",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "Cheatham",
-      "status": "CLOSED",
-      "status_detail": "Closed Tuesday and Wednesday",
-      "region": "Middle Tennessee",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "Christian",
-      "status": "CLOSED",
-      "status_detail": "CLOSED",
-      "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
     {
@@ -186,34 +123,6 @@
       "name": "Clarksville Christian",
       "status": "REMOTE",
       "status_detail": "Wednesday - Remote Learning",
-      "region": "Middle Tennessee",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "Clarksville-Montgomery Co. Schools",
-      "status": "CLOSED",
-      "status_detail": "through Wednesday",
-      "region": "Middle Tennessee",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "Clay",
-      "status": "CLOSED",
-      "status_detail": "Closed Monday and Tuesday",
-      "region": "Middle Tennessee",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "Clinton",
-      "status": "CLOSED",
-      "status_detail": "CLOSED",
-      "region": "East Tennessee",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "Coffee",
-      "status": "CLOSED",
-      "status_detail": "Closed Monday & Tuesday",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
@@ -288,20 +197,6 @@
       "source": "NewsChannel 5"
     },
     {
-      "name": "Cumberland Co., KY",
-      "status": "CLOSED",
-      "status_detail": "CLOSED",
-      "region": "East Tennessee",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "Cumberland Co., TN",
-      "status": "CLOSED",
-      "status_detail": "CLOSED",
-      "region": "East Tennessee",
-      "source": "NewsChannel 5"
-    },
-    {
       "name": "Cumberland University",
       "status": "CLOSED",
       "status_detail": "CLOSED; CLOSED TODAY & TOMORROW",
@@ -330,13 +225,6 @@
       "source": "NewsChannel 5"
     },
     {
-      "name": "Davidson Metro Nashville",
-      "status": "CLOSED",
-      "status_detail": "Closed Monday and Tuesday",
-      "region": "Middle Tennessee",
-      "source": "NewsChannel 5"
-    },
-    {
       "name": "Dayspring Academy",
       "status": "CLOSED",
       "status_detail": "CLOSED",
@@ -351,20 +239,6 @@
       "source": "NewsChannel 5"
     },
     {
-      "name": "Decatur",
-      "status": "CLOSED",
-      "status_detail": "CLOSED",
-      "region": "West Tennessee",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "DeKalb",
-      "status": "CLOSED",
-      "status_detail": "CLOSED",
-      "region": "Middle Tennessee",
-      "source": "NewsChannel 5"
-    },
-    {
       "name": "Dickson",
       "status": "CLOSED",
       "status_detail": "Closed through Friday",
@@ -375,13 +249,6 @@
       "name": "Donelson Christian Acad.",
       "status": "CLOSED",
       "status_detail": "Closed through 1/27",
-      "region": "Other",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "Edmonson",
-      "status": "CLOSED",
-      "status_detail": "CLOSED",
       "region": "Other",
       "source": "NewsChannel 5"
     },
@@ -435,13 +302,6 @@
       "source": "NewsChannel 5"
     },
     {
-      "name": "Franklin",
-      "status": "CLOSED",
-      "status_detail": "Closed Monday and Tuesday",
-      "region": "Middle Tennessee",
-      "source": "NewsChannel 5"
-    },
-    {
       "name": "Franklin Rd. Christ./Murfreesboro",
       "status": "CLOSED",
       "status_detail": "CLOSED",
@@ -473,13 +333,6 @@
       "name": "Georgia Institute-Murfreesboro",
       "status": "CLOSED",
       "status_detail": "Closed Tuesday 1/27",
-      "region": "Middle Tennessee",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "Giles",
-      "status": "CLOSED",
-      "status_detail": "CLOSED TODAY & TOMORROW",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
@@ -519,20 +372,6 @@
       "source": "NewsChannel 5"
     },
     {
-      "name": "Grundy",
-      "status": "CLOSED",
-      "status_detail": "Tuesday",
-      "region": "Middle Tennessee",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "Hardin",
-      "status": "CLOSED",
-      "status_detail": "CLOSED",
-      "region": "West Tennessee",
-      "source": "NewsChannel 5"
-    },
-    {
       "name": "Hart to Heart",
       "status": "CLOSED",
       "status_detail": "closed Mon. 1/26 and Tues. 1/27, 2026",
@@ -540,31 +379,10 @@
       "source": "NewsChannel 5"
     },
     {
-      "name": "Henderson",
-      "status": "CLOSED",
-      "status_detail": "CLOSED",
-      "region": "West Tennessee",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "Henry",
-      "status": "CLOSED",
-      "status_detail": "CLOSED",
-      "region": "West Tennessee",
-      "source": "NewsChannel 5"
-    },
-    {
       "name": "Heritage Acad./Hopkinsville",
       "status": "CLOSED",
       "status_detail": "Closed Tuesday, January 27 and Wednesday, January 28",
       "region": "Other",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "Hickman",
-      "status": "CLOSED",
-      "status_detail": "CLOSED",
-      "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
     {
@@ -603,13 +421,6 @@
       "source": "NewsChannel 5"
     },
     {
-      "name": "Jackson",
-      "status": "CLOSED",
-      "status_detail": "CLOSED",
-      "region": "Middle Tennessee",
-      "source": "NewsChannel 5"
-    },
-    {
       "name": "Jaymes Academy Clark",
       "status": "EARLY_DISMISSAL",
       "status_detail": "OPEN AT 9:00; CLOSING AT 4:30",
@@ -645,13 +456,6 @@
       "source": "NewsChannel 5"
     },
     {
-      "name": "King's Academy",
-      "status": "CLOSED",
-      "status_detail": "CLOSED TUESDAY, JANUARY 27",
-      "region": "Other",
-      "source": "NewsChannel 5"
-    },
-    {
       "name": "Kuddles For Kids",
       "status": "CLOSED",
       "status_detail": "CLOSED",
@@ -669,13 +473,6 @@
       "name": "Lancaster Early Learn. Centers",
       "status": "DELAYED",
       "status_detail": "CLOSED Tuesday 1/27 and TWO-HOUR DELAY Wednesday 1/28",
-      "region": "Middle Tennessee",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "Lawrence",
-      "status": "CLOSED",
-      "status_detail": "CLOSED",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
@@ -701,13 +498,6 @@
       "source": "NewsChannel 5"
     },
     {
-      "name": "Lewis",
-      "status": "CLOSED",
-      "status_detail": "Closed Monday, Extended care closed",
-      "region": "Middle Tennessee",
-      "source": "NewsChannel 5"
-    },
-    {
       "name": "Lighthouse Kids Ctrs. for Autism",
       "status": "CLOSED",
       "status_detail": "CLOSED; CLOSED; Franklin and Columbia locations closed",
@@ -726,13 +516,6 @@
       "status": "CLOSED",
       "status_detail": "Closed Through Wednesday (01/28)",
       "region": "Other",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "Lincoln",
-      "status": "CLOSED",
-      "status_detail": "CLOSED",
-      "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
     {
@@ -764,24 +547,10 @@
       "source": "NewsChannel 5"
     },
     {
-      "name": "Logan",
-      "status": "CLOSED",
-      "status_detail": "CLOSED",
-      "region": "Other",
-      "source": "NewsChannel 5"
-    },
-    {
       "name": "Love Child Care",
       "status": "CLOSED",
       "status_detail": "CLOSED",
       "region": "Other",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "Macon",
-      "status": "CLOSED",
-      "status_detail": "Closed Monday and Tuesday",
-      "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
     {
@@ -806,30 +575,9 @@
       "source": "NewsChannel 5"
     },
     {
-      "name": "Marshall",
-      "status": "CLOSED",
-      "status_detail": "CLOSED",
-      "region": "Middle Tennessee",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "Maury",
-      "status": "CLOSED",
-      "status_detail": "CLOSED",
-      "region": "Middle Tennessee",
-      "source": "NewsChannel 5"
-    },
-    {
       "name": "Meharry Medical College",
       "status": "CLOSED",
       "status_detail": "Closed Tuesday. Campus medical, dental clinics closed",
-      "region": "Other",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "Metcalfe",
-      "status": "CLOSED",
-      "status_detail": "CLOSED",
       "region": "Other",
       "source": "NewsChannel 5"
     },
@@ -866,20 +614,6 @@
       "status": "REMOTE",
       "status_detail": "Remote operations through Wed., Jan. 28",
       "region": "Other",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "Monroe",
-      "status": "CLOSED",
-      "status_detail": "CLOSED",
-      "region": "East Tennessee",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "Moore",
-      "status": "CLOSED",
-      "status_detail": "CLOSED",
-      "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
     {
@@ -981,31 +715,10 @@
       "source": "NewsChannel 5"
     },
     {
-      "name": "Overton",
-      "status": "CLOSED",
-      "status_detail": "Monday and Tuesday",
-      "region": "Middle Tennessee",
-      "source": "NewsChannel 5"
-    },
-    {
       "name": "Paris Special School District",
       "status": "CLOSED",
       "status_detail": "CLOSED THROUGH THURSDAY 1/29",
       "region": "West Tennessee",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "Perry",
-      "status": "CLOSED",
-      "status_detail": "CLOSED",
-      "region": "Middle Tennessee",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "Pickett",
-      "status": "CLOSED",
-      "status_detail": "Closed Monday & Tuesday",
-      "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
     {
@@ -1044,13 +757,6 @@
       "source": "NewsChannel 5"
     },
     {
-      "name": "Putnam",
-      "status": "CLOSED",
-      "status_detail": "Closed Monday and Tuesday",
-      "region": "Middle Tennessee",
-      "source": "NewsChannel 5"
-    },
-    {
       "name": "Redeemer Academy",
       "status": "CLOSED",
       "status_detail": "Closed thru Wednesday",
@@ -1069,13 +775,6 @@
       "status": "CLOSED",
       "status_detail": "CLOSED; CLOSED",
       "region": "Other",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "Robertson",
-      "status": "CLOSED",
-      "status_detail": "CLOSED TODAY & TOMORROW",
-      "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
     {
@@ -1142,13 +841,6 @@
       "source": "NewsChannel 5"
     },
     {
-      "name": "Stewart",
-      "status": "CLOSED",
-      "status_detail": "CLOSED ALL WEEK",
-      "region": "Middle Tennessee",
-      "source": "NewsChannel 5"
-    },
-    {
       "name": "St. Henry School",
       "status": "CLOSED",
       "status_detail": "CLOSED-NO EXTENDED CARE",
@@ -1188,13 +880,6 @@
       "status": "CLOSED",
       "status_detail": "Closed Monday, Jan. 26 & Tuesday, Jan. 27",
       "region": "Other",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "Sumner",
-      "status": "CLOSED",
-      "status_detail": "Closed Monday and Tuesday",
-      "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
     {
@@ -1303,23 +988,9 @@
       "source": "NewsChannel 5"
     },
     {
-      "name": "Trousdale",
-      "status": "CLOSED",
-      "status_detail": "Closed Monday and Tuesday",
-      "region": "Middle Tennessee",
-      "source": "NewsChannel 5"
-    },
-    {
       "name": "Tullahoma City Schools",
       "status": "CLOSED",
       "status_detail": "Closed Tuesday",
-      "region": "Middle Tennessee",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "Van Buren",
-      "status": "CLOSED",
-      "status_detail": "CLOSED through Tuesday",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
@@ -1373,20 +1044,6 @@
       "source": "NewsChannel 5"
     },
     {
-      "name": "Wayne",
-      "status": "CLOSED",
-      "status_detail": "CLOSED",
-      "region": "Middle Tennessee",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "Weakley",
-      "status": "CLOSED",
-      "status_detail": "CLOSED",
-      "region": "West Tennessee",
-      "source": "NewsChannel 5"
-    },
-    {
       "name": "WeGo Public Transit",
       "status": "CLOSED",
       "status_detail": "Limited service visit website",
@@ -1408,23 +1065,9 @@
       "source": "NewsChannel 5"
     },
     {
-      "name": "White",
-      "status": "CLOSED",
-      "status_detail": "Closed Monday and Tuesday",
-      "region": "Middle Tennessee",
-      "source": "NewsChannel 5"
-    },
-    {
       "name": "Williamson",
       "status": "CLOSED",
       "status_detail": "We will be closed through Thursday, 1/29/26",
-      "region": "Middle Tennessee",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "Wilson",
-      "status": "CLOSED",
-      "status_detail": "CLOSED; Closed Monday and Tuesday",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
@@ -1475,6 +1118,13 @@
       "status": "CLOSED",
       "status_detail": "Closed Through Friday the 30th - Instruction to continue virtually",
       "region": "Other",
+      "source": "Action News 5"
+    },
+    {
+      "name": "Concord Academy",
+      "status": "CLOSED",
+      "status_detail": "Closed Wednesday 01/28",
+      "region": "West Tennessee",
       "source": "Action News 5"
     },
     {
@@ -1548,6 +1198,13 @@
       "source": "Action News 5"
     },
     {
+      "name": "Lausanne Collegiate School",
+      "status": "CLOSED",
+      "status_detail": "Closed Through 01/28",
+      "region": "Other",
+      "source": "Action News 5"
+    },
+    {
       "name": "LeMoyne-Owen College",
       "status": "REMOTE",
       "status_detail": "Virtual Learning Through 01/28",
@@ -1587,6 +1244,13 @@
       "status": "REMOTE",
       "status_detail": "Virtual Learning Wednesday",
       "region": "Other",
+      "source": "Action News 5"
+    },
+    {
+      "name": "Northwest Mississippi Community College",
+      "status": "CLOSED",
+      "status_detail": "Closed Through Sunday",
+      "region": "West Tennessee",
       "source": "Action News 5"
     },
     {
