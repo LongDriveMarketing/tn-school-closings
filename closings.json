@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-01-27T01:40:49.660120+00:00",
+    "generated_at": "2026-01-27T01:50:48.217714+00:00",
     "total_closings": 354,
     "by_status": {
       "CLOSED": 313,
@@ -1046,7 +1046,7 @@
     {
       "name": "Robertson",
       "status": "CLOSED",
-      "status_detail": "CLOSED-NO DAY CARE",
+      "status_detail": "CLOSED TODAY & TOMORROW",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
