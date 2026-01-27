@@ -1,17 +1,17 @@
 {
   "meta": {
-    "generated_at": "2026-01-27T18:40:45.515390+00:00",
-    "total_closings": 135,
+    "generated_at": "2026-01-27T18:50:44.191621+00:00",
+    "total_closings": 138,
     "by_status": {
-      "CLOSED": 109,
+      "CLOSED": 112,
       "REMOTE": 24,
       "DELAYED": 2
     },
     "by_region": {
-      "Other": 52,
+      "Other": 53,
       "Middle Tennessee": 38,
-      "West Tennessee": 37,
-      "East Tennessee": 8
+      "West Tennessee": 38,
+      "East Tennessee": 9
     },
     "sources": [
       "NewsChannel 5",
@@ -700,6 +700,13 @@
       "source": "Action News 5"
     },
     {
+      "name": "Freedom Preparatory Academy",
+      "status": "CLOSED",
+      "status_detail": "Closed Wednesday",
+      "region": "West Tennessee",
+      "source": "Action News 5"
+    },
+    {
       "name": "Germantown Municipal School District",
       "status": "CLOSED",
       "status_detail": "Closed Wednesday",
@@ -924,10 +931,24 @@
       "source": "WVLT"
     },
     {
+      "name": "Claiborne County Schools",
+      "status": "CLOSED",
+      "status_detail": "Closed Wednesday",
+      "region": "East Tennessee",
+      "source": "WVLT"
+    },
+    {
       "name": "Knoxville Preparatory School",
       "status": "DELAYED",
       "status_detail": "Delayed Wednesday 2 Hours - buses will run according to the two-hour delay",
       "region": "East Tennessee",
+      "source": "WVLT"
+    },
+    {
+      "name": "Landmark Christian Academy",
+      "status": "CLOSED",
+      "status_detail": "Closed Wednesday",
+      "region": "Other",
       "source": "WVLT"
     },
     {
