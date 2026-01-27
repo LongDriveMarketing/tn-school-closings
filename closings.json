@@ -1,10 +1,10 @@
 {
   "meta": {
-    "generated_at": "2026-01-27T15:30:44.797752+00:00",
-    "total_closings": 355,
+    "generated_at": "2026-01-27T15:40:40.314677+00:00",
+    "total_closings": 356,
     "by_status": {
       "CLOSED": 314,
-      "REMOTE": 26,
+      "REMOTE": 27,
       "EARLY_DISMISSAL": 3,
       "DELAYED": 12
     },
@@ -12,7 +12,7 @@
       "Other": 158,
       "Middle Tennessee": 87,
       "West Tennessee": 61,
-      "East Tennessee": 49
+      "East Tennessee": 50
     },
     "sources": [
       "NewsChannel 5",
@@ -1167,6 +1167,13 @@
       "status": "REMOTE",
       "status_detail": "Virtual Learning - Tuesday & Wednesday",
       "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "TCAT McMinnville",
+      "status": "REMOTE",
+      "status_detail": "CLOSED - VIRTUAL/REMOTE LEARNING DAY; CLOSED - VIRTUAL/REMOTE LEARNING DAY",
+      "region": "East Tennessee",
       "source": "NewsChannel 5"
     },
     {
