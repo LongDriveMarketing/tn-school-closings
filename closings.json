@@ -1,17 +1,17 @@
 {
   "meta": {
-    "generated_at": "2026-01-27T19:50:38.359595+00:00",
-    "total_closings": 165,
+    "generated_at": "2026-01-27T20:00:44.559688+00:00",
+    "total_closings": 167,
     "by_status": {
-      "CLOSED": 139,
+      "CLOSED": 140,
       "REMOTE": 23,
-      "DELAYED": 3
+      "DELAYED": 4
     },
     "by_region": {
       "Other": 64,
       "Middle Tennessee": 46,
       "West Tennessee": 45,
-      "East Tennessee": 10
+      "East Tennessee": 12
     },
     "sources": [
       "NewsChannel 5",
@@ -1148,9 +1148,23 @@
       "source": "WVLT"
     },
     {
+      "name": "Knoxville Head Start Extended Day",
+      "status": "DELAYED",
+      "status_detail": "Opening Late Wednesday 2 Hours",
+      "region": "East Tennessee",
+      "source": "WVLT"
+    },
+    {
       "name": "Knoxville Preparatory School",
       "status": "DELAYED",
       "status_detail": "Delayed Wednesday 2 Hours - buses will run according to the two-hour delay",
+      "region": "East Tennessee",
+      "source": "WVLT"
+    },
+    {
+      "name": "Knoxville-Knox County Head Start Morning Session",
+      "status": "CLOSED",
+      "status_detail": "Closed Tuesday",
       "region": "East Tennessee",
       "source": "WVLT"
     },
