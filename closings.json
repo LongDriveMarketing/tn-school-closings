@@ -1,16 +1,16 @@
 {
   "meta": {
-    "generated_at": "2026-01-27T19:40:45.732240+00:00",
-    "total_closings": 164,
+    "generated_at": "2026-01-27T19:50:38.359595+00:00",
+    "total_closings": 165,
     "by_status": {
-      "CLOSED": 138,
+      "CLOSED": 139,
       "REMOTE": 23,
       "DELAYED": 3
     },
     "by_region": {
       "Other": 64,
       "Middle Tennessee": 46,
-      "West Tennessee": 44,
+      "West Tennessee": 45,
       "East Tennessee": 10
     },
     "sources": [
@@ -872,6 +872,13 @@
       "status": "CLOSED",
       "status_detail": "Closed Wednesday - Remote Learning",
       "region": "Other",
+      "source": "Action News 5"
+    },
+    {
+      "name": "KIPP Memphis Public Schools",
+      "status": "CLOSED",
+      "status_detail": "Closed Wednesday 01/28",
+      "region": "West Tennessee",
       "source": "Action News 5"
     },
     {
