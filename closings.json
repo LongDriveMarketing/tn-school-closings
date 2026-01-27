@@ -1,17 +1,17 @@
 {
   "meta": {
-    "generated_at": "2026-01-27T18:20:41.832551+00:00",
-    "total_closings": 120,
+    "generated_at": "2026-01-27T18:30:58.758759+00:00",
+    "total_closings": 126,
     "by_status": {
-      "CLOSED": 97,
-      "REMOTE": 22,
+      "CLOSED": 102,
+      "REMOTE": 23,
       "DELAYED": 1
     },
     "by_region": {
-      "Other": 49,
-      "Middle Tennessee": 33,
-      "West Tennessee": 33,
-      "East Tennessee": 5
+      "Other": 51,
+      "Middle Tennessee": 34,
+      "West Tennessee": 35,
+      "East Tennessee": 6
     },
     "sources": [
       "NewsChannel 5",
@@ -441,6 +441,13 @@
       "source": "NewsChannel 5"
     },
     {
+      "name": "Trousdale",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
+      "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
       "name": "Vol State-Cookeville",
       "status": "REMOTE",
       "status_detail": "CLOSED; Closed Tuesday 1/27, Open remotely 1/28",
@@ -546,6 +553,13 @@
       "source": "Action News 5"
     },
     {
+      "name": "Christ Trinity Christian Academy",
+      "status": "CLOSED",
+      "status_detail": "Closed Wednesday",
+      "region": "Other",
+      "source": "Action News 5"
+    },
+    {
       "name": "Christian Brothers University",
       "status": "REMOTE",
       "status_detail": "Virtual Learning Through Wednesday",
@@ -570,6 +584,13 @@
       "name": "Collierville School District",
       "status": "CLOSED",
       "status_detail": "Closed Wednesday 01/28",
+      "region": "West Tennessee",
+      "source": "Action News 5"
+    },
+    {
+      "name": "Compass Community Schools",
+      "status": "CLOSED",
+      "status_detail": "Closed Wednesday",
       "region": "West Tennessee",
       "source": "Action News 5"
     },
@@ -763,6 +784,13 @@
       "source": "Action News 5"
     },
     {
+      "name": "Palestine-Wheatley School District",
+      "status": "CLOSED",
+      "status_detail": "Closed Wednesday",
+      "region": "Other",
+      "source": "Action News 5"
+    },
+    {
       "name": "Rossville Christian Academy",
       "status": "CLOSED",
       "status_detail": "Closed Through 01/28",
@@ -819,6 +847,13 @@
       "source": "Action News 5"
     },
     {
+      "name": "University of Memphis",
+      "status": "REMOTE",
+      "status_detail": "Virtual Learning Wednesday",
+      "region": "West Tennessee",
+      "source": "Action News 5"
+    },
+    {
       "name": "University of Mississippi",
       "status": "CLOSED",
       "status_detail": "Closed Through Sunday",
@@ -831,6 +866,13 @@
       "status_detail": "Closed Through Wednesday the 28th",
       "region": "West Tennessee",
       "source": "Action News 5"
+    },
+    {
+      "name": "Campbell County Schools",
+      "status": "CLOSED",
+      "status_detail": "Closed Wednesday",
+      "region": "East Tennessee",
+      "source": "WVLT"
     },
     {
       "name": "Maryville College",
