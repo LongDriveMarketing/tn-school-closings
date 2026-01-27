@@ -1,17 +1,17 @@
 {
   "meta": {
-    "generated_at": "2026-01-27T20:30:38.829612+00:00",
-    "total_closings": 177,
+    "generated_at": "2026-01-27T20:40:42.263771+00:00",
+    "total_closings": 178,
     "by_status": {
-      "CLOSED": 148,
+      "CLOSED": 149,
       "REMOTE": 25,
       "DELAYED": 4
     },
     "by_region": {
-      "Other": 68,
+      "Other": 69,
       "Middle Tennessee": 46,
-      "West Tennessee": 46,
-      "East Tennessee": 17
+      "West Tennessee": 47,
+      "East Tennessee": 16
     },
     "sources": [
       "NewsChannel 5",
@@ -658,6 +658,13 @@
       "source": "Action News 5"
     },
     {
+      "name": "Bells City School",
+      "status": "CLOSED",
+      "status_detail": "Closed Through 01/29",
+      "region": "West Tennessee",
+      "source": "Action News 5"
+    },
+    {
       "name": "Bodine School",
       "status": "CLOSED",
       "status_detail": "Closed Wednesday",
@@ -1015,6 +1022,13 @@
       "source": "Action News 5"
     },
     {
+      "name": "Presbyterian Day School",
+      "status": "CLOSED",
+      "status_detail": "Closed Through 01/28",
+      "region": "Other",
+      "source": "Action News 5"
+    },
+    {
       "name": "Rhodes College",
       "status": "CLOSED",
       "status_detail": "Closed Wednesday",
@@ -1144,13 +1158,6 @@
       "name": "Bell County",
       "status": "CLOSED",
       "status_detail": "Closed Wednesday - NIT Day",
-      "region": "East Tennessee",
-      "source": "WVLT"
-    },
-    {
-      "name": "Boys & Girls Club of Campbell County",
-      "status": "CLOSED",
-      "status_detail": "Closed Wednesday",
       "region": "East Tennessee",
       "source": "WVLT"
     },
