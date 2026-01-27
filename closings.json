@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-01-27T15:20:41.768881+00:00",
+    "generated_at": "2026-01-27T15:30:44.797752+00:00",
     "total_closings": 355,
     "by_status": {
       "CLOSED": 314,
@@ -675,7 +675,7 @@
     {
       "name": "Lead Acad.-Goodlettsville",
       "status": "CLOSED",
-      "status_detail": "Closed Monday & Tuesday",
+      "status_detail": "Closed Through 1/28",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
