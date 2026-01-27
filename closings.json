@@ -1,15 +1,15 @@
 {
   "meta": {
-    "generated_at": "2026-01-27T17:30:36.911754+00:00",
-    "total_closings": 91,
+    "generated_at": "2026-01-27T17:40:37.808942+00:00",
+    "total_closings": 92,
     "by_status": {
-      "CLOSED": 69,
+      "CLOSED": 70,
       "REMOTE": 21,
       "DELAYED": 1
     },
     "by_region": {
       "Other": 42,
-      "West Tennessee": 20,
+      "West Tennessee": 21,
       "Middle Tennessee": 24,
       "East Tennessee": 5
     },
@@ -409,6 +409,13 @@
       "name": "Carroll County Schools",
       "status": "CLOSED",
       "status_detail": "Closed Wednesday",
+      "region": "West Tennessee",
+      "source": "Action News 5"
+    },
+    {
+      "name": "Christ the King Lutheran School",
+      "status": "CLOSED",
+      "status_detail": "Closed Wednesday 01/28",
       "region": "West Tennessee",
       "source": "Action News 5"
     },
