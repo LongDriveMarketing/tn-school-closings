@@ -1,15 +1,15 @@
 {
   "meta": {
-    "generated_at": "2026-01-27T13:20:36.920251+00:00",
-    "total_closings": 355,
+    "generated_at": "2026-01-27T13:30:46.290154+00:00",
+    "total_closings": 356,
     "by_status": {
-      "CLOSED": 315,
+      "CLOSED": 316,
       "REMOTE": 25,
       "EARLY_DISMISSAL": 3,
       "DELAYED": 12
     },
     "by_region": {
-      "Other": 157,
+      "Other": 158,
       "Middle Tennessee": 87,
       "West Tennessee": 62,
       "East Tennessee": 49
@@ -1724,6 +1724,13 @@
     },
     {
       "name": "Lords Tabernacle Christian Academy",
+      "status": "CLOSED",
+      "status_detail": "Closed Tuesday",
+      "region": "Other",
+      "source": "Action News 5"
+    },
+    {
+      "name": "Madonna Learning Center",
       "status": "CLOSED",
       "status_detail": "Closed Tuesday",
       "region": "Other",
