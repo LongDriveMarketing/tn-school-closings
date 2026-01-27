@@ -1,16 +1,16 @@
 {
   "meta": {
-    "generated_at": "2026-01-27T17:50:56.295551+00:00",
-    "total_closings": 96,
+    "generated_at": "2026-01-27T18:01:00.435739+00:00",
+    "total_closings": 103,
     "by_status": {
-      "CLOSED": 74,
-      "REMOTE": 21,
+      "CLOSED": 80,
+      "REMOTE": 22,
       "DELAYED": 1
     },
     "by_region": {
-      "Other": 43,
-      "Middle Tennessee": 26,
-      "West Tennessee": 22,
+      "Other": 45,
+      "Middle Tennessee": 29,
+      "West Tennessee": 24,
       "East Tennessee": 5
     },
     "sources": [
@@ -39,6 +39,13 @@
       "status": "CLOSED",
       "status_detail": "Closed Wed; SACP open - Thomas Magnet location only",
       "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Bethel Baptist Pre-School",
+      "status": "CLOSED",
+      "status_detail": "Closed - Wednesday (1/28)",
+      "region": "Other",
       "source": "NewsChannel 5"
     },
     {
@@ -231,10 +238,24 @@
       "source": "NewsChannel 5"
     },
     {
+      "name": "Macon Christian Academy",
+      "status": "CLOSED",
+      "status_detail": "Closed Wednesday, Thursday, & Friday - No Childcare Available",
+      "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
       "name": "Mama Lere Hearing School",
       "status": "CLOSED",
       "status_detail": "educational and childcare programs through Thursday",
       "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Maury",
+      "status": "CLOSED",
+      "status_detail": "CLOSED TODAY & TOMORROW",
+      "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
     {
@@ -252,10 +273,24 @@
       "source": "NewsChannel 5"
     },
     {
+      "name": "Mt. Juliet Christ. Acad.",
+      "status": "CLOSED",
+      "status_detail": "Closed Wednesday, 1/28",
+      "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
       "name": "Muhlenberg",
       "status": "CLOSED",
       "status_detail": "Snow Day Monday NTI Tuesday and Wednesday",
       "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Nashville State-White Bridge",
+      "status": "REMOTE",
+      "status_detail": "Virtual operations and classes through 1/29",
+      "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
     {
@@ -420,6 +455,13 @@
       "source": "Action News 5"
     },
     {
+      "name": "Bartlett City Schools",
+      "status": "CLOSED",
+      "status_detail": "Closed Wednesday",
+      "region": "West Tennessee",
+      "source": "Action News 5"
+    },
+    {
       "name": "Bodine School",
       "status": "CLOSED",
       "status_detail": "Closed Wednesday",
@@ -498,6 +540,13 @@
     },
     {
       "name": "Fayette Academy",
+      "status": "CLOSED",
+      "status_detail": "Closed Wednesday",
+      "region": "West Tennessee",
+      "source": "Action News 5"
+    },
+    {
+      "name": "Fayette Christian School",
       "status": "CLOSED",
       "status_detail": "Closed Wednesday",
       "region": "West Tennessee",
