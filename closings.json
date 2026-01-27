@@ -1,16 +1,16 @@
 {
   "meta": {
-    "generated_at": "2026-01-27T22:20:40.873224+00:00",
-    "total_closings": 275,
+    "generated_at": "2026-01-27T22:30:45.387862+00:00",
+    "total_closings": 279,
     "by_status": {
-      "CLOSED": 232,
+      "CLOSED": 234,
       "REMOTE": 33,
       "DELAYED": 9,
-      "EARLY_DISMISSAL": 1
+      "EARLY_DISMISSAL": 3
     },
     "by_region": {
-      "Other": 112,
-      "Middle Tennessee": 77,
+      "Other": 115,
+      "Middle Tennessee": 78,
       "West Tennessee": 63,
       "East Tennessee": 23
     },
@@ -540,6 +540,20 @@
       "source": "NewsChannel 5"
     },
     {
+      "name": "Jaymes Academy Clark",
+      "status": "EARLY_DISMISSAL",
+      "status_detail": "OPEN AT 9:00; CLOSING AT 4:30",
+      "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Jaymes Academy Old Nashville",
+      "status": "EARLY_DISMISSAL",
+      "status_detail": "OPEN AT 9:00; CLOSING AT 4:30",
+      "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
       "name": "King's Academy",
       "status": "CLOSED",
       "status_detail": "CLOSED WEDNESDAY",
@@ -845,6 +859,13 @@
       "status": "CLOSED",
       "status_detail": "Closed thru Wednesday",
       "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Rhythm & Rhymes",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
+      "region": "Other",
       "source": "NewsChannel 5"
     },
     {
@@ -1486,6 +1507,13 @@
     },
     {
       "name": "Manila School District",
+      "status": "CLOSED",
+      "status_detail": "Closed Wednesday",
+      "region": "Other",
+      "source": "Action News 5"
+    },
+    {
+      "name": "Maria Montessori School",
       "status": "CLOSED",
       "status_detail": "Closed Wednesday",
       "region": "Other",
