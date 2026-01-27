@@ -1,15 +1,15 @@
 {
   "meta": {
-    "generated_at": "2026-01-27T23:41:36.528683+00:00",
-    "total_closings": 295,
+    "generated_at": "2026-01-27T23:50:37.718307+00:00",
+    "total_closings": 296,
     "by_status": {
       "CLOSED": 248,
-      "REMOTE": 34,
+      "REMOTE": 35,
       "DELAYED": 10,
       "EARLY_DISMISSAL": 3
     },
     "by_region": {
-      "Other": 126,
+      "Other": 127,
       "Middle Tennessee": 83,
       "West Tennessee": 63,
       "East Tennessee": 23
@@ -502,6 +502,13 @@
       "status": "CLOSED",
       "status_detail": "CLOSED WED, THU & FRI",
       "region": "West Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Hart to Heart",
+      "status": "CLOSED",
+      "status_detail": "Center closed Wednesday and Thursday",
+      "region": "Other",
       "source": "NewsChannel 5"
     },
     {
@@ -1738,8 +1745,8 @@
     },
     {
       "name": "Northwest Mississippi Community College",
-      "status": "CLOSED",
-      "status_detail": "Closed Through Sunday",
+      "status": "REMOTE",
+      "status_detail": "Virtual Learning Tuesday",
       "region": "West Tennessee",
       "source": "Action News 5"
     },
