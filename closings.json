@@ -1,18 +1,18 @@
 {
   "meta": {
-    "generated_at": "2026-01-27T16:30:40.374628+00:00",
-    "total_closings": 294,
+    "generated_at": "2026-01-27T16:40:39.823629+00:00",
+    "total_closings": 234,
     "by_status": {
-      "CLOSED": 256,
+      "CLOSED": 206,
       "REMOTE": 23,
       "EARLY_DISMISSAL": 3,
-      "DELAYED": 12
+      "DELAYED": 2
     },
     "by_region": {
-      "Other": 133,
+      "Other": 113,
       "Middle Tennessee": 84,
-      "West Tennessee": 28,
-      "East Tennessee": 49
+      "West Tennessee": 27,
+      "East Tennessee": 10
     },
     "sources": [
       "NewsChannel 5",
@@ -409,7 +409,7 @@
     {
       "name": "Fentress",
       "status": "CLOSED",
-      "status_detail": "Closed through Tuesday",
+      "status_detail": "CLOSED",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
@@ -1457,9 +1457,23 @@
       "source": "Action News 5"
     },
     {
+      "name": "Clarksdale Municipal School District",
+      "status": "CLOSED",
+      "status_detail": "Closed Wednesday",
+      "region": "Other",
+      "source": "Action News 5"
+    },
+    {
       "name": "Coahoma County School District",
       "status": "CLOSED",
       "status_detail": "Closed Through Friday the 30th - Instruction to continue virtually",
+      "region": "Other",
+      "source": "Action News 5"
+    },
+    {
+      "name": "Cross Creek Christian Academy",
+      "status": "CLOSED",
+      "status_detail": "Closed Wednesday",
       "region": "Other",
       "source": "Action News 5"
     },
@@ -1618,317 +1632,9 @@
       "source": "Action News 5"
     },
     {
-      "name": "Alcoa Schools",
-      "status": "CLOSED",
-      "status_detail": "Closed Tuesday",
-      "region": "Other",
-      "source": "WVLT"
-    },
-    {
-      "name": "Anderson County Schools",
-      "status": "CLOSED",
-      "status_detail": "Closed Through 01/27",
-      "region": "East Tennessee",
-      "source": "WVLT"
-    },
-    {
-      "name": "Annoor Academy",
-      "status": "DELAYED",
-      "status_detail": "Opening Late Tuesday 2 Hours",
-      "region": "Other",
-      "source": "WVLT"
-    },
-    {
-      "name": "Bell County",
-      "status": "CLOSED",
-      "status_detail": "Closed Tuesday - NIT Day",
-      "region": "East Tennessee",
-      "source": "WVLT"
-    },
-    {
-      "name": "Blount County Schools",
-      "status": "CLOSED",
-      "status_detail": "Closed Tuesday",
-      "region": "East Tennessee",
-      "source": "WVLT"
-    },
-    {
-      "name": "Boys & Girls Club of Campbell County",
-      "status": "CLOSED",
-      "status_detail": "Closed Tuesday",
-      "region": "East Tennessee",
-      "source": "WVLT"
-    },
-    {
-      "name": "Boys & Girls Clubs of Claiborne County",
-      "status": "CLOSED",
-      "status_detail": "Closed Tuesday",
-      "region": "East Tennessee",
-      "source": "WVLT"
-    },
-    {
-      "name": "CAK",
-      "status": "CLOSED",
-      "status_detail": "Closed Tuesday",
-      "region": "Other",
-      "source": "WVLT"
-    },
-    {
-      "name": "Campbell County Schools",
-      "status": "CLOSED",
-      "status_detail": "Closed Through 01/27",
-      "region": "East Tennessee",
-      "source": "WVLT"
-    },
-    {
-      "name": "Cedar Springs Weekday School",
-      "status": "CLOSED",
-      "status_detail": "Closed Tuesday",
-      "region": "Other",
-      "source": "WVLT"
-    },
-    {
-      "name": "Chesterton Academy",
-      "status": "CLOSED",
-      "status_detail": "Closed Tuesday - No Teachers Report",
-      "region": "West Tennessee",
-      "source": "WVLT"
-    },
-    {
-      "name": "Claiborne County Schools",
-      "status": "CLOSED",
-      "status_detail": "Closed Through 01/27",
-      "region": "East Tennessee",
-      "source": "WVLT"
-    },
-    {
-      "name": "Clayton-Bradley Academy",
-      "status": "CLOSED",
-      "status_detail": "Closed Tuesday",
-      "region": "East Tennessee",
-      "source": "WVLT"
-    },
-    {
-      "name": "Cleveland St. All Sites",
-      "status": "CLOSED",
-      "status_detail": "Closed Through 01/27",
-      "region": "East Tennessee",
-      "source": "WVLT"
-    },
-    {
-      "name": "Clinton City Schools",
-      "status": "CLOSED",
-      "status_detail": "Closed Through the 27th",
-      "region": "East Tennessee",
-      "source": "WVLT"
-    },
-    {
-      "name": "Cocke County Schools",
-      "status": "CLOSED",
-      "status_detail": "Closed Through 01/27",
-      "region": "East Tennessee",
-      "source": "WVLT"
-    },
-    {
-      "name": "Concord Christian School",
-      "status": "CLOSED",
-      "status_detail": "Closed Tuesday",
-      "region": "Other",
-      "source": "WVLT"
-    },
-    {
-      "name": "Crossroads Christian Academy - Lenoir City",
-      "status": "CLOSED",
-      "status_detail": "Closed Tuesday",
-      "region": "Other",
-      "source": "WVLT"
-    },
-    {
-      "name": "Cumberland County Schools",
-      "status": "CLOSED",
-      "status_detail": "Closed Tuesday",
-      "region": "East Tennessee",
-      "source": "WVLT"
-    },
-    {
-      "name": "Emerald Academy",
-      "status": "CLOSED",
-      "status_detail": "Closed Tuesday",
-      "region": "Other",
-      "source": "WVLT"
-    },
-    {
-      "name": "Episcopal School of Knox",
-      "status": "DELAYED",
-      "status_detail": "Delayed Tuesday 2 Hours",
-      "region": "East Tennessee",
-      "source": "WVLT"
-    },
-    {
-      "name": "First Baptist Academy-Powell",
-      "status": "DELAYED",
-      "status_detail": "Opening Late Tuesday 2 Hours",
-      "region": "Other",
-      "source": "WVLT"
-    },
-    {
-      "name": "First Lutheran School and ECE",
-      "status": "CLOSED",
-      "status_detail": "Closed Tuesday",
-      "region": "Other",
-      "source": "WVLT"
-    },
-    {
-      "name": "Grace Christian Academy-Karns",
-      "status": "CLOSED",
-      "status_detail": "Closed Tuesday 01/27",
-      "region": "Other",
-      "source": "WVLT"
-    },
-    {
-      "name": "Grainger County Schools",
-      "status": "CLOSED",
-      "status_detail": "Closed Through 01/27",
-      "region": "East Tennessee",
-      "source": "WVLT"
-    },
-    {
-      "name": "Greene County Schools",
-      "status": "CLOSED",
-      "status_detail": "Closed Tuesday",
-      "region": "East Tennessee",
-      "source": "WVLT"
-    },
-    {
-      "name": "Hamblen County Schools",
-      "status": "CLOSED",
-      "status_detail": "Closed Tuesday - No ESP",
-      "region": "East Tennessee",
-      "source": "WVLT"
-    },
-    {
-      "name": "Hancock County Schools",
-      "status": "CLOSED",
-      "status_detail": "Closed Tuesday",
-      "region": "East Tennessee",
-      "source": "WVLT"
-    },
-    {
-      "name": "Harlan County, KY Schools",
-      "status": "CLOSED",
-      "status_detail": "Closed Tuesday - NIT Day",
-      "region": "Other",
-      "source": "WVLT"
-    },
-    {
-      "name": "Hawkins County Schools",
-      "status": "CLOSED",
-      "status_detail": "Closed Tuesday",
-      "region": "East Tennessee",
-      "source": "WVLT"
-    },
-    {
-      "name": "Knox County, TN Schools",
-      "status": "CLOSED",
-      "status_detail": "Closed Tuesday - 2-hour delay Wednesday, Jan. 28",
-      "region": "East Tennessee",
-      "source": "WVLT"
-    },
-    {
-      "name": "Knoxville Catholic High",
-      "status": "CLOSED",
-      "status_detail": "Closed Tuesday 01/27",
-      "region": "East Tennessee",
-      "source": "WVLT"
-    },
-    {
-      "name": "Knoxville Christian School",
-      "status": "DELAYED",
-      "status_detail": "Opening Late Tuesday 2 Hours",
-      "region": "East Tennessee",
-      "source": "WVLT"
-    },
-    {
-      "name": "Knoxville Head Start Extended Day",
-      "status": "CLOSED",
-      "status_detail": "Closed Tuesday",
-      "region": "East Tennessee",
-      "source": "WVLT"
-    },
-    {
-      "name": "Knoxville Montessori School",
-      "status": "DELAYED",
-      "status_detail": "Delayed Tuesday 1 Hour",
-      "region": "East Tennessee",
-      "source": "WVLT"
-    },
-    {
-      "name": "Knoxville Preparatory School",
-      "status": "CLOSED",
-      "status_detail": "Closed Tuesday - Wed, Jan 28: 2-hour delay, KPS Busses will Run",
-      "region": "East Tennessee",
-      "source": "WVLT"
-    },
-    {
-      "name": "Knoxville-Knox County Head Start Afternoon Session",
-      "status": "CLOSED",
-      "status_detail": "Closed Tuesday",
-      "region": "East Tennessee",
-      "source": "WVLT"
-    },
-    {
-      "name": "Knoxville-Knox County Head Start Morning Session",
-      "status": "CLOSED",
-      "status_detail": "Closed Tuesday",
-      "region": "East Tennessee",
-      "source": "WVLT"
-    },
-    {
-      "name": "Landmark Christian Academy",
-      "status": "CLOSED",
-      "status_detail": "Closed Tuesday",
-      "region": "Other",
-      "source": "WVLT"
-    },
-    {
-      "name": "Lenoir City Schools",
-      "status": "CLOSED",
-      "status_detail": "Closed Through 01/27",
-      "region": "East Tennessee",
-      "source": "WVLT"
-    },
-    {
-      "name": "Loudon County Schools",
-      "status": "CLOSED",
-      "status_detail": "Closed Through 01/27",
-      "region": "East Tennessee",
-      "source": "WVLT"
-    },
-    {
-      "name": "Maryville Christian",
-      "status": "CLOSED",
-      "status_detail": "Closed Tuesday",
-      "region": "East Tennessee",
-      "source": "WVLT"
-    },
-    {
-      "name": "Maryville City Schools",
-      "status": "DELAYED",
-      "status_detail": "Opening Late 2 hours Tuesday",
-      "region": "East Tennessee",
-      "source": "WVLT"
-    },
-    {
       "name": "Maryville College",
       "status": "REMOTE",
       "status_detail": "Virtual Learning Tuesday",
-      "region": "East Tennessee",
-      "source": "WVLT"
-    },
-    {
-      "name": "McMinn County Schools",
-      "status": "CLOSED",
-      "status_detail": "Closed Through 01/27",
       "region": "East Tennessee",
       "source": "WVLT"
     },
@@ -1947,135 +1653,9 @@
       "source": "WVLT"
     },
     {
-      "name": "New Fellowship Christian Academy",
-      "status": "DELAYED",
-      "status_detail": "Opening Late Tuesday 2 Hours",
-      "region": "Other",
-      "source": "WVLT"
-    },
-    {
-      "name": "Oneida Special School District",
-      "status": "CLOSED",
-      "status_detail": "Closed Through 01/27",
-      "region": "Other",
-      "source": "WVLT"
-    },
-    {
-      "name": "Pellissippi St. Community College",
-      "status": "DELAYED",
-      "status_detail": "Delayed Tuesday 2 Hours",
-      "region": "Other",
-      "source": "WVLT"
-    },
-    {
-      "name": "Pineville Independent Schools",
-      "status": "CLOSED",
-      "status_detail": "Closed Tuesday - NTI DAY 4",
-      "region": "Other",
-      "source": "WVLT"
-    },
-    {
-      "name": "Roane County Schools",
-      "status": "CLOSED",
-      "status_detail": "Closed Through 01/27",
-      "region": "East Tennessee",
-      "source": "WVLT"
-    },
-    {
-      "name": "Roane State - All Campuses",
-      "status": "CLOSED",
-      "status_detail": "Opening Late Tuesday 11:00 AM - Local Time",
-      "region": "East Tennessee",
-      "source": "WVLT"
-    },
-    {
-      "name": "Rogersville Schools",
-      "status": "CLOSED",
-      "status_detail": "Closed Tuesday",
-      "region": "Other",
-      "source": "WVLT"
-    },
-    {
-      "name": "Sacred Heart Cathedral School",
-      "status": "CLOSED",
-      "status_detail": "Closed Tuesday",
-      "region": "Other",
-      "source": "WVLT"
-    },
-    {
-      "name": "Scott County Schools",
-      "status": "CLOSED",
-      "status_detail": "Closed Through 01/27",
-      "region": "East Tennessee",
-      "source": "WVLT"
-    },
-    {
-      "name": "Sevier County Schools",
-      "status": "CLOSED",
-      "status_detail": "Closed Through 01/27",
-      "region": "East Tennessee",
-      "source": "WVLT"
-    },
-    {
-      "name": "St. Joseph School-Knox",
-      "status": "CLOSED",
-      "status_detail": "Closed Tuesday",
-      "region": "East Tennessee",
-      "source": "WVLT"
-    },
-    {
-      "name": "St. Mary's-Oak Ridge",
-      "status": "DELAYED",
-      "status_detail": "Opening Late Tuesday 1 Hour",
-      "region": "East Tennessee",
-      "source": "WVLT"
-    },
-    {
-      "name": "Sweetwater City",
-      "status": "CLOSED",
-      "status_detail": "Closed Through the 27th",
-      "region": "East Tennessee",
-      "source": "WVLT"
-    },
-    {
-      "name": "Tate's School",
-      "status": "DELAYED",
-      "status_detail": "Opening Late Tuesday 2 Hours",
-      "region": "Other",
-      "source": "WVLT"
-    },
-    {
-      "name": "Tennessee Tech University",
-      "status": "CLOSED",
-      "status_detail": "Closed Tuesday",
-      "region": "Other",
-      "source": "WVLT"
-    },
-    {
-      "name": "Tri-State Christian Academy",
-      "status": "CLOSED",
-      "status_detail": "Closed Tuesday",
-      "region": "Other",
-      "source": "WVLT"
-    },
-    {
       "name": "Tusculum University",
       "status": "REMOTE",
       "status_detail": "Virtual Learning Tuesday",
-      "region": "Other",
-      "source": "WVLT"
-    },
-    {
-      "name": "Union County Schools",
-      "status": "CLOSED",
-      "status_detail": "Closed Through 01/27",
-      "region": "East Tennessee",
-      "source": "WVLT"
-    },
-    {
-      "name": "Webb School",
-      "status": "CLOSED",
-      "status_detail": "Opening Late Tuesday 10:00 AM",
       "region": "Other",
       "source": "WVLT"
     }
