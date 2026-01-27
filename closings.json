@@ -1,15 +1,15 @@
 {
   "meta": {
-    "generated_at": "2026-01-27T16:20:48.263482+00:00",
-    "total_closings": 293,
+    "generated_at": "2026-01-27T16:30:40.374628+00:00",
+    "total_closings": 294,
     "by_status": {
-      "CLOSED": 255,
+      "CLOSED": 256,
       "REMOTE": 23,
       "EARLY_DISMISSAL": 3,
       "DELAYED": 12
     },
     "by_region": {
-      "Other": 132,
+      "Other": 133,
       "Middle Tennessee": 84,
       "West Tennessee": 28,
       "East Tennessee": 49
@@ -1054,6 +1054,13 @@
       "name": "Rhythm & Rhymes",
       "status": "CLOSED",
       "status_detail": "CLOSED",
+      "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "River Christian Academy",
+      "status": "CLOSED",
+      "status_detail": "CLOSED; CLOSED",
       "region": "Other",
       "source": "NewsChannel 5"
     },
