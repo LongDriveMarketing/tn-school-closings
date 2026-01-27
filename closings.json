@@ -1,16 +1,16 @@
 {
   "meta": {
-    "generated_at": "2026-01-27T21:50:49.961498+00:00",
-    "total_closings": 264,
+    "generated_at": "2026-01-27T22:00:39.970680+00:00",
+    "total_closings": 265,
     "by_status": {
-      "CLOSED": 223,
+      "CLOSED": 224,
       "REMOTE": 33,
       "DELAYED": 8
     },
     "by_region": {
       "Other": 106,
       "Middle Tennessee": 75,
-      "West Tennessee": 60,
+      "West Tennessee": 61,
       "East Tennessee": 23
     },
     "sources": [
@@ -1607,6 +1607,13 @@
       "status": "CLOSED",
       "status_detail": "Closed Tuesday",
       "region": "Other",
+      "source": "Action News 5"
+    },
+    {
+      "name": "STAR Academy Charter School",
+      "status": "CLOSED",
+      "status_detail": "Closed Tuesday",
+      "region": "West Tennessee",
       "source": "Action News 5"
     },
     {
