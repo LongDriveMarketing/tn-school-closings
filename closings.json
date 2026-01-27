@@ -1,18 +1,18 @@
 {
   "meta": {
-    "generated_at": "2026-01-27T22:50:40.281149+00:00",
-    "total_closings": 290,
+    "generated_at": "2026-01-27T23:00:48.847370+00:00",
+    "total_closings": 289,
     "by_status": {
-      "CLOSED": 245,
+      "CLOSED": 244,
       "REMOTE": 33,
       "DELAYED": 9,
       "EARLY_DISMISSAL": 3
     },
     "by_region": {
-      "Other": 123,
-      "Middle Tennessee": 79,
-      "West Tennessee": 63,
-      "East Tennessee": 25
+      "Other": 124,
+      "Middle Tennessee": 80,
+      "West Tennessee": 62,
+      "East Tennessee": 23
     },
     "sources": [
       "NewsChannel 5",
@@ -470,6 +470,13 @@
       "source": "NewsChannel 5"
     },
     {
+      "name": "Grandmama's House",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
+      "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
       "name": "Grundy",
       "status": "DELAYED",
       "status_detail": "TWO HOURS LATE",
@@ -578,6 +585,13 @@
       "name": "King's Academy",
       "status": "CLOSED",
       "status_detail": "CLOSED WEDNESDAY",
+      "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Kreative Kids 1 & 2",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
       "region": "Other",
       "source": "NewsChannel 5"
     },
@@ -816,6 +830,13 @@
       "name": "Nossi College of Art & Design",
       "status": "REMOTE",
       "status_detail": "CLOSED - VIRTUAL/REMOTE LEARNING DAY",
+      "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "OC- West End Preschool",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
       "region": "Other",
       "source": "NewsChannel 5"
     },
@@ -1173,6 +1194,13 @@
       "name": "Wayne",
       "status": "CLOSED",
       "status_detail": "CLOSED WED, THU & FRI",
+      "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Wayne Reed Childcare Ctr.",
+      "status": "CLOSED",
+      "status_detail": "CLOSED Wednesday & Thursday",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
@@ -1597,6 +1625,13 @@
       "source": "Action News 5"
     },
     {
+      "name": "McNairy County Schools",
+      "status": "CLOSED",
+      "status_detail": "Closed Through Friday 1/30",
+      "region": "West Tennessee",
+      "source": "Action News 5"
+    },
+    {
       "name": "Memphis Business Academy",
       "status": "CLOSED",
       "status_detail": "Closed Wednesday - After-school activities canceled",
@@ -1772,20 +1807,6 @@
       "source": "Action News 5"
     },
     {
-      "name": "St. Mary's Episcopal School",
-      "status": "CLOSED",
-      "status_detail": "Closed Tuesday",
-      "region": "Other",
-      "source": "Action News 5"
-    },
-    {
-      "name": "STAR Academy Charter School",
-      "status": "CLOSED",
-      "status_detail": "Closed Tuesday",
-      "region": "West Tennessee",
-      "source": "Action News 5"
-    },
-    {
       "name": "Tate County School District",
       "status": "CLOSED",
       "status_detail": "Closed Through Wednesday",
@@ -1821,13 +1842,6 @@
       "source": "Action News 5"
     },
     {
-      "name": "Tunica Academy",
-      "status": "CLOSED",
-      "status_detail": "Closed Wednesday",
-      "region": "Other",
-      "source": "Action News 5"
-    },
-    {
       "name": "Tunica County School District",
       "status": "CLOSED",
       "status_detail": "Closed Through 01/30",
@@ -1849,13 +1863,6 @@
       "source": "Action News 5"
     },
     {
-      "name": "University of Tennessee Health Science Center",
-      "status": "CLOSED",
-      "status_detail": "Closed Wednesday",
-      "region": "Other",
-      "source": "Action News 5"
-    },
-    {
       "name": "West Memphis School District",
       "status": "CLOSED",
       "status_detail": "Closed Through Wednesday the 28th",
@@ -1867,13 +1874,6 @@
       "status": "CLOSED",
       "status_detail": "Closed Wednesday",
       "region": "Middle Tennessee",
-      "source": "Action News 5"
-    },
-    {
-      "name": "Woodland Presbyterian School",
-      "status": "CLOSED",
-      "status_detail": "Closed Tuesday",
-      "region": "West Tennessee",
       "source": "Action News 5"
     },
     {
@@ -1975,13 +1975,6 @@
       "source": "WVLT"
     },
     {
-      "name": "Knoxville-Knox County Head Start Morning Session",
-      "status": "CLOSED",
-      "status_detail": "Closed Tuesday",
-      "region": "East Tennessee",
-      "source": "WVLT"
-    },
-    {
       "name": "Landmark Christian Academy",
       "status": "CLOSED",
       "status_detail": "Closed Wednesday",
@@ -2045,10 +2038,10 @@
       "source": "WVLT"
     },
     {
-      "name": "Union County Schools",
+      "name": "Tri-State Christian Academy",
       "status": "CLOSED",
-      "status_detail": "Closed Tuesday",
-      "region": "East Tennessee",
+      "status_detail": "Closed Wednesday",
+      "region": "Other",
       "source": "WVLT"
     }
   ]
