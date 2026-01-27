@@ -1,16 +1,16 @@
 {
   "meta": {
-    "generated_at": "2026-01-27T17:00:45.935337+00:00",
-    "total_closings": 187,
+    "generated_at": "2026-01-27T17:03:02.956770+00:00",
+    "total_closings": 153,
     "by_status": {
-      "CLOSED": 158,
+      "CLOSED": 126,
       "EARLY_DISMISSAL": 4,
-      "REMOTE": 23,
-      "DELAYED": 2
+      "REMOTE": 22,
+      "DELAYED": 1
     },
     "by_region": {
-      "Other": 107,
-      "Middle Tennessee": 51,
+      "Other": 82,
+      "Middle Tennessee": 42,
       "West Tennessee": 23,
       "East Tennessee": 6
     },
@@ -32,13 +32,6 @@
       "name": "Aaron Academy",
       "status": "CLOSED",
       "status_detail": "Closed Monday and Tuesday",
-      "region": "Other",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "Advanced Therapy Solutions",
-      "status": "CLOSED",
-      "status_detail": "Closed Tuesday, 1/27",
       "region": "Other",
       "source": "NewsChannel 5"
     },
@@ -218,21 +211,7 @@
       "source": "NewsChannel 5"
     },
     {
-      "name": "Davidson Co. Juvenile Court",
-      "status": "CLOSED",
-      "status_detail": "Closed Tuesday",
-      "region": "Middle Tennessee",
-      "source": "NewsChannel 5"
-    },
-    {
       "name": "Dayspring Academy",
-      "status": "CLOSED",
-      "status_detail": "CLOSED",
-      "region": "Other",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "DCSO Day Reporting",
       "status": "CLOSED",
       "status_detail": "CLOSED",
       "region": "Other",
@@ -271,13 +250,6 @@
       "status": "CLOSED",
       "status_detail": "Closed Monday and Tuesday",
       "region": "Other",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "Fayetteville City Schools",
-      "status": "CLOSED",
-      "status_detail": "CLOSED",
-      "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
     {
@@ -533,24 +505,10 @@
       "source": "NewsChannel 5"
     },
     {
-      "name": "Little Country Schoolhouse",
+      "name": "Macon",
       "status": "CLOSED",
-      "status_detail": "CLOSED",
-      "region": "Other",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "Little Miracles",
-      "status": "DELAYED",
-      "status_detail": "Open 01/27. 2 hr opening delay",
-      "region": "Other",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "Love Child Care",
-      "status": "CLOSED",
-      "status_detail": "CLOSED",
-      "region": "Other",
+      "status_detail": "CLOSED WED, THU & FRI",
+      "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
     {
@@ -582,23 +540,9 @@
       "source": "NewsChannel 5"
     },
     {
-      "name": "Metro Baptist-Goodlettsville",
-      "status": "CLOSED",
-      "status_detail": "Closed Wednesday",
-      "region": "Other",
-      "source": "NewsChannel 5"
-    },
-    {
       "name": "Metro Christian Academy",
       "status": "CLOSED",
       "status_detail": "Closed Wednesday",
-      "region": "Other",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "Metro Head Start",
-      "status": "CLOSED",
-      "status_detail": "CLOSED-NO MAC",
       "region": "Other",
       "source": "NewsChannel 5"
     },
@@ -638,73 +582,10 @@
       "source": "NewsChannel 5"
     },
     {
-      "name": "Nashville State-Clarksville",
-      "status": "CLOSED",
-      "status_detail": "CLOSED; Closed on January 27",
-      "region": "Middle Tennessee",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "Nashville State-Dickson",
-      "status": "CLOSED",
-      "status_detail": "CLOSED; Closed on January 27",
-      "region": "Middle Tennessee",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "Nashville State-Humphreys Co.",
-      "status": "CLOSED",
-      "status_detail": "CLOSED; Closed on January 27",
-      "region": "Middle Tennessee",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "Nashville State-North Davidson",
-      "status": "CLOSED",
-      "status_detail": "CLOSED; Closed on January 27",
-      "region": "Middle Tennessee",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "Nashville State-Southeast",
-      "status": "CLOSED",
-      "status_detail": "CLOSED; Closed on January 27",
-      "region": "Middle Tennessee",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "Nashville State-White Bridge",
-      "status": "CLOSED",
-      "status_detail": "Closed on January 27",
-      "region": "Middle Tennessee",
-      "source": "NewsChannel 5"
-    },
-    {
       "name": "New Hope-Franklin",
       "status": "CLOSED",
       "status_detail": "CLOSED",
       "region": "Middle Tennessee",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "New Horizons",
-      "status": "CLOSED",
-      "status_detail": "CLOSED",
-      "region": "Other",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "Nossi College of Art & Design",
-      "status": "REMOTE",
-      "status_detail": "CLOSED - VIRTUAL/REMOTE LEARNING DAY",
-      "region": "Other",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "OC- West End Preschool",
-      "status": "CLOSED",
-      "status_detail": "CLOSED",
-      "region": "Other",
       "source": "NewsChannel 5"
     },
     {
@@ -725,20 +606,6 @@
       "name": "Pope Saint John Paul II",
       "status": "CLOSED",
       "status_detail": "Closed Monday and Tuesday",
-      "region": "Other",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "Portland Learning Center",
-      "status": "CLOSED",
-      "status_detail": "CLOSED",
-      "region": "Other",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "Possibility Place",
-      "status": "CLOSED",
-      "status_detail": "CLOSED - MONDAY & TUESDAY",
       "region": "Other",
       "source": "NewsChannel 5"
     },
@@ -764,13 +631,6 @@
       "source": "NewsChannel 5"
     },
     {
-      "name": "Rhythm & Rhymes",
-      "status": "CLOSED",
-      "status_detail": "CLOSED",
-      "region": "Other",
-      "source": "NewsChannel 5"
-    },
-    {
       "name": "River Christian Academy",
       "status": "CLOSED",
       "status_detail": "CLOSED; CLOSED",
@@ -792,31 +652,10 @@
       "source": "NewsChannel 5"
     },
     {
-      "name": "SAE Institute",
-      "status": "CLOSED",
-      "status_detail": "Closed Tuesday-No Classes",
-      "region": "Other",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "Simpson",
-      "status": "CLOSED",
-      "status_detail": "CLOSED",
-      "region": "Other",
-      "source": "NewsChannel 5"
-    },
-    {
       "name": "Smith",
       "status": "CLOSED",
       "status_detail": "Closed Monday, Tuesday and Wednesday",
       "region": "Middle Tennessee",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "Somerset Comm. College",
-      "status": "CLOSED",
-      "status_detail": "CLOSED",
-      "region": "Other",
       "source": "NewsChannel 5"
     },
     {
@@ -918,69 +757,6 @@
       "source": "NewsChannel 5"
     },
     {
-      "name": "Tennessee School for the Blind",
-      "status": "CLOSED",
-      "status_detail": "Closed January 26 and 27",
-      "region": "Other",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "Tennessee State University",
-      "status": "CLOSED",
-      "status_detail": "CLOSED",
-      "region": "Other",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "Tennessee Tech",
-      "status": "CLOSED",
-      "status_detail": "CLOSED",
-      "region": "Other",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "The Red Barn",
-      "status": "CLOSED",
-      "status_detail": "CLOSED",
-      "region": "Other",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "The Settlement",
-      "status": "CLOSED",
-      "status_detail": "CLOSED",
-      "region": "Other",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "The Youth Academy",
-      "status": "CLOSED",
-      "status_detail": "CLOSED",
-      "region": "Other",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "Todd",
-      "status": "CLOSED",
-      "status_detail": "CLOSED",
-      "region": "Other",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "Trevecca Nazarene University",
-      "status": "CLOSED",
-      "status_detail": "Campus closed Tuesday",
-      "region": "Middle Tennessee",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "Trigg",
-      "status": "CLOSED",
-      "status_detail": "CLOSED - NTI DAY #3",
-      "region": "Other",
-      "source": "NewsChannel 5"
-    },
-    {
       "name": "TriStar Cottage & Homeschool Co-op",
       "status": "CLOSED",
       "status_detail": "All Tuesday Cooperative Classes are canceled",
@@ -1030,13 +806,6 @@
       "source": "NewsChannel 5"
     },
     {
-      "name": "Warren Co., KY",
-      "status": "CLOSED",
-      "status_detail": "CLOSED - NON TRADITIONAL INSTRUCTION DAY",
-      "region": "Middle Tennessee",
-      "source": "NewsChannel 5"
-    },
-    {
       "name": "Warren Co., TN",
       "status": "CLOSED",
       "status_detail": "All district buildings closed Tuesday.",
@@ -1069,13 +838,6 @@
       "status": "CLOSED",
       "status_detail": "We will be closed through Thursday, 1/29/26",
       "region": "Middle Tennessee",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "Woodmont Baptist",
-      "status": "CLOSED",
-      "status_detail": "CLOSED",
-      "region": "Other",
       "source": "NewsChannel 5"
     },
     {
