@@ -1,17 +1,17 @@
 {
   "meta": {
-    "generated_at": "2026-01-27T21:40:37.559969+00:00",
-    "total_closings": 258,
+    "generated_at": "2026-01-27T21:50:49.961498+00:00",
+    "total_closings": 264,
     "by_status": {
-      "CLOSED": 218,
-      "REMOTE": 32,
+      "CLOSED": 223,
+      "REMOTE": 33,
       "DELAYED": 8
     },
     "by_region": {
-      "Other": 104,
-      "Middle Tennessee": 72,
+      "Other": 106,
+      "Middle Tennessee": 75,
       "West Tennessee": 60,
-      "East Tennessee": 22
+      "East Tennessee": 23
     },
     "sources": [
       "NewsChannel 5",
@@ -39,6 +39,13 @@
       "status": "CLOSED",
       "status_detail": "Closed Wednesday and Thursday NTI Days #1 & #2",
       "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "A.O. Smith",
+      "status": "CLOSED",
+      "status_detail": "CLOSED; Production Cancelled for both shifts on Wednesday",
+      "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
     {
@@ -353,6 +360,13 @@
       "name": "Fentress",
       "status": "CLOSED",
       "status_detail": "CLOSED",
+      "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "First Baptist-Dickson",
+      "status": "CLOSED",
+      "status_detail": "FBC Dickson Daycare closed the remainder of the week",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
@@ -819,6 +833,13 @@
       "source": "NewsChannel 5"
     },
     {
+      "name": "SAE Institute",
+      "status": "CLOSED",
+      "status_detail": "All classes canceled Wednesday",
+      "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
       "name": "Simpson",
       "status": "CLOSED",
       "status_detail": "CLOSED",
@@ -903,6 +924,13 @@
       "source": "NewsChannel 5"
     },
     {
+      "name": "TCAT Murfreesboro-Smyrna",
+      "status": "REMOTE",
+      "status_detail": "CLOSED - VIRTUAL/REMOTE LEARNING DAY",
+      "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
       "name": "Templeton Academy",
       "status": "CLOSED",
       "status_detail": "Closed Wednesday and Thursday",
@@ -920,6 +948,13 @@
       "name": "The Settlement",
       "status": "CLOSED",
       "status_detail": "OPEN AT 8:00",
+      "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "The Youth Academy",
+      "status": "CLOSED",
+      "status_detail": "OPEN AT 9:00",
       "region": "Other",
       "source": "NewsChannel 5"
     },
@@ -1816,6 +1851,13 @@
       "name": "Scott County Schools",
       "status": "CLOSED",
       "status_detail": "Closed Wednesday",
+      "region": "East Tennessee",
+      "source": "WVLT"
+    },
+    {
+      "name": "Sevier County Schools",
+      "status": "CLOSED",
+      "status_detail": "Closed Through 01/28",
       "region": "East Tennessee",
       "source": "WVLT"
     },
