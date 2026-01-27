@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-01-27T14:40:38.268062+00:00",
+    "generated_at": "2026-01-27T14:50:43.723190+00:00",
     "total_closings": 356,
     "by_status": {
       "CLOSED": 316,
@@ -591,7 +591,7 @@
     {
       "name": "Immaculate Conception",
       "status": "CLOSED",
-      "status_detail": "Closed Monday/ Tuesday (January 26-27)",
+      "status_detail": "Closed through Wednesday, January 28",
       "region": "Other",
       "source": "NewsChannel 5"
     },
@@ -1340,7 +1340,7 @@
     {
       "name": "WeGo Public Transit",
       "status": "CLOSED",
-      "status_detail": "Limited Service Monday",
+      "status_detail": "Limited service visit website",
       "region": "Other",
       "source": "NewsChannel 5"
     },
