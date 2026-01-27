@@ -1,17 +1,17 @@
 {
   "meta": {
-    "generated_at": "2026-01-27T23:00:48.847370+00:00",
+    "generated_at": "2026-01-27T23:10:43.794824+00:00",
     "total_closings": 289,
     "by_status": {
-      "CLOSED": 244,
-      "REMOTE": 33,
+      "CLOSED": 243,
+      "REMOTE": 34,
       "DELAYED": 9,
       "EARLY_DISMISSAL": 3
     },
     "by_region": {
-      "Other": 124,
+      "Other": 123,
       "Middle Tennessee": 80,
-      "West Tennessee": 62,
+      "West Tennessee": 63,
       "East Tennessee": 23
     },
     "sources": [
@@ -1212,21 +1212,7 @@
       "source": "NewsChannel 5"
     },
     {
-      "name": "WeGo Public Transit",
-      "status": "CLOSED",
-      "status_detail": "Limited service visit website",
-      "region": "Other",
-      "source": "NewsChannel 5"
-    },
-    {
       "name": "WeGo Regional Bus",
-      "status": "CLOSED",
-      "status_detail": "CLOSED",
-      "region": "Other",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "WeGo Star",
       "status": "CLOSED",
       "status_detail": "CLOSED",
       "region": "Other",
@@ -1716,6 +1702,13 @@
       "source": "Action News 5"
     },
     {
+      "name": "Nova Life Coach Academy",
+      "status": "CLOSED",
+      "status_detail": "Closed Through 01/30",
+      "region": "Other",
+      "source": "Action News 5"
+    },
+    {
       "name": "Oxford School District",
       "status": "CLOSED",
       "status_detail": "Closed Through 01/30",
@@ -1733,6 +1726,13 @@
       "name": "Paul Mitchell School of Memphis",
       "status": "CLOSED",
       "status_detail": "Closed Wednesday",
+      "region": "West Tennessee",
+      "source": "Action News 5"
+    },
+    {
+      "name": "Pleasant View School",
+      "status": "REMOTE",
+      "status_detail": "Virtual Learning Wednesday",
       "region": "West Tennessee",
       "source": "Action News 5"
     },
