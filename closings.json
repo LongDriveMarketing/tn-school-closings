@@ -1,16 +1,16 @@
 {
   "meta": {
-    "generated_at": "2026-01-27T19:00:45.602681+00:00",
-    "total_closings": 148,
+    "generated_at": "2026-01-27T19:11:07.429756+00:00",
+    "total_closings": 157,
     "by_status": {
-      "CLOSED": 118,
+      "CLOSED": 127,
       "REMOTE": 27,
       "DELAYED": 3
     },
     "by_region": {
-      "Other": 58,
-      "Middle Tennessee": 41,
-      "West Tennessee": 39,
+      "Other": 61,
+      "Middle Tennessee": 45,
+      "West Tennessee": 41,
       "East Tennessee": 10
     },
     "sources": [
@@ -44,7 +44,7 @@
     {
       "name": "Benton",
       "status": "CLOSED",
-      "status_detail": "CLOSED; CLOSED WED, THU & FRI",
+      "status_detail": "CLOSED WED, THU & FRI; CLOSED WED, THU & FRI",
       "region": "West Tennessee",
       "source": "NewsChannel 5"
     },
@@ -81,6 +81,13 @@
       "status": "CLOSED",
       "status_detail": "CLOSED",
       "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Christ the King",
+      "status": "CLOSED",
+      "status_detail": "Through Wednesday",
+      "region": "West Tennessee",
       "source": "NewsChannel 5"
     },
     {
@@ -175,6 +182,13 @@
       "source": "NewsChannel 5"
     },
     {
+      "name": "Franklin",
+      "status": "CLOSED",
+      "status_detail": "No ESP",
+      "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
       "name": "Franklin Rd. Christ./Murfreesboro",
       "status": "CLOSED",
       "status_detail": "CLOSED",
@@ -203,6 +217,20 @@
       "source": "NewsChannel 5"
     },
     {
+      "name": "Hickman",
+      "status": "CLOSED",
+      "status_detail": "CLOSED WED, THU & FRI",
+      "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Holy Rosary Academy",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
+      "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
       "name": "Houston",
       "status": "CLOSED",
       "status_detail": "CLOSED ALL WEEK",
@@ -214,6 +242,13 @@
       "status": "CLOSED",
       "status_detail": "Closed through Friday 1/30",
       "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Image Maker Beauty Inst.",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
+      "region": "Other",
       "source": "NewsChannel 5"
     },
     {
@@ -350,6 +385,13 @@
       "source": "NewsChannel 5"
     },
     {
+      "name": "Nashville Christian School",
+      "status": "CLOSED",
+      "status_detail": "CLOSED; CLOSED WED, THU & FRI",
+      "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
       "name": "Nashville State-Clarksville",
       "status": "REMOTE",
       "status_detail": "Virtual operations and classes through 1/29",
@@ -462,6 +504,13 @@
       "source": "NewsChannel 5"
     },
     {
+      "name": "St. Bernard Academy",
+      "status": "CLOSED",
+      "status_detail": "CLOSED WED, THU & FRI",
+      "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
       "name": "St. Matthew School",
       "status": "CLOSED",
       "status_detail": "CLOSED",
@@ -570,6 +619,13 @@
       "name": "Williamson",
       "status": "CLOSED",
       "status_detail": "Closed through Thursday",
+      "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Wilson",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
@@ -759,6 +815,13 @@
       "name": "Hardeman County Schools",
       "status": "CLOSED",
       "status_detail": "Closed Through Friday",
+      "region": "West Tennessee",
+      "source": "Action News 5"
+    },
+    {
+      "name": "Harding Academy of Memphis",
+      "status": "CLOSED",
+      "status_detail": "Closed Wednesday",
       "region": "West Tennessee",
       "source": "Action News 5"
     },
