@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-01-27T00:20:39.319361+00:00",
+    "generated_at": "2026-01-27T00:30:38.794373+00:00",
     "total_closings": 350,
     "by_status": {
       "CLOSED": 309,
@@ -164,7 +164,7 @@
     {
       "name": "Cheatham",
       "status": "CLOSED",
-      "status_detail": "Closed Monday and Tuesday",
+      "status_detail": "Closed Tuesday and Wednesday",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
