@@ -1,16 +1,16 @@
 {
   "meta": {
-    "generated_at": "2026-01-27T23:30:39.503862+00:00",
-    "total_closings": 292,
+    "generated_at": "2026-01-27T23:40:41.103083+00:00",
+    "total_closings": 295,
     "by_status": {
-      "CLOSED": 245,
+      "CLOSED": 248,
       "REMOTE": 34,
       "DELAYED": 10,
       "EARLY_DISMISSAL": 3
     },
     "by_region": {
-      "Other": 124,
-      "Middle Tennessee": 82,
+      "Other": 126,
+      "Middle Tennessee": 83,
       "West Tennessee": 63,
       "East Tennessee": 23
     },
@@ -39,6 +39,13 @@
       "name": "Allen",
       "status": "CLOSED",
       "status_detail": "Closed Wednesday and Thursday NTI Days #1 & #2",
+      "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Angels Watching Over Me",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
       "region": "Other",
       "source": "NewsChannel 5"
     },
@@ -680,6 +687,13 @@
       "source": "NewsChannel 5"
     },
     {
+      "name": "Little Country Schoolhouse",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
+      "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
       "name": "Logan",
       "status": "CLOSED",
       "status_detail": "CLOSED",
@@ -768,6 +782,13 @@
       "status": "CLOSED",
       "status_detail": "Snow Day Monday NTI Tuesday and Wednesday",
       "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Murfreesboro City Sch.",
+      "status": "CLOSED",
+      "status_detail": "CLOSED-EXTENDED CARE OPEN",
+      "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
     {
@@ -941,7 +962,7 @@
     {
       "name": "Redeemer Academy",
       "status": "CLOSED",
-      "status_detail": "Closed thru Wednesday",
+      "status_detail": "Closed thru Thursday, Jan 29",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
