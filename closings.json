@@ -1,15 +1,15 @@
 {
   "meta": {
-    "generated_at": "2026-01-28T21:40:52.387240+00:00",
-    "total_closings": 208,
+    "generated_at": "2026-01-28T21:50:41.865869+00:00",
+    "total_closings": 209,
     "by_status": {
-      "CLOSED": 180,
+      "CLOSED": 181,
       "REMOTE": 24,
       "EARLY_DISMISSAL": 1,
       "DELAYED": 3
     },
     "by_region": {
-      "Other": 82,
+      "Other": 83,
       "Middle Tennessee": 61,
       "West Tennessee": 54,
       "East Tennessee": 11
@@ -88,6 +88,13 @@
       "name": "Caverna Independent",
       "status": "CLOSED",
       "status_detail": "CLOSED - NON TRADITIONAL INSTRUCTION DAY; CLOSED WED, THU & FRI",
+      "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Cedars Prep. Academy",
+      "status": "CLOSED",
+      "status_detail": "Open 8:00AM to 4:00PM 261 Only No Extended Care",
       "region": "Other",
       "source": "NewsChannel 5"
     },
@@ -633,7 +640,7 @@
     {
       "name": "Rutherford",
       "status": "CLOSED",
-      "status_detail": "Closed Wed. & Thurs.",
+      "status_detail": "Closed through Friday 1/30/26",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
