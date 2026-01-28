@@ -1,14 +1,14 @@
 {
   "meta": {
-    "generated_at": "2026-01-28T20:10:47.169353+00:00",
-    "total_closings": 175,
+    "generated_at": "2026-01-28T20:20:39.379741+00:00",
+    "total_closings": 182,
     "by_status": {
-      "CLOSED": 155,
-      "REMOTE": 20
+      "CLOSED": 160,
+      "REMOTE": 22
     },
     "by_region": {
-      "Other": 67,
-      "Middle Tennessee": 51,
+      "Other": 71,
+      "Middle Tennessee": 54,
       "West Tennessee": 50,
       "East Tennessee": 7
     },
@@ -125,6 +125,20 @@
       "source": "NewsChannel 5"
     },
     {
+      "name": "Columbia State-Clifton",
+      "status": "REMOTE",
+      "status_detail": "Campus closed Thursday. Virtual learning and work only.",
+      "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Columbia State-Franklin",
+      "status": "REMOTE",
+      "status_detail": "Campus closed Thursday. Virtual learning and work only.",
+      "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
       "name": "Crievewood Methodist",
       "status": "CLOSED",
       "status_detail": "CLOSED; CLOSED TODAY & TOMORROW",
@@ -233,6 +247,13 @@
       "name": "Gen. Sessions Traffic Sch-Davidson",
       "status": "CLOSED",
       "status_detail": "Closed- No Traffic School classes today or tomorrow",
+      "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Giles",
+      "status": "CLOSED",
+      "status_detail": "CLOSED TODAY & TOMORROW",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
@@ -507,6 +528,13 @@
       "status": "CLOSED",
       "status_detail": "CLOSED WED, THU & FRI",
       "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Pleasant View Christian",
+      "status": "CLOSED",
+      "status_detail": "CLOSED-NO DAY CARE",
+      "region": "Other",
       "source": "NewsChannel 5"
     },
     {
@@ -895,9 +923,23 @@
       "source": "Action News 5"
     },
     {
+      "name": "Holly Springs School District",
+      "status": "CLOSED",
+      "status_detail": "Closed Through 01/30",
+      "region": "Other",
+      "source": "Action News 5"
+    },
+    {
       "name": "Holy Family School",
       "status": "REMOTE",
       "status_detail": "Virtual Learning Through 01/28",
+      "region": "Other",
+      "source": "Action News 5"
+    },
+    {
+      "name": "Hutchison School",
+      "status": "CLOSED",
+      "status_detail": "Closed Thursday - Remote Learning",
       "region": "Other",
       "source": "Action News 5"
     },
@@ -1214,6 +1256,13 @@
       "status": "CLOSED",
       "status_detail": "Closed Thursday",
       "region": "East Tennessee",
+      "source": "WVLT"
+    },
+    {
+      "name": "Harlan County, KY Schools",
+      "status": "CLOSED",
+      "status_detail": "Closed Through 01/30",
+      "region": "Other",
       "source": "WVLT"
     },
     {
