@@ -1,15 +1,15 @@
 {
   "meta": {
-    "generated_at": "2026-01-28T19:40:43.627638+00:00",
-    "total_closings": 163,
+    "generated_at": "2026-01-28T19:50:51.244944+00:00",
+    "total_closings": 167,
     "by_status": {
-      "CLOSED": 144,
-      "REMOTE": 19
+      "CLOSED": 147,
+      "REMOTE": 20
     },
     "by_region": {
-      "Other": 62,
+      "Other": 64,
       "Middle Tennessee": 49,
-      "West Tennessee": 48,
+      "West Tennessee": 50,
       "East Tennessee": 4
     },
     "sources": [
@@ -699,6 +699,13 @@
       "source": "Action News 5"
     },
     {
+      "name": "Arkansas State University Mid-South",
+      "status": "CLOSED",
+      "status_detail": "Closed Thursday - Students check Canvas for updates",
+      "region": "Other",
+      "source": "Action News 5"
+    },
+    {
       "name": "Arlington Community Schools",
       "status": "CLOSED",
       "status_detail": "Closed Through Friday 1/30",
@@ -874,6 +881,13 @@
       "source": "Action News 5"
     },
     {
+      "name": "KIPP Memphis Public Schools",
+      "status": "CLOSED",
+      "status_detail": "Closed Through 01/30",
+      "region": "West Tennessee",
+      "source": "Action News 5"
+    },
+    {
       "name": "Lafayette County School District",
       "status": "CLOSED",
       "status_detail": "Closed Through the 30th",
@@ -917,6 +931,13 @@
     },
     {
       "name": "Memphis Electrical JATC",
+      "status": "CLOSED",
+      "status_detail": "Closed Through 01/30",
+      "region": "West Tennessee",
+      "source": "Action News 5"
+    },
+    {
+      "name": "Memphis Oral School for the Deaf",
       "status": "CLOSED",
       "status_detail": "Closed Through 01/30",
       "region": "West Tennessee",
@@ -1017,6 +1038,13 @@
       "name": "Rossville Christian Academy",
       "status": "CLOSED",
       "status_detail": "Closed Through 01/30",
+      "region": "Other",
+      "source": "Action News 5"
+    },
+    {
+      "name": "Sacred Heart School Southaven",
+      "status": "REMOTE",
+      "status_detail": "Virtual Learning Thursday",
       "region": "Other",
       "source": "Action News 5"
     },
