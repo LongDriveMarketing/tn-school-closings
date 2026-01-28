@@ -1,9 +1,9 @@
 {
   "meta": {
-    "generated_at": "2026-01-28T16:00:40.786608+00:00",
-    "total_closings": 313,
+    "generated_at": "2026-01-28T16:10:37.461505+00:00",
+    "total_closings": 314,
     "by_status": {
-      "CLOSED": 263,
+      "CLOSED": 264,
       "REMOTE": 35,
       "EARLY_DISMISSAL": 4,
       "DELAYED": 11
@@ -11,7 +11,7 @@
     "by_region": {
       "Other": 140,
       "Middle Tennessee": 84,
-      "West Tennessee": 68,
+      "West Tennessee": 69,
       "East Tennessee": 21
     },
     "sources": [
@@ -1111,6 +1111,13 @@
       "status": "CLOSED",
       "status_detail": "CLOSED WED, THU & FRI",
       "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "St. Henry School",
+      "status": "CLOSED",
+      "status_detail": "closed through Friday",
+      "region": "West Tennessee",
       "source": "NewsChannel 5"
     },
     {
