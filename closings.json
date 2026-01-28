@@ -1,16 +1,16 @@
 {
   "meta": {
-    "generated_at": "2026-01-28T17:50:32.505993+00:00",
-    "total_closings": 120,
+    "generated_at": "2026-01-28T18:00:55.339327+00:00",
+    "total_closings": 122,
     "by_status": {
-      "CLOSED": 100,
-      "REMOTE": 20
+      "CLOSED": 101,
+      "REMOTE": 21
     },
     "by_region": {
-      "Other": 41,
+      "Other": 42,
       "Middle Tennessee": 45,
       "West Tennessee": 31,
-      "East Tennessee": 3
+      "East Tennessee": 4
     },
     "sources": [
       "NewsChannel 5",
@@ -692,6 +692,13 @@
       "source": "Action News 5"
     },
     {
+      "name": "Holy Family School",
+      "status": "REMOTE",
+      "status_detail": "Virtual Learning Through 01/28",
+      "region": "Other",
+      "source": "Action News 5"
+    },
+    {
       "name": "Lafayette County School District",
       "status": "CLOSED",
       "status_detail": "Closed Through the 30th",
@@ -857,6 +864,13 @@
       "status": "CLOSED",
       "status_detail": "Closed Thursday",
       "region": "Middle Tennessee",
+      "source": "WVLT"
+    },
+    {
+      "name": "Scott County Schools",
+      "status": "CLOSED",
+      "status_detail": "Closed Thursday",
+      "region": "East Tennessee",
       "source": "WVLT"
     }
   ]
