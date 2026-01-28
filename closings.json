@@ -1,9 +1,9 @@
 {
   "meta": {
-    "generated_at": "2026-01-28T06:00:47.604177+00:00",
-    "total_closings": 307,
+    "generated_at": "2026-01-28T06:10:40.458833+00:00",
+    "total_closings": 306,
     "by_status": {
-      "CLOSED": 260,
+      "CLOSED": 259,
       "REMOTE": 33,
       "DELAYED": 11,
       "EARLY_DISMISSAL": 3
@@ -12,7 +12,7 @@
       "Other": 138,
       "Middle Tennessee": 83,
       "West Tennessee": 64,
-      "East Tennessee": 22
+      "East Tennessee": 21
     },
     "sources": [
       "NewsChannel 5",
@@ -2112,13 +2112,6 @@
       "status": "REMOTE",
       "status_detail": "Virtual Learning Wednesday - NTI Day #6",
       "region": "Other",
-      "source": "WVLT"
-    },
-    {
-      "name": "Monroe County Schools",
-      "status": "CLOSED",
-      "status_detail": "Closed Through 01/27 - Due to potential winter weather",
-      "region": "East Tennessee",
       "source": "WVLT"
     },
     {
