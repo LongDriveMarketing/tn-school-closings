@@ -1,16 +1,16 @@
 {
   "meta": {
-    "generated_at": "2026-01-28T13:20:46.905492+00:00",
-    "total_closings": 308,
+    "generated_at": "2026-01-28T13:30:41.992601+00:00",
+    "total_closings": 310,
     "by_status": {
-      "CLOSED": 261,
+      "CLOSED": 262,
       "REMOTE": 33,
-      "DELAYED": 11,
-      "EARLY_DISMISSAL": 3
+      "EARLY_DISMISSAL": 4,
+      "DELAYED": 11
     },
     "by_region": {
-      "Other": 139,
-      "Middle Tennessee": 83,
+      "Other": 140,
+      "Middle Tennessee": 84,
       "West Tennessee": 65,
       "East Tennessee": 21
     },
@@ -481,6 +481,13 @@
       "status": "CLOSED",
       "status_detail": "CLOSED",
       "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Gingerbread House",
+      "status": "EARLY_DISMISSAL",
+      "status_detail": "OPEN AT 8:00; CLOSING AT 4:00",
+      "region": "Other",
       "source": "NewsChannel 5"
     },
     {
@@ -1230,6 +1237,13 @@
       "status": "CLOSED",
       "status_detail": "CLOSED - NTI DAY #4",
       "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "TriStar Cottage & Homeschool Co-op",
+      "status": "CLOSED",
+      "status_detail": "Wednesday Tutorial Classes are cancelled",
+      "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
     {
