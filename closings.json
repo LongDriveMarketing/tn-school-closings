@@ -1,16 +1,16 @@
 {
   "meta": {
-    "generated_at": "2026-01-28T21:20:44.780790+00:00",
-    "total_closings": 203,
+    "generated_at": "2026-01-28T21:30:43.618194+00:00",
+    "total_closings": 206,
     "by_status": {
-      "CLOSED": 177,
-      "REMOTE": 23,
+      "CLOSED": 179,
+      "REMOTE": 24,
       "EARLY_DISMISSAL": 1,
       "DELAYED": 2
     },
     "by_region": {
-      "Other": 80,
-      "Middle Tennessee": 59,
+      "Other": 81,
+      "Middle Tennessee": 61,
       "West Tennessee": 53,
       "East Tennessee": 11
     },
@@ -33,13 +33,6 @@
       "status": "CLOSED",
       "status_detail": "Closed Wednesday and Thursday NTI Days #1 & #2",
       "region": "Other",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "A.O. Smith",
-      "status": "CLOSED",
-      "status_detail": "CLOSED; Production Cancelled for both shifts on Wednesday",
-      "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
     {
@@ -120,6 +113,13 @@
       "source": "NewsChannel 5"
     },
     {
+      "name": "Clarksville Academy",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
+      "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
       "name": "Clarksville Christian",
       "status": "REMOTE",
       "status_detail": "Closed Thursday Remote Learning",
@@ -129,7 +129,7 @@
     {
       "name": "Clarksville-Montgomery Co. Schools",
       "status": "CLOSED",
-      "status_detail": "Through Thursday",
+      "status_detail": "CLOSED ALL WEEK",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
@@ -215,6 +215,13 @@
       "status": "CLOSED",
       "status_detail": "Closed through Friday",
       "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Dodson Chapel Daycare",
+      "status": "CLOSED",
+      "status_detail": "OPEN AT 8:30",
+      "region": "Other",
       "source": "NewsChannel 5"
     },
     {
@@ -355,6 +362,13 @@
       "status": "CLOSED",
       "status_detail": "CLOSED THURSDAY 1/29 & FRIDAY 1/30",
       "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Lawrence",
+      "status": "CLOSED",
+      "status_detail": "CLOSED TODAY & TOMORROW; CLOSED WED, THU & FRI",
+      "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
     {
@@ -726,6 +740,13 @@
       "status": "CLOSED",
       "status_detail": "Closed Thursday & Friday -- NTI Days 4 & 5",
       "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Trevecca Nazarene University",
+      "status": "REMOTE",
+      "status_detail": "CLOSED - VIRTUAL/REMOTE LEARNING DAY",
+      "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
     {
