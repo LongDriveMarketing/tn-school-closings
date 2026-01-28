@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-01-28T19:05:03.314160+00:00",
+    "generated_at": "2026-01-28T19:10:43.486578+00:00",
     "total_closings": 155,
     "by_status": {
       "CLOSED": 136,
@@ -22,7 +22,7 @@
     {
       "name": "Advanced Therapy Solutions",
       "status": "CLOSED",
-      "status_detail": "Closed Thursday, 1/29",
+      "status_detail": "Closed Thursday",
       "region": "Other",
       "source": "NewsChannel 5"
     },
