@@ -1,18 +1,18 @@
 {
   "meta": {
-    "generated_at": "2026-01-28T23:00:40.929102+00:00",
-    "total_closings": 223,
+    "generated_at": "2026-01-28T23:10:42.156085+00:00",
+    "total_closings": 225,
     "by_status": {
-      "CLOSED": 192,
+      "CLOSED": 193,
       "REMOTE": 26,
-      "EARLY_DISMISSAL": 1,
-      "DELAYED": 4
+      "DELAYED": 5,
+      "EARLY_DISMISSAL": 1
     },
     "by_region": {
       "Other": 94,
-      "Middle Tennessee": 61,
+      "Middle Tennessee": 62,
       "West Tennessee": 57,
-      "East Tennessee": 11
+      "East Tennessee": 12
     },
     "sources": [
       "NewsChannel 5",
@@ -179,6 +179,13 @@
       "name": "Cumberland Co., KY",
       "status": "CLOSED",
       "status_detail": "CLOSED WED, THU & FRI",
+      "region": "East Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Cumberland University",
+      "status": "CLOSED",
+      "status_detail": "No Class. Open for Faculty & Staff.",
       "region": "East Tennessee",
       "source": "NewsChannel 5"
     },
@@ -575,6 +582,13 @@
       "source": "NewsChannel 5"
     },
     {
+      "name": "New Hope-Franklin",
+      "status": "DELAYED",
+      "status_detail": "TWO HOURS LATE",
+      "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
       "name": "New Horizons",
       "status": "CLOSED",
       "status_detail": "CLOSED; NO WATER",
@@ -612,7 +626,7 @@
     {
       "name": "Paris Special School District",
       "status": "CLOSED",
-      "status_detail": "CLOSED THROUGH THURSDAY",
+      "status_detail": "Closed through Friday January 30",
       "region": "West Tennessee",
       "source": "NewsChannel 5"
     },
