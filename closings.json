@@ -1,15 +1,15 @@
 {
   "meta": {
-    "generated_at": "2026-01-28T00:10:47.016540+00:00",
-    "total_closings": 297,
+    "generated_at": "2026-01-28T00:20:41.112303+00:00",
+    "total_closings": 298,
     "by_status": {
-      "CLOSED": 249,
+      "CLOSED": 250,
       "REMOTE": 35,
       "DELAYED": 10,
       "EARLY_DISMISSAL": 3
     },
     "by_region": {
-      "Other": 128,
+      "Other": 129,
       "Middle Tennessee": 83,
       "West Tennessee": 63,
       "East Tennessee": 23
@@ -333,6 +333,13 @@
       "name": "Dayspring Academy",
       "status": "CLOSED",
       "status_detail": "CLOSED",
+      "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "DCSO Day Reporting",
+      "status": "CLOSED",
+      "status_detail": "CLOSED TODAY & TOMORROW",
       "region": "Other",
       "source": "NewsChannel 5"
     },
