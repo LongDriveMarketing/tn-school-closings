@@ -1,18 +1,18 @@
 {
   "meta": {
-    "generated_at": "2026-01-28T20:30:45.927931+00:00",
-    "total_closings": 186,
+    "generated_at": "2026-01-28T20:40:56.886711+00:00",
+    "total_closings": 190,
     "by_status": {
-      "CLOSED": 162,
+      "CLOSED": 166,
       "REMOTE": 22,
       "EARLY_DISMISSAL": 1,
       "DELAYED": 1
     },
     "by_region": {
-      "Other": 72,
-      "Middle Tennessee": 54,
+      "Other": 74,
+      "Middle Tennessee": 55,
       "West Tennessee": 51,
-      "East Tennessee": 9
+      "East Tennessee": 10
     },
     "sources": [
       "NewsChannel 5",
@@ -505,6 +505,13 @@
       "source": "NewsChannel 5"
     },
     {
+      "name": "OC- West End Preschool",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
+      "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
       "name": "Overbrook School",
       "status": "CLOSED",
       "status_detail": "CLOSED; Closed -Wednesday and Thursday",
@@ -529,6 +536,13 @@
       "name": "Perry",
       "status": "CLOSED",
       "status_detail": "CLOSED WED, THU & FRI",
+      "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Pickett",
+      "status": "CLOSED",
+      "status_detail": "CLOSED ALL WEEK",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
@@ -852,6 +866,13 @@
       "status": "CLOSED",
       "status_detail": "Closed Through 01/30",
       "region": "West Tennessee",
+      "source": "Action News 5"
+    },
+    {
+      "name": "Cross Creek Christian Academy",
+      "status": "CLOSED",
+      "status_detail": "Closed Through 01/30",
+      "region": "Other",
       "source": "Action News 5"
     },
     {
@@ -1242,7 +1263,7 @@
     {
       "name": "West Memphis School District",
       "status": "CLOSED",
-      "status_detail": "Closed Through Wednesday the 28th",
+      "status_detail": "Closed Through Friday the 30th",
       "region": "West Tennessee",
       "source": "Action News 5"
     },
@@ -1252,6 +1273,13 @@
       "status_detail": "Closed Through the 29th",
       "region": "Other",
       "source": "Action News 5"
+    },
+    {
+      "name": "Bell County",
+      "status": "CLOSED",
+      "status_detail": "Closed Thursday - NIT Day",
+      "region": "East Tennessee",
+      "source": "WVLT"
     },
     {
       "name": "Campbell County Schools",
