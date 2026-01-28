@@ -1,18 +1,18 @@
 {
   "meta": {
-    "generated_at": "2026-01-28T16:20:41.915429+00:00",
-    "total_closings": 313,
+    "generated_at": "2026-01-28T16:30:44.799611+00:00",
+    "total_closings": 302,
     "by_status": {
-      "CLOSED": 263,
+      "CLOSED": 253,
       "REMOTE": 35,
       "EARLY_DISMISSAL": 4,
-      "DELAYED": 11
+      "DELAYED": 10
     },
     "by_region": {
-      "Other": 140,
-      "Middle Tennessee": 84,
-      "West Tennessee": 68,
-      "East Tennessee": 21
+      "Other": 139,
+      "Middle Tennessee": 76,
+      "West Tennessee": 67,
+      "East Tennessee": 20
     },
     "sources": [
       "NewsChannel 5",
@@ -78,13 +78,6 @@
       "source": "NewsChannel 5"
     },
     {
-      "name": "Bedford",
-      "status": "CLOSED",
-      "status_detail": "Closed Wed; SACP open - Thomas Magnet location only",
-      "region": "Middle Tennessee",
-      "source": "NewsChannel 5"
-    },
-    {
       "name": "Benton",
       "status": "CLOSED",
       "status_detail": "CLOSED WED, THU & FRI; CLOSED WED, THU & FRI",
@@ -141,20 +134,6 @@
       "source": "NewsChannel 5"
     },
     {
-      "name": "Cannon",
-      "status": "CLOSED",
-      "status_detail": "CLOSED",
-      "region": "Middle Tennessee",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "Carroll",
-      "status": "CLOSED",
-      "status_detail": "CLOSED MON, TUE. AND WED.",
-      "region": "West Tennessee",
-      "source": "NewsChannel 5"
-    },
-    {
       "name": "Chapel Hill Academy",
       "status": "CLOSED",
       "status_detail": "Closed through Thursday",
@@ -207,13 +186,6 @@
       "name": "Clarksville-Montgomery Co. Schools",
       "status": "CLOSED",
       "status_detail": "Through Thursday",
-      "region": "Middle Tennessee",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "Clay",
-      "status": "CLOSED",
-      "status_detail": "CLOSED",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
@@ -295,13 +267,6 @@
       "source": "NewsChannel 5"
     },
     {
-      "name": "Cumberland Co., TN",
-      "status": "CLOSED",
-      "status_detail": "CLOSED",
-      "region": "East Tennessee",
-      "source": "NewsChannel 5"
-    },
-    {
       "name": "Cumberland University",
       "status": "CLOSED",
       "status_detail": "CLOSED; CLOSED TODAY & TOMORROW",
@@ -358,13 +323,6 @@
       "source": "NewsChannel 5"
     },
     {
-      "name": "DeKalb",
-      "status": "CLOSED",
-      "status_detail": "CLOSED",
-      "region": "Middle Tennessee",
-      "source": "NewsChannel 5"
-    },
-    {
       "name": "Dickson",
       "status": "CLOSED",
       "status_detail": "Closed through Friday",
@@ -414,13 +372,6 @@
       "source": "NewsChannel 5"
     },
     {
-      "name": "Fentress",
-      "status": "CLOSED",
-      "status_detail": "CLOSED",
-      "region": "Middle Tennessee",
-      "source": "NewsChannel 5"
-    },
-    {
       "name": "First Baptist-Dickson",
       "status": "CLOSED",
       "status_detail": "CLOSD REST OF THE WEEK",
@@ -432,13 +383,6 @@
       "status": "CLOSED",
       "status_detail": "CLOSED through 1/29",
       "region": "Other",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "Franklin",
-      "status": "CLOSED",
-      "status_detail": "No ESP",
-      "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
     {
@@ -477,13 +421,6 @@
       "source": "NewsChannel 5"
     },
     {
-      "name": "Giles",
-      "status": "CLOSED",
-      "status_detail": "CLOSED",
-      "region": "Middle Tennessee",
-      "source": "NewsChannel 5"
-    },
-    {
       "name": "Gingerbread House",
       "status": "EARLY_DISMISSAL",
       "status_detail": "OPEN AT 8:00; CLOSING AT 4:00",
@@ -516,13 +453,6 @@
       "status": "CLOSED",
       "status_detail": "CLOSED",
       "region": "Other",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "Grundy",
-      "status": "DELAYED",
-      "status_detail": "TWO HOURS LATE",
-      "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
     {
@@ -641,13 +571,6 @@
       "name": "Kiddieland Centers",
       "status": "DELAYED",
       "status_detail": "1 1/2 HOURS LATE; CLOSING 1 HR. EARLY",
-      "region": "Other",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "King's Academy",
-      "status": "CLOSED",
-      "status_detail": "CLOSED WEDNESDAY",
       "region": "Other",
       "source": "NewsChannel 5"
     },
@@ -1088,7 +1011,7 @@
     {
       "name": "St. Ann",
       "status": "CLOSED",
-      "status_detail": "CLOSED-NO EXTENDED CARE",
+      "status_detail": "Closed: Thursday & Friday",
       "region": "Other",
       "source": "NewsChannel 5"
     },
