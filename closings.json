@@ -1,14 +1,14 @@
 {
   "meta": {
-    "generated_at": "2026-01-28T19:20:39.516454+00:00",
-    "total_closings": 157,
+    "generated_at": "2026-01-28T19:30:46.055698+00:00",
+    "total_closings": 161,
     "by_status": {
-      "CLOSED": 137,
+      "CLOSED": 141,
       "REMOTE": 20
     },
     "by_region": {
-      "Other": 59,
-      "Middle Tennessee": 47,
+      "Other": 61,
+      "Middle Tennessee": 49,
       "West Tennessee": 48,
       "East Tennessee": 3
     },
@@ -37,6 +37,13 @@
       "name": "A.O. Smith",
       "status": "CLOSED",
       "status_detail": "CLOSED; Production Cancelled for both shifts on Wednesday",
+      "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Bedford",
+      "status": "CLOSED",
+      "status_detail": "Closed Thurs; SACP open - Thomas Magnet location only",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
@@ -279,6 +286,13 @@
       "source": "NewsChannel 5"
     },
     {
+      "name": "Jackson",
+      "status": "CLOSED",
+      "status_detail": "CLOSED WED, THU & FRI",
+      "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
       "name": "King's Academy",
       "status": "CLOSED",
       "status_detail": "CLOSED THURSDAY 1/29 & FRIDAY 1/30",
@@ -370,6 +384,13 @@
       "source": "NewsChannel 5"
     },
     {
+      "name": "Mt. Juliet Christ. Acad.",
+      "status": "CLOSED",
+      "status_detail": "Closed Thursday, 1/29",
+      "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
       "name": "Muhlenberg",
       "status": "CLOSED",
       "status_detail": "NTI 5&6 Thursday and Friday",
@@ -430,6 +451,13 @@
       "status": "REMOTE",
       "status_detail": "Virtual operations and classes through 1/29",
       "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "New Horizons",
+      "status": "CLOSED",
+      "status_detail": "CLOSED; NO WATER",
+      "region": "Other",
       "source": "NewsChannel 5"
     },
     {
