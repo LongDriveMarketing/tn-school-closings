@@ -1,18 +1,18 @@
 {
   "meta": {
-    "generated_at": "2026-01-28T16:30:44.799611+00:00",
-    "total_closings": 302,
+    "generated_at": "2026-01-28T16:40:44.896403+00:00",
+    "total_closings": 194,
     "by_status": {
-      "CLOSED": 253,
-      "REMOTE": 35,
+      "CLOSED": 152,
+      "REMOTE": 34,
       "EARLY_DISMISSAL": 4,
-      "DELAYED": 10
+      "DELAYED": 4
     },
     "by_region": {
-      "Other": 139,
-      "Middle Tennessee": 76,
-      "West Tennessee": 67,
-      "East Tennessee": 20
+      "Other": 95,
+      "Middle Tennessee": 58,
+      "West Tennessee": 37,
+      "East Tennessee": 4
     },
     "sources": [
       "NewsChannel 5",
@@ -25,13 +25,6 @@
       "name": "15th Ave. N. Learning Academy",
       "status": "CLOSED",
       "status_detail": "Closed on Wednesday",
-      "region": "Other",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "Aaron Academy",
-      "status": "CLOSED",
-      "status_detail": "CLOSED",
       "region": "Other",
       "source": "NewsChannel 5"
     },
@@ -64,30 +57,9 @@
       "source": "NewsChannel 5"
     },
     {
-      "name": "Barren",
-      "status": "CLOSED",
-      "status_detail": "CLOSED",
-      "region": "Other",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "Battle Ground Academy",
-      "status": "CLOSED",
-      "status_detail": "CLOSED",
-      "region": "Other",
-      "source": "NewsChannel 5"
-    },
-    {
       "name": "Benton",
       "status": "CLOSED",
       "status_detail": "CLOSED WED, THU & FRI; CLOSED WED, THU & FRI",
-      "region": "West Tennessee",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "Benton Hall",
-      "status": "CLOSED",
-      "status_detail": "CLOSED",
       "region": "West Tennessee",
       "source": "NewsChannel 5"
     },
@@ -120,13 +92,6 @@
       "source": "NewsChannel 5"
     },
     {
-      "name": "Caldwell",
-      "status": "CLOSED",
-      "status_detail": "CLOSED",
-      "region": "Other",
-      "source": "NewsChannel 5"
-    },
-    {
       "name": "Calvary Young Children's School",
       "status": "CLOSED",
       "status_detail": "CLOSED WEDNESDAY AND THURSDAY",
@@ -144,13 +109,6 @@
       "name": "Cheatham",
       "status": "CLOSED",
       "status_detail": "CLOSED WED, THU & FRI",
-      "region": "Middle Tennessee",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "Christian",
-      "status": "CLOSED",
-      "status_detail": "CLOSED",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
@@ -187,13 +145,6 @@
       "status": "CLOSED",
       "status_detail": "Through Thursday",
       "region": "Middle Tennessee",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "Clinton",
-      "status": "CLOSED",
-      "status_detail": "CLOSED",
-      "region": "East Tennessee",
       "source": "NewsChannel 5"
     },
     {
@@ -276,7 +227,7 @@
     {
       "name": "Currey Ingram Academy",
       "status": "CLOSED",
-      "status_detail": "CLOSED",
+      "status_detail": "CLOSED WED, THU & FRI",
       "region": "Other",
       "source": "NewsChannel 5"
     },
@@ -340,13 +291,6 @@
       "name": "Donelson Christian Acad.",
       "status": "CLOSED",
       "status_detail": "CLOSED-NO EXTENDED CARE",
-      "region": "Other",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "Edmonson",
-      "status": "CLOSED",
-      "status_detail": "CLOSED",
       "region": "Other",
       "source": "NewsChannel 5"
     },
@@ -477,13 +421,6 @@
       "source": "NewsChannel 5"
     },
     {
-      "name": "Henry",
-      "status": "CLOSED",
-      "status_detail": "CLOSED",
-      "region": "West Tennessee",
-      "source": "NewsChannel 5"
-    },
-    {
       "name": "Heritage Acad./Hopkinsville",
       "status": "CLOSED",
       "status_detail": "CLOSED",
@@ -514,7 +451,7 @@
     {
       "name": "Humphreys",
       "status": "CLOSED",
-      "status_detail": "Closed through Friday 1/30",
+      "status_detail": "Closed through Friday",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
@@ -530,13 +467,6 @@
       "status": "CLOSED",
       "status_detail": "CLOSED TODAY & TOMORROW",
       "region": "Other",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "Jackson",
-      "status": "CLOSED",
-      "status_detail": "CLOSED",
-      "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
     {
@@ -603,23 +533,9 @@
       "source": "NewsChannel 5"
     },
     {
-      "name": "Lawrence",
-      "status": "CLOSED",
-      "status_detail": "CLOSED",
-      "region": "Middle Tennessee",
-      "source": "NewsChannel 5"
-    },
-    {
       "name": "Lead Acad.-Goodlettsville",
       "status": "CLOSED",
       "status_detail": "Closed through Friday, January 30",
-      "region": "Middle Tennessee",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "Lebanon Spec. Sch. Dist.",
-      "status": "CLOSED",
-      "status_detail": "CLOSED",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
@@ -666,13 +582,6 @@
       "source": "NewsChannel 5"
     },
     {
-      "name": "Logan",
-      "status": "CLOSED",
-      "status_detail": "CLOSED",
-      "region": "Other",
-      "source": "NewsChannel 5"
-    },
-    {
       "name": "Love Child Care",
       "status": "CLOSED",
       "status_detail": "CLOSED; CLOSED",
@@ -698,20 +607,6 @@
       "status": "CLOSED",
       "status_detail": "educational and childcare programs through Thursday",
       "region": "Other",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "Marshall",
-      "status": "CLOSED",
-      "status_detail": "CLOSED",
-      "region": "Middle Tennessee",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "Maury",
-      "status": "CLOSED",
-      "status_detail": "CLOSED",
-      "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
     {
@@ -760,27 +655,6 @@
       "name": "Mt. Juliet Christ. Acad.",
       "status": "CLOSED",
       "status_detail": "Closed Wednesday, 1/28",
-      "region": "Other",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "Muhlenberg",
-      "status": "CLOSED",
-      "status_detail": "Snow Day Monday NTI Tuesday and Wednesday",
-      "region": "Other",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "Murfreesboro City Sch.",
-      "status": "CLOSED",
-      "status_detail": "CLOSED-EXTENDED CARE OPEN",
-      "region": "Middle Tennessee",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "Murray Independent",
-      "status": "CLOSED",
-      "status_detail": "CLOSED - NTI DAY #3; CLOSED - NTI DAY #3",
       "region": "Other",
       "source": "NewsChannel 5"
     },
@@ -869,13 +743,6 @@
       "source": "NewsChannel 5"
     },
     {
-      "name": "Overton",
-      "status": "CLOSED",
-      "status_detail": "CLOSED; Wednesday",
-      "region": "Middle Tennessee",
-      "source": "NewsChannel 5"
-    },
-    {
       "name": "Paris Special School District",
       "status": "CLOSED",
       "status_detail": "CLOSED THROUGH THURSDAY",
@@ -886,13 +753,6 @@
       "name": "Perry",
       "status": "CLOSED",
       "status_detail": "CLOSED WED, THU & FRI",
-      "region": "Middle Tennessee",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "Pickett",
-      "status": "CLOSED",
-      "status_detail": "CLOSED",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
@@ -939,13 +799,6 @@
       "source": "NewsChannel 5"
     },
     {
-      "name": "Putnam",
-      "status": "CLOSED",
-      "status_detail": "CLOSED; CLOSED-EXTENDED CARE OPEN",
-      "region": "Middle Tennessee",
-      "source": "NewsChannel 5"
-    },
-    {
       "name": "Redeemer Academy",
       "status": "CLOSED",
       "status_detail": "Closed thru Thursday, Jan 29",
@@ -985,20 +838,6 @@
       "status": "CLOSED",
       "status_detail": "All classes canceled Wednesday",
       "region": "Other",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "Simpson",
-      "status": "CLOSED",
-      "status_detail": "CLOSED",
-      "region": "Other",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "Smith",
-      "status": "CLOSED",
-      "status_detail": "Closed Monday, Tuesday and Wednesday",
-      "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
     {
@@ -1156,24 +995,10 @@
       "source": "NewsChannel 5"
     },
     {
-      "name": "Todd",
-      "status": "CLOSED",
-      "status_detail": "CLOSED",
-      "region": "Other",
-      "source": "NewsChannel 5"
-    },
-    {
       "name": "Trevecca Nazarene University",
       "status": "CLOSED",
       "status_detail": "Closed Wednesday",
       "region": "Middle Tennessee",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "Trigg",
-      "status": "CLOSED",
-      "status_detail": "CLOSED - NTI DAY #4",
-      "region": "Other",
       "source": "NewsChannel 5"
     },
     {
@@ -1184,24 +1009,10 @@
       "source": "NewsChannel 5"
     },
     {
-      "name": "Trousdale",
-      "status": "CLOSED",
-      "status_detail": "CLOSED",
-      "region": "Middle Tennessee",
-      "source": "NewsChannel 5"
-    },
-    {
       "name": "University School",
       "status": "CLOSED",
       "status_detail": "Closed Wed and Thurs",
       "region": "Other",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "Van Buren",
-      "status": "CLOSED",
-      "status_detail": "CLOSED",
-      "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
     {
@@ -1229,20 +1040,6 @@
       "name": "Vol State-Springfield",
       "status": "REMOTE",
       "status_detail": "Closed Tuesday 1/27, Open remotely Wed. 1/28",
-      "region": "Middle Tennessee",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "Warren Co., KY",
-      "status": "CLOSED",
-      "status_detail": "NTI Day",
-      "region": "Middle Tennessee",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "Warren Co., TN",
-      "status": "CLOSED",
-      "status_detail": "CLOSED",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
@@ -1275,23 +1072,9 @@
       "source": "NewsChannel 5"
     },
     {
-      "name": "White",
-      "status": "CLOSED",
-      "status_detail": "CLOSED",
-      "region": "Middle Tennessee",
-      "source": "NewsChannel 5"
-    },
-    {
       "name": "Williamson",
       "status": "CLOSED",
       "status_detail": "Closed through Thursday",
-      "region": "Middle Tennessee",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "Wilson",
-      "status": "CLOSED",
-      "status_detail": "CLOSED",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
@@ -1317,38 +1100,10 @@
       "source": "Action News 5"
     },
     {
-      "name": "Arkansas State University Mid-South",
-      "status": "CLOSED",
-      "status_detail": "Closed Wednesday - Students check Canvas for further instruction",
-      "region": "Other",
-      "source": "Action News 5"
-    },
-    {
-      "name": "Arlington Community Schools",
-      "status": "CLOSED",
-      "status_detail": "Closed Wednesday",
-      "region": "West Tennessee",
-      "source": "Action News 5"
-    },
-    {
-      "name": "Bartlett City Schools",
-      "status": "CLOSED",
-      "status_detail": "Closed Wednesday",
-      "region": "West Tennessee",
-      "source": "Action News 5"
-    },
-    {
       "name": "Bells City School",
       "status": "CLOSED",
       "status_detail": "Closed Through 01/29",
       "region": "West Tennessee",
-      "source": "Action News 5"
-    },
-    {
-      "name": "Bodine School",
-      "status": "CLOSED",
-      "status_detail": "Closed Wednesday",
-      "region": "Other",
       "source": "Action News 5"
     },
     {
@@ -1359,27 +1114,6 @@
       "source": "Action News 5"
     },
     {
-      "name": "Catholic Diocese of Memphis Schools",
-      "status": "CLOSED",
-      "status_detail": "Closed Wednesday",
-      "region": "West Tennessee",
-      "source": "Action News 5"
-    },
-    {
-      "name": "Christ the King Lutheran School",
-      "status": "CLOSED",
-      "status_detail": "Closed Wednesday 01/28",
-      "region": "West Tennessee",
-      "source": "Action News 5"
-    },
-    {
-      "name": "Christ Trinity Christian Academy",
-      "status": "CLOSED",
-      "status_detail": "Closed Wednesday",
-      "region": "Other",
-      "source": "Action News 5"
-    },
-    {
       "name": "Christian Brothers High School",
       "status": "REMOTE",
       "status_detail": "Virtual Learning Wednesday - Campus closed to all activities",
@@ -1387,72 +1121,9 @@
       "source": "Action News 5"
     },
     {
-      "name": "Christian Brothers University",
-      "status": "REMOTE",
-      "status_detail": "Virtual Learning Through Wednesday",
-      "region": "Other",
-      "source": "Action News 5"
-    },
-    {
-      "name": "City University Schools",
-      "status": "CLOSED",
-      "status_detail": "Closed Wednesday",
-      "region": "Other",
-      "source": "Action News 5"
-    },
-    {
-      "name": "Clarksdale Municipal School District",
-      "status": "CLOSED",
-      "status_detail": "Closed Wednesday",
-      "region": "Other",
-      "source": "Action News 5"
-    },
-    {
       "name": "Coahoma County School District",
       "status": "CLOSED",
       "status_detail": "Closed Through Friday the 30th - Instruction to continue virtually",
-      "region": "Other",
-      "source": "Action News 5"
-    },
-    {
-      "name": "Collierville School District",
-      "status": "CLOSED",
-      "status_detail": "Closed Wednesday 01/28",
-      "region": "West Tennessee",
-      "source": "Action News 5"
-    },
-    {
-      "name": "Compass Community Schools",
-      "status": "CLOSED",
-      "status_detail": "Closed Wednesday",
-      "region": "West Tennessee",
-      "source": "Action News 5"
-    },
-    {
-      "name": "Concord Academy",
-      "status": "CLOSED",
-      "status_detail": "Closed Wednesday 01/28",
-      "region": "West Tennessee",
-      "source": "Action News 5"
-    },
-    {
-      "name": "Creative Life Preparatory School",
-      "status": "CLOSED",
-      "status_detail": "Closed Wednesday - Creative Life Prep/Afterschool/CLECT Daycare",
-      "region": "Other",
-      "source": "Action News 5"
-    },
-    {
-      "name": "Cross Creek Christian Academy",
-      "status": "CLOSED",
-      "status_detail": "Closed Wednesday",
-      "region": "Other",
-      "source": "Action News 5"
-    },
-    {
-      "name": "Desoto Christian Academy",
-      "status": "CLOSED",
-      "status_detail": "Closed Wednesday",
       "region": "Other",
       "source": "Action News 5"
     },
@@ -1464,44 +1135,9 @@
       "source": "Action News 5"
     },
     {
-      "name": "Dyer County Schools",
-      "status": "CLOSED",
-      "status_detail": "Closed Wednesday 01/28",
-      "region": "West Tennessee",
-      "source": "Action News 5"
-    },
-    {
-      "name": "Dyersburg City Schools",
-      "status": "CLOSED",
-      "status_detail": "Closed Wednesday",
-      "region": "West Tennessee",
-      "source": "Action News 5"
-    },
-    {
-      "name": "Earle School District",
-      "status": "CLOSED",
-      "status_detail": "Closed Wednesday",
-      "region": "Other",
-      "source": "Action News 5"
-    },
-    {
-      "name": "Evangelical Christian School",
-      "status": "CLOSED",
-      "status_detail": "Closed Wednesday",
-      "region": "West Tennessee",
-      "source": "Action News 5"
-    },
-    {
       "name": "Expanded Educational Services Success Academy",
       "status": "CLOSED",
       "status_detail": "Closed Through 01/29",
-      "region": "Other",
-      "source": "Action News 5"
-    },
-    {
-      "name": "Faith Heritage Christian Academy",
-      "status": "CLOSED",
-      "status_detail": "Closed Wednesday",
       "region": "Other",
       "source": "Action News 5"
     },
@@ -1513,44 +1149,9 @@
       "source": "Action News 5"
     },
     {
-      "name": "Fayette Christian School",
-      "status": "CLOSED",
-      "status_detail": "Closed Wednesday",
-      "region": "West Tennessee",
-      "source": "Action News 5"
-    },
-    {
       "name": "Fayette County Public Schools",
       "status": "CLOSED",
       "status_detail": "Closed Through 01/30 - After-school activities canceled",
-      "region": "West Tennessee",
-      "source": "Action News 5"
-    },
-    {
-      "name": "First Assembly Christian School",
-      "status": "CLOSED",
-      "status_detail": "Closed Wednesday",
-      "region": "West Tennessee",
-      "source": "Action News 5"
-    },
-    {
-      "name": "Freedom Preparatory Academy",
-      "status": "CLOSED",
-      "status_detail": "Closed Wednesday",
-      "region": "West Tennessee",
-      "source": "Action News 5"
-    },
-    {
-      "name": "Germantown Municipal School District",
-      "status": "CLOSED",
-      "status_detail": "Closed Wednesday",
-      "region": "West Tennessee",
-      "source": "Action News 5"
-    },
-    {
-      "name": "Goodwill Excel Center Memphis",
-      "status": "CLOSED",
-      "status_detail": "Closed Wednesday",
       "region": "West Tennessee",
       "source": "Action News 5"
     },
@@ -1569,38 +1170,10 @@
       "source": "Action News 5"
     },
     {
-      "name": "Hardin County Schools",
-      "status": "CLOSED",
-      "status_detail": "Closed Wednesday",
-      "region": "West Tennessee",
-      "source": "Action News 5"
-    },
-    {
-      "name": "Harding Academy of Memphis",
-      "status": "CLOSED",
-      "status_detail": "Closed Wednesday",
-      "region": "West Tennessee",
-      "source": "Action News 5"
-    },
-    {
-      "name": "Harmony Independent School",
-      "status": "CLOSED",
-      "status_detail": "Closed Wednesday",
-      "region": "Other",
-      "source": "Action News 5"
-    },
-    {
       "name": "Haywood County Schools",
       "status": "CLOSED",
       "status_detail": "Closed Through 01/30",
       "region": "West Tennessee",
-      "source": "Action News 5"
-    },
-    {
-      "name": "Holly Springs School District",
-      "status": "CLOSED",
-      "status_detail": "Closed Through 01/28",
-      "region": "Other",
       "source": "Action News 5"
     },
     {
@@ -1611,20 +1184,6 @@
       "source": "Action News 5"
     },
     {
-      "name": "Hutchison School",
-      "status": "CLOSED",
-      "status_detail": "Closed Wednesday - Remote Learning",
-      "region": "Other",
-      "source": "Action News 5"
-    },
-    {
-      "name": "KIPP Memphis Public Schools",
-      "status": "CLOSED",
-      "status_detail": "Closed Wednesday 01/28",
-      "region": "West Tennessee",
-      "source": "Action News 5"
-    },
-    {
       "name": "Lafayette County School District",
       "status": "CLOSED",
       "status_detail": "Closed Through the 30th",
@@ -1632,23 +1191,9 @@
       "source": "Action News 5"
     },
     {
-      "name": "Lakeland School System",
-      "status": "CLOSED",
-      "status_detail": "Closed Wednesday",
-      "region": "West Tennessee",
-      "source": "Action News 5"
-    },
-    {
-      "name": "Lamplighter Montessori School",
-      "status": "CLOSED",
-      "status_detail": "Closed Wednesday",
-      "region": "Other",
-      "source": "Action News 5"
-    },
-    {
       "name": "Lausanne Collegiate School",
       "status": "CLOSED",
-      "status_detail": "Closed Through 01/28",
+      "status_detail": "Closed Thursday",
       "region": "Other",
       "source": "Action News 5"
     },
@@ -1660,41 +1205,6 @@
       "source": "Action News 5"
     },
     {
-      "name": "Lords Tabernacle Christian Academy",
-      "status": "CLOSED",
-      "status_detail": "Closed Wednesday",
-      "region": "Other",
-      "source": "Action News 5"
-    },
-    {
-      "name": "Madonna Learning Center",
-      "status": "CLOSED",
-      "status_detail": "Closed Wednesday",
-      "region": "Other",
-      "source": "Action News 5"
-    },
-    {
-      "name": "Manila School District",
-      "status": "CLOSED",
-      "status_detail": "Closed Wednesday",
-      "region": "Other",
-      "source": "Action News 5"
-    },
-    {
-      "name": "Maria Montessori School",
-      "status": "CLOSED",
-      "status_detail": "Closed Wednesday",
-      "region": "Other",
-      "source": "Action News 5"
-    },
-    {
-      "name": "Marion School District",
-      "status": "CLOSED",
-      "status_detail": "Closed Through 01/28",
-      "region": "East Tennessee",
-      "source": "Action News 5"
-    },
-    {
       "name": "McNairy County Schools",
       "status": "CLOSED",
       "status_detail": "Closed Through Friday 1/30",
@@ -1702,37 +1212,9 @@
       "source": "Action News 5"
     },
     {
-      "name": "Memphis Business Academy",
-      "status": "CLOSED",
-      "status_detail": "Closed Wednesday - After-school activities canceled",
-      "region": "West Tennessee",
-      "source": "Action News 5"
-    },
-    {
       "name": "Memphis Electrical JATC",
       "status": "CLOSED",
       "status_detail": "Closed Through 01/30",
-      "region": "West Tennessee",
-      "source": "Action News 5"
-    },
-    {
-      "name": "Memphis Oral School for the Deaf",
-      "status": "CLOSED",
-      "status_detail": "Closed Through 01/28",
-      "region": "West Tennessee",
-      "source": "Action News 5"
-    },
-    {
-      "name": "Memphis Shelby County Schools",
-      "status": "CLOSED",
-      "status_detail": "Closed Wednesday",
-      "region": "West Tennessee",
-      "source": "Action News 5"
-    },
-    {
-      "name": "Memphis STEM Academy",
-      "status": "CLOSED",
-      "status_detail": "Closed Wednesday - After-school activities canceled",
       "region": "West Tennessee",
       "source": "Action News 5"
     },
@@ -1751,23 +1233,9 @@
       "source": "Action News 5"
     },
     {
-      "name": "Mid-America Baptist Theological Seminary",
-      "status": "CLOSED",
-      "status_detail": "Closed Wednesday - Virtual Learning Day",
-      "region": "West Tennessee",
-      "source": "Action News 5"
-    },
-    {
       "name": "Millington Municipal Schools",
       "status": "CLOSED",
       "status_detail": "Closed Through 01/30",
-      "region": "West Tennessee",
-      "source": "Action News 5"
-    },
-    {
-      "name": "New Hope Christian Academy",
-      "status": "CLOSED",
-      "status_detail": "Closed Through the 28th",
       "region": "West Tennessee",
       "source": "Action News 5"
     },
@@ -1807,44 +1275,9 @@
       "source": "Action News 5"
     },
     {
-      "name": "Palestine-Wheatley School District",
-      "status": "CLOSED",
-      "status_detail": "Closed Wednesday",
-      "region": "Other",
-      "source": "Action News 5"
-    },
-    {
-      "name": "Paul Mitchell School of Memphis",
-      "status": "CLOSED",
-      "status_detail": "Closed Wednesday",
-      "region": "West Tennessee",
-      "source": "Action News 5"
-    },
-    {
       "name": "Pleasant View School",
       "status": "REMOTE",
       "status_detail": "Virtual Learning Wednesday",
-      "region": "West Tennessee",
-      "source": "Action News 5"
-    },
-    {
-      "name": "Presbyterian Day School",
-      "status": "CLOSED",
-      "status_detail": "Closed Through 01/28",
-      "region": "Other",
-      "source": "Action News 5"
-    },
-    {
-      "name": "Remington College",
-      "status": "CLOSED",
-      "status_detail": "Closed Wednesday",
-      "region": "Other",
-      "source": "Action News 5"
-    },
-    {
-      "name": "Rhodes College",
-      "status": "CLOSED",
-      "status_detail": "Closed Wednesday",
       "region": "West Tennessee",
       "source": "Action News 5"
     },
@@ -1859,13 +1292,6 @@
       "name": "Sacred Heart School Southaven",
       "status": "REMOTE",
       "status_detail": "Virtual Learning Wednesday",
-      "region": "Other",
-      "source": "Action News 5"
-    },
-    {
-      "name": "SE Academy Private School",
-      "status": "CLOSED",
-      "status_detail": "Closed Wednesday",
       "region": "Other",
       "source": "Action News 5"
     },
@@ -1891,20 +1317,6 @@
       "source": "Action News 5"
     },
     {
-      "name": "St. Agnes Academy-St. Dominic School",
-      "status": "CLOSED",
-      "status_detail": "Closed Wednesday",
-      "region": "Other",
-      "source": "Action News 5"
-    },
-    {
-      "name": "St. Georges Independent School",
-      "status": "CLOSED",
-      "status_detail": "Closed Wednesday - After-school activities canceled",
-      "region": "Other",
-      "source": "Action News 5"
-    },
-    {
       "name": "Tate County School District",
       "status": "CLOSED",
       "status_detail": "Closed Through Wednesday",
@@ -1922,13 +1334,6 @@
       "name": "Tipton Christian Academy",
       "status": "CLOSED",
       "status_detail": "Closed Through 01/30",
-      "region": "West Tennessee",
-      "source": "Action News 5"
-    },
-    {
-      "name": "Tipton County Schools",
-      "status": "CLOSED",
-      "status_detail": "Closed Wednesday",
       "region": "West Tennessee",
       "source": "Action News 5"
     },
@@ -1968,170 +1373,9 @@
       "source": "Action News 5"
     },
     {
-      "name": "William R. Moore College of Technology",
-      "status": "CLOSED",
-      "status_detail": "Closed Wednesday",
-      "region": "Middle Tennessee",
-      "source": "Action News 5"
-    },
-    {
-      "name": "Word of Faith Christian Academy",
-      "status": "CLOSED",
-      "status_detail": "Closed Wednesday",
-      "region": "Other",
-      "source": "Action News 5"
-    },
-    {
-      "name": "Bell County",
-      "status": "CLOSED",
-      "status_detail": "Closed Wednesday - NIT Day",
-      "region": "East Tennessee",
-      "source": "WVLT"
-    },
-    {
-      "name": "Boys & Girls Clubs of Claiborne County",
-      "status": "CLOSED",
-      "status_detail": "Closed Wednesday",
-      "region": "East Tennessee",
-      "source": "WVLT"
-    },
-    {
-      "name": "Campbell County Schools",
-      "status": "CLOSED",
-      "status_detail": "Closed Wednesday",
-      "region": "East Tennessee",
-      "source": "WVLT"
-    },
-    {
-      "name": "Claiborne County Schools",
-      "status": "CLOSED",
-      "status_detail": "Closed Wednesday",
-      "region": "East Tennessee",
-      "source": "WVLT"
-    },
-    {
-      "name": "Cocke County Schools",
-      "status": "CLOSED",
-      "status_detail": "Closed Wednesday",
-      "region": "East Tennessee",
-      "source": "WVLT"
-    },
-    {
-      "name": "Grainger County Schools",
-      "status": "CLOSED",
-      "status_detail": "Closed Wednesday",
-      "region": "East Tennessee",
-      "source": "WVLT"
-    },
-    {
-      "name": "Greene County Schools",
-      "status": "DELAYED",
-      "status_detail": "Opening Late Wednesday 2 Hours",
-      "region": "East Tennessee",
-      "source": "WVLT"
-    },
-    {
-      "name": "Hancock County Schools",
-      "status": "CLOSED",
-      "status_detail": "Closed Wednesday",
-      "region": "East Tennessee",
-      "source": "WVLT"
-    },
-    {
-      "name": "Harlan County, KY Schools",
-      "status": "CLOSED",
-      "status_detail": "Closed Wednesday - NIT Day",
-      "region": "Other",
-      "source": "WVLT"
-    },
-    {
-      "name": "Hawkins County Schools",
-      "status": "CLOSED",
-      "status_detail": "Closed Wednesday",
-      "region": "East Tennessee",
-      "source": "WVLT"
-    },
-    {
-      "name": "Knox County, TN Schools",
-      "status": "DELAYED",
-      "status_detail": "Opening Late 2 hours Wednesday",
-      "region": "East Tennessee",
-      "source": "WVLT"
-    },
-    {
-      "name": "Knoxville Head Start Extended Day",
-      "status": "DELAYED",
-      "status_detail": "Opening Late Wednesday 2 Hours",
-      "region": "East Tennessee",
-      "source": "WVLT"
-    },
-    {
-      "name": "Knoxville Preparatory School",
-      "status": "DELAYED",
-      "status_detail": "Delayed Wednesday 2 Hours - buses will run according to the two-hour delay",
-      "region": "East Tennessee",
-      "source": "WVLT"
-    },
-    {
-      "name": "Landmark Christian Academy",
-      "status": "CLOSED",
-      "status_detail": "Closed Wednesday",
-      "region": "Other",
-      "source": "WVLT"
-    },
-    {
       "name": "Middlesboro Independent",
       "status": "REMOTE",
       "status_detail": "Virtual Learning Wednesday - NTI Day #6",
-      "region": "Other",
-      "source": "WVLT"
-    },
-    {
-      "name": "Newport Grammar School",
-      "status": "DELAYED",
-      "status_detail": "Opening Late Wednesday 1 Hour",
-      "region": "Other",
-      "source": "WVLT"
-    },
-    {
-      "name": "Oneida Special School District",
-      "status": "CLOSED",
-      "status_detail": "Closed Wednesday",
-      "region": "Other",
-      "source": "WVLT"
-    },
-    {
-      "name": "Rogersville Schools",
-      "status": "CLOSED",
-      "status_detail": "Closed Wednesday",
-      "region": "Other",
-      "source": "WVLT"
-    },
-    {
-      "name": "Scott County Schools",
-      "status": "CLOSED",
-      "status_detail": "Closed Wednesday",
-      "region": "East Tennessee",
-      "source": "WVLT"
-    },
-    {
-      "name": "Sevier County Schools",
-      "status": "CLOSED",
-      "status_detail": "Closed Through 01/28",
-      "region": "East Tennessee",
-      "source": "WVLT"
-    },
-    {
-      "name": "TN School for the Deaf",
-      "status": "DELAYED",
-      "status_detail": "Opening Late Wednesday 1 Hour",
-      "region": "Other",
-      "source": "WVLT"
-    },
-    {
-      "name": "Tri-State Christian Academy",
-      "status": "CLOSED",
-      "status_detail": "Closed Wednesday",
       "region": "Other",
       "source": "WVLT"
     }
