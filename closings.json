@@ -1,14 +1,14 @@
 {
   "meta": {
-    "generated_at": "2026-01-28T17:20:49.056630+00:00",
-    "total_closings": 112,
+    "generated_at": "2026-01-28T17:30:39.745003+00:00",
+    "total_closings": 113,
     "by_status": {
-      "CLOSED": 94,
+      "CLOSED": 95,
       "REMOTE": 18
     },
     "by_region": {
       "Other": 38,
-      "Middle Tennessee": 40,
+      "Middle Tennessee": 41,
       "West Tennessee": 31,
       "East Tennessee": 3
     },
@@ -142,6 +142,13 @@
       "name": "Franklin Spec. Sch. Dist.",
       "status": "CLOSED",
       "status_detail": "Closed through Thursday. Snow MAC open Wednesday and Thursday",
+      "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Gen. Sessions Court-Davidson Co.",
+      "status": "CLOSED",
+      "status_detail": "Only Civil and Jail Dockets Open",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
