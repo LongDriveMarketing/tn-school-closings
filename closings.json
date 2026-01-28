@@ -1,17 +1,17 @@
 {
   "meta": {
-    "generated_at": "2026-01-28T22:20:43.090413+00:00",
-    "total_closings": 217,
+    "generated_at": "2026-01-28T22:30:43.749979+00:00",
+    "total_closings": 219,
     "by_status": {
-      "CLOSED": 187,
-      "REMOTE": 25,
+      "CLOSED": 188,
+      "REMOTE": 26,
       "EARLY_DISMISSAL": 1,
       "DELAYED": 4
     },
     "by_region": {
-      "Other": 89,
+      "Other": 90,
       "Middle Tennessee": 61,
-      "West Tennessee": 56,
+      "West Tennessee": 57,
       "East Tennessee": 11
     },
     "sources": [
@@ -708,6 +708,13 @@
       "source": "NewsChannel 5"
     },
     {
+      "name": "St. Joseph",
+      "status": "CLOSED",
+      "status_detail": "CLOSED WED, THU & FRI",
+      "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
       "name": "St. Luke's Community House",
       "status": "CLOSED",
       "status_detail": "CLOSED",
@@ -747,6 +754,13 @@
       "status": "REMOTE",
       "status_detail": "Virtual Learning through Thursday",
       "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "TCAT Henry/Carroll",
+      "status": "REMOTE",
+      "status_detail": "CLOSED - VIRTUAL/REMOTE LEARNING DAY",
+      "region": "West Tennessee",
       "source": "NewsChannel 5"
     },
     {
