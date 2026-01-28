@@ -1,9 +1,9 @@
 {
   "meta": {
-    "generated_at": "2026-01-28T15:10:47.631374+00:00",
-    "total_closings": 311,
+    "generated_at": "2026-01-28T15:20:45.612956+00:00",
+    "total_closings": 312,
     "by_status": {
-      "CLOSED": 263,
+      "CLOSED": 264,
       "REMOTE": 33,
       "EARLY_DISMISSAL": 4,
       "DELAYED": 11
@@ -11,7 +11,7 @@
     "by_region": {
       "Other": 140,
       "Middle Tennessee": 84,
-      "West Tennessee": 66,
+      "West Tennessee": 67,
       "East Tennessee": 21
     },
     "sources": [
@@ -598,7 +598,7 @@
     {
       "name": "Immaculate Conception",
       "status": "CLOSED",
-      "status_detail": "Closed through Wednesday",
+      "status_detail": "CLOSED TODAY & TOMORROW",
       "region": "Other",
       "source": "NewsChannel 5"
     },
@@ -1824,6 +1824,13 @@
       "name": "Mid-America Baptist Theological Seminary",
       "status": "CLOSED",
       "status_detail": "Closed Wednesday - Virtual Learning Day",
+      "region": "West Tennessee",
+      "source": "Action News 5"
+    },
+    {
+      "name": "Millington Municipal Schools",
+      "status": "CLOSED",
+      "status_detail": "Closed Through 01/30",
       "region": "West Tennessee",
       "source": "Action News 5"
     },
