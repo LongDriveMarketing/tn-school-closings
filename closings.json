@@ -1,15 +1,15 @@
 {
   "meta": {
-    "generated_at": "2026-01-28T01:30:41.876535+00:00",
-    "total_closings": 304,
+    "generated_at": "2026-01-28T01:40:47.319559+00:00",
+    "total_closings": 306,
     "by_status": {
-      "CLOSED": 255,
+      "CLOSED": 257,
       "REMOTE": 35,
       "DELAYED": 11,
       "EARLY_DISMISSAL": 3
     },
     "by_region": {
-      "Other": 135,
+      "Other": 137,
       "Middle Tennessee": 83,
       "West Tennessee": 63,
       "East Tennessee": 23
@@ -38,7 +38,7 @@
     {
       "name": "Advanced Therapy Solutions",
       "status": "CLOSED",
-      "status_detail": "Closed Wednesday, 1/28",
+      "status_detail": "CLOSED",
       "region": "Other",
       "source": "NewsChannel 5"
     },
@@ -732,6 +732,13 @@
       "name": "Logan",
       "status": "CLOSED",
       "status_detail": "CLOSED",
+      "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Love Child Care",
+      "status": "CLOSED",
+      "status_detail": "CLOSED; CLOSED",
       "region": "Other",
       "source": "NewsChannel 5"
     },
@@ -1675,6 +1682,13 @@
     },
     {
       "name": "Lords Tabernacle Christian Academy",
+      "status": "CLOSED",
+      "status_detail": "Closed Wednesday",
+      "region": "Other",
+      "source": "Action News 5"
+    },
+    {
+      "name": "Madonna Learning Center",
       "status": "CLOSED",
       "status_detail": "Closed Wednesday",
       "region": "Other",
