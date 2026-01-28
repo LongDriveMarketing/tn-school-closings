@@ -1,15 +1,15 @@
 {
   "meta": {
-    "generated_at": "2026-01-28T18:50:43.305265+00:00",
+    "generated_at": "2026-01-28T19:00:44.718810+00:00",
     "total_closings": 155,
     "by_status": {
-      "CLOSED": 133,
-      "REMOTE": 22
+      "CLOSED": 136,
+      "REMOTE": 19
     },
     "by_region": {
-      "Other": 56,
-      "Middle Tennessee": 51,
-      "West Tennessee": 45,
+      "Other": 57,
+      "Middle Tennessee": 47,
+      "West Tennessee": 48,
       "East Tennessee": 3
     },
     "sources": [
@@ -573,20 +573,6 @@
       "source": "NewsChannel 5"
     },
     {
-      "name": "TCAT Henry/Carroll",
-      "status": "REMOTE",
-      "status_detail": "CLOSED - VIRTUAL/REMOTE LEARNING DAY",
-      "region": "West Tennessee",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "TCAT Murfreesboro-Smyrna",
-      "status": "REMOTE",
-      "status_detail": "CLOSED - VIRTUAL/REMOTE LEARNING DAY",
-      "region": "Middle Tennessee",
-      "source": "NewsChannel 5"
-    },
-    {
       "name": "Templeton Academy",
       "status": "CLOSED",
       "status_detail": "Closed Wednesday and Thursday",
@@ -608,13 +594,6 @@
       "source": "NewsChannel 5"
     },
     {
-      "name": "Trevecca Nazarene University",
-      "status": "CLOSED",
-      "status_detail": "Closed Wednesday",
-      "region": "Middle Tennessee",
-      "source": "NewsChannel 5"
-    },
-    {
       "name": "Trigg",
       "status": "CLOSED",
       "status_detail": "CLOSED - NTI DAY #5",
@@ -626,20 +605,6 @@
       "status": "CLOSED",
       "status_detail": "Closed Wed and Thurs",
       "region": "Other",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "Vol State-Cookeville",
-      "status": "REMOTE",
-      "status_detail": "CLOSED - VIRTUAL/REMOTE LEARNING DAY; Virtual Learning through Friday 1/30",
-      "region": "Middle Tennessee",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "Vol State-Gallatin",
-      "status": "REMOTE",
-      "status_detail": "CLOSED - VIRTUAL/REMOTE LEARNING DAY; Virtual Learning through Friday 1/30",
-      "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
     {
@@ -745,6 +710,13 @@
       "status": "CLOSED",
       "status_detail": "Closed Through 01/30",
       "region": "West Tennessee",
+      "source": "Action News 5"
+    },
+    {
+      "name": "Christ Trinity Christian Academy",
+      "status": "CLOSED",
+      "status_detail": "Closed Thursday",
+      "region": "Other",
       "source": "Action News 5"
     },
     {
@@ -860,6 +832,13 @@
       "source": "Action News 5"
     },
     {
+      "name": "Immanuel Lutheran School",
+      "status": "CLOSED",
+      "status_detail": "Closed Through 01/31",
+      "region": "West Tennessee",
+      "source": "Action News 5"
+    },
+    {
       "name": "Lafayette County School District",
       "status": "CLOSED",
       "status_detail": "Closed Through the 30th",
@@ -895,6 +874,13 @@
       "source": "Action News 5"
     },
     {
+      "name": "Memphis Business Academy",
+      "status": "CLOSED",
+      "status_detail": "Closed Through 01/30 - After-school activities canceled",
+      "region": "West Tennessee",
+      "source": "Action News 5"
+    },
+    {
       "name": "Memphis Electrical JATC",
       "status": "CLOSED",
       "status_detail": "Closed Through 01/30",
@@ -909,9 +895,23 @@
       "source": "Action News 5"
     },
     {
+      "name": "Memphis STEM Academy",
+      "status": "CLOSED",
+      "status_detail": "Closed Through 01/30 - After-school activities canceled",
+      "region": "West Tennessee",
+      "source": "Action News 5"
+    },
+    {
       "name": "Memphis Theological Seminary",
       "status": "CLOSED",
       "status_detail": "Closed Through 01/31 - Virtual Learning Only",
+      "region": "West Tennessee",
+      "source": "Action News 5"
+    },
+    {
+      "name": "Memphis University School",
+      "status": "REMOTE",
+      "status_detail": "Virtual Learning Thursday",
       "region": "West Tennessee",
       "source": "Action News 5"
     },
