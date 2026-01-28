@@ -1,15 +1,15 @@
 {
   "meta": {
-    "generated_at": "2026-01-28T00:30:41.437200+00:00",
-    "total_closings": 298,
+    "generated_at": "2026-01-28T00:40:41.204169+00:00",
+    "total_closings": 299,
     "by_status": {
-      "CLOSED": 250,
+      "CLOSED": 251,
       "REMOTE": 35,
       "DELAYED": 10,
       "EARLY_DISMISSAL": 3
     },
     "by_region": {
-      "Other": 129,
+      "Other": 130,
       "Middle Tennessee": 83,
       "West Tennessee": 63,
       "East Tennessee": 23
@@ -1831,6 +1831,13 @@
       "name": "Sacred Heart School Southaven",
       "status": "REMOTE",
       "status_detail": "Virtual Learning Wednesday",
+      "region": "Other",
+      "source": "Action News 5"
+    },
+    {
+      "name": "SE Academy Private School",
+      "status": "CLOSED",
+      "status_detail": "Closed Wednesday",
       "region": "Other",
       "source": "Action News 5"
     },
