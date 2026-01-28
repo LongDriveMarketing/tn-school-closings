@@ -1,9 +1,9 @@
 {
   "meta": {
-    "generated_at": "2026-01-28T14:10:39.296086+00:00",
-    "total_closings": 309,
+    "generated_at": "2026-01-28T14:20:46.492754+00:00",
+    "total_closings": 310,
     "by_status": {
-      "CLOSED": 261,
+      "CLOSED": 262,
       "REMOTE": 33,
       "EARLY_DISMISSAL": 4,
       "DELAYED": 11
@@ -11,7 +11,7 @@
     "by_region": {
       "Other": 140,
       "Middle Tennessee": 84,
-      "West Tennessee": 64,
+      "West Tennessee": 65,
       "East Tennessee": 21
     },
     "sources": [
@@ -1566,6 +1566,13 @@
       "status": "CLOSED",
       "status_detail": "Closed Wednesday",
       "region": "Other",
+      "source": "Action News 5"
+    },
+    {
+      "name": "Fayette Academy",
+      "status": "CLOSED",
+      "status_detail": "Closed Through 02/01",
+      "region": "West Tennessee",
       "source": "Action News 5"
     },
     {
