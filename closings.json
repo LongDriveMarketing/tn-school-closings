@@ -1,16 +1,18 @@
 {
   "meta": {
-    "generated_at": "2026-01-28T20:20:39.379741+00:00",
-    "total_closings": 182,
+    "generated_at": "2026-01-28T20:30:45.927931+00:00",
+    "total_closings": 186,
     "by_status": {
-      "CLOSED": 160,
-      "REMOTE": 22
+      "CLOSED": 162,
+      "REMOTE": 22,
+      "EARLY_DISMISSAL": 1,
+      "DELAYED": 1
     },
     "by_region": {
-      "Other": 71,
+      "Other": 72,
       "Middle Tennessee": 54,
-      "West Tennessee": 50,
-      "East Tennessee": 7
+      "West Tennessee": 51,
+      "East Tennessee": 9
     },
     "sources": [
       "NewsChannel 5",
@@ -664,6 +666,13 @@
       "source": "NewsChannel 5"
     },
     {
+      "name": "The Settlement",
+      "status": "EARLY_DISMISSAL",
+      "status_detail": "OPEN AT 8:00; CLOSING AT 4:00",
+      "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
       "name": "Todd",
       "status": "CLOSED",
       "status_detail": "Closed Thursday & Friday -- NTI Days 4 & 5",
@@ -870,6 +879,13 @@
       "name": "Fayette Academy",
       "status": "CLOSED",
       "status_detail": "Closed Through 02/01",
+      "region": "West Tennessee",
+      "source": "Action News 5"
+    },
+    {
+      "name": "Fayette Christian School",
+      "status": "CLOSED",
+      "status_detail": "Closed Through 01/30",
       "region": "West Tennessee",
       "source": "Action News 5"
     },
@@ -1238,9 +1254,23 @@
       "source": "Action News 5"
     },
     {
+      "name": "Campbell County Schools",
+      "status": "CLOSED",
+      "status_detail": "Closed Thursday",
+      "region": "East Tennessee",
+      "source": "WVLT"
+    },
+    {
       "name": "Claiborne County Schools",
       "status": "CLOSED",
       "status_detail": "Closed Thursday",
+      "region": "East Tennessee",
+      "source": "WVLT"
+    },
+    {
+      "name": "Cocke County Schools",
+      "status": "DELAYED",
+      "status_detail": "Opening Late Thursday 2 Hours",
       "region": "East Tennessee",
       "source": "WVLT"
     },
