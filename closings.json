@@ -1,17 +1,17 @@
 {
   "meta": {
-    "generated_at": "2026-01-28T22:00:39.900284+00:00",
-    "total_closings": 211,
+    "generated_at": "2026-01-28T22:10:40.229363+00:00",
+    "total_closings": 215,
     "by_status": {
-      "CLOSED": 183,
+      "CLOSED": 186,
       "REMOTE": 24,
       "EARLY_DISMISSAL": 1,
-      "DELAYED": 3
+      "DELAYED": 4
     },
     "by_region": {
-      "Other": 84,
+      "Other": 87,
       "Middle Tennessee": 61,
-      "West Tennessee": 55,
+      "West Tennessee": 56,
       "East Tennessee": 11
     },
     "sources": [
@@ -46,6 +46,13 @@
       "name": "Benton",
       "status": "CLOSED",
       "status_detail": "CLOSED WED, THU & FRI; CLOSED WED, THU & FRI",
+      "region": "West Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Benton Hall",
+      "status": "CLOSED",
+      "status_detail": "Closed-No Heat or Electricity",
       "region": "West Tennessee",
       "source": "NewsChannel 5"
     },
@@ -694,6 +701,13 @@
       "source": "NewsChannel 5"
     },
     {
+      "name": "St. Luke's Community House",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
+      "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
       "name": "St. Matthew School",
       "status": "CLOSED",
       "status_detail": "CLOSED TODAY & TOMORROW",
@@ -1128,6 +1142,13 @@
       "source": "Action News 5"
     },
     {
+      "name": "Maria Montessori School",
+      "status": "CLOSED",
+      "status_detail": "Closed Thursday",
+      "region": "Other",
+      "source": "Action News 5"
+    },
+    {
       "name": "Marion School District",
       "status": "CLOSED",
       "status_detail": "Closed Through 01/30",
@@ -1382,7 +1403,7 @@
     {
       "name": "University of Mississippi",
       "status": "CLOSED",
-      "status_detail": "Closed Through Sunday",
+      "status_detail": "Closed Through Sunday 2/8",
       "region": "West Tennessee",
       "source": "Action News 5"
     },
@@ -1496,6 +1517,13 @@
       "status": "CLOSED",
       "status_detail": "Closed Thursday",
       "region": "East Tennessee",
+      "source": "WVLT"
+    },
+    {
+      "name": "Tri-State Christian Academy",
+      "status": "DELAYED",
+      "status_detail": "Opening Late Thursday 2 Hours",
+      "region": "Other",
       "source": "WVLT"
     }
   ]
