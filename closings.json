@@ -1,14 +1,14 @@
 {
   "meta": {
-    "generated_at": "2026-01-28T17:40:38.321250+00:00",
-    "total_closings": 116,
+    "generated_at": "2026-01-28T17:50:32.505993+00:00",
+    "total_closings": 120,
     "by_status": {
-      "CLOSED": 97,
-      "REMOTE": 19
+      "CLOSED": 100,
+      "REMOTE": 20
     },
     "by_region": {
-      "Other": 40,
-      "Middle Tennessee": 42,
+      "Other": 41,
+      "Middle Tennessee": 45,
       "West Tennessee": 31,
       "East Tennessee": 3
     },
@@ -72,6 +72,13 @@
       "name": "Cheatham",
       "status": "CLOSED",
       "status_detail": "CLOSED WED, THU & FRI",
+      "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Clarksville Christian",
+      "status": "REMOTE",
+      "status_detail": "Closed Thursday Remote Learning",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
@@ -349,6 +356,13 @@
       "source": "NewsChannel 5"
     },
     {
+      "name": "Overton",
+      "status": "CLOSED",
+      "status_detail": "Thursday",
+      "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
       "name": "Paris Special School District",
       "status": "CLOSED",
       "status_detail": "CLOSED THROUGH THURSDAY",
@@ -548,6 +562,13 @@
       "name": "Vol State-Springfield",
       "status": "REMOTE",
       "status_detail": "CLOSED - VIRTUAL/REMOTE LEARNING DAY; Virtual Learning through Friday 1/30",
+      "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Warren Co., KY",
+      "status": "CLOSED",
+      "status_detail": "CLOSED; CLOSED - NON TRADITIONAL INSTRUCTION DAY",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
@@ -809,6 +830,13 @@
       "status_detail": "Closed Through Wednesday the 28th",
       "region": "West Tennessee",
       "source": "Action News 5"
+    },
+    {
+      "name": "Landmark Christian Academy",
+      "status": "CLOSED",
+      "status_detail": "Closed Thursday",
+      "region": "Other",
+      "source": "WVLT"
     },
     {
       "name": "Middlesboro Independent",
