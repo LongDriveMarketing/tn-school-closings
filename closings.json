@@ -1,15 +1,15 @@
 {
   "meta": {
-    "generated_at": "2026-01-28T05:20:44.797378+00:00",
-    "total_closings": 306,
+    "generated_at": "2026-01-28T05:30:40.089157+00:00",
+    "total_closings": 307,
     "by_status": {
-      "CLOSED": 259,
+      "CLOSED": 260,
       "REMOTE": 33,
       "DELAYED": 11,
       "EARLY_DISMISSAL": 3
     },
     "by_region": {
-      "Other": 137,
+      "Other": 138,
       "Middle Tennessee": 83,
       "West Tennessee": 64,
       "East Tennessee": 22
@@ -1524,6 +1524,13 @@
       "status": "CLOSED",
       "status_detail": "Closed Wednesday",
       "region": "West Tennessee",
+      "source": "Action News 5"
+    },
+    {
+      "name": "Expanded Educational Services Success Academy",
+      "status": "CLOSED",
+      "status_detail": "Closed Through 01/29",
+      "region": "Other",
       "source": "Action News 5"
     },
     {
