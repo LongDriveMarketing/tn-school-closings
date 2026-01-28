@@ -1,15 +1,15 @@
 {
   "meta": {
-    "generated_at": "2026-01-28T01:10:38.405362+00:00",
-    "total_closings": 300,
+    "generated_at": "2026-01-28T01:20:45.975818+00:00",
+    "total_closings": 304,
     "by_status": {
-      "CLOSED": 251,
+      "CLOSED": 255,
       "REMOTE": 35,
       "DELAYED": 11,
       "EARLY_DISMISSAL": 3
     },
     "by_region": {
-      "Other": 131,
+      "Other": 135,
       "Middle Tennessee": 83,
       "West Tennessee": 63,
       "East Tennessee": 23
@@ -25,6 +25,13 @@
       "name": "15th Ave. N. Learning Academy",
       "status": "CLOSED",
       "status_detail": "Closed on Wednesday",
+      "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Aaron Academy",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
       "region": "Other",
       "source": "NewsChannel 5"
     },
@@ -486,7 +493,7 @@
     {
       "name": "Grace Baptist CDC",
       "status": "CLOSED",
-      "status_detail": "Wednesday",
+      "status_detail": "CLOSED",
       "region": "Other",
       "source": "NewsChannel 5"
     },
@@ -600,6 +607,13 @@
       "status": "EARLY_DISMISSAL",
       "status_detail": "OPEN AT 9:00; CLOSING AT 4:30",
       "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Jewell's Gems",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
+      "region": "Other",
       "source": "NewsChannel 5"
     },
     {
@@ -774,6 +788,13 @@
       "name": "Metro Christian Academy",
       "status": "CLOSED",
       "status_detail": "Closed Wednesday",
+      "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Metro Head Start",
+      "status": "CLOSED",
+      "status_detail": "CLOSED-NO MAC",
       "region": "Other",
       "source": "NewsChannel 5"
     },
@@ -1209,6 +1230,13 @@
       "status": "CLOSED",
       "status_detail": "CLOSED",
       "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "University School",
+      "status": "CLOSED",
+      "status_detail": "Closed Wed and Thurs",
+      "region": "Other",
       "source": "NewsChannel 5"
     },
     {
