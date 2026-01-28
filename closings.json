@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-01-28T01:20:45.975818+00:00",
+    "generated_at": "2026-01-28T01:30:41.876535+00:00",
     "total_closings": 304,
     "by_status": {
       "CLOSED": 255,
@@ -402,7 +402,7 @@
     {
       "name": "Fannie Battle",
       "status": "CLOSED",
-      "status_detail": "WEDNESDAY (01/28)",
+      "status_detail": "CLOSED",
       "region": "Other",
       "source": "NewsChannel 5"
     },
@@ -416,7 +416,7 @@
     {
       "name": "First Baptist-Dickson",
       "status": "CLOSED",
-      "status_detail": "FBC Dickson Daycare closed the remainder of the week",
+      "status_detail": "CLOSD REST OF THE WEEK",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
@@ -542,7 +542,7 @@
     {
       "name": "Heritage Acad./Hopkinsville",
       "status": "CLOSED",
-      "status_detail": "Closed Tuesday, January 27 and Wednesday, January 28",
+      "status_detail": "CLOSED",
       "region": "Other",
       "source": "NewsChannel 5"
     },
@@ -584,7 +584,7 @@
     {
       "name": "Immaculate Conception",
       "status": "CLOSED",
-      "status_detail": "Closed through Wednesday, January 28",
+      "status_detail": "Closed through Wednesday",
       "region": "Other",
       "source": "NewsChannel 5"
     },
@@ -661,7 +661,7 @@
     {
       "name": "Lancaster Early Learn. Centers",
       "status": "DELAYED",
-      "status_detail": "CLOSED Tuesday 1/27 and TWO-HOUR DELAY Wednesday 1/28",
+      "status_detail": "TWO-HOUR DELAY Wednesday",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
@@ -696,7 +696,7 @@
     {
       "name": "Lighthouse Preschool",
       "status": "CLOSED",
-      "status_detail": "Closed Through Wednesday (01/28)",
+      "status_detail": "Closed Through Wednesday",
       "region": "Other",
       "source": "NewsChannel 5"
     },
@@ -801,7 +801,7 @@
     {
       "name": "Middle Tenn. St. Univ.",
       "status": "REMOTE",
-      "status_detail": "Remote operations through Wed., Jan. 28",
+      "status_detail": "Remote operations through Wed.",
       "region": "Other",
       "source": "NewsChannel 5"
     },
@@ -934,7 +934,7 @@
     {
       "name": "Paris Special School District",
       "status": "CLOSED",
-      "status_detail": "CLOSED THROUGH THURSDAY 1/29",
+      "status_detail": "CLOSED THROUGH THURSDAY",
       "region": "West Tennessee",
       "source": "NewsChannel 5"
     },
@@ -1032,7 +1032,7 @@
     {
       "name": "Rutherford",
       "status": "CLOSED",
-      "status_detail": "Closed Wed 1/28/26 & thurs 1/29/26",
+      "status_detail": "Closed Wed. & Thurs.",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
