@@ -1,16 +1,16 @@
 {
   "meta": {
-    "generated_at": "2026-01-28T19:30:46.055698+00:00",
-    "total_closings": 161,
+    "generated_at": "2026-01-28T19:40:43.627638+00:00",
+    "total_closings": 163,
     "by_status": {
-      "CLOSED": 141,
-      "REMOTE": 20
+      "CLOSED": 144,
+      "REMOTE": 19
     },
     "by_region": {
-      "Other": 61,
+      "Other": 62,
       "Middle Tennessee": 49,
       "West Tennessee": 48,
-      "East Tennessee": 3
+      "East Tennessee": 4
     },
     "sources": [
       "NewsChannel 5",
@@ -148,7 +148,7 @@
     {
       "name": "Dayspring Academy",
       "status": "CLOSED",
-      "status_detail": "Closed Through Friday, 1/30",
+      "status_detail": "Closed Through Friday",
       "region": "Other",
       "source": "NewsChannel 5"
     },
@@ -638,7 +638,7 @@
     {
       "name": "Vol State-Livingston",
       "status": "REMOTE",
-      "status_detail": "CLOSED - VIRTUAL/REMOTE LEARNING DAY; Virtual Learning through Friday 1/30",
+      "status_detail": "CLOSED - VIRTUAL/REMOTE LEARNING DAY; Virtual Learning through Friday",
       "region": "Other",
       "source": "NewsChannel 5"
     },
@@ -722,7 +722,7 @@
     {
       "name": "Bodine School",
       "status": "CLOSED",
-      "status_detail": "Closed Thursday",
+      "status_detail": "Closed Through 01/30",
       "region": "Other",
       "source": "Action News 5"
     },
@@ -1000,6 +1000,13 @@
       "source": "Action News 5"
     },
     {
+      "name": "Presbyterian Day School",
+      "status": "CLOSED",
+      "status_detail": "Closed Through 01/29",
+      "region": "Other",
+      "source": "Action News 5"
+    },
+    {
       "name": "Rhodes College",
       "status": "CLOSED",
       "status_detail": "Closed Thursday",
@@ -1031,6 +1038,13 @@
       "name": "Southwest Tennessee Community College",
       "status": "REMOTE",
       "status_detail": "Virtual Learning Thursday",
+      "region": "Other",
+      "source": "Action News 5"
+    },
+    {
+      "name": "St. Agnes Academy-St. Dominic School",
+      "status": "CLOSED",
+      "status_detail": "Closed Through 01/30",
       "region": "Other",
       "source": "Action News 5"
     },
@@ -1112,16 +1126,16 @@
       "source": "Action News 5"
     },
     {
-      "name": "Landmark Christian Academy",
+      "name": "Claiborne County Schools",
       "status": "CLOSED",
       "status_detail": "Closed Thursday",
-      "region": "Other",
+      "region": "East Tennessee",
       "source": "WVLT"
     },
     {
-      "name": "Middlesboro Independent",
-      "status": "REMOTE",
-      "status_detail": "Virtual Learning Wednesday - NTI Day #6",
+      "name": "Landmark Christian Academy",
+      "status": "CLOSED",
+      "status_detail": "Closed Thursday",
       "region": "Other",
       "source": "WVLT"
     },
