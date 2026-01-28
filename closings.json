@@ -1,9 +1,9 @@
 {
   "meta": {
-    "generated_at": "2026-01-28T14:20:46.492754+00:00",
-    "total_closings": 310,
+    "generated_at": "2026-01-28T14:30:38.937338+00:00",
+    "total_closings": 311,
     "by_status": {
-      "CLOSED": 262,
+      "CLOSED": 263,
       "REMOTE": 33,
       "EARLY_DISMISSAL": 4,
       "DELAYED": 11
@@ -11,7 +11,7 @@
     "by_region": {
       "Other": 140,
       "Middle Tennessee": 84,
-      "West Tennessee": 65,
+      "West Tennessee": 66,
       "East Tennessee": 21
     },
     "sources": [
@@ -157,7 +157,7 @@
     {
       "name": "Chapel Hill Academy",
       "status": "CLOSED",
-      "status_detail": "CLOSED TODAY & TOMORROW",
+      "status_detail": "CLOSED",
       "region": "Other",
       "source": "NewsChannel 5"
     },
@@ -1628,6 +1628,13 @@
       "name": "Hardeman County Schools",
       "status": "CLOSED",
       "status_detail": "Closed Through Friday",
+      "region": "West Tennessee",
+      "source": "Action News 5"
+    },
+    {
+      "name": "Hardin County Schools",
+      "status": "CLOSED",
+      "status_detail": "Closed Wednesday",
       "region": "West Tennessee",
       "source": "Action News 5"
     },
