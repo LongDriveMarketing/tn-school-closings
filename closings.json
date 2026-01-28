@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-01-28T11:50:43.415285+00:00",
+    "generated_at": "2026-01-28T12:00:41.932382+00:00",
     "total_closings": 307,
     "by_status": {
       "CLOSED": 260,
@@ -1907,7 +1907,7 @@
     {
       "name": "Senatobia Municipal School District",
       "status": "CLOSED",
-      "status_detail": "Closed Through the 28th",
+      "status_detail": "Closed Through 01/30",
       "region": "West Tennessee",
       "source": "Action News 5"
     },
