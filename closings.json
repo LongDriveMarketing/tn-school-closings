@@ -1,15 +1,15 @@
 {
   "meta": {
-    "generated_at": "2026-01-28T23:10:42.156085+00:00",
-    "total_closings": 225,
+    "generated_at": "2026-01-28T23:20:52.043451+00:00",
+    "total_closings": 226,
     "by_status": {
-      "CLOSED": 193,
+      "CLOSED": 194,
       "REMOTE": 26,
       "DELAYED": 5,
       "EARLY_DISMISSAL": 1
     },
     "by_region": {
-      "Other": 94,
+      "Other": 95,
       "Middle Tennessee": 62,
       "West Tennessee": 57,
       "East Tennessee": 12
@@ -467,6 +467,13 @@
       "status": "CLOSED",
       "status_detail": "CLOSED ALL WEEK",
       "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Meharry Medical College",
+      "status": "CLOSED",
+      "status_detail": "Open at 10 a.m. Medical, dental clinics open",
+      "region": "Other",
       "source": "NewsChannel 5"
     },
     {
