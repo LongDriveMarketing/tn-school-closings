@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-01-28T15:40:36.734632+00:00",
+    "generated_at": "2026-01-28T15:50:45.017678+00:00",
     "total_closings": 313,
     "by_status": {
       "CLOSED": 264,
@@ -1165,7 +1165,7 @@
     {
       "name": "TCAT Dickson",
       "status": "REMOTE",
-      "status_detail": "Virtual Learning - Tuesday & Wednesday",
+      "status_detail": "Virtual Learning through Thursday",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
