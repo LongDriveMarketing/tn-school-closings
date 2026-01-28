@@ -1,9 +1,9 @@
 {
   "meta": {
-    "generated_at": "2026-01-28T16:10:37.461505+00:00",
-    "total_closings": 314,
+    "generated_at": "2026-01-28T16:20:41.915429+00:00",
+    "total_closings": 313,
     "by_status": {
-      "CLOSED": 264,
+      "CLOSED": 263,
       "REMOTE": 35,
       "EARLY_DISMISSAL": 4,
       "DELAYED": 11
@@ -11,7 +11,7 @@
     "by_region": {
       "Other": 140,
       "Middle Tennessee": 84,
-      "West Tennessee": 69,
+      "West Tennessee": 68,
       "East Tennessee": 21
     },
     "sources": [
@@ -1748,13 +1748,6 @@
       "status": "CLOSED",
       "status_detail": "Closed Wednesday",
       "region": "Other",
-      "source": "Action News 5"
-    },
-    {
-      "name": "Magnolia Heights",
-      "status": "CLOSED",
-      "status_detail": "Closed Wednesday",
-      "region": "West Tennessee",
       "source": "Action News 5"
     },
     {
