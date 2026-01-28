@@ -1,15 +1,15 @@
 {
   "meta": {
-    "generated_at": "2026-01-27T23:50:37.718307+00:00",
-    "total_closings": 296,
+    "generated_at": "2026-01-28T00:00:40.846573+00:00",
+    "total_closings": 297,
     "by_status": {
-      "CLOSED": 248,
+      "CLOSED": 249,
       "REMOTE": 35,
       "DELAYED": 10,
       "EARLY_DISMISSAL": 3
     },
     "by_region": {
-      "Other": 127,
+      "Other": 128,
       "Middle Tennessee": 83,
       "West Tennessee": 63,
       "East Tennessee": 23
@@ -1086,6 +1086,13 @@
       "source": "NewsChannel 5"
     },
     {
+      "name": "St. Pius X School",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
+      "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
       "name": "Sumner",
       "status": "CLOSED",
       "status_detail": "CLOSED WED, THU & FRI",
@@ -1746,7 +1753,7 @@
     {
       "name": "Northwest Mississippi Community College",
       "status": "REMOTE",
-      "status_detail": "Virtual Learning Tuesday",
+      "status_detail": "Virtual Learning Through 01/30",
       "region": "West Tennessee",
       "source": "Action News 5"
     },
