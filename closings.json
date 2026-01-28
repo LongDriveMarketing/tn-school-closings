@@ -1,17 +1,17 @@
 {
   "meta": {
-    "generated_at": "2026-01-28T21:10:43.869329+00:00",
-    "total_closings": 199,
+    "generated_at": "2026-01-28T21:20:44.780790+00:00",
+    "total_closings": 203,
     "by_status": {
-      "CLOSED": 173,
+      "CLOSED": 177,
       "REMOTE": 23,
       "EARLY_DISMISSAL": 1,
       "DELAYED": 2
     },
     "by_region": {
-      "Other": 77,
+      "Other": 80,
       "Middle Tennessee": 59,
-      "West Tennessee": 52,
+      "West Tennessee": 53,
       "East Tennessee": 11
     },
     "sources": [
@@ -110,6 +110,13 @@
       "status": "CLOSED",
       "status_detail": "CLOSED WED, THU & FRI",
       "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Christian Community Pre-school",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
+      "region": "Other",
       "source": "NewsChannel 5"
     },
     {
@@ -897,6 +904,13 @@
       "source": "Action News 5"
     },
     {
+      "name": "Creative Life Preparatory School",
+      "status": "CLOSED",
+      "status_detail": "Closed Through the 30th - Creative Life Prep/Afterschool/CLECT Daycare",
+      "region": "Other",
+      "source": "Action News 5"
+    },
+    {
       "name": "Cross Creek Christian Academy",
       "status": "CLOSED",
       "status_detail": "Closed Through 01/30",
@@ -907,6 +921,20 @@
       "name": "DeSoto County Schools",
       "status": "CLOSED",
       "status_detail": "Closed Thursday",
+      "region": "Other",
+      "source": "Action News 5"
+    },
+    {
+      "name": "Dyer County Schools",
+      "status": "CLOSED",
+      "status_detail": "Closed Through Friday the 30th",
+      "region": "West Tennessee",
+      "source": "Action News 5"
+    },
+    {
+      "name": "East Arkansas Community College",
+      "status": "CLOSED",
+      "status_detail": "Closed Thursday - Remote registration and learning will continue.",
       "region": "Other",
       "source": "Action News 5"
     },
@@ -1263,7 +1291,7 @@
     {
       "name": "Tennessee College of Applied Technology",
       "status": "REMOTE",
-      "status_detail": "Virtual Learning Wednesday",
+      "status_detail": "Virtual Learning Thursday",
       "region": "Other",
       "source": "Action News 5"
     },
