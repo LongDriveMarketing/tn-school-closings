@@ -1,15 +1,15 @@
 {
   "meta": {
-    "generated_at": "2026-01-28T11:30:37.712778+00:00",
-    "total_closings": 306,
+    "generated_at": "2026-01-28T11:40:38.941545+00:00",
+    "total_closings": 307,
     "by_status": {
-      "CLOSED": 259,
+      "CLOSED": 260,
       "REMOTE": 33,
       "DELAYED": 11,
       "EARLY_DISMISSAL": 3
     },
     "by_region": {
-      "Other": 138,
+      "Other": 139,
       "Middle Tennessee": 83,
       "West Tennessee": 64,
       "East Tennessee": 21
@@ -1432,6 +1432,13 @@
       "name": "Christian Brothers University",
       "status": "REMOTE",
       "status_detail": "Virtual Learning Through Wednesday",
+      "region": "Other",
+      "source": "Action News 5"
+    },
+    {
+      "name": "City University Schools",
+      "status": "CLOSED",
+      "status_detail": "Closed Wednesday",
       "region": "Other",
       "source": "Action News 5"
     },
