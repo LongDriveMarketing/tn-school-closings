@@ -1,16 +1,16 @@
 {
   "meta": {
-    "generated_at": "2026-01-29T21:10:40.800727+00:00",
-    "total_closings": 191,
+    "generated_at": "2026-01-29T21:20:42.149985+00:00",
+    "total_closings": 192,
     "by_status": {
-      "CLOSED": 169,
+      "CLOSED": 170,
       "REMOTE": 22
     },
     "by_region": {
       "Other": 67,
       "Middle Tennessee": 56,
       "West Tennessee": 61,
-      "East Tennessee": 7
+      "East Tennessee": 8
     },
     "sources": [
       "NewsChannel 5",
@@ -1184,7 +1184,7 @@
     {
       "name": "Rhodes College",
       "status": "CLOSED",
-      "status_detail": "Closed Through the 30th",
+      "status_detail": "Closed Through 01/30",
       "region": "West Tennessee",
       "source": "Action News 5"
     },
@@ -1323,6 +1323,13 @@
     },
     {
       "name": "Campbell County Schools",
+      "status": "CLOSED",
+      "status_detail": "Closed Friday",
+      "region": "East Tennessee",
+      "source": "WVLT"
+    },
+    {
+      "name": "Hancock County Schools",
       "status": "CLOSED",
       "status_detail": "Closed Friday",
       "region": "East Tennessee",
