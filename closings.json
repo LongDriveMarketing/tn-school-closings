@@ -1,14 +1,14 @@
 {
   "meta": {
-    "generated_at": "2026-01-29T19:00:39.835448+00:00",
-    "total_closings": 186,
+    "generated_at": "2026-01-29T19:10:38.329634+00:00",
+    "total_closings": 176,
     "by_status": {
-      "CLOSED": 169,
-      "REMOTE": 14,
-      "DELAYED": 3
+      "CLOSED": 161,
+      "REMOTE": 13,
+      "DELAYED": 2
     },
     "by_region": {
-      "Other": 70,
+      "Other": 60,
       "West Tennessee": 59,
       "Middle Tennessee": 52,
       "East Tennessee": 5
@@ -35,13 +35,6 @@
       "source": "NewsChannel 5"
     },
     {
-      "name": "Angels Watching Over Me",
-      "status": "CLOSED",
-      "status_detail": "OPEN AT 8:00",
-      "region": "Other",
-      "source": "NewsChannel 5"
-    },
-    {
       "name": "Benton",
       "status": "CLOSED",
       "status_detail": "CLOSED",
@@ -53,13 +46,6 @@
       "status": "CLOSED",
       "status_detail": "Closed-No Heat or Electricity",
       "region": "West Tennessee",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "Bethel Baptist Pre-School",
-      "status": "CLOSED",
-      "status_detail": "Closed - Thursday & Friday",
-      "region": "Other",
       "source": "NewsChannel 5"
     },
     {
@@ -427,10 +413,10 @@
       "source": "NewsChannel 5"
     },
     {
-      "name": "Mama Lere Hearing School",
+      "name": "Marshall",
       "status": "CLOSED",
-      "status_detail": "educational and childcare programs through Thursday",
-      "region": "Other",
+      "status_detail": "CLOSED",
+      "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
     {
@@ -448,24 +434,10 @@
       "source": "NewsChannel 5"
     },
     {
-      "name": "Metro Christian Academy",
-      "status": "CLOSED",
-      "status_detail": "Closed Thursday",
-      "region": "Other",
-      "source": "NewsChannel 5"
-    },
-    {
       "name": "Monroe",
       "status": "CLOSED",
       "status_detail": "CLOSED WED, THU & FRI",
       "region": "East Tennessee",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "Mt. Juliet Christ. Acad.",
-      "status": "CLOSED",
-      "status_detail": "Closed Thursday, 1/29",
-      "region": "Other",
       "source": "NewsChannel 5"
     },
     {
@@ -492,22 +464,8 @@
     {
       "name": "Nashville Christian School",
       "status": "CLOSED",
-      "status_detail": "CLOSED; CLOSED WED, THU & FRI",
+      "status_detail": "CLOSED",
       "region": "Middle Tennessee",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "New Hope-Franklin",
-      "status": "DELAYED",
-      "status_detail": "TWO HOURS LATE",
-      "region": "Middle Tennessee",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "Overbrook School",
-      "status": "CLOSED",
-      "status_detail": "CLOSED; Closed -Wednesday and Thursday",
-      "region": "Other",
       "source": "NewsChannel 5"
     },
     {
@@ -539,30 +497,23 @@
       "source": "NewsChannel 5"
     },
     {
-      "name": "Pleasant View Christian",
-      "status": "CLOSED",
-      "status_detail": "CLOSED-NO DAY CARE",
-      "region": "Other",
-      "source": "NewsChannel 5"
-    },
-    {
       "name": "Pope Saint John Paul II",
       "status": "CLOSED",
-      "status_detail": "Closed Thursday and Friday",
+      "status_detail": "CLOSED",
       "region": "Other",
       "source": "NewsChannel 5"
     },
     {
       "name": "Priest Lake Academy",
       "status": "CLOSED",
-      "status_detail": "Closed through Friday",
+      "status_detail": "CLOSED",
       "region": "West Tennessee",
       "source": "NewsChannel 5"
     },
     {
       "name": "Purpose Preparatory Academy",
       "status": "CLOSED",
-      "status_detail": "Closed through Friday",
+      "status_detail": "CLOSED",
       "region": "Other",
       "source": "NewsChannel 5"
     },
@@ -576,7 +527,7 @@
     {
       "name": "Redeemer Academy",
       "status": "CLOSED",
-      "status_detail": "CLOSED; CLOSED WED, THU & FRI",
+      "status_detail": "CLOSED",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
@@ -590,7 +541,7 @@
     {
       "name": "Rocketship Schools",
       "status": "CLOSED",
-      "status_detail": "CLOSED WED, THU & FRI",
+      "status_detail": "CLOSED",
       "region": "Other",
       "source": "NewsChannel 5"
     },
@@ -611,21 +562,21 @@
     {
       "name": "St. Ann",
       "status": "CLOSED",
-      "status_detail": "Closed: Thursday & Friday",
+      "status_detail": "CLOSED",
       "region": "Other",
       "source": "NewsChannel 5"
     },
     {
       "name": "St. Bernard Academy",
       "status": "CLOSED",
-      "status_detail": "CLOSED WED, THU & FRI",
+      "status_detail": "CLOSED",
       "region": "Other",
       "source": "NewsChannel 5"
     },
     {
       "name": "St. Cecilia Academy",
       "status": "CLOSED",
-      "status_detail": "CLOSED; Closed Wednesday and Thursday",
+      "status_detail": "CLOSED",
       "region": "Other",
       "source": "NewsChannel 5"
     },
@@ -639,28 +590,28 @@
     {
       "name": "St. Henry School",
       "status": "CLOSED",
-      "status_detail": "closed through Friday",
+      "status_detail": "CLOSED",
       "region": "West Tennessee",
       "source": "NewsChannel 5"
     },
     {
       "name": "St. Joseph",
       "status": "CLOSED",
-      "status_detail": "CLOSED WED, THU & FRI",
+      "status_detail": "CLOSED",
       "region": "Other",
       "source": "NewsChannel 5"
     },
     {
       "name": "St. Matthew School",
       "status": "CLOSED",
-      "status_detail": "CLOSED TODAY & TOMORROW",
+      "status_detail": "CLOSED",
       "region": "Other",
       "source": "NewsChannel 5"
     },
     {
       "name": "St. Patrick",
-      "status": "REMOTE",
-      "status_detail": "Distance Learning Days Wednesday & Thursday Closed Friday",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
@@ -674,7 +625,7 @@
     {
       "name": "Sumner Academy",
       "status": "CLOSED",
-      "status_detail": "CLOSED TODAY & TOMORROW",
+      "status_detail": "CLOSED",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
@@ -683,13 +634,6 @@
       "status": "REMOTE",
       "status_detail": "CLOSED - VIRTUAL/REMOTE LEARNING DAY",
       "region": "West Tennessee",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "Templeton Academy",
-      "status": "CLOSED",
-      "status_detail": "Closed Thursday and Friday",
-      "region": "Other",
       "source": "NewsChannel 5"
     },
     {
@@ -711,13 +655,6 @@
       "status": "CLOSED",
       "status_detail": "CLOSED",
       "region": "Middle Tennessee",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "University School",
-      "status": "CLOSED",
-      "status_detail": "Closed Wed and Thurs",
-      "region": "Other",
       "source": "NewsChannel 5"
     },
     {
@@ -781,13 +718,6 @@
       "status": "CLOSED",
       "status_detail": "CLOSED",
       "region": "Middle Tennessee",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "Zion Christian Acad.",
-      "status": "CLOSED",
-      "status_detail": "CLOSED",
-      "region": "Other",
       "source": "NewsChannel 5"
     },
     {
