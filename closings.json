@@ -1,15 +1,15 @@
 {
   "meta": {
-    "generated_at": "2026-01-29T03:10:42.866933+00:00",
-    "total_closings": 248,
+    "generated_at": "2026-01-29T03:20:42.493492+00:00",
+    "total_closings": 249,
     "by_status": {
       "CLOSED": 208,
-      "REMOTE": 28,
+      "REMOTE": 29,
       "DELAYED": 10,
       "EARLY_DISMISSAL": 2
     },
     "by_region": {
-      "Other": 108,
+      "Other": 109,
       "Middle Tennessee": 68,
       "West Tennessee": 60,
       "East Tennessee": 12
@@ -39,6 +39,13 @@
       "name": "Allen",
       "status": "CLOSED",
       "status_detail": "Closed Wednesday and Thursday NTI Days #1 & #2",
+      "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "American Baptist",
+      "status": "REMOTE",
+      "status_detail": "Classes will meet virtually.  Faculty and staff work remotely.",
       "region": "Other",
       "source": "NewsChannel 5"
     },
