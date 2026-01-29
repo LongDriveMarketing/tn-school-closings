@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-01-29T17:20:38.142569+00:00",
+    "generated_at": "2026-01-29T17:30:49.058936+00:00",
     "total_closings": 224,
     "by_status": {
       "CLOSED": 187,
@@ -325,7 +325,7 @@
     {
       "name": "First Baptist-Joelton",
       "status": "CLOSED",
-      "status_detail": "CLOSED through 1/29",
+      "status_detail": "CLOSED through 1/30",
       "region": "Other",
       "source": "NewsChannel 5"
     },
