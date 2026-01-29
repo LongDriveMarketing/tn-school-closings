@@ -1,17 +1,17 @@
 {
   "meta": {
-    "generated_at": "2026-01-29T21:40:38.952849+00:00",
-    "total_closings": 198,
+    "generated_at": "2026-01-29T21:50:41.854221+00:00",
+    "total_closings": 202,
     "by_status": {
-      "CLOSED": 174,
-      "REMOTE": 23,
-      "EARLY_DISMISSAL": 1
+      "CLOSED": 176,
+      "REMOTE": 24,
+      "EARLY_DISMISSAL": 2
     },
     "by_region": {
-      "Other": 69,
-      "Middle Tennessee": 58,
+      "Other": 71,
+      "Middle Tennessee": 59,
       "West Tennessee": 61,
-      "East Tennessee": 10
+      "East Tennessee": 11
     },
     "sources": [
       "NewsChannel 5",
@@ -420,6 +420,13 @@
       "source": "NewsChannel 5"
     },
     {
+      "name": "Mt. Juliet Christ. Acad.",
+      "status": "CLOSED",
+      "status_detail": "Closed Friday, 1/30",
+      "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
       "name": "Muhlenberg",
       "status": "CLOSED",
       "status_detail": "NTI 5&6 Thursday and Friday",
@@ -686,10 +693,24 @@
       "source": "NewsChannel 5"
     },
     {
+      "name": "The Settlement",
+      "status": "EARLY_DISMISSAL",
+      "status_detail": "OPEN AT 8:00; CLOSING AT 4:00",
+      "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
       "name": "Todd",
       "status": "CLOSED",
       "status_detail": "Closed Thursday & Friday -- NTI Days 4 & 5",
       "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Trevecca Nazarene University",
+      "status": "REMOTE",
+      "status_detail": "CLOSED - VIRTUAL/REMOTE LEARNING DAY",
+      "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
     {
@@ -1401,6 +1422,13 @@
     },
     {
       "name": "Scott County Schools",
+      "status": "CLOSED",
+      "status_detail": "Closed Friday",
+      "region": "East Tennessee",
+      "source": "WVLT"
+    },
+    {
+      "name": "Sevier County Schools",
       "status": "CLOSED",
       "status_detail": "Closed Friday",
       "region": "East Tennessee",
