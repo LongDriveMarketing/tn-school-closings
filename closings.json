@@ -1,15 +1,15 @@
 {
   "meta": {
-    "generated_at": "2026-01-29T15:00:39.476085+00:00",
-    "total_closings": 258,
+    "generated_at": "2026-01-29T15:10:41.963251+00:00",
+    "total_closings": 259,
     "by_status": {
-      "CLOSED": 214,
+      "CLOSED": 215,
       "REMOTE": 31,
       "DELAYED": 11,
       "EARLY_DISMISSAL": 2
     },
     "by_region": {
-      "Other": 115,
+      "Other": 116,
       "Middle Tennessee": 68,
       "West Tennessee": 62,
       "East Tennessee": 13
@@ -956,6 +956,13 @@
       "name": "Tennessee School for the Blind",
       "status": "CLOSED",
       "status_detail": "Closed Wednesday & Thursday",
+      "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Tennessee School for the Deaf",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
       "region": "Other",
       "source": "NewsChannel 5"
     },
