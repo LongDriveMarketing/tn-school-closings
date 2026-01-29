@@ -1,14 +1,14 @@
 {
   "meta": {
-    "generated_at": "2026-01-29T22:20:49.395338+00:00",
-    "total_closings": 210,
+    "generated_at": "2026-01-29T22:30:40.045396+00:00",
+    "total_closings": 212,
     "by_status": {
-      "CLOSED": 184,
+      "CLOSED": 186,
       "REMOTE": 24,
       "EARLY_DISMISSAL": 2
     },
     "by_region": {
-      "Other": 76,
+      "Other": 78,
       "Middle Tennessee": 59,
       "West Tennessee": 60,
       "East Tennessee": 15
@@ -742,6 +742,13 @@
       "source": "NewsChannel 5"
     },
     {
+      "name": "Trigg",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
+      "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
       "name": "Trousdale",
       "status": "CLOSED",
       "status_detail": "CLOSED",
@@ -963,6 +970,13 @@
       "status": "CLOSED",
       "status_detail": "Closed Friday",
       "region": "West Tennessee",
+      "source": "Action News 5"
+    },
+    {
+      "name": "Faith Heritage Christian Academy",
+      "status": "CLOSED",
+      "status_detail": "Closed Through 01/31",
+      "region": "Other",
       "source": "Action News 5"
     },
     {
