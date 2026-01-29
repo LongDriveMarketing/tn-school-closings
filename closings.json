@@ -1,15 +1,15 @@
 {
   "meta": {
-    "generated_at": "2026-01-29T12:20:37.224448+00:00",
-    "total_closings": 252,
+    "generated_at": "2026-01-29T12:30:42.568624+00:00",
+    "total_closings": 253,
     "by_status": {
       "CLOSED": 210,
-      "REMOTE": 30,
+      "REMOTE": 31,
       "DELAYED": 10,
       "EARLY_DISMISSAL": 2
     },
     "by_region": {
-      "Other": 111,
+      "Other": 112,
       "Middle Tennessee": 68,
       "West Tennessee": 60,
       "East Tennessee": 13
@@ -44,6 +44,13 @@
     },
     {
       "name": "American Baptist",
+      "status": "REMOTE",
+      "status_detail": "Classes will meet virtually.  Faculty and staff work remotely.",
+      "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "American Baptist College",
       "status": "REMOTE",
       "status_detail": "Classes will meet virtually.  Faculty and staff work remotely.",
       "region": "Other",
