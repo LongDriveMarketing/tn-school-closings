@@ -1,17 +1,17 @@
 {
   "meta": {
-    "generated_at": "2026-01-29T22:00:39.956882+00:00",
-    "total_closings": 204,
+    "generated_at": "2026-01-29T22:10:47.344451+00:00",
+    "total_closings": 206,
     "by_status": {
-      "CLOSED": 178,
+      "CLOSED": 180,
       "REMOTE": 24,
       "EARLY_DISMISSAL": 2
     },
     "by_region": {
-      "Other": 72,
+      "Other": 73,
       "Middle Tennessee": 59,
       "West Tennessee": 60,
-      "East Tennessee": 13
+      "East Tennessee": 14
     },
     "sources": [
       "NewsChannel 5",
@@ -1281,6 +1281,13 @@
       "source": "Action News 5"
     },
     {
+      "name": "St. Georges Independent School",
+      "status": "CLOSED",
+      "status_detail": "Closed Friday",
+      "region": "Other",
+      "source": "Action News 5"
+    },
+    {
       "name": "STAR Academy Charter School",
       "status": "CLOSED",
       "status_detail": "Closed Through 01/30",
@@ -1418,6 +1425,13 @@
       "status": "CLOSED",
       "status_detail": "Closed Through 01/30",
       "region": "Other",
+      "source": "WVLT"
+    },
+    {
+      "name": "Hawkins County Schools",
+      "status": "CLOSED",
+      "status_detail": "Closed Friday",
+      "region": "East Tennessee",
       "source": "WVLT"
     },
     {
