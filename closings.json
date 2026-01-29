@@ -1,15 +1,15 @@
 {
   "meta": {
-    "generated_at": "2026-01-29T23:20:46.571484+00:00",
-    "total_closings": 216,
+    "generated_at": "2026-01-29T23:30:46.808489+00:00",
+    "total_closings": 217,
     "by_status": {
       "CLOSED": 188,
       "REMOTE": 25,
       "DELAYED": 1,
-      "EARLY_DISMISSAL": 2
+      "EARLY_DISMISSAL": 3
     },
     "by_region": {
-      "Other": 82,
+      "Other": 83,
       "Middle Tennessee": 59,
       "West Tennessee": 60,
       "East Tennessee": 15
@@ -264,6 +264,13 @@
       "status": "CLOSED",
       "status_detail": "CLOSED",
       "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Glen Leven Dayschool",
+      "status": "EARLY_DISMISSAL",
+      "status_detail": "OPEN AT 9:00; CLOSING AT 4:00",
+      "region": "Other",
       "source": "NewsChannel 5"
     },
     {
