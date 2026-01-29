@@ -1,14 +1,14 @@
 {
   "meta": {
-    "generated_at": "2026-01-29T22:30:40.045396+00:00",
-    "total_closings": 212,
+    "generated_at": "2026-01-29T22:40:39.585940+00:00",
+    "total_closings": 213,
     "by_status": {
-      "CLOSED": 186,
+      "CLOSED": 187,
       "REMOTE": 24,
       "EARLY_DISMISSAL": 2
     },
     "by_region": {
-      "Other": 78,
+      "Other": 79,
       "Middle Tennessee": 59,
       "West Tennessee": 60,
       "East Tennessee": 15
@@ -819,6 +819,13 @@
       "source": "NewsChannel 5"
     },
     {
+      "name": "Zion Christian Acad.",
+      "status": "CLOSED",
+      "status_detail": "CLOSED; CLOSED",
+      "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
       "name": "Alamo City Schools",
       "status": "CLOSED",
       "status_detail": "Closed Through 01/30",
@@ -1311,7 +1318,7 @@
     {
       "name": "Southwest Tennessee Community College",
       "status": "REMOTE",
-      "status_detail": "Virtual Learning Through Friday the 30th",
+      "status_detail": "Virtual Learning Through 01/31",
       "region": "Other",
       "source": "Action News 5"
     },
