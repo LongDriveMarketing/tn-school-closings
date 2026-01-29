@@ -1,17 +1,17 @@
 {
   "meta": {
-    "generated_at": "2026-01-29T22:10:47.344451+00:00",
-    "total_closings": 206,
+    "generated_at": "2026-01-29T22:20:49.395338+00:00",
+    "total_closings": 210,
     "by_status": {
-      "CLOSED": 180,
+      "CLOSED": 184,
       "REMOTE": 24,
       "EARLY_DISMISSAL": 2
     },
     "by_region": {
-      "Other": 73,
+      "Other": 76,
       "Middle Tennessee": 59,
       "West Tennessee": 60,
-      "East Tennessee": 14
+      "East Tennessee": 15
     },
     "sources": [
       "NewsChannel 5",
@@ -24,6 +24,13 @@
       "name": "Allen",
       "status": "CLOSED",
       "status_detail": "CLOSED - NTI DAY #3",
+      "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Barren",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
       "region": "Other",
       "source": "NewsChannel 5"
     },
@@ -126,6 +133,13 @@
       "source": "NewsChannel 5"
     },
     {
+      "name": "Clinton",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
+      "region": "East Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
       "name": "Crievewood Methodist",
       "status": "CLOSED",
       "status_detail": "CLOSED",
@@ -186,6 +200,13 @@
       "status": "CLOSED",
       "status_detail": "CLOSED",
       "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Edmonson",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
+      "region": "Other",
       "source": "NewsChannel 5"
     },
     {
@@ -585,6 +606,13 @@
       "status": "CLOSED",
       "status_detail": "CLOSED",
       "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Simpson",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
+      "region": "Other",
       "source": "NewsChannel 5"
     },
     {
