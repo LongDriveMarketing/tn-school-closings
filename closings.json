@@ -1,17 +1,17 @@
 {
   "meta": {
-    "generated_at": "2026-01-29T21:30:49.617077+00:00",
-    "total_closings": 196,
+    "generated_at": "2026-01-29T21:40:38.952849+00:00",
+    "total_closings": 198,
     "by_status": {
-      "CLOSED": 172,
+      "CLOSED": 174,
       "REMOTE": 23,
       "EARLY_DISMISSAL": 1
     },
     "by_region": {
       "Other": 69,
-      "Middle Tennessee": 57,
+      "Middle Tennessee": 58,
       "West Tennessee": 61,
-      "East Tennessee": 9
+      "East Tennessee": 10
     },
     "sources": [
       "NewsChannel 5",
@@ -221,6 +221,13 @@
       "status": "CLOSED",
       "status_detail": "CLOSED",
       "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Franklin Spec. Sch. Dist.",
+      "status": "CLOSED",
+      "status_detail": "Closed Friday, MAC open at JES 7:-5:, bring lunch and snack.",
+      "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
     {
@@ -1345,6 +1352,13 @@
     },
     {
       "name": "Campbell County Schools",
+      "status": "CLOSED",
+      "status_detail": "Closed Friday",
+      "region": "East Tennessee",
+      "source": "WVLT"
+    },
+    {
+      "name": "Greene County Schools",
       "status": "CLOSED",
       "status_detail": "Closed Friday",
       "region": "East Tennessee",
