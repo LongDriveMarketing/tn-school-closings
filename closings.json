@@ -1,9 +1,9 @@
 {
   "meta": {
-    "generated_at": "2026-01-29T18:00:39.999772+00:00",
-    "total_closings": 224,
+    "generated_at": "2026-01-29T18:10:45.990271+00:00",
+    "total_closings": 226,
     "by_status": {
-      "CLOSED": 187,
+      "CLOSED": 189,
       "REMOTE": 28,
       "DELAYED": 7,
       "EARLY_DISMISSAL": 2
@@ -11,7 +11,7 @@
     "by_region": {
       "Other": 95,
       "Middle Tennessee": 68,
-      "West Tennessee": 56,
+      "West Tennessee": 58,
       "East Tennessee": 5
     },
     "sources": [
@@ -1212,6 +1212,13 @@
       "source": "Action News 5"
     },
     {
+      "name": "Dyersburg City Schools",
+      "status": "CLOSED",
+      "status_detail": "Closed Friday",
+      "region": "West Tennessee",
+      "source": "Action News 5"
+    },
+    {
       "name": "Earle School District",
       "status": "CLOSED",
       "status_detail": "Closed Through 01/30",
@@ -1342,6 +1349,13 @@
       "status": "CLOSED",
       "status_detail": "Closed Through 01/30",
       "region": "Other",
+      "source": "Action News 5"
+    },
+    {
+      "name": "Magnolia Heights",
+      "status": "CLOSED",
+      "status_detail": "Closed Friday",
+      "region": "West Tennessee",
       "source": "Action News 5"
     },
     {
