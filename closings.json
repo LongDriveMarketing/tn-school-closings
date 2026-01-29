@@ -1,15 +1,15 @@
 {
   "meta": {
-    "generated_at": "2026-01-29T19:50:42.559021+00:00",
-    "total_closings": 169,
+    "generated_at": "2026-01-29T20:00:41.663028+00:00",
+    "total_closings": 176,
     "by_status": {
-      "CLOSED": 156,
-      "REMOTE": 13
+      "CLOSED": 157,
+      "REMOTE": 19
     },
     "by_region": {
       "Other": 58,
-      "West Tennessee": 57,
-      "Middle Tennessee": 48,
+      "West Tennessee": 58,
+      "Middle Tennessee": 54,
       "East Tennessee": 6
     },
     "sources": [
@@ -394,6 +394,48 @@
       "name": "Nashville Christian School",
       "status": "CLOSED",
       "status_detail": "CLOSED",
+      "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Nashville State-Clarksville",
+      "status": "REMOTE",
+      "status_detail": "Operations & Classes are virtual on 1/30",
+      "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Nashville State-Dickson",
+      "status": "REMOTE",
+      "status_detail": "Operations & Classes are virtual on 1/30",
+      "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Nashville State-Humphreys Co.",
+      "status": "REMOTE",
+      "status_detail": "Operations & Classes are virtual on 1/30",
+      "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Nashville State-North Davidson",
+      "status": "REMOTE",
+      "status_detail": "Operations & Classes are virtual on 1/30",
+      "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Nashville State-Southeast",
+      "status": "REMOTE",
+      "status_detail": "Operations & Classes are virtual on 1/30",
+      "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Nashville State-White Bridge",
+      "status": "REMOTE",
+      "status_detail": "Operations & Classes are virtual on 1/30",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
@@ -1052,6 +1094,13 @@
       "name": "Pleasant View School",
       "status": "REMOTE",
       "status_detail": "Virtual Learning Through 01/30",
+      "region": "West Tennessee",
+      "source": "Action News 5"
+    },
+    {
+      "name": "Rhodes College",
+      "status": "CLOSED",
+      "status_detail": "Closed Through the 30th",
       "region": "West Tennessee",
       "source": "Action News 5"
     },
