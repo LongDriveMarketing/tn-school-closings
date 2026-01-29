@@ -1,15 +1,15 @@
 {
   "meta": {
-    "generated_at": "2026-01-29T13:50:51.384380+00:00",
-    "total_closings": 257,
+    "generated_at": "2026-01-29T14:00:41.501304+00:00",
+    "total_closings": 258,
     "by_status": {
       "CLOSED": 214,
       "REMOTE": 31,
-      "DELAYED": 10,
+      "DELAYED": 11,
       "EARLY_DISMISSAL": 2
     },
     "by_region": {
-      "Other": 114,
+      "Other": 115,
       "Middle Tennessee": 68,
       "West Tennessee": 62,
       "East Tennessee": 13
@@ -453,6 +453,13 @@
       "status": "CLOSED",
       "status_detail": "Closed through Friday",
       "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Image Maker Beauty Inst.",
+      "status": "DELAYED",
+      "status_detail": "TWO HOURS LATE",
+      "region": "Other",
       "source": "NewsChannel 5"
     },
     {
