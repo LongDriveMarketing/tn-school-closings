@@ -1,13 +1,13 @@
 {
   "meta": {
-    "generated_at": "2026-01-29T20:30:37.758814+00:00",
-    "total_closings": 181,
+    "generated_at": "2026-01-29T20:40:40.557004+00:00",
+    "total_closings": 184,
     "by_status": {
-      "CLOSED": 161,
-      "REMOTE": 20
+      "CLOSED": 163,
+      "REMOTE": 21
     },
     "by_region": {
-      "Other": 60,
+      "Other": 63,
       "Middle Tennessee": 55,
       "West Tennessee": 60,
       "East Tennessee": 6
@@ -405,6 +405,13 @@
       "source": "NewsChannel 5"
     },
     {
+      "name": "Murray Independent",
+      "status": "CLOSED",
+      "status_detail": "CLOSED; CLOSED",
+      "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
       "name": "Nashville Christian School",
       "status": "CLOSED",
       "status_detail": "CLOSED",
@@ -626,6 +633,13 @@
       "status": "REMOTE",
       "status_detail": "CLOSED - VIRTUAL/REMOTE LEARNING DAY",
       "region": "West Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Tennessee School for the Deaf",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
+      "region": "Other",
       "source": "NewsChannel 5"
     },
     {
@@ -1235,6 +1249,13 @@
       "status": "CLOSED",
       "status_detail": "Closed Through Sunday 2/8",
       "region": "West Tennessee",
+      "source": "Action News 5"
+    },
+    {
+      "name": "University of Tennessee Health Science Center",
+      "status": "REMOTE",
+      "status_detail": "Virtual Learning Through 02/01 - Employees who can will continue to work remotely.",
+      "region": "Other",
       "source": "Action News 5"
     },
     {
