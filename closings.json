@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-01-29T01:00:39.728212+00:00",
+    "generated_at": "2026-01-29T01:10:42.213132+00:00",
     "total_closings": 239,
     "by_status": {
       "CLOSED": 200,
@@ -738,7 +738,7 @@
     {
       "name": "Redeemer Academy",
       "status": "CLOSED",
-      "status_detail": "Closed thru Thursday",
+      "status_detail": "CLOSED; CLOSED WED, THU & FRI",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
