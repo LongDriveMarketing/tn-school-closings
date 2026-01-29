@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-01-29T17:10:42.064361+00:00",
+    "generated_at": "2026-01-29T17:20:38.142569+00:00",
     "total_closings": 224,
     "by_status": {
       "CLOSED": 187,
@@ -731,7 +731,7 @@
     {
       "name": "Overton",
       "status": "CLOSED",
-      "status_detail": "CLOSED",
+      "status_detail": "Friday",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
