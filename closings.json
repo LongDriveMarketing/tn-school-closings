@@ -1,14 +1,14 @@
 {
   "meta": {
-    "generated_at": "2026-01-29T22:40:39.585940+00:00",
-    "total_closings": 213,
+    "generated_at": "2026-01-29T22:50:44.728099+00:00",
+    "total_closings": 215,
     "by_status": {
-      "CLOSED": 187,
-      "REMOTE": 24,
+      "CLOSED": 188,
+      "REMOTE": 25,
       "EARLY_DISMISSAL": 2
     },
     "by_region": {
-      "Other": 79,
+      "Other": 81,
       "Middle Tennessee": 59,
       "West Tennessee": 60,
       "East Tennessee": 15
@@ -417,6 +417,13 @@
       "status": "CLOSED",
       "status_detail": "CLOSED",
       "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Meharry Medical College",
+      "status": "REMOTE",
+      "status_detail": "Friday classes virtual. Medical, dental clinics open at 10.",
+      "region": "Other",
       "source": "NewsChannel 5"
     },
     {
@@ -1495,6 +1502,13 @@
       "status": "CLOSED",
       "status_detail": "Closed Friday",
       "region": "Middle Tennessee",
+      "source": "WVLT"
+    },
+    {
+      "name": "Rogersville Schools",
+      "status": "CLOSED",
+      "status_detail": "Closed Friday",
+      "region": "Other",
       "source": "WVLT"
     },
     {
