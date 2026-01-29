@@ -1,16 +1,16 @@
 {
   "meta": {
-    "generated_at": "2026-01-29T00:50:45.139157+00:00",
-    "total_closings": 235,
+    "generated_at": "2026-01-29T01:00:39.728212+00:00",
+    "total_closings": 239,
     "by_status": {
-      "CLOSED": 198,
+      "CLOSED": 200,
       "REMOTE": 28,
-      "DELAYED": 7,
+      "DELAYED": 9,
       "EARLY_DISMISSAL": 2
     },
     "by_region": {
-      "Other": 102,
-      "Middle Tennessee": 63,
+      "Other": 104,
+      "Middle Tennessee": 65,
       "West Tennessee": 58,
       "East Tennessee": 12
     },
@@ -414,6 +414,20 @@
       "source": "NewsChannel 5"
     },
     {
+      "name": "Jaymes Academy Clark",
+      "status": "DELAYED",
+      "status_detail": "TWO HOURS LATE",
+      "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Jaymes Academy Old Nashville",
+      "status": "DELAYED",
+      "status_detail": "TWO HOURS LATE",
+      "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
       "name": "King's Academy",
       "status": "CLOSED",
       "status_detail": "CLOSED THURSDAY 1/29 & FRIDAY 1/30",
@@ -701,6 +715,13 @@
       "source": "NewsChannel 5"
     },
     {
+      "name": "Portland Learning Center",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
+      "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
       "name": "Priest Lake Academy",
       "status": "CLOSED",
       "status_detail": "Closed through Thursday",
@@ -955,7 +976,14 @@
     {
       "name": "Williamson",
       "status": "CLOSED",
-      "status_detail": "We will be closed the rest of the week. Jan 29 and 30",
+      "status_detail": "Closed the rest of the week",
+      "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Wilson",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
