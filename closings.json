@@ -1,13 +1,13 @@
 {
   "meta": {
-    "generated_at": "2026-01-29T20:00:41.663028+00:00",
-    "total_closings": 176,
+    "generated_at": "2026-01-29T20:10:40.099892+00:00",
+    "total_closings": 177,
     "by_status": {
-      "CLOSED": 157,
+      "CLOSED": 158,
       "REMOTE": 19
     },
     "by_region": {
-      "Other": 58,
+      "Other": 59,
       "West Tennessee": 58,
       "Middle Tennessee": 54,
       "East Tennessee": 6
@@ -42,6 +42,13 @@
     },
     {
       "name": "Caldwell",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
+      "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Calvary Young Children's School",
       "status": "CLOSED",
       "status_detail": "CLOSED",
       "region": "Other",
