@@ -1,16 +1,15 @@
 {
   "meta": {
-    "generated_at": "2026-01-29T19:20:36.684991+00:00",
-    "total_closings": 172,
+    "generated_at": "2026-01-29T19:30:40.487556+00:00",
+    "total_closings": 169,
     "by_status": {
-      "CLOSED": 159,
-      "REMOTE": 12,
-      "DELAYED": 1
+      "CLOSED": 156,
+      "REMOTE": 13
     },
     "by_region": {
       "Other": 58,
-      "West Tennessee": 58,
-      "Middle Tennessee": 50,
+      "West Tennessee": 57,
+      "Middle Tennessee": 48,
       "East Tennessee": 6
     },
     "sources": [
@@ -20,13 +19,6 @@
     ]
   },
   "closings": [
-    {
-      "name": "Aaron Academy",
-      "status": "CLOSED",
-      "status_detail": "CLOSED",
-      "region": "Other",
-      "source": "NewsChannel 5"
-    },
     {
       "name": "Allen",
       "status": "CLOSED",
@@ -44,7 +36,7 @@
     {
       "name": "Butler",
       "status": "CLOSED",
-      "status_detail": "CLOSED WED, THU & FRI",
+      "status_detail": "CLOSED",
       "region": "Other",
       "source": "NewsChannel 5"
     },
@@ -60,13 +52,6 @@
       "status": "CLOSED",
       "status_detail": "CLOSED",
       "region": "Middle Tennessee",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "Caverna Independent",
-      "status": "CLOSED",
-      "status_detail": "CLOSED - NON TRADITIONAL INSTRUCTION DAY; CLOSED WED, THU & FRI",
-      "region": "Other",
       "source": "NewsChannel 5"
     },
     {
@@ -135,7 +120,7 @@
     {
       "name": "Cumberland Co., KY",
       "status": "CLOSED",
-      "status_detail": "CLOSED WED, THU & FRI",
+      "status_detail": "CLOSED",
       "region": "East Tennessee",
       "source": "NewsChannel 5"
     },
@@ -217,13 +202,6 @@
       "source": "NewsChannel 5"
     },
     {
-      "name": "Franklin Spec. Sch. Dist.",
-      "status": "CLOSED",
-      "status_detail": "Closed through Thursday. Snow MAC open Wednesday and Thursday",
-      "region": "Middle Tennessee",
-      "source": "NewsChannel 5"
-    },
-    {
       "name": "Friendship Christian School",
       "status": "CLOSED",
       "status_detail": "CLOSED-NO EXTENDED CARE",
@@ -233,7 +211,7 @@
     {
       "name": "Giles",
       "status": "CLOSED",
-      "status_detail": "CLOSED TODAY & TOMORROW",
+      "status_detail": "CLOSED",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
@@ -245,30 +223,23 @@
       "source": "NewsChannel 5"
     },
     {
-      "name": "Grundy",
-      "status": "DELAYED",
-      "status_detail": "TWO HOURS LATE",
-      "region": "Middle Tennessee",
-      "source": "NewsChannel 5"
-    },
-    {
       "name": "Hardin",
       "status": "CLOSED",
-      "status_detail": "CLOSED WED, THU & FRI",
+      "status_detail": "CLOSED",
       "region": "West Tennessee",
       "source": "NewsChannel 5"
     },
     {
       "name": "Henderson",
       "status": "CLOSED",
-      "status_detail": "CLOSED WED, THU & FRI",
+      "status_detail": "CLOSED",
       "region": "West Tennessee",
       "source": "NewsChannel 5"
     },
     {
       "name": "Henry",
       "status": "CLOSED",
-      "status_detail": "Closed Thursday & Friday",
+      "status_detail": "CLOSED",
       "region": "West Tennessee",
       "source": "NewsChannel 5"
     },
@@ -282,7 +253,7 @@
     {
       "name": "Hickman",
       "status": "CLOSED",
-      "status_detail": "CLOSED WED, THU & FRI",
+      "status_detail": "CLOSED",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
@@ -296,14 +267,14 @@
     {
       "name": "Houston",
       "status": "CLOSED",
-      "status_detail": "CLOSED ALL WEEK",
+      "status_detail": "CLOSED",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
     {
       "name": "Humphreys",
       "status": "CLOSED",
-      "status_detail": "Closed through Friday",
+      "status_detail": "CLOSED",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
@@ -317,7 +288,7 @@
     {
       "name": "Jackson",
       "status": "CLOSED",
-      "status_detail": "CLOSED WED, THU & FRI",
+      "status_detail": "CLOSED",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
@@ -331,7 +302,7 @@
     {
       "name": "Lawrence",
       "status": "CLOSED",
-      "status_detail": "CLOSED TODAY & TOMORROW; CLOSED WED, THU & FRI",
+      "status_detail": "CLOSED",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
@@ -345,14 +316,14 @@
     {
       "name": "Lebanon Spec. Sch. Dist.",
       "status": "CLOSED",
-      "status_detail": "Closed Friday, Jan. 30",
+      "status_detail": "CLOSED",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
     {
       "name": "Lewis",
       "status": "CLOSED",
-      "status_detail": "CLOSED WED, THU & FRI",
+      "status_detail": "CLOSED",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
@@ -373,7 +344,7 @@
     {
       "name": "Macon",
       "status": "CLOSED",
-      "status_detail": "CLOSED WED, THU & FRI",
+      "status_detail": "CLOSED",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
@@ -394,21 +365,21 @@
     {
       "name": "Maury",
       "status": "CLOSED",
-      "status_detail": "CLOSED ALL WEEK",
+      "status_detail": "CLOSED",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
     {
       "name": "Metcalfe",
       "status": "CLOSED",
-      "status_detail": "CLOSED WED, THU & FRI",
+      "status_detail": "CLOSED",
       "region": "Other",
       "source": "NewsChannel 5"
     },
     {
       "name": "Monroe",
       "status": "CLOSED",
-      "status_detail": "CLOSED WED, THU & FRI",
+      "status_detail": "CLOSED",
       "region": "East Tennessee",
       "source": "NewsChannel 5"
     },
@@ -427,30 +398,30 @@
       "source": "NewsChannel 5"
     },
     {
-      "name": "Overton",
+      "name": "New Horizons",
       "status": "CLOSED",
-      "status_detail": "Friday",
-      "region": "Middle Tennessee",
+      "status_detail": "CLOSED; NO WATER",
+      "region": "Other",
       "source": "NewsChannel 5"
     },
     {
-      "name": "Paris Special School District",
+      "name": "Overton",
       "status": "CLOSED",
       "status_detail": "CLOSED",
-      "region": "West Tennessee",
+      "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
     {
       "name": "Perry",
       "status": "CLOSED",
-      "status_detail": "CLOSED WED, THU & FRI",
+      "status_detail": "CLOSED",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
     {
       "name": "Pickett",
       "status": "CLOSED",
-      "status_detail": "CLOSED ALL WEEK",
+      "status_detail": "CLOSED",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
@@ -492,7 +463,7 @@
     {
       "name": "Robertson",
       "status": "CLOSED",
-      "status_detail": "CLOSED ALL WEEK",
+      "status_detail": "CLOSED",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
@@ -506,14 +477,14 @@
     {
       "name": "Rutherford",
       "status": "CLOSED",
-      "status_detail": "Closed through Friday 1/30/26",
+      "status_detail": "CLOSED",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
     {
       "name": "Smith",
       "status": "CLOSED",
-      "status_detail": "Closed Thursday and Friday",
+      "status_detail": "CLOSED",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
@@ -541,7 +512,7 @@
     {
       "name": "Stewart",
       "status": "CLOSED",
-      "status_detail": "CLOSED WED, THU & FRI",
+      "status_detail": "CLOSED",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
@@ -576,7 +547,7 @@
     {
       "name": "Sumner",
       "status": "CLOSED",
-      "status_detail": "CLOSED WED, THU & FRI",
+      "status_detail": "CLOSED",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
@@ -598,13 +569,6 @@
       "name": "Todd",
       "status": "CLOSED",
       "status_detail": "Closed Thursday & Friday -- NTI Days 4 & 5",
-      "region": "Other",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "Trigg",
-      "status": "CLOSED",
-      "status_detail": "CLOSED - NTI DAY #5",
       "region": "Other",
       "source": "NewsChannel 5"
     },
@@ -646,28 +610,28 @@
     {
       "name": "Warren Co., KY",
       "status": "CLOSED",
-      "status_detail": "CLOSED; CLOSED - NON TRADITIONAL INSTRUCTION DAY",
+      "status_detail": "CLOSED",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
     {
       "name": "Wayne",
       "status": "CLOSED",
-      "status_detail": "CLOSED WED, THU & FRI",
+      "status_detail": "CLOSED",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
     {
       "name": "Weakley",
       "status": "CLOSED",
-      "status_detail": "CLOSED WED, THU & FRI",
+      "status_detail": "CLOSED",
       "region": "West Tennessee",
       "source": "NewsChannel 5"
     },
     {
       "name": "Williamson",
       "status": "CLOSED",
-      "status_detail": "Closed the rest of the week",
+      "status_detail": "CLOSED",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
@@ -683,6 +647,13 @@
       "status": "CLOSED",
       "status_detail": "Closed Through 01/30",
       "region": "West Tennessee",
+      "source": "Action News 5"
+    },
+    {
+      "name": "Arkansas State University Mid-South",
+      "status": "CLOSED",
+      "status_detail": "Closed Friday - Students check Canvas for updates",
+      "region": "Other",
       "source": "Action News 5"
     },
     {
@@ -1088,6 +1059,13 @@
       "name": "Rossville Christian Academy",
       "status": "CLOSED",
       "status_detail": "Closed Through 01/30",
+      "region": "Other",
+      "source": "Action News 5"
+    },
+    {
+      "name": "Sacred Heart School Southaven",
+      "status": "REMOTE",
+      "status_detail": "Virtual Learning Friday",
       "region": "Other",
       "source": "Action News 5"
     },
