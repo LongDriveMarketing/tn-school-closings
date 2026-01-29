@@ -1,15 +1,15 @@
 {
   "meta": {
-    "generated_at": "2026-01-29T00:00:41.801750+00:00",
-    "total_closings": 232,
+    "generated_at": "2026-01-29T00:10:42.429991+00:00",
+    "total_closings": 233,
     "by_status": {
       "CLOSED": 196,
       "REMOTE": 28,
       "DELAYED": 7,
-      "EARLY_DISMISSAL": 1
+      "EARLY_DISMISSAL": 2
     },
     "by_region": {
-      "Other": 99,
+      "Other": 100,
       "Middle Tennessee": 63,
       "West Tennessee": 58,
       "East Tennessee": 12
@@ -326,6 +326,13 @@
       "name": "Goodpasture Christian Sch.",
       "status": "CLOSED",
       "status_detail": "CLOSED WED, THU & FRI",
+      "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Grandmama's House",
+      "status": "EARLY_DISMISSAL",
+      "status_detail": "OPEN AT 8:00; CLOSING AT 4:30",
       "region": "Other",
       "source": "NewsChannel 5"
     },
