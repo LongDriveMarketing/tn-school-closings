@@ -1,15 +1,15 @@
 {
   "meta": {
-    "generated_at": "2026-01-29T23:40:49.129095+00:00",
-    "total_closings": 217,
+    "generated_at": "2026-01-29T23:50:43.809403+00:00",
+    "total_closings": 218,
     "by_status": {
-      "CLOSED": 188,
+      "CLOSED": 189,
       "REMOTE": 25,
       "DELAYED": 1,
       "EARLY_DISMISSAL": 3
     },
     "by_region": {
-      "Other": 83,
+      "Other": 84,
       "Middle Tennessee": 59,
       "West Tennessee": 60,
       "East Tennessee": 15
@@ -1503,6 +1503,13 @@
       "status": "CLOSED",
       "status_detail": "Closed Friday",
       "region": "East Tennessee",
+      "source": "WVLT"
+    },
+    {
+      "name": "Newport Grammar School",
+      "status": "CLOSED",
+      "status_detail": "Closed Friday",
+      "region": "Other",
       "source": "WVLT"
     },
     {
