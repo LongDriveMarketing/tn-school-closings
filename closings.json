@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-01-29T17:30:49.058936+00:00",
+    "generated_at": "2026-01-29T17:40:42.614898+00:00",
     "total_closings": 224,
     "by_status": {
       "CLOSED": 187,
@@ -185,7 +185,7 @@
     {
       "name": "Clarksville Christian",
       "status": "REMOTE",
-      "status_detail": "Closed Thursday Remote Learning",
+      "status_detail": "Closed Friday Remote Learning",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
