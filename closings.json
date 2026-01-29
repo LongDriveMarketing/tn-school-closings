@@ -1,15 +1,15 @@
 {
   "meta": {
-    "generated_at": "2026-01-29T20:10:40.099892+00:00",
-    "total_closings": 177,
+    "generated_at": "2026-01-29T20:20:37.003884+00:00",
+    "total_closings": 179,
     "by_status": {
-      "CLOSED": 158,
-      "REMOTE": 19
+      "CLOSED": 159,
+      "REMOTE": 20
     },
     "by_region": {
       "Other": 59,
-      "West Tennessee": 58,
-      "Middle Tennessee": 54,
+      "Middle Tennessee": 55,
+      "West Tennessee": 59,
       "East Tennessee": 6
     },
     "sources": [
@@ -24,6 +24,13 @@
       "status": "CLOSED",
       "status_detail": "Closed Wednesday and Thursday NTI Days #1 & #2",
       "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Bedford",
+      "status": "CLOSED",
+      "status_detail": "Closed Fri; SACP open - Thomas Magnet location only",
+      "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
     {
@@ -1031,6 +1038,13 @@
       "name": "Memphis Theological Seminary",
       "status": "CLOSED",
       "status_detail": "Closed Through 01/31 - Virtual Learning Only",
+      "region": "West Tennessee",
+      "source": "Action News 5"
+    },
+    {
+      "name": "Memphis University School",
+      "status": "REMOTE",
+      "status_detail": "Virtual Learning Friday",
       "region": "West Tennessee",
       "source": "Action News 5"
     },
