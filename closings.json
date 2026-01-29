@@ -1,9 +1,9 @@
 {
   "meta": {
-    "generated_at": "2026-01-29T13:10:39.845747+00:00",
-    "total_closings": 253,
+    "generated_at": "2026-01-29T13:20:42.422329+00:00",
+    "total_closings": 254,
     "by_status": {
-      "CLOSED": 210,
+      "CLOSED": 211,
       "REMOTE": 31,
       "DELAYED": 10,
       "EARLY_DISMISSAL": 2
@@ -11,7 +11,7 @@
     "by_region": {
       "Other": 112,
       "Middle Tennessee": 68,
-      "West Tennessee": 60,
+      "West Tennessee": 61,
       "East Tennessee": 13
     },
     "sources": [
@@ -1684,6 +1684,13 @@
       "name": "West Memphis School District",
       "status": "CLOSED",
       "status_detail": "Closed Through Friday the 30th",
+      "region": "West Tennessee",
+      "source": "Action News 5"
+    },
+    {
+      "name": "Woodland Presbyterian School",
+      "status": "CLOSED",
+      "status_detail": "Closed Thursday",
       "region": "West Tennessee",
       "source": "Action News 5"
     },
