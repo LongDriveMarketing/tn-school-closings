@@ -1,17 +1,17 @@
 {
   "meta": {
-    "generated_at": "2026-01-29T21:55:28.576222+00:00",
-    "total_closings": 203,
+    "generated_at": "2026-01-29T22:00:39.956882+00:00",
+    "total_closings": 204,
     "by_status": {
-      "CLOSED": 177,
+      "CLOSED": 178,
       "REMOTE": 24,
       "EARLY_DISMISSAL": 2
     },
     "by_region": {
-      "Other": 71,
+      "Other": 72,
       "Middle Tennessee": 59,
-      "West Tennessee": 61,
-      "East Tennessee": 12
+      "West Tennessee": 60,
+      "East Tennessee": 13
     },
     "sources": [
       "NewsChannel 5",
@@ -1085,6 +1085,13 @@
       "source": "Action News 5"
     },
     {
+      "name": "Maria Montessori School",
+      "status": "CLOSED",
+      "status_detail": "Closed Friday",
+      "region": "Other",
+      "source": "Action News 5"
+    },
+    {
       "name": "Marion School District",
       "status": "CLOSED",
       "status_detail": "Closed Through 01/30",
@@ -1200,13 +1207,6 @@
       "name": "Oxford School District",
       "status": "CLOSED",
       "status_detail": "Closed Through 01/30",
-      "region": "West Tennessee",
-      "source": "Action News 5"
-    },
-    {
-      "name": "Paul Mitchell School of Memphis",
-      "status": "CLOSED",
-      "status_detail": "Closed Through Thursday the 29th",
       "region": "West Tennessee",
       "source": "Action News 5"
     },
@@ -1373,6 +1373,13 @@
     },
     {
       "name": "Campbell County Schools",
+      "status": "CLOSED",
+      "status_detail": "Closed Friday",
+      "region": "East Tennessee",
+      "source": "WVLT"
+    },
+    {
+      "name": "Claiborne County Schools",
       "status": "CLOSED",
       "status_detail": "Closed Friday",
       "region": "East Tennessee",
