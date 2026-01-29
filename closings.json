@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-01-29T16:41:10.881956+00:00",
+    "generated_at": "2026-01-29T16:50:44.279171+00:00",
     "total_closings": 229,
     "by_status": {
       "CLOSED": 187,
@@ -1445,7 +1445,7 @@
     {
       "name": "Northpoint Christian School",
       "status": "REMOTE",
-      "status_detail": "Virtual Learning Thursday",
+      "status_detail": "Virtual Learning Friday",
       "region": "Other",
       "source": "Action News 5"
     },
