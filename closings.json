@@ -1,17 +1,17 @@
 {
   "meta": {
-    "generated_at": "2026-01-29T16:50:44.279171+00:00",
-    "total_closings": 229,
+    "generated_at": "2026-01-29T17:00:44.735322+00:00",
+    "total_closings": 225,
     "by_status": {
-      "CLOSED": 187,
-      "REMOTE": 33,
+      "CLOSED": 188,
+      "REMOTE": 28,
       "DELAYED": 7,
       "EARLY_DISMISSAL": 2
     },
     "by_region": {
-      "Other": 97,
+      "Other": 95,
       "Middle Tennessee": 69,
-      "West Tennessee": 58,
+      "West Tennessee": 56,
       "East Tennessee": 5
     },
     "sources": [
@@ -1345,6 +1345,13 @@
       "source": "Action News 5"
     },
     {
+      "name": "Lausanne Collegiate School",
+      "status": "CLOSED",
+      "status_detail": "Closed Through 01/31",
+      "region": "Other",
+      "source": "Action News 5"
+    },
+    {
       "name": "Lords Tabernacle Christian Academy",
       "status": "CLOSED",
       "status_detail": "Closed Through 01/30",
@@ -1404,13 +1411,6 @@
       "name": "Memphis Theological Seminary",
       "status": "CLOSED",
       "status_detail": "Closed Through 01/31 - Virtual Learning Only",
-      "region": "West Tennessee",
-      "source": "Action News 5"
-    },
-    {
-      "name": "Memphis University School",
-      "status": "REMOTE",
-      "status_detail": "Virtual Learning Thursday",
       "region": "West Tennessee",
       "source": "Action News 5"
     },
@@ -1492,13 +1492,6 @@
       "source": "Action News 5"
     },
     {
-      "name": "Sacred Heart School Southaven",
-      "status": "REMOTE",
-      "status_detail": "Virtual Learning Thursday",
-      "region": "Other",
-      "source": "Action News 5"
-    },
-    {
       "name": "Senatobia Municipal School District",
       "status": "CLOSED",
       "status_detail": "Closed Through 01/30",
@@ -1541,13 +1534,6 @@
       "source": "Action News 5"
     },
     {
-      "name": "Tennessee College of Applied Technology",
-      "status": "REMOTE",
-      "status_detail": "Virtual Learning Thursday",
-      "region": "Other",
-      "source": "Action News 5"
-    },
-    {
       "name": "Tipton Christian Academy",
       "status": "CLOSED",
       "status_detail": "Closed Through 01/30",
@@ -1576,24 +1562,10 @@
       "source": "Action News 5"
     },
     {
-      "name": "University of Memphis",
-      "status": "REMOTE",
-      "status_detail": "Virtual Learning Thursday",
-      "region": "West Tennessee",
-      "source": "Action News 5"
-    },
-    {
       "name": "University of Mississippi",
       "status": "CLOSED",
       "status_detail": "Closed Through Sunday 2/8",
       "region": "West Tennessee",
-      "source": "Action News 5"
-    },
-    {
-      "name": "University of Tennessee Health Science Center",
-      "status": "REMOTE",
-      "status_detail": "Virtual Learning Thursday",
-      "region": "Other",
       "source": "Action News 5"
     },
     {
