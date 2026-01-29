@@ -1,16 +1,16 @@
 {
   "meta": {
-    "generated_at": "2026-01-28T23:52:01.472024+00:00",
-    "total_closings": 230,
+    "generated_at": "2026-01-29T00:00:41.801750+00:00",
+    "total_closings": 232,
     "by_status": {
       "CLOSED": 196,
       "REMOTE": 28,
-      "DELAYED": 5,
+      "DELAYED": 7,
       "EARLY_DISMISSAL": 1
     },
     "by_region": {
-      "Other": 98,
-      "Middle Tennessee": 62,
+      "Other": 99,
+      "Middle Tennessee": 63,
       "West Tennessee": 58,
       "East Tennessee": 12
     },
@@ -151,6 +151,13 @@
       "name": "Clay",
       "status": "CLOSED",
       "status_detail": "Closed Thursday and Friday",
+      "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Columbia Academy",
+      "status": "DELAYED",
+      "status_detail": "Opening 2 hours late Thursday 1/29",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
@@ -360,7 +367,7 @@
     {
       "name": "Holy Rosary Academy",
       "status": "CLOSED",
-      "status_detail": "Thursday and Friday",
+      "status_detail": "CLOSED WED, THU & FRI",
       "region": "Other",
       "source": "NewsChannel 5"
     },
@@ -425,6 +432,13 @@
       "status": "CLOSED",
       "status_detail": "CLOSED WED, THU & FRI",
       "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Lighthouse Preschool",
+      "status": "DELAYED",
+      "status_detail": "Delayed Start Opening at 8:30am; Closing Early at 5:00pm",
+      "region": "Other",
       "source": "NewsChannel 5"
     },
     {
