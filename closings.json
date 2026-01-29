@@ -1,15 +1,15 @@
 {
   "meta": {
-    "generated_at": "2026-01-29T20:20:37.003884+00:00",
-    "total_closings": 179,
+    "generated_at": "2026-01-29T20:30:37.758814+00:00",
+    "total_closings": 181,
     "by_status": {
-      "CLOSED": 159,
+      "CLOSED": 161,
       "REMOTE": 20
     },
     "by_region": {
-      "Other": 59,
+      "Other": 60,
       "Middle Tennessee": 55,
-      "West Tennessee": 59,
+      "West Tennessee": 60,
       "East Tennessee": 6
     },
     "sources": [
@@ -587,6 +587,13 @@
       "source": "NewsChannel 5"
     },
     {
+      "name": "St. Luke's Community House",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
+      "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
       "name": "St. Matthew School",
       "status": "CLOSED",
       "status_detail": "CLOSED",
@@ -898,6 +905,13 @@
       "name": "Hardeman County Schools",
       "status": "CLOSED",
       "status_detail": "Closed Through Friday",
+      "region": "West Tennessee",
+      "source": "Action News 5"
+    },
+    {
+      "name": "Harding Academy of Memphis",
+      "status": "CLOSED",
+      "status_detail": "Closed Friday",
       "region": "West Tennessee",
       "source": "Action News 5"
     },
