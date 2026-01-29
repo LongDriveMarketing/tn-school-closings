@@ -1,16 +1,16 @@
 {
   "meta": {
-    "generated_at": "2026-01-29T15:10:41.963251+00:00",
-    "total_closings": 259,
+    "generated_at": "2026-01-29T15:20:50.388448+00:00",
+    "total_closings": 262,
     "by_status": {
-      "CLOSED": 215,
-      "REMOTE": 31,
+      "CLOSED": 216,
+      "REMOTE": 33,
       "DELAYED": 11,
       "EARLY_DISMISSAL": 2
     },
     "by_region": {
-      "Other": 116,
-      "Middle Tennessee": 68,
+      "Other": 117,
+      "Middle Tennessee": 70,
       "West Tennessee": 62,
       "East Tennessee": 13
     },
@@ -745,7 +745,7 @@
     {
       "name": "Overton",
       "status": "CLOSED",
-      "status_detail": "Thursday",
+      "status_detail": "CLOSED",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
@@ -1016,9 +1016,23 @@
       "source": "NewsChannel 5"
     },
     {
+      "name": "Vol State-Cookeville",
+      "status": "REMOTE",
+      "status_detail": "CLOSED - VIRTUAL/REMOTE LEARNING DAY; Virtual Learning through Friday 1/30",
+      "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Vol State-Gallatin",
+      "status": "REMOTE",
+      "status_detail": "CLOSED - VIRTUAL/REMOTE LEARNING DAY; Virtual Learning through Friday 1/30",
+      "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
       "name": "Vol State-Livingston",
       "status": "REMOTE",
-      "status_detail": "CLOSED - VIRTUAL/REMOTE LEARNING DAY; Virtual Learning through Friday",
+      "status_detail": "CLOSED - VIRTUAL/REMOTE LEARNING DAY; Virtual Learning through Friday 1/30",
       "region": "Other",
       "source": "NewsChannel 5"
     },
@@ -1222,6 +1236,13 @@
       "name": "Cross Creek Christian Academy",
       "status": "CLOSED",
       "status_detail": "Closed Through 01/30",
+      "region": "Other",
+      "source": "Action News 5"
+    },
+    {
+      "name": "Delta Technical College",
+      "status": "CLOSED",
+      "status_detail": "Closed Thursday",
       "region": "Other",
       "source": "Action News 5"
     },
