@@ -1,16 +1,16 @@
 {
   "meta": {
-    "generated_at": "2026-01-29T03:00:40.814882+00:00",
-    "total_closings": 247,
+    "generated_at": "2026-01-29T03:10:42.866933+00:00",
+    "total_closings": 248,
     "by_status": {
-      "CLOSED": 207,
+      "CLOSED": 208,
       "REMOTE": 28,
       "DELAYED": 10,
       "EARLY_DISMISSAL": 2
     },
     "by_region": {
       "Other": 108,
-      "Middle Tennessee": 67,
+      "Middle Tennessee": 68,
       "West Tennessee": 60,
       "East Tennessee": 12
     },
@@ -137,6 +137,13 @@
       "name": "Cheatham",
       "status": "CLOSED",
       "status_detail": "CLOSED WED, THU & FRI",
+      "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Christian",
+      "status": "CLOSED",
+      "status_detail": "Thursday and Friday, Inspire ELA- CLOSED",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
