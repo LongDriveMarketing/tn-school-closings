@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-01-29T18:20:42.718019+00:00",
+    "generated_at": "2026-01-29T18:30:38.944408+00:00",
     "total_closings": 226,
     "by_status": {
       "CLOSED": 189,
@@ -129,7 +129,7 @@
     {
       "name": "Cannon",
       "status": "CLOSED",
-      "status_detail": "CLOSED WED, THU & FRI",
+      "status_detail": "CLOSED",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
@@ -157,7 +157,7 @@
     {
       "name": "Cheatham",
       "status": "CLOSED",
-      "status_detail": "CLOSED WED, THU & FRI",
+      "status_detail": "CLOSED",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
@@ -192,14 +192,14 @@
     {
       "name": "Clarksville-Montgomery Co. Schools",
       "status": "CLOSED",
-      "status_detail": "CLOSED ALL WEEK",
+      "status_detail": "CLOSED",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
     {
       "name": "Clay",
       "status": "CLOSED",
-      "status_detail": "Closed Thursday and Friday",
+      "status_detail": "CLOSED",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
@@ -262,7 +262,7 @@
     {
       "name": "Davidson Metro Nashville",
       "status": "CLOSED",
-      "status_detail": "CLOSED THE REST OF THE WEEK",
+      "status_detail": "CLOSED",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
@@ -276,21 +276,21 @@
     {
       "name": "Decatur",
       "status": "CLOSED",
-      "status_detail": "CLOSED WED, THU & FRI",
+      "status_detail": "CLOSED",
       "region": "West Tennessee",
       "source": "NewsChannel 5"
     },
     {
       "name": "DeKalb",
       "status": "CLOSED",
-      "status_detail": "CLOSED; CLOSED WED, THU & FRI",
+      "status_detail": "CLOSED",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
     {
       "name": "Dickson",
       "status": "CLOSED",
-      "status_detail": "Closed through Friday",
+      "status_detail": "CLOSED",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
@@ -486,7 +486,7 @@
     {
       "name": "King's Academy",
       "status": "CLOSED",
-      "status_detail": "CLOSED THURSDAY 1/29 & FRIDAY 1/30",
+      "status_detail": "CLOSED",
       "region": "Other",
       "source": "NewsChannel 5"
     },
