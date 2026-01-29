@@ -1,13 +1,13 @@
 {
   "meta": {
-    "generated_at": "2026-01-29T20:50:46.235603+00:00",
-    "total_closings": 187,
+    "generated_at": "2026-01-29T20:57:43.932780+00:00",
+    "total_closings": 188,
     "by_status": {
-      "CLOSED": 165,
+      "CLOSED": 166,
       "REMOTE": 22
     },
     "by_region": {
-      "Other": 65,
+      "Other": 66,
       "Middle Tennessee": 55,
       "West Tennessee": 60,
       "East Tennessee": 7
@@ -1151,6 +1151,13 @@
       "status": "REMOTE",
       "status_detail": "Virtual Learning Through 01/30",
       "region": "West Tennessee",
+      "source": "Action News 5"
+    },
+    {
+      "name": "Remington College",
+      "status": "CLOSED",
+      "status_detail": "Closed Friday",
+      "region": "Other",
       "source": "Action News 5"
     },
     {
