@@ -1,17 +1,17 @@
 {
   "meta": {
-    "generated_at": "2026-01-29T13:40:48.885728+00:00",
-    "total_closings": 254,
+    "generated_at": "2026-01-29T13:50:51.384380+00:00",
+    "total_closings": 257,
     "by_status": {
-      "CLOSED": 211,
+      "CLOSED": 214,
       "REMOTE": 31,
       "DELAYED": 10,
       "EARLY_DISMISSAL": 2
     },
     "by_region": {
-      "Other": 112,
+      "Other": 114,
       "Middle Tennessee": 68,
-      "West Tennessee": 61,
+      "West Tennessee": 62,
       "East Tennessee": 13
     },
     "sources": [
@@ -109,6 +109,13 @@
       "name": "Butler",
       "status": "CLOSED",
       "status_detail": "CLOSED WED, THU & FRI",
+      "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Caldwell",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
       "region": "Other",
       "source": "NewsChannel 5"
     },
@@ -407,6 +414,13 @@
       "source": "NewsChannel 5"
     },
     {
+      "name": "Henry",
+      "status": "CLOSED",
+      "status_detail": "Closed Thursday & Friday",
+      "region": "West Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
       "name": "Heritage Acad./Hopkinsville",
       "status": "CLOSED",
       "status_detail": "Closed Jan. 29-30. Complete NTI assignments 1-2.",
@@ -522,6 +536,13 @@
       "name": "Lipscomb Academy",
       "status": "CLOSED",
       "status_detail": "CLOSED; CLOSED WED, THU & FRI",
+      "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Logan",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
       "region": "Other",
       "source": "NewsChannel 5"
     },
@@ -766,7 +787,7 @@
     {
       "name": "Priest Lake Academy",
       "status": "CLOSED",
-      "status_detail": "Closed through Thursday",
+      "status_detail": "Closed through Friday",
       "region": "West Tennessee",
       "source": "NewsChannel 5"
     },
