@@ -1,16 +1,16 @@
 {
   "meta": {
-    "generated_at": "2026-01-29T18:50:49.937895+00:00",
-    "total_closings": 190,
+    "generated_at": "2026-01-29T19:00:39.835448+00:00",
+    "total_closings": 186,
     "by_status": {
-      "CLOSED": 173,
+      "CLOSED": 169,
       "REMOTE": 14,
       "DELAYED": 3
     },
     "by_region": {
-      "Other": 73,
+      "Other": 70,
       "West Tennessee": 59,
-      "Middle Tennessee": 53,
+      "Middle Tennessee": 52,
       "East Tennessee": 5
     },
     "sources": [
@@ -63,13 +63,6 @@
       "source": "NewsChannel 5"
     },
     {
-      "name": "Bethlehem Ctrs of Nashville",
-      "status": "CLOSED",
-      "status_detail": "CLOSED TODAY & TOMORROW",
-      "region": "Middle Tennessee",
-      "source": "NewsChannel 5"
-    },
-    {
       "name": "Butler",
       "status": "CLOSED",
       "status_detail": "CLOSED WED, THU & FRI",
@@ -80,13 +73,6 @@
       "name": "Caldwell",
       "status": "CLOSED",
       "status_detail": "CLOSED",
-      "region": "Other",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "Calvary Young Children's School",
-      "status": "CLOSED",
-      "status_detail": "CLOSED WEDNESDAY AND THURSDAY",
       "region": "Other",
       "source": "NewsChannel 5"
     },
@@ -177,7 +163,7 @@
     {
       "name": "Crievewood Methodist",
       "status": "CLOSED",
-      "status_detail": "CLOSED; CLOSED TODAY & TOMORROW",
+      "status_detail": "CLOSED",
       "region": "Other",
       "source": "NewsChannel 5"
     },
@@ -238,13 +224,6 @@
       "source": "NewsChannel 5"
     },
     {
-      "name": "Dodson Chapel Daycare",
-      "status": "CLOSED",
-      "status_detail": "OPEN AT 8:30",
-      "region": "Other",
-      "source": "NewsChannel 5"
-    },
-    {
       "name": "Episcopal School of Nashville",
       "status": "CLOSED",
       "status_detail": "Closed Thursday and Friday",
@@ -254,21 +233,21 @@
     {
       "name": "Fannie Battle",
       "status": "CLOSED",
-      "status_detail": "CLOSED; CLOSED WED, THU & FRI",
+      "status_detail": "CLOSED",
       "region": "Other",
       "source": "NewsChannel 5"
     },
     {
       "name": "First Baptist-Dickson",
       "status": "CLOSED",
-      "status_detail": "CLOSD REST OF THE WEEK",
+      "status_detail": "CLOSED",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
     {
       "name": "First Baptist-Joelton",
       "status": "CLOSED",
-      "status_detail": "CLOSED through 1/30",
+      "status_detail": "CLOSED",
       "region": "Other",
       "source": "NewsChannel 5"
     },
@@ -366,7 +345,7 @@
     {
       "name": "Immaculate Conception",
       "status": "CLOSED",
-      "status_detail": "CLOSED TODAY & TOMORROW",
+      "status_detail": "CLOSED ALL WEEK",
       "region": "Other",
       "source": "NewsChannel 5"
     },
@@ -805,13 +784,6 @@
       "source": "NewsChannel 5"
     },
     {
-      "name": "Woodmont Baptist",
-      "status": "CLOSED",
-      "status_detail": "CLOSED",
-      "region": "Other",
-      "source": "NewsChannel 5"
-    },
-    {
       "name": "Zion Christian Acad.",
       "status": "CLOSED",
       "status_detail": "CLOSED",
@@ -1024,7 +996,7 @@
     {
       "name": "Haywood County Schools",
       "status": "CLOSED",
-      "status_detail": "Closed Through 01/30",
+      "status_detail": "Closed Friday",
       "region": "West Tennessee",
       "source": "Action News 5"
     },
