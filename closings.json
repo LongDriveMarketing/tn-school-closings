@@ -1,16 +1,16 @@
 {
   "meta": {
-    "generated_at": "2026-01-30T18:10:42.350697+00:00",
-    "total_closings": 43,
+    "generated_at": "2026-01-30T18:20:38.437570+00:00",
+    "total_closings": 42,
     "by_status": {
       "REMOTE": 19,
-      "CLOSED": 21,
+      "CLOSED": 20,
       "EARLY_DISMISSAL": 3
     },
     "by_region": {
       "Other": 16,
       "Middle Tennessee": 12,
-      "West Tennessee": 13,
+      "West Tennessee": 12,
       "East Tennessee": 2
     },
     "sources": [
@@ -199,13 +199,6 @@
       "name": "Fayette Academy",
       "status": "CLOSED",
       "status_detail": "Closed Through 02/01",
-      "region": "West Tennessee",
-      "source": "Action News 5"
-    },
-    {
-      "name": "Hardeman County Schools",
-      "status": "CLOSED",
-      "status_detail": "Closed Through Friday",
       "region": "West Tennessee",
       "source": "Action News 5"
     },
