@@ -1,15 +1,15 @@
 {
   "meta": {
-    "generated_at": "2026-01-30T10:30:43.893669+00:00",
-    "total_closings": 234,
+    "generated_at": "2026-01-30T10:40:38.418378+00:00",
+    "total_closings": 235,
     "by_status": {
-      "CLOSED": 200,
+      "CLOSED": 201,
       "REMOTE": 28,
       "EARLY_DISMISSAL": 4,
       "DELAYED": 2
     },
     "by_region": {
-      "Other": 95,
+      "Other": 96,
       "Middle Tennessee": 60,
       "West Tennessee": 62,
       "East Tennessee": 17
@@ -1657,6 +1657,13 @@
       "status": "CLOSED",
       "status_detail": "Closed Friday",
       "region": "East Tennessee",
+      "source": "WVLT"
+    },
+    {
+      "name": "Tri-State Christian Academy",
+      "status": "CLOSED",
+      "status_detail": "Closed Friday",
+      "region": "Other",
       "source": "WVLT"
     }
   ]
