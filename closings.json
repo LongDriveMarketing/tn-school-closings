@@ -1,16 +1,16 @@
 {
   "meta": {
-    "generated_at": "2026-01-30T18:00:43.052986+00:00",
-    "total_closings": 48,
+    "generated_at": "2026-01-30T18:04:32.842598+00:00",
+    "total_closings": 43,
     "by_status": {
       "REMOTE": 19,
-      "CLOSED": 26,
+      "CLOSED": 21,
       "EARLY_DISMISSAL": 3
     },
     "by_region": {
       "Other": 16,
       "Middle Tennessee": 12,
-      "West Tennessee": 18,
+      "West Tennessee": 13,
       "East Tennessee": 2
     },
     "sources": [
@@ -147,13 +147,6 @@
       "source": "NewsChannel 5"
     },
     {
-      "name": "Arlington Community Schools",
-      "status": "CLOSED",
-      "status_detail": "Closed Through Friday 1/30",
-      "region": "West Tennessee",
-      "source": "Action News 5"
-    },
-    {
       "name": "Bartlett City Schools",
       "status": "CLOSED",
       "status_detail": "Closed Through Friday",
@@ -189,13 +182,6 @@
       "source": "Action News 5"
     },
     {
-      "name": "Collierville School District",
-      "status": "CLOSED",
-      "status_detail": "Closed Through Friday 1/30",
-      "region": "West Tennessee",
-      "source": "Action News 5"
-    },
-    {
       "name": "Dyer County Schools",
       "status": "CLOSED",
       "status_detail": "Closed Through Friday the 30th",
@@ -213,13 +199,6 @@
       "name": "Fayette Academy",
       "status": "CLOSED",
       "status_detail": "Closed Through 02/01",
-      "region": "West Tennessee",
-      "source": "Action News 5"
-    },
-    {
-      "name": "Germantown Municipal School District",
-      "status": "CLOSED",
-      "status_detail": "Closed Through Friday 1/30",
       "region": "West Tennessee",
       "source": "Action News 5"
     },
@@ -252,13 +231,6 @@
       "source": "Action News 5"
     },
     {
-      "name": "Lakeland School System",
-      "status": "CLOSED",
-      "status_detail": "Closed Through Friday 1/30",
-      "region": "West Tennessee",
-      "source": "Action News 5"
-    },
-    {
       "name": "Lausanne Collegiate School",
       "status": "CLOSED",
       "status_detail": "Closed Through 01/31",
@@ -267,13 +239,6 @@
     },
     {
       "name": "McNairy County Schools",
-      "status": "CLOSED",
-      "status_detail": "Closed Through Friday 1/30",
-      "region": "West Tennessee",
-      "source": "Action News 5"
-    },
-    {
-      "name": "Memphis Shelby County Schools",
       "status": "CLOSED",
       "status_detail": "Closed Through Friday 1/30",
       "region": "West Tennessee",
