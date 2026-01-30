@@ -1,17 +1,17 @@
 {
   "meta": {
-    "generated_at": "2026-01-30T16:50:43.696105+00:00",
-    "total_closings": 59,
+    "generated_at": "2026-01-30T17:00:49.993244+00:00",
+    "total_closings": 51,
     "by_status": {
-      "REMOTE": 27,
+      "REMOTE": 20,
       "EARLY_DISMISSAL": 4,
       "DELAYED": 1,
-      "CLOSED": 27
+      "CLOSED": 26
     },
     "by_region": {
-      "Other": 28,
+      "Other": 23,
       "Middle Tennessee": 11,
-      "West Tennessee": 20
+      "West Tennessee": 17
     },
     "sources": [
       "NewsChannel 5",
@@ -272,13 +272,6 @@
       "source": "Action News 5"
     },
     {
-      "name": "Greater Praise Christian Academy",
-      "status": "REMOTE",
-      "status_detail": "Virtual Learning Through 01/30",
-      "region": "Other",
-      "source": "Action News 5"
-    },
-    {
       "name": "Hardeman County Schools",
       "status": "CLOSED",
       "status_detail": "Closed Through Friday",
@@ -289,13 +282,6 @@
       "name": "Harmony Independent School",
       "status": "CLOSED",
       "status_detail": "Closed Through Friday 1/30",
-      "region": "Other",
-      "source": "Action News 5"
-    },
-    {
-      "name": "Holy Family School",
-      "status": "REMOTE",
-      "status_detail": "Virtual Learning Through 01/28",
       "region": "Other",
       "source": "Action News 5"
     },
@@ -349,20 +335,6 @@
       "source": "Action News 5"
     },
     {
-      "name": "Memphis University School",
-      "status": "REMOTE",
-      "status_detail": "Virtual Learning Friday",
-      "region": "West Tennessee",
-      "source": "Action News 5"
-    },
-    {
-      "name": "Northpoint Christian School",
-      "status": "REMOTE",
-      "status_detail": "Virtual Learning Friday",
-      "region": "Other",
-      "source": "Action News 5"
-    },
-    {
       "name": "Northwest Mississippi Community College",
       "status": "CLOSED",
       "status_detail": "Closed Through Friday",
@@ -370,37 +342,9 @@
       "source": "Action News 5"
     },
     {
-      "name": "Pleasant View School",
-      "status": "REMOTE",
-      "status_detail": "Virtual Learning Through 01/30",
-      "region": "West Tennessee",
-      "source": "Action News 5"
-    },
-    {
-      "name": "Sacred Heart School Southaven",
-      "status": "REMOTE",
-      "status_detail": "Virtual Learning Friday",
-      "region": "Other",
-      "source": "Action News 5"
-    },
-    {
       "name": "Southwest Tennessee Community College",
       "status": "REMOTE",
       "status_detail": "Virtual Learning Through 01/31",
-      "region": "Other",
-      "source": "Action News 5"
-    },
-    {
-      "name": "Tate County School District",
-      "status": "CLOSED",
-      "status_detail": "Closed Through Friday",
-      "region": "West Tennessee",
-      "source": "Action News 5"
-    },
-    {
-      "name": "Tennessee College of Applied Technology",
-      "status": "REMOTE",
-      "status_detail": "Virtual Learning Friday",
       "region": "Other",
       "source": "Action News 5"
     },
