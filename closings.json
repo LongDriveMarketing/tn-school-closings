@@ -1,15 +1,15 @@
 {
   "meta": {
-    "generated_at": "2026-01-30T12:00:38.795199+00:00",
-    "total_closings": 237,
+    "generated_at": "2026-01-30T12:10:42.945507+00:00",
+    "total_closings": 238,
     "by_status": {
-      "CLOSED": 203,
+      "CLOSED": 204,
       "REMOTE": 28,
       "EARLY_DISMISSAL": 4,
       "DELAYED": 2
     },
     "by_region": {
-      "Other": 96,
+      "Other": 97,
       "Middle Tennessee": 60,
       "West Tennessee": 62,
       "East Tennessee": 19
@@ -1005,6 +1005,13 @@
       "name": "Christian Brothers University",
       "status": "CLOSED",
       "status_detail": "Closed Through Friday 1/30",
+      "region": "Other",
+      "source": "Action News 5"
+    },
+    {
+      "name": "City University Schools",
+      "status": "CLOSED",
+      "status_detail": "Closed Friday - After-school activities canceled",
       "region": "Other",
       "source": "Action News 5"
     },
