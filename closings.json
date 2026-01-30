@@ -1,10 +1,10 @@
 {
   "meta": {
-    "generated_at": "2026-01-30T23:50:43.483353+00:00",
+    "generated_at": "2026-01-30T23:52:24.290283+00:00",
     "total_closings": 28,
     "by_status": {
-      "CLOSED": 25,
-      "REMOTE": 3
+      "CLOSED": 24,
+      "REMOTE": 4
     },
     "by_region": {
       "Middle Tennessee": 2,
@@ -140,8 +140,8 @@
     },
     {
       "name": "Northwest Mississippi Community College",
-      "status": "CLOSED",
-      "status_detail": "Closed Through Friday",
+      "status": "REMOTE",
+      "status_detail": "Virtual Learning Friday",
       "region": "West Tennessee",
       "source": "Action News 5"
     },
