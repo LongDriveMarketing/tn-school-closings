@@ -1,15 +1,14 @@
 {
   "meta": {
-    "generated_at": "2026-01-30T17:10:41.390195+00:00",
-    "total_closings": 52,
+    "generated_at": "2026-01-30T17:20:41.156310+00:00",
+    "total_closings": 45,
     "by_status": {
-      "REMOTE": 20,
-      "EARLY_DISMISSAL": 5,
-      "DELAYED": 1,
-      "CLOSED": 26
+      "REMOTE": 19,
+      "CLOSED": 25,
+      "EARLY_DISMISSAL": 1
     },
     "by_region": {
-      "Other": 23,
+      "Other": 16,
       "Middle Tennessee": 11,
       "West Tennessee": 17,
       "East Tennessee": 1
@@ -29,44 +28,9 @@
       "source": "NewsChannel 5"
     },
     {
-      "name": "Angels Watching Over Me",
-      "status": "EARLY_DISMISSAL",
-      "status_detail": "CLOSING AT 4:00",
-      "region": "Other",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "Glen Leven Dayschool",
-      "status": "EARLY_DISMISSAL",
-      "status_detail": "OPEN AT 9:00; CLOSING AT 4:00",
-      "region": "Other",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "Lighthouse Preschool",
-      "status": "DELAYED",
-      "status_detail": "Delayed Start and Opening at 8:30am on 01/30; Closing Early at 5:00pm",
-      "region": "Other",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "Lighthouse School",
-      "status": "REMOTE",
-      "status_detail": "Open at 9:30am on 01/30; Elementary In-Person; MSHS Remote Learning",
-      "region": "Other",
-      "source": "NewsChannel 5"
-    },
-    {
       "name": "Meharry Medical College",
       "status": "REMOTE",
       "status_detail": "Friday classes virtual. Medical, dental clinics open at 10.",
-      "region": "Other",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "Metro Baptist-Goodlettsville",
-      "status": "CLOSED",
-      "status_detail": "Friday Open 9:00am-5:00pm",
       "region": "Other",
       "source": "NewsChannel 5"
     },
@@ -134,13 +98,6 @@
       "source": "NewsChannel 5"
     },
     {
-      "name": "OC- West End Preschool",
-      "status": "EARLY_DISMISSAL",
-      "status_detail": "OPEN AT 9:00; CLOSING AT 4:00",
-      "region": "Other",
-      "source": "NewsChannel 5"
-    },
-    {
       "name": "TCAT Dickson",
       "status": "REMOTE",
       "status_detail": "CLOSED - VIRTUAL/REMOTE LEARNING DAY",
@@ -152,13 +109,6 @@
       "status": "REMOTE",
       "status_detail": "CLOSED - VIRTUAL/REMOTE LEARNING DAY",
       "region": "West Tennessee",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "The Settlement",
-      "status": "EARLY_DISMISSAL",
-      "status_detail": "OPEN AT 8:00; CLOSING AT 4:00",
-      "region": "Other",
       "source": "NewsChannel 5"
     },
     {
