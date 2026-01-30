@@ -1,18 +1,18 @@
 {
   "meta": {
-    "generated_at": "2026-01-30T02:10:46.367163+00:00",
-    "total_closings": 229,
+    "generated_at": "2026-01-30T02:20:44.999001+00:00",
+    "total_closings": 231,
     "by_status": {
-      "CLOSED": 196,
+      "CLOSED": 198,
       "REMOTE": 28,
       "DELAYED": 2,
       "EARLY_DISMISSAL": 3
     },
     "by_region": {
-      "Other": 93,
+      "Other": 94,
       "Middle Tennessee": 60,
       "West Tennessee": 60,
-      "East Tennessee": 16
+      "East Tennessee": 17
     },
     "sources": [
       "NewsChannel 5",
@@ -1429,6 +1429,13 @@
       "source": "Action News 5"
     },
     {
+      "name": "St. Mary's Episcopal School",
+      "status": "CLOSED",
+      "status_detail": "Closed Friday",
+      "region": "Other",
+      "source": "Action News 5"
+    },
+    {
       "name": "STAR Academy Charter School",
       "status": "CLOSED",
       "status_detail": "Closed Through 01/30",
@@ -1511,6 +1518,13 @@
       "status_detail": "Closed Through the 29th",
       "region": "Other",
       "source": "Action News 5"
+    },
+    {
+      "name": "Anderson County Schools",
+      "status": "CLOSED",
+      "status_detail": "Closed Friday",
+      "region": "East Tennessee",
+      "source": "WVLT"
     },
     {
       "name": "Blount County Schools",
