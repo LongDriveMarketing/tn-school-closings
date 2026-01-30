@@ -1,16 +1,16 @@
 {
   "meta": {
-    "generated_at": "2026-01-30T20:50:42.233301+00:00",
-    "total_closings": 30,
+    "generated_at": "2026-01-30T21:00:24.277632+00:00",
+    "total_closings": 31,
     "by_status": {
-      "CLOSED": 24,
+      "CLOSED": 25,
       "REMOTE": 3,
       "EARLY_DISMISSAL": 3
     },
     "by_region": {
       "Middle Tennessee": 2,
       "Other": 9,
-      "West Tennessee": 13,
+      "West Tennessee": 14,
       "East Tennessee": 6
     },
     "sources": [
@@ -87,6 +87,13 @@
       "name": "Hardin County Schools",
       "status": "CLOSED",
       "status_detail": "Closed Through Friday 2/6",
+      "region": "West Tennessee",
+      "source": "Action News 5"
+    },
+    {
+      "name": "Haywood County Schools",
+      "status": "CLOSED",
+      "status_detail": "Closed Through 02/03",
       "region": "West Tennessee",
       "source": "Action News 5"
     },
