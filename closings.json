@@ -1,9 +1,9 @@
 {
   "meta": {
-    "generated_at": "2026-01-30T10:50:48.245034+00:00",
-    "total_closings": 236,
+    "generated_at": "2026-01-30T11:00:46.884821+00:00",
+    "total_closings": 237,
     "by_status": {
-      "CLOSED": 202,
+      "CLOSED": 203,
       "REMOTE": 28,
       "EARLY_DISMISSAL": 4,
       "DELAYED": 2
@@ -12,7 +12,7 @@
       "Other": 96,
       "Middle Tennessee": 60,
       "West Tennessee": 62,
-      "East Tennessee": 18
+      "East Tennessee": 19
     },
     "sources": [
       "NewsChannel 5",
@@ -1570,6 +1570,13 @@
     },
     {
       "name": "Cocke County Schools",
+      "status": "CLOSED",
+      "status_detail": "Closed Friday",
+      "region": "East Tennessee",
+      "source": "WVLT"
+    },
+    {
+      "name": "Grainger County Schools",
       "status": "CLOSED",
       "status_detail": "Closed Friday",
       "region": "East Tennessee",
