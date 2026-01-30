@@ -1,15 +1,15 @@
 {
   "meta": {
-    "generated_at": "2026-01-30T00:40:45.312418+00:00",
-    "total_closings": 222,
+    "generated_at": "2026-01-30T00:50:44.424483+00:00",
+    "total_closings": 224,
     "by_status": {
-      "CLOSED": 192,
-      "REMOTE": 26,
+      "CLOSED": 193,
+      "REMOTE": 27,
       "DELAYED": 1,
       "EARLY_DISMISSAL": 3
     },
     "by_region": {
-      "Other": 87,
+      "Other": 89,
       "Middle Tennessee": 60,
       "West Tennessee": 60,
       "East Tennessee": 15
@@ -22,9 +22,23 @@
   },
   "closings": [
     {
+      "name": "Aaron Academy",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
+      "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
       "name": "Allen",
       "status": "CLOSED",
       "status_detail": "CLOSED - NTI DAY #3",
+      "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "American Baptist College",
+      "status": "REMOTE",
+      "status_detail": "Virtual learning day.  Faculty & staff to work remotely.",
       "region": "Other",
       "source": "NewsChannel 5"
     },
