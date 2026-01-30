@@ -1,15 +1,15 @@
 {
   "meta": {
-    "generated_at": "2026-01-30T02:40:46.746294+00:00",
-    "total_closings": 231,
+    "generated_at": "2026-01-30T02:50:48.230524+00:00",
+    "total_closings": 232,
     "by_status": {
       "CLOSED": 198,
       "REMOTE": 28,
-      "DELAYED": 2,
-      "EARLY_DISMISSAL": 3
+      "EARLY_DISMISSAL": 4,
+      "DELAYED": 2
     },
     "by_region": {
-      "Other": 94,
+      "Other": 95,
       "Middle Tennessee": 60,
       "West Tennessee": 60,
       "East Tennessee": 17
@@ -39,6 +39,13 @@
       "name": "American Baptist College",
       "status": "REMOTE",
       "status_detail": "Virtual learning day.  Faculty & staff to work remotely.",
+      "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Angels Watching Over Me",
+      "status": "EARLY_DISMISSAL",
+      "status_detail": "CLOSING AT 4:00",
       "region": "Other",
       "source": "NewsChannel 5"
     },
