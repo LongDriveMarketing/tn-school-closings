@@ -1,15 +1,15 @@
 {
   "meta": {
-    "generated_at": "2026-01-30T13:30:45.382101+00:00",
-    "total_closings": 238,
+    "generated_at": "2026-01-30T13:40:40.597358+00:00",
+    "total_closings": 239,
     "by_status": {
-      "CLOSED": 204,
+      "CLOSED": 205,
       "REMOTE": 28,
       "EARLY_DISMISSAL": 4,
       "DELAYED": 2
     },
     "by_region": {
-      "Other": 97,
+      "Other": 98,
       "Middle Tennessee": 60,
       "West Tennessee": 62,
       "East Tennessee": 19
@@ -1650,6 +1650,13 @@
       "status": "CLOSED",
       "status_detail": "Closed Friday",
       "region": "Middle Tennessee",
+      "source": "WVLT"
+    },
+    {
+      "name": "Rocky Branch Community Center",
+      "status": "CLOSED",
+      "status_detail": "Closed Friday",
+      "region": "Other",
       "source": "WVLT"
     },
     {
