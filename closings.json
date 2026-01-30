@@ -1,9 +1,9 @@
 {
   "meta": {
-    "generated_at": "2026-01-30T10:40:38.418378+00:00",
-    "total_closings": 235,
+    "generated_at": "2026-01-30T10:50:48.245034+00:00",
+    "total_closings": 236,
     "by_status": {
-      "CLOSED": 201,
+      "CLOSED": 202,
       "REMOTE": 28,
       "EARLY_DISMISSAL": 4,
       "DELAYED": 2
@@ -12,7 +12,7 @@
       "Other": 96,
       "Middle Tennessee": 60,
       "West Tennessee": 62,
-      "East Tennessee": 17
+      "East Tennessee": 18
     },
     "sources": [
       "NewsChannel 5",
@@ -1664,6 +1664,13 @@
       "status": "CLOSED",
       "status_detail": "Closed Friday",
       "region": "Other",
+      "source": "WVLT"
+    },
+    {
+      "name": "Union County Schools",
+      "status": "CLOSED",
+      "status_detail": "Closed Friday",
+      "region": "East Tennessee",
       "source": "WVLT"
     }
   ]
