@@ -1,15 +1,15 @@
 {
   "meta": {
-    "generated_at": "2026-01-30T01:20:44.916522+00:00",
-    "total_closings": 224,
+    "generated_at": "2026-01-30T01:30:41.928351+00:00",
+    "total_closings": 225,
     "by_status": {
-      "CLOSED": 193,
+      "CLOSED": 194,
       "REMOTE": 27,
       "DELAYED": 1,
       "EARLY_DISMISSAL": 3
     },
     "by_region": {
-      "Other": 89,
+      "Other": 90,
       "Middle Tennessee": 60,
       "West Tennessee": 60,
       "East Tennessee": 15
@@ -635,6 +635,13 @@
       "status": "CLOSED",
       "status_detail": "CLOSED",
       "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Rhythm & Rhymes",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
+      "region": "Other",
       "source": "NewsChannel 5"
     },
     {
