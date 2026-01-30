@@ -1,9 +1,9 @@
 {
   "meta": {
-    "generated_at": "2026-01-30T20:30:40.429174+00:00",
-    "total_closings": 26,
+    "generated_at": "2026-01-30T20:40:40.634998+00:00",
+    "total_closings": 28,
     "by_status": {
-      "CLOSED": 20,
+      "CLOSED": 22,
       "REMOTE": 3,
       "EARLY_DISMISSAL": 3
     },
@@ -11,7 +11,7 @@
       "Middle Tennessee": 2,
       "Other": 9,
       "West Tennessee": 13,
-      "East Tennessee": 2
+      "East Tennessee": 4
     },
     "sources": [
       "NewsChannel 5",
@@ -189,6 +189,13 @@
       "source": "WVLT"
     },
     {
+      "name": "Lenoir City Schools",
+      "status": "CLOSED",
+      "status_detail": "Closed Monday 02/02",
+      "region": "East Tennessee",
+      "source": "WVLT"
+    },
+    {
       "name": "McMinn County Schools",
       "status": "EARLY_DISMISSAL",
       "status_detail": "Early Dismissal Friday 02:00 PM",
@@ -200,6 +207,13 @@
       "status": "EARLY_DISMISSAL",
       "status_detail": "Early Dismissal Friday 02:00 PM",
       "region": "Other",
+      "source": "WVLT"
+    },
+    {
+      "name": "Sweetwater City",
+      "status": "CLOSED",
+      "status_detail": "Closed Monday 02/02",
+      "region": "East Tennessee",
       "source": "WVLT"
     }
   ]
