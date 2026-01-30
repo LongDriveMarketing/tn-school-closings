@@ -1,14 +1,14 @@
 {
   "meta": {
-    "generated_at": "2026-01-30T20:10:39.702300+00:00",
-    "total_closings": 25,
+    "generated_at": "2026-01-30T20:20:44.445750+00:00",
+    "total_closings": 26,
     "by_status": {
-      "CLOSED": 19,
+      "CLOSED": 20,
       "REMOTE": 3,
       "EARLY_DISMISSAL": 3
     },
     "by_region": {
-      "Middle Tennessee": 1,
+      "Middle Tennessee": 2,
       "Other": 9,
       "West Tennessee": 13,
       "East Tennessee": 2
@@ -20,6 +20,13 @@
     ]
   },
   "closings": [
+    {
+      "name": "Cheatham",
+      "status": "CLOSED",
+      "status_detail": "CLOSED; Closed Monday",
+      "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
     {
       "name": "Dickson",
       "status": "CLOSED",
