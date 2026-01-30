@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-01-30T18:30:51.105813+00:00",
+    "generated_at": "2026-01-30T18:40:41.378791+00:00",
     "total_closings": 41,
     "by_status": {
       "REMOTE": 19,
@@ -147,13 +147,6 @@
       "source": "NewsChannel 5"
     },
     {
-      "name": "Bartlett City Schools",
-      "status": "CLOSED",
-      "status_detail": "Closed Through Friday",
-      "region": "West Tennessee",
-      "source": "Action News 5"
-    },
-    {
       "name": "Christ Trinity Christian Academy",
       "status": "CLOSED",
       "status_detail": "Closed Through Friday the 30th",
@@ -192,6 +185,13 @@
       "name": "Fayette Academy",
       "status": "CLOSED",
       "status_detail": "Closed Through 02/01",
+      "region": "West Tennessee",
+      "source": "Action News 5"
+    },
+    {
+      "name": "Hardin County Schools",
+      "status": "CLOSED",
+      "status_detail": "Closed Through Friday 2/6",
       "region": "West Tennessee",
       "source": "Action News 5"
     },
