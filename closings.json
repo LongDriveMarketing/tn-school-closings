@@ -1,18 +1,18 @@
 {
   "meta": {
-    "generated_at": "2026-01-30T01:40:38.746051+00:00",
-    "total_closings": 225,
+    "generated_at": "2026-01-30T01:50:43.027047+00:00",
+    "total_closings": 228,
     "by_status": {
-      "CLOSED": 194,
-      "REMOTE": 27,
-      "DELAYED": 1,
+      "CLOSED": 195,
+      "REMOTE": 28,
+      "DELAYED": 2,
       "EARLY_DISMISSAL": 3
     },
     "by_region": {
-      "Other": 90,
+      "Other": 92,
       "Middle Tennessee": 60,
       "West Tennessee": 60,
-      "East Tennessee": 15
+      "East Tennessee": 16
     },
     "sources": [
       "NewsChannel 5",
@@ -397,6 +397,20 @@
       "status": "CLOSED",
       "status_detail": "CLOSED",
       "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Lighthouse Preschool",
+      "status": "DELAYED",
+      "status_detail": "Delayed Start and Opening at 8:30am; Closing Early at 5:00pm",
+      "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Lighthouse School",
+      "status": "REMOTE",
+      "status_detail": "Open at 9:30am on 01/30; Elementary In-Person; MSHS Remote Learning",
+      "region": "Other",
       "source": "NewsChannel 5"
     },
     {
@@ -1549,6 +1563,13 @@
     },
     {
       "name": "Hawkins County Schools",
+      "status": "CLOSED",
+      "status_detail": "Closed Friday",
+      "region": "East Tennessee",
+      "source": "WVLT"
+    },
+    {
+      "name": "Jefferson County Schools",
       "status": "CLOSED",
       "status_detail": "Closed Friday",
       "region": "East Tennessee",
