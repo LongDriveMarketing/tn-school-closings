@@ -1,15 +1,15 @@
 {
   "meta": {
-    "generated_at": "2026-01-30T19:00:48.564296+00:00",
-    "total_closings": 42,
+    "generated_at": "2026-01-30T19:10:42.258028+00:00",
+    "total_closings": 26,
     "by_status": {
-      "REMOTE": 19,
       "CLOSED": 20,
+      "REMOTE": 3,
       "EARLY_DISMISSAL": 3
     },
     "by_region": {
-      "Other": 15,
-      "Middle Tennessee": 12,
+      "Middle Tennessee": 1,
+      "Other": 10,
       "West Tennessee": 13,
       "East Tennessee": 2
     },
@@ -21,128 +21,9 @@
   },
   "closings": [
     {
-      "name": "American Baptist College",
-      "status": "REMOTE",
-      "status_detail": "Virtual learning day.  Faculty & staff to work remotely.",
-      "region": "Other",
-      "source": "NewsChannel 5"
-    },
-    {
       "name": "Dickson",
       "status": "CLOSED",
       "status_detail": "Closed through Monday, Feb. 2",
-      "region": "Middle Tennessee",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "Meharry Medical College",
-      "status": "REMOTE",
-      "status_detail": "Friday classes virtual. Medical, dental clinics open at 10.",
-      "region": "Other",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "Middle Tenn. St. Univ.",
-      "status": "REMOTE",
-      "status_detail": "Remote operations through Friday, Jan. 30",
-      "region": "Other",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "Nashville State-Clarksville",
-      "status": "REMOTE",
-      "status_detail": "Operations & Classes are virtual on 1/30",
-      "region": "Middle Tennessee",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "Nashville State-Dickson",
-      "status": "REMOTE",
-      "status_detail": "Operations & Classes are virtual on 1/30",
-      "region": "Middle Tennessee",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "Nashville State-Humphreys Co.",
-      "status": "REMOTE",
-      "status_detail": "Operations & Classes are virtual on 1/30",
-      "region": "Middle Tennessee",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "Nashville State-North Davidson",
-      "status": "REMOTE",
-      "status_detail": "Operations & Classes are virtual on 1/30",
-      "region": "Middle Tennessee",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "Nashville State-Southeast",
-      "status": "REMOTE",
-      "status_detail": "Operations & Classes are virtual on 1/30",
-      "region": "Middle Tennessee",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "Nashville State-White Bridge",
-      "status": "REMOTE",
-      "status_detail": "Operations & Classes are virtual on 1/30",
-      "region": "Middle Tennessee",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "Nossi College of Art & Design",
-      "status": "CLOSED",
-      "status_detail": "CLOSED",
-      "region": "Other",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "TCAT Dickson",
-      "status": "REMOTE",
-      "status_detail": "CLOSED - VIRTUAL/REMOTE LEARNING DAY",
-      "region": "Middle Tennessee",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "TCAT Henry/Carroll",
-      "status": "REMOTE",
-      "status_detail": "CLOSED - VIRTUAL/REMOTE LEARNING DAY",
-      "region": "West Tennessee",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "Trevecca Nazarene University",
-      "status": "REMOTE",
-      "status_detail": "CLOSED - VIRTUAL/REMOTE LEARNING DAY",
-      "region": "Middle Tennessee",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "Vol State-Cookeville",
-      "status": "REMOTE",
-      "status_detail": "CLOSED - VIRTUAL/REMOTE LEARNING DAY; Virtual Learning through Friday 1/30",
-      "region": "Middle Tennessee",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "Vol State-Gallatin",
-      "status": "REMOTE",
-      "status_detail": "CLOSED - VIRTUAL/REMOTE LEARNING DAY; Virtual Learning through Friday 1/30",
-      "region": "Middle Tennessee",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "Vol State-Livingston",
-      "status": "REMOTE",
-      "status_detail": "CLOSED - VIRTUAL/REMOTE LEARNING DAY; Virtual Learning through Friday 1/30",
-      "region": "Other",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "Vol State-Springfield",
-      "status": "REMOTE",
-      "status_detail": "CLOSED - VIRTUAL/REMOTE LEARNING DAY; Virtual Learning through Friday",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
@@ -185,6 +66,13 @@
       "name": "Fayette Academy",
       "status": "CLOSED",
       "status_detail": "Closed Through 02/01",
+      "region": "West Tennessee",
+      "source": "Action News 5"
+    },
+    {
+      "name": "Fayette County Public Schools",
+      "status": "CLOSED",
+      "status_detail": "Open Through 02/03 - After-school activities canceled",
       "region": "West Tennessee",
       "source": "Action News 5"
     },
