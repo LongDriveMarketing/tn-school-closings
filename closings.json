@@ -1,15 +1,15 @@
 {
   "meta": {
-    "generated_at": "2026-01-29T23:52:17.104397+00:00",
-    "total_closings": 218,
+    "generated_at": "2026-01-30T00:00:44.424757+00:00",
+    "total_closings": 220,
     "by_status": {
-      "CLOSED": 189,
+      "CLOSED": 191,
       "REMOTE": 25,
       "DELAYED": 1,
       "EARLY_DISMISSAL": 3
     },
     "by_region": {
-      "Other": 84,
+      "Other": 86,
       "Middle Tennessee": 59,
       "West Tennessee": 60,
       "East Tennessee": 15
@@ -436,6 +436,20 @@
     },
     {
       "name": "Metcalfe",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
+      "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Metro Baptist-Goodlettsville",
+      "status": "CLOSED",
+      "status_detail": "Friday Open 9:00am-5:00pm",
+      "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Metro Christian Academy",
       "status": "CLOSED",
       "status_detail": "CLOSED",
       "region": "Other",
