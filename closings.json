@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-01-30T19:50:53.722449+00:00",
+    "generated_at": "2026-01-30T19:56:24.701005+00:00",
     "total_closings": 25,
     "by_status": {
       "CLOSED": 19,
@@ -107,7 +107,7 @@
     {
       "name": "McNairy County Schools",
       "status": "CLOSED",
-      "status_detail": "Closed Through Friday 1/30",
+      "status_detail": "Closed Through Wednesday 2/4",
       "region": "West Tennessee",
       "source": "Action News 5"
     },
