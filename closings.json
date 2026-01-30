@@ -1,17 +1,17 @@
 {
   "meta": {
-    "generated_at": "2026-01-30T17:30:41.655428+00:00",
-    "total_closings": 45,
+    "generated_at": "2026-01-30T17:40:41.032486+00:00",
+    "total_closings": 47,
     "by_status": {
       "REMOTE": 19,
-      "CLOSED": 25,
-      "EARLY_DISMISSAL": 1
+      "CLOSED": 26,
+      "EARLY_DISMISSAL": 2
     },
     "by_region": {
-      "Other": 16,
-      "Middle Tennessee": 11,
-      "West Tennessee": 17,
-      "East Tennessee": 1
+      "Other": 15,
+      "Middle Tennessee": 12,
+      "West Tennessee": 18,
+      "East Tennessee": 2
     },
     "sources": [
       "NewsChannel 5",
@@ -25,6 +25,13 @@
       "status": "REMOTE",
       "status_detail": "Virtual learning day.  Faculty & staff to work remotely.",
       "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Dickson",
+      "status": "CLOSED",
+      "status_detail": "Closed through Monday, Feb. 2",
+      "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
     {
@@ -81,13 +88,6 @@
       "status": "REMOTE",
       "status_detail": "Operations & Classes are virtual on 1/30",
       "region": "Middle Tennessee",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "New Horizons",
-      "status": "CLOSED",
-      "status_detail": "CLOSED; NO WATER",
-      "region": "Other",
       "source": "NewsChannel 5"
     },
     {
@@ -294,6 +294,13 @@
       "source": "Action News 5"
     },
     {
+      "name": "Oxford School District",
+      "status": "CLOSED",
+      "status_detail": "Closed Through 02/07",
+      "region": "West Tennessee",
+      "source": "Action News 5"
+    },
+    {
       "name": "Southwest Tennessee Community College",
       "status": "REMOTE",
       "status_detail": "Virtual Learning Through 01/31",
@@ -332,6 +339,13 @@
       "name": "Bell County",
       "status": "EARLY_DISMISSAL",
       "status_detail": "Early Dismissal Friday 01:00 PM",
+      "region": "East Tennessee",
+      "source": "WVLT"
+    },
+    {
+      "name": "McMinn County Schools",
+      "status": "EARLY_DISMISSAL",
+      "status_detail": "Early Dismissal Friday 02:00 PM",
       "region": "East Tennessee",
       "source": "WVLT"
     }
