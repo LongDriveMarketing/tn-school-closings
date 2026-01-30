@@ -1,16 +1,16 @@
 {
   "meta": {
-    "generated_at": "2026-01-30T00:00:44.424757+00:00",
-    "total_closings": 220,
+    "generated_at": "2026-01-30T00:10:56.428816+00:00",
+    "total_closings": 221,
     "by_status": {
       "CLOSED": 191,
-      "REMOTE": 25,
+      "REMOTE": 26,
       "DELAYED": 1,
       "EARLY_DISMISSAL": 3
     },
     "by_region": {
       "Other": 86,
-      "Middle Tennessee": 59,
+      "Middle Tennessee": 60,
       "West Tennessee": 60,
       "East Tennessee": 15
     },
@@ -725,6 +725,13 @@
       "name": "Sumner Academy",
       "status": "CLOSED",
       "status_detail": "CLOSED",
+      "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "TCAT Dickson",
+      "status": "REMOTE",
+      "status_detail": "CLOSED - VIRTUAL/REMOTE LEARNING DAY",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
