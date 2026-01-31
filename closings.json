@@ -1,16 +1,16 @@
 {
   "meta": {
-    "generated_at": "2026-01-31T03:10:47.779404+00:00",
-    "total_closings": 25,
+    "generated_at": "2026-01-31T03:20:41.510324+00:00",
+    "total_closings": 26,
     "by_status": {
-      "CLOSED": 22,
+      "CLOSED": 23,
       "REMOTE": 3
     },
     "by_region": {
       "Middle Tennessee": 3,
       "West Tennessee": 12,
       "Other": 6,
-      "East Tennessee": 4
+      "East Tennessee": 5
     },
     "sources": [
       "NewsChannel 5",
@@ -184,6 +184,13 @@
       "name": "Roane County Schools",
       "status": "CLOSED",
       "status_detail": "Closed Monday 02/02",
+      "region": "East Tennessee",
+      "source": "WVLT"
+    },
+    {
+      "name": "Roane State - All Campuses",
+      "status": "CLOSED",
+      "status_detail": "Closed Saturday",
       "region": "East Tennessee",
       "source": "WVLT"
     },
