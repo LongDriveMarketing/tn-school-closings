@@ -1,14 +1,14 @@
 {
   "meta": {
-    "generated_at": "2026-01-31T16:00:38.396122+00:00",
-    "total_closings": 30,
+    "generated_at": "2026-01-31T16:10:52.329026+00:00",
+    "total_closings": 31,
     "by_status": {
-      "CLOSED": 28,
+      "CLOSED": 29,
       "REMOTE": 2
     },
     "by_region": {
       "Middle Tennessee": 4,
-      "West Tennessee": 12,
+      "West Tennessee": 13,
       "Other": 7,
       "East Tennessee": 7
     },
@@ -128,6 +128,13 @@
       "name": "Memphis Theological Seminary",
       "status": "CLOSED",
       "status_detail": "Closed Through 01/31 - Virtual Learning Only",
+      "region": "West Tennessee",
+      "source": "Action News 5"
+    },
+    {
+      "name": "Millington Municipal Schools",
+      "status": "CLOSED",
+      "status_detail": "Closed Monday 02/02",
       "region": "West Tennessee",
       "source": "Action News 5"
     },
