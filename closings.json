@@ -1,16 +1,16 @@
 {
   "meta": {
-    "generated_at": "2026-01-31T22:40:41.054322+00:00",
-    "total_closings": 52,
+    "generated_at": "2026-01-31T22:50:46.235599+00:00",
+    "total_closings": 54,
     "by_status": {
-      "CLOSED": 49,
+      "CLOSED": 51,
       "REMOTE": 3
     },
     "by_region": {
       "Middle Tennessee": 7,
-      "West Tennessee": 23,
+      "West Tennessee": 24,
       "Other": 10,
-      "East Tennessee": 12
+      "East Tennessee": 13
     },
     "sources": [
       "NewsChannel 5",
@@ -79,6 +79,13 @@
       "name": "Bartlett City Schools",
       "status": "CLOSED",
       "status_detail": "Closed Through 02/02",
+      "region": "West Tennessee",
+      "source": "Action News 5"
+    },
+    {
+      "name": "Bells City School",
+      "status": "CLOSED",
+      "status_detail": "Closed Through 02/03",
       "region": "West Tennessee",
       "source": "Action News 5"
     },
@@ -367,6 +374,13 @@
       "status": "CLOSED",
       "status_detail": "Closed Monday 02/02",
       "region": "Other",
+      "source": "WVLT"
+    },
+    {
+      "name": "Sevier County Schools",
+      "status": "CLOSED",
+      "status_detail": "Closed Through 02/02",
+      "region": "East Tennessee",
       "source": "WVLT"
     },
     {
