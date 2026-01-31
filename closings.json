@@ -1,16 +1,16 @@
 {
   "meta": {
-    "generated_at": "2026-01-31T16:30:42.749764+00:00",
-    "total_closings": 31,
+    "generated_at": "2026-01-31T16:40:40.610762+00:00",
+    "total_closings": 23,
     "by_status": {
-      "CLOSED": 29,
+      "CLOSED": 21,
       "REMOTE": 2
     },
     "by_region": {
       "Middle Tennessee": 4,
-      "West Tennessee": 13,
-      "Other": 7,
-      "East Tennessee": 7
+      "West Tennessee": 11,
+      "Other": 3,
+      "East Tennessee": 5
     },
     "sources": [
       "NewsChannel 5",
@@ -55,13 +55,6 @@
       "source": "Action News 5"
     },
     {
-      "name": "Faith Heritage Christian Academy",
-      "status": "CLOSED",
-      "status_detail": "Closed Through 01/31",
-      "region": "Other",
-      "source": "Action News 5"
-    },
-    {
       "name": "Fayette Academy",
       "status": "CLOSED",
       "status_detail": "Closed Through 02/01",
@@ -90,24 +83,10 @@
       "source": "Action News 5"
     },
     {
-      "name": "Immanuel Lutheran School",
-      "status": "CLOSED",
-      "status_detail": "Closed Through 01/31",
-      "region": "West Tennessee",
-      "source": "Action News 5"
-    },
-    {
       "name": "Lafayette County School District",
       "status": "CLOSED",
       "status_detail": "Closed Through Sunday 2/8",
       "region": "West Tennessee",
-      "source": "Action News 5"
-    },
-    {
-      "name": "Lausanne Collegiate School",
-      "status": "CLOSED",
-      "status_detail": "Closed Through 01/31",
-      "region": "Other",
       "source": "Action News 5"
     },
     {
@@ -121,13 +100,6 @@
       "name": "Memphis Electrical JATC",
       "status": "CLOSED",
       "status_detail": "Closed Through 02/03",
-      "region": "West Tennessee",
-      "source": "Action News 5"
-    },
-    {
-      "name": "Memphis Theological Seminary",
-      "status": "CLOSED",
-      "status_detail": "Closed Through 01/31 - Virtual Learning Only",
       "region": "West Tennessee",
       "source": "Action News 5"
     },
@@ -174,24 +146,10 @@
       "source": "Action News 5"
     },
     {
-      "name": "Children's Museum of Oak Ridge",
-      "status": "CLOSED",
-      "status_detail": "Closed Saturday",
-      "region": "East Tennessee",
-      "source": "WVLT"
-    },
-    {
       "name": "Jefferson County Schools",
       "status": "CLOSED",
       "status_detail": "Closed Monday",
       "region": "East Tennessee",
-      "source": "WVLT"
-    },
-    {
-      "name": "Ladies of Charity Emergency Assistance",
-      "status": "CLOSED",
-      "status_detail": "Closed Saturday",
-      "region": "Other",
       "source": "WVLT"
     },
     {
@@ -216,24 +174,10 @@
       "source": "WVLT"
     },
     {
-      "name": "Roane State - All Campuses",
-      "status": "CLOSED",
-      "status_detail": "Closed Saturday",
-      "region": "East Tennessee",
-      "source": "WVLT"
-    },
-    {
       "name": "Sweetwater City",
       "status": "CLOSED",
       "status_detail": "Closed Monday 02/02",
       "region": "East Tennessee",
-      "source": "WVLT"
-    },
-    {
-      "name": "TN School of Beauty",
-      "status": "CLOSED",
-      "status_detail": "Closed Saturday",
-      "region": "Other",
       "source": "WVLT"
     }
   ]
