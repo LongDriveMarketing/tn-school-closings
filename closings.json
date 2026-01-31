@@ -1,15 +1,15 @@
 {
   "meta": {
-    "generated_at": "2026-01-31T23:20:42.630761+00:00",
-    "total_closings": 57,
+    "generated_at": "2026-01-31T23:30:43.786187+00:00",
+    "total_closings": 58,
     "by_status": {
-      "CLOSED": 54,
+      "CLOSED": 55,
       "REMOTE": 3
     },
     "by_region": {
       "Middle Tennessee": 7,
       "West Tennessee": 27,
-      "Other": 9,
+      "Other": 10,
       "East Tennessee": 14
     },
     "sources": [
@@ -324,6 +324,13 @@
       "name": "First Lutheran School and ECE",
       "status": "CLOSED",
       "status_detail": "Closed Monday 02/02",
+      "region": "Other",
+      "source": "WVLT"
+    },
+    {
+      "name": "Grace Christian Academy-Karns",
+      "status": "CLOSED",
+      "status_detail": "Closed Monday the 2nd",
       "region": "Other",
       "source": "WVLT"
     },
