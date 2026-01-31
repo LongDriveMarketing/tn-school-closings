@@ -1,15 +1,15 @@
 {
   "meta": {
-    "generated_at": "2026-01-31T20:51:31.628648+00:00",
-    "total_closings": 33,
+    "generated_at": "2026-01-31T21:00:38.024350+00:00",
+    "total_closings": 36,
     "by_status": {
-      "CLOSED": 31,
-      "REMOTE": 2
+      "CLOSED": 33,
+      "REMOTE": 3
     },
     "by_region": {
       "Middle Tennessee": 7,
-      "West Tennessee": 12,
-      "Other": 2,
+      "West Tennessee": 14,
+      "Other": 3,
       "East Tennessee": 12
     },
     "sources": [
@@ -73,6 +73,20 @@
       "status": "CLOSED",
       "status_detail": "Closed Through 02/03",
       "region": "West Tennessee",
+      "source": "Action News 5"
+    },
+    {
+      "name": "Bartlett City Schools",
+      "status": "CLOSED",
+      "status_detail": "Closed Through 02/02",
+      "region": "West Tennessee",
+      "source": "Action News 5"
+    },
+    {
+      "name": "Faith Heritage Christian Academy",
+      "status": "REMOTE",
+      "status_detail": "Virtual Learning Through 02/02",
+      "region": "Other",
       "source": "Action News 5"
     },
     {
@@ -142,6 +156,13 @@
       "name": "Oxford School District",
       "status": "CLOSED",
       "status_detail": "Closed Through 02/07",
+      "region": "West Tennessee",
+      "source": "Action News 5"
+    },
+    {
+      "name": "Tipton Christian Academy",
+      "status": "CLOSED",
+      "status_detail": "Closed Monday 02/02",
       "region": "West Tennessee",
       "source": "Action News 5"
     },
