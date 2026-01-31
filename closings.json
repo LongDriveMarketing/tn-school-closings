@@ -1,15 +1,15 @@
 {
   "meta": {
-    "generated_at": "2026-01-31T22:30:42.680105+00:00",
-    "total_closings": 51,
+    "generated_at": "2026-01-31T22:40:41.054322+00:00",
+    "total_closings": 52,
     "by_status": {
-      "CLOSED": 48,
+      "CLOSED": 49,
       "REMOTE": 3
     },
     "by_region": {
       "Middle Tennessee": 7,
       "West Tennessee": 23,
-      "Other": 9,
+      "Other": 10,
       "East Tennessee": 12
     },
     "sources": [
@@ -346,6 +346,13 @@
       "status": "CLOSED",
       "status_detail": "Closed Monday 02/02",
       "region": "East Tennessee",
+      "source": "WVLT"
+    },
+    {
+      "name": "Oneida Special School District",
+      "status": "CLOSED",
+      "status_detail": "Closed Monday 02/02",
+      "region": "Other",
       "source": "WVLT"
     },
     {
