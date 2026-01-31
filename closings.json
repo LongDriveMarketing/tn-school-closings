@@ -1,14 +1,14 @@
 {
   "meta": {
-    "generated_at": "2026-01-31T21:41:47.400658+00:00",
-    "total_closings": 46,
+    "generated_at": "2026-01-31T21:50:43.790756+00:00",
+    "total_closings": 47,
     "by_status": {
-      "CLOSED": 43,
+      "CLOSED": 44,
       "REMOTE": 3
     },
     "by_region": {
       "Middle Tennessee": 7,
-      "West Tennessee": 21,
+      "West Tennessee": 22,
       "Other": 6,
       "East Tennessee": 12
     },
@@ -177,6 +177,13 @@
       "name": "Memphis STEM Academy",
       "status": "CLOSED",
       "status_detail": "Closed Monday 02/02 - After-school activities canceled",
+      "region": "West Tennessee",
+      "source": "Action News 5"
+    },
+    {
+      "name": "Mid-America Baptist Theological Seminary",
+      "status": "CLOSED",
+      "status_detail": "Closed Monday 02/02 - No evening classes.",
       "region": "West Tennessee",
       "source": "Action News 5"
     },
