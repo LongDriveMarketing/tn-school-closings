@@ -1,14 +1,14 @@
 {
   "meta": {
-    "generated_at": "2026-01-31T23:30:43.786187+00:00",
-    "total_closings": 58,
+    "generated_at": "2026-01-31T23:40:38.847964+00:00",
+    "total_closings": 59,
     "by_status": {
-      "CLOSED": 55,
+      "CLOSED": 56,
       "REMOTE": 3
     },
     "by_region": {
       "Middle Tennessee": 7,
-      "West Tennessee": 27,
+      "West Tennessee": 28,
       "Other": 10,
       "East Tennessee": 14
     },
@@ -135,6 +135,13 @@
       "name": "Fayette County Public Schools",
       "status": "CLOSED",
       "status_detail": "Open Through 02/03 - After-school activities canceled",
+      "region": "West Tennessee",
+      "source": "Action News 5"
+    },
+    {
+      "name": "Freedom Preparatory Academy",
+      "status": "CLOSED",
+      "status_detail": "Closed Monday 02/02 - After-school activities canceled",
       "region": "West Tennessee",
       "source": "Action News 5"
     },
