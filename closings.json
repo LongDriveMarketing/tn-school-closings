@@ -1,15 +1,15 @@
 {
   "meta": {
-    "generated_at": "2026-01-31T22:10:55.039608+00:00",
-    "total_closings": 48,
+    "generated_at": "2026-01-31T22:20:36.985072+00:00",
+    "total_closings": 50,
     "by_status": {
-      "CLOSED": 45,
+      "CLOSED": 47,
       "REMOTE": 3
     },
     "by_region": {
       "Middle Tennessee": 7,
-      "West Tennessee": 22,
-      "Other": 7,
+      "West Tennessee": 23,
+      "Other": 8,
       "East Tennessee": 12
     },
     "sources": [
@@ -86,6 +86,13 @@
       "name": "Collierville School District",
       "status": "CLOSED",
       "status_detail": "Closed Through Monday the 2nd",
+      "region": "West Tennessee",
+      "source": "Action News 5"
+    },
+    {
+      "name": "Concord Academy",
+      "status": "CLOSED",
+      "status_detail": "Closed Monday 02/02",
       "region": "West Tennessee",
       "source": "Action News 5"
     },
@@ -346,6 +353,13 @@
       "status": "CLOSED",
       "status_detail": "Closed Monday 02/02",
       "region": "East Tennessee",
+      "source": "WVLT"
+    },
+    {
+      "name": "Rogersville Schools",
+      "status": "CLOSED",
+      "status_detail": "Closed Monday 02/02",
+      "region": "Other",
       "source": "WVLT"
     },
     {
