@@ -1,16 +1,16 @@
 {
   "meta": {
-    "generated_at": "2026-01-31T18:50:40.947087+00:00",
-    "total_closings": 27,
+    "generated_at": "2026-01-31T19:00:19.413930+00:00",
+    "total_closings": 28,
     "by_status": {
-      "CLOSED": 26,
+      "CLOSED": 27,
       "REMOTE": 1
     },
     "by_region": {
       "Middle Tennessee": 5,
       "West Tennessee": 11,
       "Other": 2,
-      "East Tennessee": 9
+      "East Tennessee": 10
     },
     "sources": [
       "NewsChannel 5",
@@ -189,6 +189,13 @@
     },
     {
       "name": "Loudon County Schools",
+      "status": "CLOSED",
+      "status_detail": "Closed Monday 02/02",
+      "region": "East Tennessee",
+      "source": "WVLT"
+    },
+    {
+      "name": "Maryville Christian",
       "status": "CLOSED",
       "status_detail": "Closed Monday 02/02",
       "region": "East Tennessee",
