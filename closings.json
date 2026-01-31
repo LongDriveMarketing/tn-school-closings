@@ -1,16 +1,16 @@
 {
   "meta": {
-    "generated_at": "2026-01-31T23:00:42.224577+00:00",
-    "total_closings": 52,
+    "generated_at": "2026-01-31T23:10:47.178997+00:00",
+    "total_closings": 54,
     "by_status": {
-      "CLOSED": 49,
+      "CLOSED": 51,
       "REMOTE": 3
     },
     "by_region": {
       "Middle Tennessee": 7,
-      "West Tennessee": 24,
+      "West Tennessee": 25,
       "Other": 9,
-      "East Tennessee": 12
+      "East Tennessee": 13
     },
     "sources": [
       "NewsChannel 5",
@@ -135,6 +135,13 @@
       "name": "Haywood County Schools",
       "status": "CLOSED",
       "status_detail": "Closed Through 02/03",
+      "region": "West Tennessee",
+      "source": "Action News 5"
+    },
+    {
+      "name": "KIPP Memphis Public Schools",
+      "status": "CLOSED",
+      "status_detail": "Closed Monday 02/02",
       "region": "West Tennessee",
       "source": "Action News 5"
     },
@@ -360,6 +367,13 @@
       "status": "CLOSED",
       "status_detail": "Closed Monday 02/02",
       "region": "Other",
+      "source": "WVLT"
+    },
+    {
+      "name": "Scott County Schools",
+      "status": "CLOSED",
+      "status_detail": "Closed Through 01/31",
+      "region": "East Tennessee",
       "source": "WVLT"
     },
     {
