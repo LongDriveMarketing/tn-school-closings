@@ -1,16 +1,16 @@
 {
   "meta": {
-    "generated_at": "2026-01-31T23:10:47.178997+00:00",
-    "total_closings": 54,
+    "generated_at": "2026-01-31T23:20:42.630761+00:00",
+    "total_closings": 57,
     "by_status": {
-      "CLOSED": 51,
+      "CLOSED": 54,
       "REMOTE": 3
     },
     "by_region": {
       "Middle Tennessee": 7,
-      "West Tennessee": 25,
+      "West Tennessee": 27,
       "Other": 9,
-      "East Tennessee": 13
+      "East Tennessee": 14
     },
     "sources": [
       "NewsChannel 5",
@@ -38,6 +38,13 @@
       "status": "CLOSED",
       "status_detail": "CLOSED",
       "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Paris Special School District",
+      "status": "CLOSED",
+      "status_detail": "closed through Tuesday February 3",
+      "region": "West Tennessee",
       "source": "NewsChannel 5"
     },
     {
@@ -100,6 +107,13 @@
       "name": "Concord Academy",
       "status": "CLOSED",
       "status_detail": "Closed Monday 02/02",
+      "region": "West Tennessee",
+      "source": "Action News 5"
+    },
+    {
+      "name": "Dyer County Schools",
+      "status": "CLOSED",
+      "status_detail": "Closed Through Monday the 2nd",
       "region": "West Tennessee",
       "source": "Action News 5"
     },
@@ -290,6 +304,13 @@
       "status": "CLOSED",
       "status_detail": "Closed Monday 02/02",
       "region": "Other",
+      "source": "WVLT"
+    },
+    {
+      "name": "Children's Museum of Oak Ridge",
+      "status": "CLOSED",
+      "status_detail": "Closed Sunday",
+      "region": "East Tennessee",
       "source": "WVLT"
     },
     {
