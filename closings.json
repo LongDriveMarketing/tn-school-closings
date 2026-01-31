@@ -1,15 +1,15 @@
 {
   "meta": {
-    "generated_at": "2026-01-31T21:20:41.708234+00:00",
-    "total_closings": 41,
+    "generated_at": "2026-01-31T21:30:40.139845+00:00",
+    "total_closings": 44,
     "by_status": {
-      "CLOSED": 38,
+      "CLOSED": 41,
       "REMOTE": 3
     },
     "by_region": {
       "Middle Tennessee": 7,
-      "West Tennessee": 18,
-      "Other": 4,
+      "West Tennessee": 20,
+      "Other": 5,
       "East Tennessee": 12
     },
     "sources": [
@@ -160,6 +160,20 @@
       "source": "Action News 5"
     },
     {
+      "name": "Memphis Shelby County Schools",
+      "status": "CLOSED",
+      "status_detail": "Closed Through Monday the 2nd - After-school activities canceled",
+      "region": "West Tennessee",
+      "source": "Action News 5"
+    },
+    {
+      "name": "Memphis STEM Academy",
+      "status": "CLOSED",
+      "status_detail": "Closed Saturday - After-school activities canceled",
+      "region": "West Tennessee",
+      "source": "Action News 5"
+    },
+    {
       "name": "Millington Municipal Schools",
       "status": "CLOSED",
       "status_detail": "Closed Monday 02/02",
@@ -248,6 +262,13 @@
       "status": "CLOSED",
       "status_detail": "Closed Monday 02/02",
       "region": "East Tennessee",
+      "source": "WVLT"
+    },
+    {
+      "name": "First Lutheran School and ECE",
+      "status": "CLOSED",
+      "status_detail": "Closed Monday 02/02",
+      "region": "Other",
       "source": "WVLT"
     },
     {
