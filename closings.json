@@ -1,15 +1,15 @@
 {
   "meta": {
-    "generated_at": "2026-01-31T21:30:40.139845+00:00",
-    "total_closings": 44,
+    "generated_at": "2026-01-31T21:40:45.227799+00:00",
+    "total_closings": 46,
     "by_status": {
-      "CLOSED": 41,
+      "CLOSED": 43,
       "REMOTE": 3
     },
     "by_region": {
       "Middle Tennessee": 7,
-      "West Tennessee": 20,
-      "Other": 5,
+      "West Tennessee": 21,
+      "Other": 6,
       "East Tennessee": 12
     },
     "sources": [
@@ -146,6 +146,13 @@
       "source": "Action News 5"
     },
     {
+      "name": "Memphis Business Academy",
+      "status": "CLOSED",
+      "status_detail": "Closed Monday 02/02 - After-school activities canceled",
+      "region": "West Tennessee",
+      "source": "Action News 5"
+    },
+    {
       "name": "Memphis Electrical JATC",
       "status": "CLOSED",
       "status_detail": "Closed Through 02/03",
@@ -169,7 +176,7 @@
     {
       "name": "Memphis STEM Academy",
       "status": "CLOSED",
-      "status_detail": "Closed Saturday - After-school activities canceled",
+      "status_detail": "Closed Monday 02/02 - After-school activities canceled",
       "region": "West Tennessee",
       "source": "Action News 5"
     },
@@ -213,6 +220,13 @@
       "status": "CLOSED",
       "status_detail": "Closed Monday 02/02",
       "region": "West Tennessee",
+      "source": "Action News 5"
+    },
+    {
+      "name": "Tunica Academy",
+      "status": "CLOSED",
+      "status_detail": "Closed Monday 02/02",
+      "region": "Other",
       "source": "Action News 5"
     },
     {
