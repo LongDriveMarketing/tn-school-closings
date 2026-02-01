@@ -1,15 +1,15 @@
 {
   "meta": {
-    "generated_at": "2026-02-01T23:10:39.667231+00:00",
-    "total_closings": 196,
+    "generated_at": "2026-02-01T23:20:49.888642+00:00",
+    "total_closings": 203,
     "by_status": {
-      "CLOSED": 182,
+      "CLOSED": 189,
       "DELAYED": 2,
       "REMOTE": 12
     },
     "by_region": {
-      "Other": 66,
-      "West Tennessee": 44,
+      "Other": 72,
+      "West Tennessee": 45,
       "Middle Tennessee": 42,
       "East Tennessee": 44
     },
@@ -28,10 +28,24 @@
       "source": "NewsChannel 5"
     },
     {
+      "name": "Barren",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
+      "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
       "name": "Benton",
       "status": "CLOSED",
       "status_detail": "Closed Monday and Tuesday",
       "region": "West Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Butler",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
+      "region": "Other",
       "source": "NewsChannel 5"
     },
     {
@@ -60,6 +74,13 @@
       "status": "CLOSED",
       "status_detail": "CLOSED",
       "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Christian Community Pre-school",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
+      "region": "Other",
       "source": "NewsChannel 5"
     },
     {
@@ -147,6 +168,13 @@
       "source": "NewsChannel 5"
     },
     {
+      "name": "Edmonson",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
+      "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
       "name": "Fentress",
       "status": "CLOSED",
       "status_detail": "CLOSED",
@@ -172,6 +200,13 @@
       "status": "CLOSED",
       "status_detail": "CLOSED",
       "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Henderson",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
+      "region": "West Tennessee",
       "source": "NewsChannel 5"
     },
     {
@@ -318,6 +353,13 @@
       "name": "Pleasant View Christian",
       "status": "CLOSED",
       "status_detail": "CLOSED",
+      "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Purpose Preparatory Academy",
+      "status": "CLOSED",
+      "status_detail": "Closed Monday 2/2",
       "region": "Other",
       "source": "NewsChannel 5"
     },
@@ -1228,6 +1270,13 @@
       "name": "Montessori International School",
       "status": "CLOSED",
       "status_detail": "Closed Monday",
+      "region": "Other",
+      "source": "WVLT"
+    },
+    {
+      "name": "Natures Way Montessori",
+      "status": "CLOSED",
+      "status_detail": "Opening Late Monday - 2 hours delay",
       "region": "Other",
       "source": "WVLT"
     },
