@@ -1,15 +1,15 @@
 {
   "meta": {
-    "generated_at": "2026-02-01T13:55:39.165272+00:00",
-    "total_closings": 73,
+    "generated_at": "2026-02-01T14:00:42.862203+00:00",
+    "total_closings": 74,
     "by_status": {
-      "CLOSED": 71,
+      "CLOSED": 72,
       "REMOTE": 2
     },
     "by_region": {
       "West Tennessee": 35,
+      "Other": 12,
       "Middle Tennessee": 12,
-      "Other": 11,
       "East Tennessee": 15
     },
     "sources": [
@@ -24,6 +24,13 @@
       "status": "CLOSED",
       "status_detail": "Closed Monday, February 2nd and Tuesday, February 3rd",
       "region": "West Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Caverna Independent",
+      "status": "CLOSED",
+      "status_detail": "CLOSED - NON TRADITIONAL INSTRUCTION DAY",
+      "region": "Other",
       "source": "NewsChannel 5"
     },
     {
