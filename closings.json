@@ -1,14 +1,14 @@
 {
   "meta": {
-    "generated_at": "2026-02-01T19:00:44.699109+00:00",
-    "total_closings": 117,
+    "generated_at": "2026-02-01T19:05:18.443410+00:00",
+    "total_closings": 119,
     "by_status": {
-      "CLOSED": 112,
+      "CLOSED": 114,
       "REMOTE": 5
     },
     "by_region": {
+      "Other": 32,
       "West Tennessee": 37,
-      "Other": 30,
       "Middle Tennessee": 16,
       "East Tennessee": 34
     },
@@ -19,6 +19,13 @@
     ]
   },
   "closings": [
+    {
+      "name": "Allen",
+      "status": "CLOSED",
+      "status_detail": "CLOSED - NTI DAY #4",
+      "region": "Other",
+      "source": "NewsChannel 5"
+    },
     {
       "name": "Benton",
       "status": "CLOSED",
@@ -745,6 +752,13 @@
       "status": "CLOSED",
       "status_detail": "Closed Monday",
       "region": "Middle Tennessee",
+      "source": "WVLT"
+    },
+    {
+      "name": "Pineville Independent Schools",
+      "status": "CLOSED",
+      "status_detail": "Closed Monday - NTI DAY 6",
+      "region": "Other",
       "source": "WVLT"
     },
     {
