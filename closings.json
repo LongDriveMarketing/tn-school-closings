@@ -1,16 +1,16 @@
 {
   "meta": {
-    "generated_at": "2026-02-01T18:20:48.014656+00:00",
-    "total_closings": 107,
+    "generated_at": "2026-02-01T18:30:45.477899+00:00",
+    "total_closings": 110,
     "by_status": {
-      "CLOSED": 103,
-      "REMOTE": 4
+      "CLOSED": 105,
+      "REMOTE": 5
     },
     "by_region": {
       "West Tennessee": 37,
-      "Other": 28,
-      "Middle Tennessee": 15,
-      "East Tennessee": 27
+      "Other": 29,
+      "Middle Tennessee": 16,
+      "East Tennessee": 28
     },
     "sources": [
       "NewsChannel 5",
@@ -72,6 +72,13 @@
       "name": "Hickman",
       "status": "CLOSED",
       "status_detail": "CLOSED",
+      "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Humphreys",
+      "status": "CLOSED",
+      "status_detail": "Closed Monday, February 2 and Tuesday, February 3",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
@@ -377,6 +384,13 @@
       "source": "Action News 5"
     },
     {
+      "name": "Northpoint Christian School",
+      "status": "REMOTE",
+      "status_detail": "Virtual Learning Monday",
+      "region": "Other",
+      "source": "Action News 5"
+    },
+    {
       "name": "Oxford School District",
       "status": "CLOSED",
       "status_detail": "Closed Through 02/07",
@@ -569,6 +583,13 @@
       "name": "Hamblen County Schools",
       "status": "CLOSED",
       "status_detail": "Closed Monday",
+      "region": "East Tennessee",
+      "source": "WVLT"
+    },
+    {
+      "name": "Hancock County Schools",
+      "status": "CLOSED",
+      "status_detail": "Closed Through 02/04",
       "region": "East Tennessee",
       "source": "WVLT"
     },
