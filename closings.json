@@ -1,13 +1,13 @@
 {
   "meta": {
-    "generated_at": "2026-02-01T02:30:48.981528+00:00",
-    "total_closings": 64,
+    "generated_at": "2026-02-01T02:40:40.583938+00:00",
+    "total_closings": 65,
     "by_status": {
-      "CLOSED": 62,
+      "CLOSED": 63,
       "REMOTE": 2
     },
     "by_region": {
-      "Middle Tennessee": 9,
+      "Middle Tennessee": 10,
       "Other": 11,
       "West Tennessee": 30,
       "East Tennessee": 14
@@ -51,6 +51,13 @@
       "name": "Lewis",
       "status": "CLOSED",
       "status_detail": "Closed Monday extended care closed also",
+      "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Macon",
+      "status": "CLOSED",
+      "status_detail": "Closed Monday",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
@@ -162,7 +169,7 @@
     {
       "name": "Fayette Academy",
       "status": "CLOSED",
-      "status_detail": "Closed Through 02/01",
+      "status_detail": "Closed Monday 02/02",
       "region": "West Tennessee",
       "source": "Action News 5"
     },
