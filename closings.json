@@ -1,14 +1,14 @@
 {
   "meta": {
-    "generated_at": "2026-02-01T13:30:49.360291+00:00",
-    "total_closings": 70,
+    "generated_at": "2026-02-01T13:40:47.206395+00:00",
+    "total_closings": 71,
     "by_status": {
-      "CLOSED": 68,
+      "CLOSED": 69,
       "REMOTE": 2
     },
     "by_region": {
       "West Tennessee": 34,
-      "Middle Tennessee": 10,
+      "Middle Tennessee": 11,
       "Other": 11,
       "East Tennessee": 15
     },
@@ -93,6 +93,13 @@
       "name": "Stewart",
       "status": "CLOSED",
       "status_detail": "CLOSED MONDAY",
+      "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "St. Patrick",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
