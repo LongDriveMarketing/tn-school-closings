@@ -1,14 +1,14 @@
 {
   "meta": {
-    "generated_at": "2026-02-01T23:30:40.134550+00:00",
-    "total_closings": 209,
+    "generated_at": "2026-02-01T23:40:37.669681+00:00",
+    "total_closings": 211,
     "by_status": {
-      "CLOSED": 192,
+      "CLOSED": 194,
       "REMOTE": 15,
       "DELAYED": 2
     },
     "by_region": {
-      "Other": 72,
+      "Other": 74,
       "West Tennessee": 48,
       "Middle Tennessee": 45,
       "East Tennessee": 44
@@ -193,6 +193,13 @@
       "status": "CLOSED",
       "status_detail": "CLOSED",
       "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Goodpasture Christian Sch.",
+      "status": "CLOSED",
+      "status_detail": "CLOSED-EXTENDED CARE OPEN",
+      "region": "Other",
       "source": "NewsChannel 5"
     },
     {
@@ -774,6 +781,13 @@
       "status": "CLOSED",
       "status_detail": "Closed Through Monday the 2nd - Lakeland Elementary & Lakeland Preparatory School",
       "region": "West Tennessee",
+      "source": "Action News 5"
+    },
+    {
+      "name": "Lausanne Collegiate School",
+      "status": "CLOSED",
+      "status_detail": "Closed Monday 02/02",
+      "region": "Other",
       "source": "Action News 5"
     },
     {
