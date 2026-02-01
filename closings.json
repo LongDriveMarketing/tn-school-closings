@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-02-01T14:30:45.299234+00:00",
+    "generated_at": "2026-02-01T14:40:44.656384+00:00",
     "total_closings": 80,
     "by_status": {
       "CLOSED": 78,
@@ -433,6 +433,13 @@
       "source": "WVLT"
     },
     {
+      "name": "Claiborne County Schools",
+      "status": "CLOSED",
+      "status_detail": "Closed Monday",
+      "region": "East Tennessee",
+      "source": "WVLT"
+    },
+    {
       "name": "Clinton City Schools",
       "status": "CLOSED",
       "status_detail": "Closed Monday 02/02",
@@ -542,13 +549,6 @@
       "status": "CLOSED",
       "status_detail": "Closed Monday 02/02",
       "region": "Other",
-      "source": "WVLT"
-    },
-    {
-      "name": "Scott County Schools",
-      "status": "CLOSED",
-      "status_detail": "Closed Through 01/31",
-      "region": "East Tennessee",
       "source": "WVLT"
     },
     {
