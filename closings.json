@@ -1,16 +1,16 @@
 {
   "meta": {
-    "generated_at": "2026-02-01T22:56:00.654790+00:00",
-    "total_closings": 181,
+    "generated_at": "2026-02-01T23:00:45.187946+00:00",
+    "total_closings": 189,
     "by_status": {
-      "CLOSED": 167,
+      "CLOSED": 175,
       "DELAYED": 2,
       "REMOTE": 12
     },
     "by_region": {
-      "Other": 62,
-      "West Tennessee": 42,
-      "Middle Tennessee": 37,
+      "Other": 65,
+      "West Tennessee": 44,
+      "Middle Tennessee": 40,
       "East Tennessee": 40
     },
     "sources": [
@@ -98,6 +98,13 @@
       "source": "NewsChannel 5"
     },
     {
+      "name": "Decatur",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
+      "region": "West Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
       "name": "DeKalb",
       "status": "CLOSED",
       "status_detail": "CLOSED",
@@ -140,10 +147,24 @@
       "source": "NewsChannel 5"
     },
     {
+      "name": "Henry",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
+      "region": "West Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
       "name": "Hickman",
       "status": "CLOSED",
       "status_detail": "CLOSED",
       "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Holy Rosary Academy",
+      "status": "CLOSED",
+      "status_detail": "OPEN AT 9:30",
+      "region": "Other",
       "source": "NewsChannel 5"
     },
     {
@@ -203,6 +224,13 @@
       "source": "NewsChannel 5"
     },
     {
+      "name": "Marshall",
+      "status": "CLOSED",
+      "status_detail": "ONE HOUR LATE",
+      "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
       "name": "Maury",
       "status": "CLOSED",
       "status_detail": "CLOSED-STAFF REPORTS",
@@ -221,6 +249,13 @@
       "status": "CLOSED",
       "status_detail": "CLOSED THROUGH TUESDAY",
       "region": "West Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Perry",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
+      "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
     {
@@ -259,6 +294,13 @@
       "source": "NewsChannel 5"
     },
     {
+      "name": "Simpson",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
+      "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
       "name": "Smith",
       "status": "CLOSED",
       "status_detail": "Closed Monday",
@@ -266,9 +308,16 @@
       "source": "NewsChannel 5"
     },
     {
+      "name": "STEM Preparatory Academy",
+      "status": "CLOSED",
+      "status_detail": "Closed through Monday 2/1/26",
+      "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
       "name": "Stewart",
       "status": "CLOSED",
-      "status_detail": "CLOSED MONDAY",
+      "status_detail": "CLOSED; CLOSED MONDAY & TUESDAY",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
@@ -337,6 +386,13 @@
     },
     {
       "name": "Warren Co., TN",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
+      "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Wayne",
       "status": "CLOSED",
       "status_detail": "CLOSED",
       "region": "Middle Tennessee",
@@ -1253,13 +1309,6 @@
       "source": "WVLT"
     },
     {
-      "name": "TN School of Beauty",
-      "status": "CLOSED",
-      "status_detail": "Closed Sunday",
-      "region": "Other",
-      "source": "WVLT"
-    },
-    {
       "name": "Tri-State Christian Academy",
       "status": "CLOSED",
       "status_detail": "Closed Monday",
@@ -1284,6 +1333,13 @@
       "name": "University of Tennessee",
       "status": "REMOTE",
       "status_detail": "Virtual Learning Monday",
+      "region": "Other",
+      "source": "WVLT"
+    },
+    {
+      "name": "Webb School",
+      "status": "CLOSED",
+      "status_detail": "Closed Monday",
       "region": "Other",
       "source": "WVLT"
     }
