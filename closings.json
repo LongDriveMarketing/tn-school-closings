@@ -1,15 +1,15 @@
 {
   "meta": {
-    "generated_at": "2026-02-01T14:50:42.681953+00:00",
-    "total_closings": 80,
+    "generated_at": "2026-02-01T14:56:21.900126+00:00",
+    "total_closings": 81,
     "by_status": {
-      "CLOSED": 78,
+      "CLOSED": 79,
       "REMOTE": 2
     },
     "by_region": {
       "West Tennessee": 35,
       "Other": 14,
-      "Middle Tennessee": 12,
+      "Middle Tennessee": 13,
       "East Tennessee": 19
     },
     "sources": [
@@ -535,6 +535,13 @@
       "status": "CLOSED",
       "status_detail": "Closed Monday 02/02",
       "region": "Other",
+      "source": "WVLT"
+    },
+    {
+      "name": "Overton County Schools",
+      "status": "CLOSED",
+      "status_detail": "Closed Monday",
+      "region": "Middle Tennessee",
       "source": "WVLT"
     },
     {
