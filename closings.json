@@ -1,16 +1,16 @@
 {
   "meta": {
-    "generated_at": "2026-02-01T20:40:39.879555+00:00",
-    "total_closings": 147,
+    "generated_at": "2026-02-01T20:50:36.941897+00:00",
+    "total_closings": 150,
     "by_status": {
-      "CLOSED": 138,
-      "REMOTE": 8,
+      "CLOSED": 140,
+      "REMOTE": 9,
       "DELAYED": 1
     },
     "by_region": {
-      "Other": 45,
-      "West Tennessee": 38,
-      "Middle Tennessee": 25,
+      "Other": 46,
+      "West Tennessee": 39,
+      "Middle Tennessee": 26,
       "East Tennessee": 39
     },
     "sources": [
@@ -238,6 +238,13 @@
       "source": "NewsChannel 5"
     },
     {
+      "name": "Van Buren",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
+      "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
       "name": "Warren Co., KY",
       "status": "CLOSED",
       "status_detail": "NTI Day",
@@ -406,6 +413,13 @@
       "source": "Action News 5"
     },
     {
+      "name": "Harding Academy of Memphis",
+      "status": "REMOTE",
+      "status_detail": "Virtual Learning Monday",
+      "region": "West Tennessee",
+      "source": "Action News 5"
+    },
+    {
       "name": "Haywood County Schools",
       "status": "CLOSED",
       "status_detail": "Closed Through 02/03",
@@ -536,6 +550,13 @@
       "status": "CLOSED",
       "status_detail": "Closed Through 02/07",
       "region": "West Tennessee",
+      "source": "Action News 5"
+    },
+    {
+      "name": "Remington College",
+      "status": "CLOSED",
+      "status_detail": "Closed Monday",
+      "region": "Other",
       "source": "Action News 5"
     },
     {
