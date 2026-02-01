@@ -1,15 +1,15 @@
 {
   "meta": {
-    "generated_at": "2026-02-01T19:30:49.945448+00:00",
-    "total_closings": 127,
+    "generated_at": "2026-02-01T19:40:48.541282+00:00",
+    "total_closings": 129,
     "by_status": {
-      "CLOSED": 122,
+      "CLOSED": 124,
       "REMOTE": 5
     },
     "by_region": {
-      "Other": 35,
+      "Other": 36,
       "West Tennessee": 37,
-      "Middle Tennessee": 20,
+      "Middle Tennessee": 21,
       "East Tennessee": 35
     },
     "sources": [
@@ -52,6 +52,13 @@
       "status": "CLOSED",
       "status_detail": "Closed Monday",
       "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Crievewood Methodist",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
+      "region": "Other",
       "source": "NewsChannel 5"
     },
     {
@@ -143,6 +150,13 @@
       "status": "CLOSED",
       "status_detail": "CLOSED THROUGH TUESDAY",
       "region": "West Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Pickett",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
+      "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
     {
