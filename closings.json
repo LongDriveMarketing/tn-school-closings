@@ -1,15 +1,15 @@
 {
   "meta": {
-    "generated_at": "2026-02-01T23:40:37.669681+00:00",
-    "total_closings": 211,
+    "generated_at": "2026-02-01T23:50:41.731919+00:00",
+    "total_closings": 212,
     "by_status": {
-      "CLOSED": 194,
+      "CLOSED": 195,
       "REMOTE": 15,
       "DELAYED": 2
     },
     "by_region": {
       "Other": 74,
-      "West Tennessee": 48,
+      "West Tennessee": 49,
       "Middle Tennessee": 45,
       "East Tennessee": 44
     },
@@ -696,6 +696,13 @@
       "name": "Fayette County Public Schools",
       "status": "CLOSED",
       "status_detail": "Closed Through 02/03 - After-school activities canceled",
+      "region": "West Tennessee",
+      "source": "Action News 5"
+    },
+    {
+      "name": "First Assembly Christian School",
+      "status": "CLOSED",
+      "status_detail": "Closed Monday",
       "region": "West Tennessee",
       "source": "Action News 5"
     },
