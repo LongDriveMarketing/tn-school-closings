@@ -1,14 +1,14 @@
 {
   "meta": {
-    "generated_at": "2026-02-01T21:40:47.515219+00:00",
-    "total_closings": 162,
+    "generated_at": "2026-02-01T21:45:28.312854+00:00",
+    "total_closings": 164,
     "by_status": {
-      "CLOSED": 149,
+      "CLOSED": 151,
       "DELAYED": 2,
       "REMOTE": 11
     },
     "by_region": {
-      "Other": 52,
+      "Other": 54,
       "West Tennessee": 41,
       "Middle Tennessee": 30,
       "East Tennessee": 39
@@ -347,6 +347,13 @@
       "status": "REMOTE",
       "status_detail": "Virtual Learning Monday",
       "region": "West Tennessee",
+      "source": "Action News 5"
+    },
+    {
+      "name": "City University Schools",
+      "status": "CLOSED",
+      "status_detail": "Closed Monday",
+      "region": "Other",
       "source": "Action News 5"
     },
     {
@@ -1137,6 +1144,13 @@
       "name": "TN School of Beauty",
       "status": "CLOSED",
       "status_detail": "Closed Sunday",
+      "region": "Other",
+      "source": "WVLT"
+    },
+    {
+      "name": "Tri-State Christian Academy",
+      "status": "CLOSED",
+      "status_detail": "Closed Monday",
       "region": "Other",
       "source": "WVLT"
     },
