@@ -1,14 +1,14 @@
 {
   "meta": {
-    "generated_at": "2026-02-01T13:40:47.206395+00:00",
-    "total_closings": 71,
+    "generated_at": "2026-02-01T13:50:42.776243+00:00",
+    "total_closings": 73,
     "by_status": {
-      "CLOSED": 69,
+      "CLOSED": 71,
       "REMOTE": 2
     },
     "by_region": {
-      "West Tennessee": 34,
-      "Middle Tennessee": 11,
+      "West Tennessee": 35,
+      "Middle Tennessee": 12,
       "Other": 11,
       "East Tennessee": 15
     },
@@ -28,6 +28,13 @@
     },
     {
       "name": "Cheatham",
+      "status": "CLOSED",
+      "status_detail": "Closed Monday",
+      "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Clay",
       "status": "CLOSED",
       "status_detail": "Closed Monday",
       "region": "Middle Tennessee",
@@ -247,6 +254,13 @@
       "name": "Lakeland School System",
       "status": "CLOSED",
       "status_detail": "Closed Through Monday the 2nd - Lakeland Elementary & Lakeland Preparatory School",
+      "region": "West Tennessee",
+      "source": "Action News 5"
+    },
+    {
+      "name": "LeMoyne-Owen College",
+      "status": "CLOSED",
+      "status_detail": "Open Monday",
       "region": "West Tennessee",
       "source": "Action News 5"
     },
