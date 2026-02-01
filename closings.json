@@ -1,17 +1,17 @@
 {
   "meta": {
-    "generated_at": "2026-02-01T20:30:38.132217+00:00",
-    "total_closings": 144,
+    "generated_at": "2026-02-01T20:40:39.879555+00:00",
+    "total_closings": 147,
     "by_status": {
-      "CLOSED": 135,
+      "CLOSED": 138,
       "REMOTE": 8,
       "DELAYED": 1
     },
     "by_region": {
-      "Other": 43,
+      "Other": 45,
       "West Tennessee": 38,
       "Middle Tennessee": 25,
-      "East Tennessee": 38
+      "East Tennessee": 39
     },
     "sources": [
       "NewsChannel 5",
@@ -413,6 +413,13 @@
       "source": "Action News 5"
     },
     {
+      "name": "Holly Springs School District",
+      "status": "CLOSED",
+      "status_detail": "Closed Through 02/03",
+      "region": "Other",
+      "source": "Action News 5"
+    },
+    {
       "name": "Holy Family School",
       "status": "REMOTE",
       "status_detail": "Virtual Learning Through 02/04",
@@ -634,6 +641,13 @@
       "status": "CLOSED",
       "status_detail": "Closed Monday 02/02",
       "region": "East Tennessee",
+      "source": "WVLT"
+    },
+    {
+      "name": "Carson Newman University",
+      "status": "CLOSED",
+      "status_detail": "Closed Monday",
+      "region": "Other",
       "source": "WVLT"
     },
     {
@@ -1019,6 +1033,13 @@
       "status": "CLOSED",
       "status_detail": "Closed Sunday",
       "region": "Other",
+      "source": "WVLT"
+    },
+    {
+      "name": "Union County Schools",
+      "status": "CLOSED",
+      "status_detail": "Closed Monday",
+      "region": "East Tennessee",
       "source": "WVLT"
     },
     {
