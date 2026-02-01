@@ -1,13 +1,13 @@
 {
   "meta": {
-    "generated_at": "2026-02-01T02:10:45.988717+00:00",
-    "total_closings": 62,
+    "generated_at": "2026-02-01T02:20:43.166830+00:00",
+    "total_closings": 63,
     "by_status": {
-      "CLOSED": 60,
+      "CLOSED": 61,
       "REMOTE": 2
     },
     "by_region": {
-      "Middle Tennessee": 8,
+      "Middle Tennessee": 9,
       "Other": 11,
       "West Tennessee": 29,
       "East Tennessee": 14
@@ -65,6 +65,13 @@
       "name": "Robertson",
       "status": "CLOSED",
       "status_detail": "CLOSED",
+      "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Smith",
+      "status": "CLOSED",
+      "status_detail": "Closed Monday",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
