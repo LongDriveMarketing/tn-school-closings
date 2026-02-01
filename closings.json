@@ -1,15 +1,15 @@
 {
   "meta": {
-    "generated_at": "2026-02-01T17:20:42.584662+00:00",
-    "total_closings": 97,
+    "generated_at": "2026-02-01T17:30:48.341769+00:00",
+    "total_closings": 99,
     "by_status": {
-      "CLOSED": 95,
+      "CLOSED": 97,
       "REMOTE": 2
     },
     "by_region": {
       "West Tennessee": 37,
-      "Other": 22,
-      "Middle Tennessee": 13,
+      "Other": 23,
+      "Middle Tennessee": 14,
       "East Tennessee": 25
     },
     "sources": [
@@ -58,6 +58,13 @@
       "name": "Dickson",
       "status": "CLOSED",
       "status_detail": "CLOSED MONDAY",
+      "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "First Baptist-Dickson",
+      "status": "CLOSED",
+      "status_detail": "First Baptist Dickson Daycare - Closed Monday & Tuesday",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
@@ -360,6 +367,13 @@
       "status": "CLOSED",
       "status_detail": "Closed Through 02/03",
       "region": "West Tennessee",
+      "source": "Action News 5"
+    },
+    {
+      "name": "St. Agnes Academy-St. Dominic School",
+      "status": "CLOSED",
+      "status_detail": "Closed Monday",
+      "region": "Other",
       "source": "Action News 5"
     },
     {
