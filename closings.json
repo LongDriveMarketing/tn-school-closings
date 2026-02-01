@@ -1,16 +1,16 @@
 {
   "meta": {
-    "generated_at": "2026-02-01T19:40:48.541282+00:00",
-    "total_closings": 129,
+    "generated_at": "2026-02-01T19:50:35.164246+00:00",
+    "total_closings": 130,
     "by_status": {
       "CLOSED": 124,
-      "REMOTE": 5
+      "REMOTE": 6
     },
     "by_region": {
       "Other": 36,
       "West Tennessee": 37,
       "Middle Tennessee": 21,
-      "East Tennessee": 35
+      "East Tennessee": 36
     },
     "sources": [
       "NewsChannel 5",
@@ -779,6 +779,13 @@
       "name": "Maryville City Schools",
       "status": "CLOSED",
       "status_detail": "Closed Monday",
+      "region": "East Tennessee",
+      "source": "WVLT"
+    },
+    {
+      "name": "Maryville College",
+      "status": "REMOTE",
+      "status_detail": "Virtual Learning Monday",
       "region": "East Tennessee",
       "source": "WVLT"
     },
