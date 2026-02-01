@@ -1,14 +1,14 @@
 {
   "meta": {
-    "generated_at": "2026-02-01T18:30:45.477899+00:00",
-    "total_closings": 110,
+    "generated_at": "2026-02-01T18:40:43.615300+00:00",
+    "total_closings": 111,
     "by_status": {
-      "CLOSED": 105,
+      "CLOSED": 106,
       "REMOTE": 5
     },
     "by_region": {
       "West Tennessee": 37,
-      "Other": 29,
+      "Other": 30,
       "Middle Tennessee": 16,
       "East Tennessee": 28
     },
@@ -675,6 +675,13 @@
       "status": "CLOSED",
       "status_detail": "Closed Monday",
       "region": "East Tennessee",
+      "source": "WVLT"
+    },
+    {
+      "name": "Middlesboro Independent",
+      "status": "CLOSED",
+      "status_detail": "Closed Monday",
+      "region": "Other",
       "source": "WVLT"
     },
     {
