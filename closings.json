@@ -1,16 +1,16 @@
 {
   "meta": {
-    "generated_at": "2026-02-01T22:00:46.810691+00:00",
-    "total_closings": 168,
+    "generated_at": "2026-02-01T22:10:44.020408+00:00",
+    "total_closings": 170,
     "by_status": {
-      "CLOSED": 155,
+      "CLOSED": 157,
       "DELAYED": 2,
       "REMOTE": 11
     },
     "by_region": {
       "Other": 56,
-      "West Tennessee": 41,
-      "Middle Tennessee": 31,
+      "West Tennessee": 42,
+      "Middle Tennessee": 32,
       "East Tennessee": 40
     },
     "sources": [
@@ -141,6 +141,13 @@
     },
     {
       "name": "Jackson",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
+      "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Lawrence",
       "status": "CLOSED",
       "status_detail": "CLOSED",
       "region": "Middle Tennessee",
@@ -710,6 +717,13 @@
       "name": "University of Mississippi",
       "status": "CLOSED",
       "status_detail": "Closed Through Sunday 2/8",
+      "region": "West Tennessee",
+      "source": "Action News 5"
+    },
+    {
+      "name": "West Memphis School District",
+      "status": "CLOSED",
+      "status_detail": "Closed Monday",
       "region": "West Tennessee",
       "source": "Action News 5"
     },
