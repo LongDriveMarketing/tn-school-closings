@@ -1,17 +1,17 @@
 {
   "meta": {
-    "generated_at": "2026-02-01T23:00:45.187946+00:00",
-    "total_closings": 189,
+    "generated_at": "2026-02-01T23:10:39.667231+00:00",
+    "total_closings": 196,
     "by_status": {
-      "CLOSED": 175,
+      "CLOSED": 182,
       "DELAYED": 2,
       "REMOTE": 12
     },
     "by_region": {
-      "Other": 65,
+      "Other": 66,
       "West Tennessee": 44,
-      "Middle Tennessee": 40,
-      "East Tennessee": 40
+      "Middle Tennessee": 42,
+      "East Tennessee": 44
     },
     "sources": [
       "NewsChannel 5",
@@ -32,6 +32,13 @@
       "status": "CLOSED",
       "status_detail": "Closed Monday and Tuesday",
       "region": "West Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Cannon",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
+      "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
     {
@@ -70,10 +77,31 @@
       "source": "NewsChannel 5"
     },
     {
+      "name": "Clinton",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
+      "region": "East Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
       "name": "Crievewood Methodist",
       "status": "CLOSED",
       "status_detail": "CLOSED",
       "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Cumberland Co., KY",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
+      "region": "East Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Cumberland Co., TN",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
+      "region": "East Tennessee",
       "source": "NewsChannel 5"
     },
     {
@@ -238,10 +266,31 @@
       "source": "NewsChannel 5"
     },
     {
+      "name": "Metcalfe",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
+      "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Monroe",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
+      "region": "East Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
       "name": "Muhlenberg",
       "status": "CLOSED",
       "status_detail": "NTI #7",
       "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Overton",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
+      "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
     {
