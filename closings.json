@@ -1,15 +1,15 @@
 {
   "meta": {
-    "generated_at": "2026-02-01T19:10:41.721690+00:00",
-    "total_closings": 123,
+    "generated_at": "2026-02-01T19:20:43.444679+00:00",
+    "total_closings": 127,
     "by_status": {
-      "CLOSED": 118,
+      "CLOSED": 122,
       "REMOTE": 5
     },
     "by_region": {
-      "Other": 33,
+      "Other": 35,
       "West Tennessee": 37,
-      "Middle Tennessee": 18,
+      "Middle Tennessee": 20,
       "East Tennessee": 35
     },
     "sources": [
@@ -83,6 +83,13 @@
       "source": "NewsChannel 5"
     },
     {
+      "name": "Grundy",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
+      "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
       "name": "Hickman",
       "status": "CLOSED",
       "status_detail": "CLOSED",
@@ -104,6 +111,13 @@
       "source": "NewsChannel 5"
     },
     {
+      "name": "Lead Acad.-Goodlettsville",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
+      "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
       "name": "Lewis",
       "status": "CLOSED",
       "status_detail": "Closed Monday extended care closed also",
@@ -115,6 +129,13 @@
       "status": "CLOSED",
       "status_detail": "Closed Monday",
       "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Muhlenberg",
+      "status": "CLOSED",
+      "status_detail": "NTI #7",
+      "region": "Other",
       "source": "NewsChannel 5"
     },
     {
@@ -157,6 +178,13 @@
       "status": "CLOSED",
       "status_detail": "CLOSED",
       "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Todd",
+      "status": "CLOSED",
+      "status_detail": "CLOSED; Closed  NTI Day 6",
+      "region": "Other",
       "source": "NewsChannel 5"
     },
     {
