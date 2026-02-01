@@ -1,16 +1,16 @@
 {
   "meta": {
-    "generated_at": "2026-02-01T18:40:43.615300+00:00",
-    "total_closings": 111,
+    "generated_at": "2026-02-01T18:50:44.221295+00:00",
+    "total_closings": 113,
     "by_status": {
-      "CLOSED": 106,
+      "CLOSED": 108,
       "REMOTE": 5
     },
     "by_region": {
       "West Tennessee": 37,
       "Other": 30,
       "Middle Tennessee": 16,
-      "East Tennessee": 28
+      "East Tennessee": 30
     },
     "sources": [
       "NewsChannel 5",
@@ -475,6 +475,13 @@
       "source": "WVLT"
     },
     {
+      "name": "Bell County",
+      "status": "CLOSED",
+      "status_detail": "Closed Monday - NIT Day",
+      "region": "East Tennessee",
+      "source": "WVLT"
+    },
+    {
       "name": "Blount County Schools",
       "status": "CLOSED",
       "status_detail": "Closed Monday 02/02",
@@ -672,6 +679,13 @@
     },
     {
       "name": "Maryville City Schools",
+      "status": "CLOSED",
+      "status_detail": "Closed Monday",
+      "region": "East Tennessee",
+      "source": "WVLT"
+    },
+    {
+      "name": "McMinn County Schools",
       "status": "CLOSED",
       "status_detail": "Closed Monday",
       "region": "East Tennessee",
