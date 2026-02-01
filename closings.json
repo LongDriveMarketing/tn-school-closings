@@ -1,16 +1,17 @@
 {
   "meta": {
-    "generated_at": "2026-02-01T20:20:41.752385+00:00",
-    "total_closings": 137,
+    "generated_at": "2026-02-01T20:30:38.132217+00:00",
+    "total_closings": 144,
     "by_status": {
-      "CLOSED": 129,
-      "REMOTE": 8
+      "CLOSED": 135,
+      "REMOTE": 8,
+      "DELAYED": 1
     },
     "by_region": {
-      "Other": 40,
-      "West Tennessee": 37,
-      "Middle Tennessee": 24,
-      "East Tennessee": 36
+      "Other": 43,
+      "West Tennessee": 38,
+      "Middle Tennessee": 25,
+      "East Tennessee": 38
     },
     "sources": [
       "NewsChannel 5",
@@ -230,6 +231,13 @@
       "source": "NewsChannel 5"
     },
     {
+      "name": "Trousdale",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
+      "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
       "name": "Warren Co., KY",
       "status": "CLOSED",
       "status_detail": "NTI Day",
@@ -255,6 +263,13 @@
       "status": "CLOSED",
       "status_detail": "Closed Through 02/03",
       "region": "West Tennessee",
+      "source": "Action News 5"
+    },
+    {
+      "name": "Arkansas State University Mid-South",
+      "status": "CLOSED",
+      "status_detail": "Closed Monday - Students check Canvas for updates.",
+      "region": "Other",
       "source": "Action News 5"
     },
     {
@@ -308,6 +323,13 @@
     },
     {
       "name": "Delta Technical College",
+      "status": "CLOSED",
+      "status_detail": "Closed Monday",
+      "region": "Other",
+      "source": "Action News 5"
+    },
+    {
+      "name": "DeSoto County Schools",
       "status": "CLOSED",
       "status_detail": "Closed Monday",
       "region": "Other",
@@ -489,6 +511,13 @@
       "source": "Action News 5"
     },
     {
+      "name": "New Hope Christian Academy",
+      "status": "CLOSED",
+      "status_detail": "Closed Monday",
+      "region": "West Tennessee",
+      "source": "Action News 5"
+    },
+    {
       "name": "Northpoint Christian School",
       "status": "REMOTE",
       "status_detail": "Virtual Learning Monday",
@@ -636,6 +665,13 @@
       "source": "WVLT"
     },
     {
+      "name": "Cleveland St. All Sites",
+      "status": "CLOSED",
+      "status_detail": "Closed Monday",
+      "region": "East Tennessee",
+      "source": "WVLT"
+    },
+    {
       "name": "Clinton City Schools",
       "status": "CLOSED",
       "status_detail": "Closed Monday 02/02",
@@ -772,6 +808,13 @@
       "name": "Knoxville Preparatory School",
       "status": "CLOSED",
       "status_detail": "Closed Monday 02/02 - KPS cerrado lun 2 feb | KPS imefungwa 2 Feb",
+      "region": "East Tennessee",
+      "source": "WVLT"
+    },
+    {
+      "name": "Knoxville-Knox County CAC",
+      "status": "DELAYED",
+      "status_detail": "Delayed Monday 2 Hours",
       "region": "East Tennessee",
       "source": "WVLT"
     },
@@ -954,6 +997,13 @@
       "name": "Tate's School",
       "status": "CLOSED",
       "status_detail": "Closed Monday",
+      "region": "Other",
+      "source": "WVLT"
+    },
+    {
+      "name": "Tennessee Wesleyan University",
+      "status": "CLOSED",
+      "status_detail": "Closed Monday 02/02",
       "region": "Other",
       "source": "WVLT"
     },
