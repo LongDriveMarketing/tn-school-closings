@@ -1,14 +1,14 @@
 {
   "meta": {
-    "generated_at": "2026-02-01T22:30:43.983808+00:00",
-    "total_closings": 173,
+    "generated_at": "2026-02-01T22:40:49.811756+00:00",
+    "total_closings": 175,
     "by_status": {
-      "CLOSED": 160,
+      "CLOSED": 161,
       "DELAYED": 2,
-      "REMOTE": 11
+      "REMOTE": 12
     },
     "by_region": {
-      "Other": 58,
+      "Other": 60,
       "West Tennessee": 42,
       "Middle Tennessee": 33,
       "East Tennessee": 40
@@ -163,7 +163,7 @@
     {
       "name": "Lewis",
       "status": "CLOSED",
-      "status_detail": "Closed Monday - Extended Care Closed",
+      "status_detail": "Closed Monday and Tuesday.Extended Care Closed",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
@@ -758,7 +758,7 @@
     {
       "name": "Word of Faith Christian Academy",
       "status": "CLOSED",
-      "status_detail": "Closed Through the 29th",
+      "status_detail": "Closed Monday",
       "region": "Other",
       "source": "Action News 5"
     },
@@ -774,6 +774,13 @@
       "status": "CLOSED",
       "status_detail": "Closed Monday 02/02",
       "region": "East Tennessee",
+      "source": "WVLT"
+    },
+    {
+      "name": "Annoor Academy",
+      "status": "CLOSED",
+      "status_detail": "Closed Monday",
+      "region": "Other",
       "source": "WVLT"
     },
     {
@@ -1214,6 +1221,13 @@
       "name": "Tri-State Christian Academy",
       "status": "CLOSED",
       "status_detail": "Closed Monday",
+      "region": "Other",
+      "source": "WVLT"
+    },
+    {
+      "name": "Tusculum University",
+      "status": "REMOTE",
+      "status_detail": "Virtual Learning Monday - Employees work remotely.",
       "region": "Other",
       "source": "WVLT"
     },
