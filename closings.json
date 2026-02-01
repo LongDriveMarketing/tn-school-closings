@@ -1,16 +1,16 @@
 {
   "meta": {
-    "generated_at": "2026-02-01T22:40:49.811756+00:00",
-    "total_closings": 175,
+    "generated_at": "2026-02-01T22:50:45.443565+00:00",
+    "total_closings": 181,
     "by_status": {
-      "CLOSED": 161,
+      "CLOSED": 167,
       "DELAYED": 2,
       "REMOTE": 12
     },
     "by_region": {
-      "Other": 60,
+      "Other": 62,
       "West Tennessee": 42,
-      "Middle Tennessee": 33,
+      "Middle Tennessee": 37,
       "East Tennessee": 40
     },
     "sources": [
@@ -45,6 +45,20 @@
       "name": "Cheatham",
       "status": "CLOSED",
       "status_detail": "Closed Monday",
+      "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Christian",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
+      "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Clarksville-Montgomery Co. Schools",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
@@ -133,6 +147,13 @@
       "source": "NewsChannel 5"
     },
     {
+      "name": "Houston",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
+      "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
       "name": "Humphreys",
       "status": "CLOSED",
       "status_detail": "Closed Monday and Tuesday",
@@ -165,6 +186,13 @@
       "status": "CLOSED",
       "status_detail": "Closed Monday and Tuesday.Extended Care Closed",
       "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Logan",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
+      "region": "Other",
       "source": "NewsChannel 5"
     },
     {
@@ -329,6 +357,13 @@
       "source": "NewsChannel 5"
     },
     {
+      "name": "Wilson",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
+      "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
       "name": "Alamo City Schools",
       "status": "CLOSED",
       "status_detail": "Closed Through 02/03",
@@ -438,6 +473,13 @@
       "status": "CLOSED",
       "status_detail": "Closed Through Monday the 2nd",
       "region": "West Tennessee",
+      "source": "Action News 5"
+    },
+    {
+      "name": "East Arkansas Community College",
+      "status": "CLOSED",
+      "status_detail": "Closed Monday",
+      "region": "Other",
       "source": "Action News 5"
     },
     {
