@@ -1,14 +1,14 @@
 {
   "meta": {
-    "generated_at": "2026-02-01T21:45:28.312854+00:00",
-    "total_closings": 164,
+    "generated_at": "2026-02-01T21:50:43.757754+00:00",
+    "total_closings": 165,
     "by_status": {
-      "CLOSED": 151,
+      "CLOSED": 152,
       "DELAYED": 2,
       "REMOTE": 11
     },
     "by_region": {
-      "Other": 54,
+      "Other": 55,
       "West Tennessee": 41,
       "Middle Tennessee": 30,
       "East Tennessee": 39
@@ -388,6 +388,13 @@
       "name": "Delta Technical College",
       "status": "CLOSED",
       "status_detail": "Closed Monday",
+      "region": "Other",
+      "source": "Action News 5"
+    },
+    {
+      "name": "Desoto Christian Academy",
+      "status": "CLOSED",
+      "status_detail": "Closed Through 02/03",
       "region": "Other",
       "source": "Action News 5"
     },
