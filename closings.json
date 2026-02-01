@@ -1,16 +1,16 @@
 {
   "meta": {
-    "generated_at": "2026-02-01T16:59:09.260595+00:00",
-    "total_closings": 89,
+    "generated_at": "2026-02-01T17:01:00.498641+00:00",
+    "total_closings": 91,
     "by_status": {
-      "CLOSED": 87,
-      "REMOTE": 2
+      "CLOSED": 90,
+      "REMOTE": 1
     },
     "by_region": {
       "West Tennessee": 35,
-      "Other": 18,
+      "Other": 19,
       "Middle Tennessee": 13,
-      "East Tennessee": 23
+      "East Tennessee": 24
     },
     "sources": [
       "NewsChannel 5",
@@ -377,17 +377,17 @@
       "source": "Action News 5"
     },
     {
+      "name": "Tunica County School District",
+      "status": "CLOSED",
+      "status_detail": "Closed Monday",
+      "region": "Other",
+      "source": "Action News 5"
+    },
+    {
       "name": "University of Mississippi",
       "status": "CLOSED",
       "status_detail": "Closed Through Sunday 2/8",
       "region": "West Tennessee",
-      "source": "Action News 5"
-    },
-    {
-      "name": "University of Tennessee Health Science Center",
-      "status": "REMOTE",
-      "status_detail": "Virtual Learning Through 02/01 - Employees who can will continue to work remotely.",
-      "region": "Other",
       "source": "Action News 5"
     },
     {
@@ -622,6 +622,13 @@
       "source": "WVLT"
     },
     {
+      "name": "St. Joseph School-Knox",
+      "status": "CLOSED",
+      "status_detail": "Closed Monday",
+      "region": "East Tennessee",
+      "source": "WVLT"
+    },
+    {
       "name": "Sweetwater City",
       "status": "CLOSED",
       "status_detail": "Closed Monday 02/02",
@@ -639,6 +646,13 @@
       "name": "TN School for the Deaf",
       "status": "CLOSED",
       "status_detail": "Closed Monday 02/02",
+      "region": "Other",
+      "source": "WVLT"
+    },
+    {
+      "name": "TN School of Beauty",
+      "status": "CLOSED",
+      "status_detail": "Closed Sunday",
       "region": "Other",
       "source": "WVLT"
     }
