@@ -1,16 +1,16 @@
 {
   "meta": {
-    "generated_at": "2026-02-01T22:10:44.020408+00:00",
-    "total_closings": 170,
+    "generated_at": "2026-02-01T22:20:40.996009+00:00",
+    "total_closings": 173,
     "by_status": {
-      "CLOSED": 157,
+      "CLOSED": 160,
       "DELAYED": 2,
       "REMOTE": 11
     },
     "by_region": {
-      "Other": 56,
+      "Other": 58,
       "West Tennessee": 42,
-      "Middle Tennessee": 32,
+      "Middle Tennessee": 33,
       "East Tennessee": 40
     },
     "sources": [
@@ -207,6 +207,13 @@
       "status": "CLOSED",
       "status_detail": "CLOSED",
       "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Putnam",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
+      "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
     {
@@ -630,6 +637,13 @@
       "source": "Action News 5"
     },
     {
+      "name": "North Panola School District",
+      "status": "CLOSED",
+      "status_detail": "Closed Through 02/04",
+      "region": "Other",
+      "source": "Action News 5"
+    },
+    {
       "name": "Northpoint Christian School",
       "status": "REMOTE",
       "status_detail": "Virtual Learning Monday",
@@ -675,6 +689,13 @@
       "name": "St. Georges Independent School",
       "status": "REMOTE",
       "status_detail": "Virtual Learning Monday - Check email for details",
+      "region": "Other",
+      "source": "Action News 5"
+    },
+    {
+      "name": "St. Mary's Episcopal School",
+      "status": "CLOSED",
+      "status_detail": "Closed Monday",
       "region": "Other",
       "source": "Action News 5"
     },
