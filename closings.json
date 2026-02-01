@@ -1,16 +1,16 @@
 {
   "meta": {
-    "generated_at": "2026-02-01T21:10:45.818741+00:00",
-    "total_closings": 151,
+    "generated_at": "2026-02-01T21:21:30.727367+00:00",
+    "total_closings": 155,
     "by_status": {
-      "CLOSED": 141,
+      "CLOSED": 145,
       "REMOTE": 9,
       "DELAYED": 1
     },
     "by_region": {
       "Other": 47,
-      "West Tennessee": 39,
-      "Middle Tennessee": 26,
+      "West Tennessee": 40,
+      "Middle Tennessee": 29,
       "East Tennessee": 39
     },
     "sources": [
@@ -63,6 +63,20 @@
       "source": "NewsChannel 5"
     },
     {
+      "name": "Davidson Academy",
+      "status": "CLOSED",
+      "status_detail": "CLOSED MONDAY - PRESCHOOL AND EXTENDED CARE OPEN",
+      "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Davidson Metro Nashville",
+      "status": "CLOSED",
+      "status_detail": "CLOSED, ALL AFTER SCHOOL ACTIVITES CANCELLED",
+      "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
       "name": "Dayspring Academy",
       "status": "CLOSED",
       "status_detail": "Closed Monday",
@@ -80,6 +94,13 @@
       "name": "Dickson",
       "status": "CLOSED",
       "status_detail": "CLOSED MONDAY",
+      "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Fentress",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
@@ -585,6 +606,13 @@
       "status": "CLOSED",
       "status_detail": "Closed Monday",
       "region": "Other",
+      "source": "Action News 5"
+    },
+    {
+      "name": "STAR Academy Charter School",
+      "status": "CLOSED",
+      "status_detail": "Closed Monday 02/02",
+      "region": "West Tennessee",
       "source": "Action News 5"
     },
     {
