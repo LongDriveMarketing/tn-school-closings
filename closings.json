@@ -1,16 +1,16 @@
 {
   "meta": {
-    "generated_at": "2026-02-01T21:30:46.498788+00:00",
-    "total_closings": 157,
+    "generated_at": "2026-02-01T21:40:47.515219+00:00",
+    "total_closings": 162,
     "by_status": {
-      "CLOSED": 147,
-      "REMOTE": 9,
-      "DELAYED": 1
+      "CLOSED": 149,
+      "DELAYED": 2,
+      "REMOTE": 11
     },
     "by_region": {
-      "Other": 48,
+      "Other": 52,
       "West Tennessee": 41,
-      "Middle Tennessee": 29,
+      "Middle Tennessee": 30,
       "East Tennessee": 39
     },
     "sources": [
@@ -231,6 +231,13 @@
       "source": "NewsChannel 5"
     },
     {
+      "name": "St. Matthew School",
+      "status": "DELAYED",
+      "status_detail": "TWO HOURS LATE; NO BUS SERVICE",
+      "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
       "name": "St. Patrick",
       "status": "CLOSED",
       "status_detail": "CLOSED",
@@ -241,6 +248,13 @@
       "name": "Sumner",
       "status": "CLOSED",
       "status_detail": "CLOSED",
+      "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "TCAT Dickson",
+      "status": "REMOTE",
+      "status_detail": "CLOSED - VIRTUAL/REMOTE LEARNING DAY",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
@@ -476,6 +490,13 @@
       "source": "Action News 5"
     },
     {
+      "name": "Hutchison School",
+      "status": "CLOSED",
+      "status_detail": "Closed Monday",
+      "region": "Other",
+      "source": "Action News 5"
+    },
+    {
       "name": "KIPP Memphis Public Schools",
       "status": "CLOSED",
       "status_detail": "Closed Monday 02/02",
@@ -612,6 +633,13 @@
       "name": "St. Agnes Academy-St. Dominic School",
       "status": "CLOSED",
       "status_detail": "Closed Monday",
+      "region": "Other",
+      "source": "Action News 5"
+    },
+    {
+      "name": "St. Georges Independent School",
+      "status": "REMOTE",
+      "status_detail": "Virtual Learning Monday - Check email for details",
       "region": "Other",
       "source": "Action News 5"
     },
@@ -976,6 +1004,13 @@
       "name": "Montessori International School",
       "status": "CLOSED",
       "status_detail": "Closed Monday",
+      "region": "Other",
+      "source": "WVLT"
+    },
+    {
+      "name": "Newport Grammar School",
+      "status": "CLOSED",
+      "status_detail": "Closed Through 02/03",
       "region": "Other",
       "source": "WVLT"
     },
