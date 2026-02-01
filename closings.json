@@ -1,15 +1,15 @@
 {
   "meta": {
-    "generated_at": "2026-02-01T19:50:35.164246+00:00",
-    "total_closings": 130,
+    "generated_at": "2026-02-01T20:00:38.223437+00:00",
+    "total_closings": 134,
     "by_status": {
-      "CLOSED": 124,
-      "REMOTE": 6
+      "CLOSED": 127,
+      "REMOTE": 7
     },
     "by_region": {
-      "Other": 36,
+      "Other": 37,
       "West Tennessee": 37,
-      "Middle Tennessee": 21,
+      "Middle Tennessee": 24,
       "East Tennessee": 36
     },
     "sources": [
@@ -90,6 +90,13 @@
       "source": "NewsChannel 5"
     },
     {
+      "name": "Giles",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
+      "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
       "name": "Grundy",
       "status": "CLOSED",
       "status_detail": "CLOSED",
@@ -135,6 +142,13 @@
       "name": "Macon",
       "status": "CLOSED",
       "status_detail": "Closed Monday",
+      "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Maury",
+      "status": "CLOSED",
+      "status_detail": "CLOSED-STAFF REPORTS",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
@@ -210,6 +224,13 @@
     },
     {
       "name": "Warren Co., TN",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
+      "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "White",
       "status": "CLOSED",
       "status_detail": "CLOSED",
       "region": "Middle Tennessee",
@@ -353,6 +374,13 @@
       "status": "CLOSED",
       "status_detail": "Closed Through 02/03",
       "region": "West Tennessee",
+      "source": "Action News 5"
+    },
+    {
+      "name": "Holy Family School",
+      "status": "REMOTE",
+      "status_detail": "Virtual Learning Through 02/04",
+      "region": "Other",
       "source": "Action News 5"
     },
     {
