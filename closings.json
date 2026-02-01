@@ -1,16 +1,16 @@
 {
   "meta": {
-    "generated_at": "2026-02-01T16:10:41.857214+00:00",
-    "total_closings": 84,
+    "generated_at": "2026-02-01T16:20:39.495750+00:00",
+    "total_closings": 86,
     "by_status": {
-      "CLOSED": 82,
+      "CLOSED": 84,
       "REMOTE": 2
     },
     "by_region": {
       "West Tennessee": 35,
-      "Other": 15,
+      "Other": 16,
       "Middle Tennessee": 13,
-      "East Tennessee": 21
+      "East Tennessee": 22
     },
     "sources": [
       "NewsChannel 5",
@@ -398,6 +398,13 @@
       "source": "Action News 5"
     },
     {
+      "name": "Alcoa Schools",
+      "status": "CLOSED",
+      "status_detail": "Closed Monday",
+      "region": "Other",
+      "source": "WVLT"
+    },
+    {
       "name": "Anderson County Schools",
       "status": "CLOSED",
       "status_detail": "Closed Monday 02/02",
@@ -534,6 +541,13 @@
       "name": "Maryville Christian",
       "status": "CLOSED",
       "status_detail": "Closed Monday 02/02",
+      "region": "East Tennessee",
+      "source": "WVLT"
+    },
+    {
+      "name": "Maryville City Schools",
+      "status": "CLOSED",
+      "status_detail": "Closed Monday",
       "region": "East Tennessee",
       "source": "WVLT"
     },
