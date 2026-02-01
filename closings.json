@@ -1,17 +1,17 @@
 {
   "meta": {
-    "generated_at": "2026-02-01T21:50:43.757754+00:00",
-    "total_closings": 165,
+    "generated_at": "2026-02-01T22:00:46.810691+00:00",
+    "total_closings": 168,
     "by_status": {
-      "CLOSED": 152,
+      "CLOSED": 155,
       "DELAYED": 2,
       "REMOTE": 11
     },
     "by_region": {
-      "Other": 55,
+      "Other": 56,
       "West Tennessee": 41,
-      "Middle Tennessee": 30,
-      "East Tennessee": 39
+      "Middle Tennessee": 31,
+      "East Tennessee": 40
     },
     "sources": [
       "NewsChannel 5",
@@ -308,6 +308,13 @@
       "source": "NewsChannel 5"
     },
     {
+      "name": "Williamson",
+      "status": "CLOSED",
+      "status_detail": "Closed Monday, February 2",
+      "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
       "name": "Alamo City Schools",
       "status": "CLOSED",
       "status_detail": "Closed Through 02/03",
@@ -543,6 +550,13 @@
       "status": "CLOSED",
       "status_detail": "Closed Monday 02/02",
       "region": "West Tennessee",
+      "source": "Action News 5"
+    },
+    {
+      "name": "Maria Montessori School",
+      "status": "CLOSED",
+      "status_detail": "Closed Monday",
+      "region": "Other",
       "source": "Action News 5"
     },
     {
@@ -934,6 +948,13 @@
       "name": "Knoxville Preparatory School",
       "status": "CLOSED",
       "status_detail": "Closed Monday 02/02 - KPS cerrado lun 2 feb | KPS imefungwa 2 Feb",
+      "region": "East Tennessee",
+      "source": "WVLT"
+    },
+    {
+      "name": "Knoxville Scottish Rite",
+      "status": "CLOSED",
+      "status_detail": "Closed Monday",
       "region": "East Tennessee",
       "source": "WVLT"
     },
