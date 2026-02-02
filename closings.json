@@ -1,9 +1,9 @@
 {
   "meta": {
-    "generated_at": "2026-02-02T01:00:46.116845+00:00",
-    "total_closings": 218,
+    "generated_at": "2026-02-02T01:10:42.920926+00:00",
+    "total_closings": 219,
     "by_status": {
-      "CLOSED": 197,
+      "CLOSED": 198,
       "REMOTE": 19,
       "DELAYED": 2
     },
@@ -11,7 +11,7 @@
       "Other": 79,
       "West Tennessee": 50,
       "Middle Tennessee": 45,
-      "East Tennessee": 44
+      "East Tennessee": 45
     },
     "sources": [
       "NewsChannel 5",
@@ -1275,6 +1275,13 @@
     },
     {
       "name": "Knoxville Head Start Extended Day",
+      "status": "CLOSED",
+      "status_detail": "Closed Monday",
+      "region": "East Tennessee",
+      "source": "WVLT"
+    },
+    {
+      "name": "Knoxville Montessori School",
       "status": "CLOSED",
       "status_detail": "Closed Monday",
       "region": "East Tennessee",
