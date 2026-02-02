@@ -1,14 +1,14 @@
 {
   "meta": {
-    "generated_at": "2026-02-02T08:30:37.012101+00:00",
-    "total_closings": 226,
+    "generated_at": "2026-02-02T08:40:47.354186+00:00",
+    "total_closings": 227,
     "by_status": {
-      "CLOSED": 205,
+      "CLOSED": 206,
       "REMOTE": 19,
       "DELAYED": 2
     },
     "by_region": {
-      "Other": 84,
+      "Other": 85,
       "West Tennessee": 51,
       "Middle Tennessee": 46,
       "East Tennessee": 45
@@ -361,6 +361,13 @@
       "status": "REMOTE",
       "status_detail": "CLOSED - VIRTUAL/REMOTE LEARNING DAY; Operations & Classes are virtual",
       "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "New Horizons",
+      "status": "CLOSED",
+      "status_detail": "CLOSED; NO WATER",
+      "region": "Other",
       "source": "NewsChannel 5"
     },
     {
