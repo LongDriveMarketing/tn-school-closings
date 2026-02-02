@@ -1,16 +1,16 @@
 {
   "meta": {
-    "generated_at": "2026-02-02T18:32:50.310724+00:00",
-    "total_closings": 57,
+    "generated_at": "2026-02-02T18:45:43.116630+00:00",
+    "total_closings": 62,
     "by_status": {
-      "CLOSED": 46,
-      "REMOTE": 11
+      "CLOSED": 50,
+      "REMOTE": 12
     },
     "by_region": {
-      "West Tennessee": 16,
+      "West Tennessee": 17,
       "Other": 12,
-      "Middle Tennessee": 13,
-      "East Tennessee": 16
+      "Middle Tennessee": 16,
+      "East Tennessee": 17
     },
     "sources": [
       "NewsChannel 5",
@@ -90,6 +90,13 @@
       "source": "NewsChannel 5"
     },
     {
+      "name": "Overton",
+      "status": "CLOSED",
+      "status_detail": "Tuesday",
+      "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
       "name": "Paris Special School District",
       "status": "CLOSED",
       "status_detail": "CLOSED",
@@ -114,6 +121,13 @@
       "name": "Stewart",
       "status": "CLOSED",
       "status_detail": "CLOSED",
+      "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "St. Patrick",
+      "status": "REMOTE",
+      "status_detail": "Distance Learning Tuesday & Wednesday",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
@@ -171,6 +185,13 @@
       "status": "CLOSED",
       "status_detail": "Closed Through 02/03",
       "region": "Other",
+      "source": "Action News 5"
+    },
+    {
+      "name": "Fayette Academy",
+      "status": "CLOSED",
+      "status_detail": "Closed Tuesday",
+      "region": "West Tennessee",
       "source": "Action News 5"
     },
     {
@@ -300,6 +321,13 @@
       "source": "WVLT"
     },
     {
+      "name": "Clinton City Schools",
+      "status": "CLOSED",
+      "status_detail": "Closed Tuesday",
+      "region": "East Tennessee",
+      "source": "WVLT"
+    },
+    {
       "name": "Cocke County Schools",
       "status": "CLOSED",
       "status_detail": "Closed Through 02/03",
@@ -374,6 +402,13 @@
       "status": "CLOSED",
       "status_detail": "Closed Through 02/03",
       "region": "Other",
+      "source": "WVLT"
+    },
+    {
+      "name": "Overton County Schools",
+      "status": "CLOSED",
+      "status_detail": "Closed Tuesday",
+      "region": "Middle Tennessee",
       "source": "WVLT"
     },
     {
