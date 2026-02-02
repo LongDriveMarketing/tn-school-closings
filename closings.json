@@ -1,14 +1,14 @@
 {
   "meta": {
-    "generated_at": "2026-02-02T01:30:41.484878+00:00",
-    "total_closings": 219,
+    "generated_at": "2026-02-02T01:40:39.752130+00:00",
+    "total_closings": 221,
     "by_status": {
-      "CLOSED": 198,
+      "CLOSED": 200,
       "REMOTE": 19,
       "DELAYED": 2
     },
     "by_region": {
-      "Other": 79,
+      "Other": 81,
       "West Tennessee": 50,
       "Middle Tennessee": 45,
       "East Tennessee": 45
@@ -648,6 +648,13 @@
       "status": "CLOSED",
       "status_detail": "Closed Monday 02/02",
       "region": "West Tennessee",
+      "source": "Action News 5"
+    },
+    {
+      "name": "Creative Life Preparatory School",
+      "status": "CLOSED",
+      "status_detail": "Closed Monday - Creative Life Prep/Afterschool/CLECT Daycare",
+      "region": "Other",
       "source": "Action News 5"
     },
     {
@@ -1548,6 +1555,13 @@
     },
     {
       "name": "Webb School",
+      "status": "CLOSED",
+      "status_detail": "Closed Monday",
+      "region": "Other",
+      "source": "WVLT"
+    },
+    {
+      "name": "Wesley House Community Center",
       "status": "CLOSED",
       "status_detail": "Closed Monday",
       "region": "Other",
