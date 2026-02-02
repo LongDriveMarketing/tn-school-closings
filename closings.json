@@ -1,15 +1,15 @@
 {
   "meta": {
-    "generated_at": "2026-02-02T05:20:37.418762+00:00",
-    "total_closings": 225,
+    "generated_at": "2026-02-02T05:30:40.832937+00:00",
+    "total_closings": 226,
     "by_status": {
-      "CLOSED": 204,
+      "CLOSED": 205,
       "REMOTE": 19,
       "DELAYED": 2
     },
     "by_region": {
       "Other": 84,
-      "West Tennessee": 50,
+      "West Tennessee": 51,
       "Middle Tennessee": 46,
       "East Tennessee": 45
     },
@@ -613,6 +613,13 @@
       "status": "CLOSED",
       "status_detail": "Open Monday",
       "region": "Other",
+      "source": "Action News 5"
+    },
+    {
+      "name": "Catholic Diocese of Memphis Schools",
+      "status": "CLOSED",
+      "status_detail": "Closed Monday",
+      "region": "West Tennessee",
       "source": "Action News 5"
     },
     {
