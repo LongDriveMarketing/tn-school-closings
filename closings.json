@@ -1,16 +1,16 @@
 {
   "meta": {
-    "generated_at": "2026-02-02T17:00:45.137957+00:00",
-    "total_closings": 53,
+    "generated_at": "2026-02-02T17:10:43.481113+00:00",
+    "total_closings": 55,
     "by_status": {
-      "CLOSED": 42,
+      "CLOSED": 44,
       "REMOTE": 11
     },
     "by_region": {
       "West Tennessee": 21,
       "Other": 12,
       "Middle Tennessee": 9,
-      "East Tennessee": 11
+      "East Tennessee": 13
     },
     "sources": [
       "NewsChannel 5",
@@ -291,6 +291,20 @@
       "status_detail": "Closed Through Sunday 2/8",
       "region": "West Tennessee",
       "source": "Action News 5"
+    },
+    {
+      "name": "Anderson County Schools",
+      "status": "CLOSED",
+      "status_detail": "Closed Tuesday",
+      "region": "East Tennessee",
+      "source": "WVLT"
+    },
+    {
+      "name": "Bell County",
+      "status": "CLOSED",
+      "status_detail": "Closed Tuesday - NIT Day",
+      "region": "East Tennessee",
+      "source": "WVLT"
     },
     {
       "name": "Blount County Schools",
