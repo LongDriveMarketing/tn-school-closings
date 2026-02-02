@@ -1,14 +1,14 @@
 {
   "meta": {
-    "generated_at": "2026-02-02T00:00:46.031739+00:00",
-    "total_closings": 212,
+    "generated_at": "2026-02-02T00:10:41.378700+00:00",
+    "total_closings": 213,
     "by_status": {
       "CLOSED": 195,
-      "REMOTE": 15,
+      "REMOTE": 16,
       "DELAYED": 2
     },
     "by_region": {
-      "Other": 74,
+      "Other": 75,
       "West Tennessee": 49,
       "Middle Tennessee": 45,
       "East Tennessee": 44
@@ -473,6 +473,13 @@
       "status": "REMOTE",
       "status_detail": "CLOSED - VIRTUAL/REMOTE LEARNING DAY",
       "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Tennessee School for the Blind",
+      "status": "REMOTE",
+      "status_detail": "ONE HOUR LATE; Day Students: Online Classes",
+      "region": "Other",
       "source": "NewsChannel 5"
     },
     {
