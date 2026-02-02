@@ -1,16 +1,16 @@
 {
   "meta": {
-    "generated_at": "2026-02-02T16:50:43.242363+00:00",
-    "total_closings": 61,
+    "generated_at": "2026-02-02T17:00:45.137957+00:00",
+    "total_closings": 53,
     "by_status": {
       "CLOSED": 42,
-      "REMOTE": 19
+      "REMOTE": 11
     },
     "by_region": {
-      "West Tennessee": 24,
-      "Other": 19,
+      "West Tennessee": 21,
+      "Other": 12,
       "Middle Tennessee": 9,
-      "East Tennessee": 9
+      "East Tennessee": 11
     },
     "sources": [
       "NewsChannel 5",
@@ -139,27 +139,6 @@
       "source": "Action News 5"
     },
     {
-      "name": "Bodine School",
-      "status": "CLOSED",
-      "status_detail": "Open Monday",
-      "region": "Other",
-      "source": "Action News 5"
-    },
-    {
-      "name": "Christian Brothers High School",
-      "status": "REMOTE",
-      "status_detail": "Virtual Learning Monday",
-      "region": "West Tennessee",
-      "source": "Action News 5"
-    },
-    {
-      "name": "Christian Brothers University",
-      "status": "REMOTE",
-      "status_detail": "Virtual Learning Monday",
-      "region": "Other",
-      "source": "Action News 5"
-    },
-    {
       "name": "Collierville School District",
       "status": "CLOSED",
       "status_detail": "Closed Through Monday the 2nd",
@@ -188,13 +167,6 @@
       "source": "Action News 5"
     },
     {
-      "name": "Faith Heritage Christian Academy",
-      "status": "REMOTE",
-      "status_detail": "Virtual Learning Through 02/02",
-      "region": "Other",
-      "source": "Action News 5"
-    },
-    {
       "name": "Fayette County Public Schools",
       "status": "CLOSED",
       "status_detail": "Closed Through 02/03 - After-school activities canceled",
@@ -219,13 +191,6 @@
       "name": "Hardin County Schools",
       "status": "CLOSED",
       "status_detail": "Closed Through Friday 2/6",
-      "region": "West Tennessee",
-      "source": "Action News 5"
-    },
-    {
-      "name": "Harding Academy of Memphis",
-      "status": "REMOTE",
-      "status_detail": "Virtual Learning Monday",
       "region": "West Tennessee",
       "source": "Action News 5"
     },
@@ -265,13 +230,6 @@
       "source": "Action News 5"
     },
     {
-      "name": "LeMoyne-Owen College",
-      "status": "CLOSED",
-      "status_detail": "Open Monday",
-      "region": "West Tennessee",
-      "source": "Action News 5"
-    },
-    {
       "name": "McNairy County Schools",
       "status": "CLOSED",
       "status_detail": "Closed Through Wednesday 2/4",
@@ -300,13 +258,6 @@
       "source": "Action News 5"
     },
     {
-      "name": "Northpoint Christian School",
-      "status": "REMOTE",
-      "status_detail": "Virtual Learning Monday",
-      "region": "Other",
-      "source": "Action News 5"
-    },
-    {
       "name": "Oxford School District",
       "status": "CLOSED",
       "status_detail": "Closed Through 02/07",
@@ -321,31 +272,10 @@
       "source": "Action News 5"
     },
     {
-      "name": "Southwest Tennessee Community College",
-      "status": "REMOTE",
-      "status_detail": "Virtual Learning Monday",
-      "region": "Other",
-      "source": "Action News 5"
-    },
-    {
-      "name": "St. Georges Independent School",
-      "status": "REMOTE",
-      "status_detail": "Virtual Learning Monday - Check email for details",
-      "region": "Other",
-      "source": "Action News 5"
-    },
-    {
       "name": "Tate County School District",
       "status": "CLOSED",
       "status_detail": "Closed Through Tuesday",
       "region": "West Tennessee",
-      "source": "Action News 5"
-    },
-    {
-      "name": "Tennessee College of Applied Technology",
-      "status": "REMOTE",
-      "status_detail": "Virtual Learning Monday",
-      "region": "Other",
       "source": "Action News 5"
     },
     {
@@ -412,6 +342,13 @@
       "source": "WVLT"
     },
     {
+      "name": "Monroe County Schools",
+      "status": "CLOSED",
+      "status_detail": "Closed Tuesday",
+      "region": "East Tennessee",
+      "source": "WVLT"
+    },
+    {
       "name": "Newport Grammar School",
       "status": "CLOSED",
       "status_detail": "Closed Through 02/03",
@@ -437,6 +374,13 @@
       "status": "REMOTE",
       "status_detail": "Virtual Learning Monday - Employees work remotely.",
       "region": "Other",
+      "source": "WVLT"
+    },
+    {
+      "name": "Union County Schools",
+      "status": "CLOSED",
+      "status_detail": "Closed Tuesday",
+      "region": "East Tennessee",
       "source": "WVLT"
     },
     {
