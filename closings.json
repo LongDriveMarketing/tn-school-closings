@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-02-02T17:30:47.881752+00:00",
+    "generated_at": "2026-02-02T17:40:45.915371+00:00",
     "total_closings": 58,
     "by_status": {
       "CLOSED": 47,
@@ -356,9 +356,9 @@
       "source": "WVLT"
     },
     {
-      "name": "Knox County, TN Schools",
+      "name": "Lenoir City Schools",
       "status": "CLOSED",
-      "status_detail": "Closed Monday 2/2",
+      "status_detail": "Closed Tuesday",
       "region": "East Tennessee",
       "source": "WVLT"
     },
