@@ -1,15 +1,15 @@
 {
   "meta": {
-    "generated_at": "2026-02-02T17:20:42.770213+00:00",
-    "total_closings": 56,
+    "generated_at": "2026-02-02T17:30:47.881752+00:00",
+    "total_closings": 58,
     "by_status": {
-      "CLOSED": 45,
+      "CLOSED": 47,
       "REMOTE": 11
     },
     "by_region": {
       "West Tennessee": 21,
-      "Other": 12,
-      "Middle Tennessee": 9,
+      "Other": 11,
+      "Middle Tennessee": 12,
       "East Tennessee": 14
     },
     "sources": [
@@ -31,6 +31,13 @@
       "status": "CLOSED",
       "status_detail": "CLOSED",
       "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Dickson",
+      "status": "CLOSED",
+      "status_detail": "Closed Tuesday and Wednesday",
+      "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
     {
@@ -83,17 +90,17 @@
       "source": "NewsChannel 5"
     },
     {
-      "name": "New Horizons",
-      "status": "CLOSED",
-      "status_detail": "CLOSED; NO WATER",
-      "region": "Other",
-      "source": "NewsChannel 5"
-    },
-    {
       "name": "Paris Special School District",
       "status": "CLOSED",
       "status_detail": "CLOSED",
       "region": "West Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Robertson",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
+      "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
     {
@@ -122,6 +129,13 @@
       "status": "REMOTE",
       "status_detail": "OPEN/REMOTE LEARNING DAY",
       "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Warren Co., KY",
+      "status": "CLOSED",
+      "status_detail": "NTI Day",
+      "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
     {
