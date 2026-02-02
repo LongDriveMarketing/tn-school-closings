@@ -1,16 +1,16 @@
 {
   "meta": {
-    "generated_at": "2026-02-02T23:50:46.623030+00:00",
-    "total_closings": 143,
+    "generated_at": "2026-02-02T23:56:46.121657+00:00",
+    "total_closings": 146,
     "by_status": {
-      "CLOSED": 121,
-      "DELAYED": 13,
-      "REMOTE": 9
+      "CLOSED": 122,
+      "DELAYED": 14,
+      "REMOTE": 10
     },
     "by_region": {
-      "Other": 39,
+      "Other": 40,
       "West Tennessee": 39,
-      "Middle Tennessee": 29,
+      "Middle Tennessee": 31,
       "East Tennessee": 36
     },
     "sources": [
@@ -193,6 +193,20 @@
       "status": "CLOSED",
       "status_detail": "NTI Day #8",
       "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Nashville State-Humphreys Co.",
+      "status": "REMOTE",
+      "status_detail": "Operations & Classes are virtual on 2/3",
+      "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Nashville State-Southeast",
+      "status": "DELAYED",
+      "status_detail": "1 1/2 HOURS LATE; OPEN AT 9:30",
+      "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
     {
@@ -473,6 +487,13 @@
       "status": "CLOSED",
       "status_detail": "Closed Through Tuesday the 3rd - Lakeland Elementary & Lakeland Preparatory School",
       "region": "West Tennessee",
+      "source": "Action News 5"
+    },
+    {
+      "name": "Lords Tabernacle Christian Academy",
+      "status": "CLOSED",
+      "status_detail": "Closed Tuesday",
+      "region": "Other",
       "source": "Action News 5"
     },
     {
