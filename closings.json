@@ -1,16 +1,16 @@
 {
   "meta": {
-    "generated_at": "2026-02-02T03:30:44.714800+00:00",
-    "total_closings": 223,
+    "generated_at": "2026-02-02T03:40:57.339357+00:00",
+    "total_closings": 224,
     "by_status": {
-      "CLOSED": 202,
+      "CLOSED": 203,
       "REMOTE": 19,
       "DELAYED": 2
     },
     "by_region": {
       "Other": 83,
       "West Tennessee": 50,
-      "Middle Tennessee": 45,
+      "Middle Tennessee": 46,
       "East Tennessee": 45
     },
     "sources": [
@@ -290,6 +290,13 @@
       "name": "Macon",
       "status": "CLOSED",
       "status_detail": "Closed Monday",
+      "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Macon Christian Academy",
+      "status": "CLOSED",
+      "status_detail": "Closed Monday - No Childcare Available",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
