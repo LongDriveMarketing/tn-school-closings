@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-02-02T00:10:41.378700+00:00",
+    "generated_at": "2026-02-02T00:20:43.534167+00:00",
     "total_closings": 213,
     "by_status": {
       "CLOSED": 195,
@@ -436,7 +436,7 @@
     {
       "name": "STEM Preparatory Academy",
       "status": "CLOSED",
-      "status_detail": "Closed through Monday 2/1/26",
+      "status_detail": "Closed Monday",
       "region": "Other",
       "source": "NewsChannel 5"
     },
@@ -548,7 +548,7 @@
     {
       "name": "Williamson",
       "status": "CLOSED",
-      "status_detail": "Closed Monday, February 2",
+      "status_detail": "Closed Monday",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
