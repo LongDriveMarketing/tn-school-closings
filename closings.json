@@ -1,14 +1,14 @@
 {
   "meta": {
-    "generated_at": "2026-02-02T11:00:46.401171+00:00",
-    "total_closings": 228,
+    "generated_at": "2026-02-02T11:10:38.571917+00:00",
+    "total_closings": 229,
     "by_status": {
-      "CLOSED": 207,
+      "CLOSED": 208,
       "REMOTE": 19,
       "DELAYED": 2
     },
     "by_region": {
-      "Other": 85,
+      "Other": 86,
       "West Tennessee": 51,
       "Middle Tennessee": 46,
       "East Tennessee": 46
@@ -988,6 +988,13 @@
     },
     {
       "name": "Remington College",
+      "status": "CLOSED",
+      "status_detail": "Closed Monday",
+      "region": "Other",
+      "source": "Action News 5"
+    },
+    {
+      "name": "SE Academy Private School",
       "status": "CLOSED",
       "status_detail": "Closed Monday",
       "region": "Other",
