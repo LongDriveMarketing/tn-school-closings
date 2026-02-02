@@ -1,16 +1,16 @@
 {
   "meta": {
-    "generated_at": "2026-02-02T17:10:43.481113+00:00",
-    "total_closings": 55,
+    "generated_at": "2026-02-02T17:20:42.770213+00:00",
+    "total_closings": 56,
     "by_status": {
-      "CLOSED": 44,
+      "CLOSED": 45,
       "REMOTE": 11
     },
     "by_region": {
       "West Tennessee": 21,
       "Other": 12,
       "Middle Tennessee": 9,
-      "East Tennessee": 13
+      "East Tennessee": 14
     },
     "sources": [
       "NewsChannel 5",
@@ -345,6 +345,13 @@
       "name": "Knox County, TN Schools",
       "status": "CLOSED",
       "status_detail": "Closed Monday 2/2",
+      "region": "East Tennessee",
+      "source": "WVLT"
+    },
+    {
+      "name": "Loudon County Schools",
+      "status": "CLOSED",
+      "status_detail": "Closed Tuesday",
       "region": "East Tennessee",
       "source": "WVLT"
     },
