@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-02-02T03:10:40.705846+00:00",
+    "generated_at": "2026-02-02T03:20:42.397444+00:00",
     "total_closings": 223,
     "by_status": {
       "CLOSED": 202,
@@ -58,7 +58,7 @@
     {
       "name": "Caverna Independent",
       "status": "CLOSED",
-      "status_detail": "CLOSED - NON TRADITIONAL INSTRUCTION DAY",
+      "status_detail": "CLOSED; Traditional Snow Day Use to catch up NTI work",
       "region": "Other",
       "source": "NewsChannel 5"
     },
