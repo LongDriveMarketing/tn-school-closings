@@ -1,15 +1,15 @@
 {
   "meta": {
-    "generated_at": "2026-02-02T23:20:41.191056+00:00",
-    "total_closings": 136,
+    "generated_at": "2026-02-02T23:30:43.992462+00:00",
+    "total_closings": 138,
     "by_status": {
-      "CLOSED": 116,
+      "CLOSED": 117,
       "DELAYED": 13,
-      "REMOTE": 7
+      "REMOTE": 8
     },
     "by_region": {
-      "Other": 38,
-      "West Tennessee": 37,
+      "Other": 39,
+      "West Tennessee": 38,
       "Middle Tennessee": 26,
       "East Tennessee": 35
     },
@@ -462,6 +462,13 @@
       "source": "Action News 5"
     },
     {
+      "name": "Memphis Business Academy",
+      "status": "CLOSED",
+      "status_detail": "Closed Tuesday - After-school activities canceled",
+      "region": "West Tennessee",
+      "source": "Action News 5"
+    },
+    {
       "name": "Memphis Electrical JATC",
       "status": "CLOSED",
       "status_detail": "Closed Through 02/03",
@@ -536,6 +543,13 @@
       "status": "CLOSED",
       "status_detail": "Closed Through 02/04",
       "region": "West Tennessee",
+      "source": "Action News 5"
+    },
+    {
+      "name": "Southwest Tennessee Community College",
+      "status": "REMOTE",
+      "status_detail": "Virtual Learning Tuesday",
+      "region": "Other",
       "source": "Action News 5"
     },
     {
