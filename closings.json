@@ -1,16 +1,16 @@
 {
   "meta": {
-    "generated_at": "2026-02-02T17:50:43.158204+00:00",
-    "total_closings": 58,
+    "generated_at": "2026-02-02T18:00:49.800840+00:00",
+    "total_closings": 53,
     "by_status": {
-      "CLOSED": 47,
+      "CLOSED": 42,
       "REMOTE": 11
     },
     "by_region": {
-      "West Tennessee": 21,
+      "West Tennessee": 15,
       "Other": 11,
       "Middle Tennessee": 12,
-      "East Tennessee": 14
+      "East Tennessee": 15
     },
     "sources": [
       "NewsChannel 5",
@@ -153,13 +153,6 @@
       "source": "Action News 5"
     },
     {
-      "name": "Collierville School District",
-      "status": "CLOSED",
-      "status_detail": "Closed Through Monday the 2nd",
-      "region": "West Tennessee",
-      "source": "Action News 5"
-    },
-    {
       "name": "Desoto Christian Academy",
       "status": "CLOSED",
       "status_detail": "Closed Through 02/03",
@@ -167,30 +160,9 @@
       "source": "Action News 5"
     },
     {
-      "name": "Dyer County Schools",
-      "status": "CLOSED",
-      "status_detail": "Closed Through Monday the 2nd",
-      "region": "West Tennessee",
-      "source": "Action News 5"
-    },
-    {
-      "name": "Dyersburg City Schools",
-      "status": "CLOSED",
-      "status_detail": "Closed Through Monday the 2nd",
-      "region": "West Tennessee",
-      "source": "Action News 5"
-    },
-    {
       "name": "Fayette County Public Schools",
       "status": "CLOSED",
       "status_detail": "Closed Through 02/03 - After-school activities canceled",
-      "region": "West Tennessee",
-      "source": "Action News 5"
-    },
-    {
-      "name": "Germantown Municipal School District",
-      "status": "CLOSED",
-      "status_detail": "Closed Through Monday the 2nd",
       "region": "West Tennessee",
       "source": "Action News 5"
     },
@@ -237,13 +209,6 @@
       "source": "Action News 5"
     },
     {
-      "name": "Lakeland School System",
-      "status": "CLOSED",
-      "status_detail": "Closed Through Monday the 2nd - Lakeland Elementary & Lakeland Preparatory School",
-      "region": "West Tennessee",
-      "source": "Action News 5"
-    },
-    {
       "name": "McNairy County Schools",
       "status": "CLOSED",
       "status_detail": "Closed Through Wednesday 2/4",
@@ -254,13 +219,6 @@
       "name": "Memphis Electrical JATC",
       "status": "CLOSED",
       "status_detail": "Closed Through 02/03",
-      "region": "West Tennessee",
-      "source": "Action News 5"
-    },
-    {
-      "name": "Memphis Shelby County Schools",
-      "status": "CLOSED",
-      "status_detail": "Closed Through Monday the 2nd - After-school activities canceled",
       "region": "West Tennessee",
       "source": "Action News 5"
     },
@@ -293,9 +251,9 @@
       "source": "Action News 5"
     },
     {
-      "name": "Tipton Christian Academy",
+      "name": "Tipton County Schools",
       "status": "CLOSED",
-      "status_detail": "Closed Monday 02/02",
+      "status_detail": "Closed Tuesday",
       "region": "West Tennessee",
       "source": "Action News 5"
     },
@@ -401,6 +359,13 @@
       "name": "Sevier County Schools",
       "status": "CLOSED",
       "status_detail": "Closed Through 02/02",
+      "region": "East Tennessee",
+      "source": "WVLT"
+    },
+    {
+      "name": "Sweetwater City",
+      "status": "CLOSED",
+      "status_detail": "Closed Tuesday",
       "region": "East Tennessee",
       "source": "WVLT"
     },
