@@ -1,15 +1,15 @@
 {
   "meta": {
-    "generated_at": "2026-02-02T18:10:42.440915+00:00",
-    "total_closings": 56,
+    "generated_at": "2026-02-02T18:20:46.601094+00:00",
+    "total_closings": 57,
     "by_status": {
-      "CLOSED": 45,
+      "CLOSED": 46,
       "REMOTE": 11
     },
     "by_region": {
       "West Tennessee": 16,
       "Other": 12,
-      "Middle Tennessee": 12,
+      "Middle Tennessee": 13,
       "East Tennessee": 16
     },
     "sources": [
@@ -100,6 +100,13 @@
       "name": "Robertson",
       "status": "CLOSED",
       "status_detail": "CLOSED",
+      "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Smith",
+      "status": "CLOSED",
+      "status_detail": "Closed Tuesday",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
@@ -379,7 +386,7 @@
     {
       "name": "Sevier County Schools",
       "status": "CLOSED",
-      "status_detail": "Closed Through 02/02",
+      "status_detail": "Closed Tuesday",
       "region": "East Tennessee",
       "source": "WVLT"
     },
