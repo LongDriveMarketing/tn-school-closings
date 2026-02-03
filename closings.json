@@ -1,14 +1,14 @@
 {
   "meta": {
-    "generated_at": "2026-02-03T22:40:40.547527+00:00",
-    "total_closings": 88,
+    "generated_at": "2026-02-03T22:50:44.098445+00:00",
+    "total_closings": 89,
     "by_status": {
-      "CLOSED": 74,
+      "CLOSED": 75,
       "DELAYED": 9,
       "REMOTE": 5
     },
     "by_region": {
-      "West Tennessee": 36,
+      "West Tennessee": 37,
       "Middle Tennessee": 19,
       "Other": 19,
       "East Tennessee": 14
@@ -456,6 +456,13 @@
     },
     {
       "name": "Tate County School District",
+      "status": "CLOSED",
+      "status_detail": "Closed Wednesday",
+      "region": "West Tennessee",
+      "source": "Action News 5"
+    },
+    {
+      "name": "Tipton Christian Academy",
       "status": "CLOSED",
       "status_detail": "Closed Wednesday",
       "region": "West Tennessee",
