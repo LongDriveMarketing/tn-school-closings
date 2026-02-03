@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-02-03T12:30:39.792167+00:00",
+    "generated_at": "2026-02-03T12:40:42.212921+00:00",
     "total_closings": 161,
     "by_status": {
       "CLOSED": 137,
@@ -268,7 +268,7 @@
     {
       "name": "STEM Preparatory Academy",
       "status": "CLOSED",
-      "status_detail": "Closed through Tuesday 2/3",
+      "status_detail": "CLOSED",
       "region": "Other",
       "source": "NewsChannel 5"
     },
