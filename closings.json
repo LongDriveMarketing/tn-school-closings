@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-02-03T17:50:48.865726+00:00",
+    "generated_at": "2026-02-03T18:00:38.677690+00:00",
     "total_closings": 37,
     "by_status": {
       "CLOSED": 29,
@@ -23,7 +23,7 @@
     {
       "name": "Benton",
       "status": "CLOSED",
-      "status_detail": "CLOSED; CLOSED TODAY & TOMORROW",
+      "status_detail": "CLOSED",
       "region": "West Tennessee",
       "source": "NewsChannel 5"
     },
