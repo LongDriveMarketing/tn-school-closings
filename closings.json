@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-02-03T16:00:55.650707+00:00",
+    "generated_at": "2026-02-03T16:10:52.357203+00:00",
     "total_closings": 161,
     "by_status": {
       "CLOSED": 137,
@@ -107,7 +107,7 @@
     {
       "name": "Dickson",
       "status": "CLOSED",
-      "status_detail": "Closed Tuesday and Wednesday",
+      "status_detail": "CLOSED",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
@@ -149,7 +149,7 @@
     {
       "name": "Houston",
       "status": "CLOSED",
-      "status_detail": "Closed Tuesday and Wednesday",
+      "status_detail": "CLOSED",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
@@ -275,7 +275,7 @@
     {
       "name": "Stewart",
       "status": "CLOSED",
-      "status_detail": "CLOSED TUESDAY & WEDNESDAY",
+      "status_detail": "CLOSED",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
