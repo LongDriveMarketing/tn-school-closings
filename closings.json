@@ -1,17 +1,17 @@
 {
   "meta": {
-    "generated_at": "2026-02-03T20:40:45.352708+00:00",
-    "total_closings": 53,
+    "generated_at": "2026-02-03T20:56:24.822714+00:00",
+    "total_closings": 56,
     "by_status": {
-      "CLOSED": 45,
-      "DELAYED": 4,
+      "CLOSED": 47,
+      "DELAYED": 5,
       "REMOTE": 4
     },
     "by_region": {
-      "West Tennessee": 20,
+      "West Tennessee": 21,
       "Middle Tennessee": 12,
       "Other": 12,
-      "East Tennessee": 9
+      "East Tennessee": 11
     },
     "sources": [
       "NewsChannel 5",
@@ -259,6 +259,13 @@
       "source": "Action News 5"
     },
     {
+      "name": "Millington Municipal Schools",
+      "status": "CLOSED",
+      "status_detail": "Closed Wednesday",
+      "region": "West Tennessee",
+      "source": "Action News 5"
+    },
+    {
       "name": "North Panola School District",
       "status": "CLOSED",
       "status_detail": "Closed Through 02/04",
@@ -343,6 +350,13 @@
       "source": "WVLT"
     },
     {
+      "name": "Greene County Schools",
+      "status": "CLOSED",
+      "status_detail": "Closed Wednesday",
+      "region": "East Tennessee",
+      "source": "WVLT"
+    },
+    {
       "name": "Hancock County Schools",
       "status": "CLOSED",
       "status_detail": "Closed Through 02/04",
@@ -368,6 +382,13 @@
       "status": "DELAYED",
       "status_detail": "Opening Late Wednesday 1 Hour",
       "region": "Other",
+      "source": "WVLT"
+    },
+    {
+      "name": "Roane County Schools",
+      "status": "DELAYED",
+      "status_detail": "Opening Late Wednesday 2 Hours",
+      "region": "East Tennessee",
       "source": "WVLT"
     },
     {
