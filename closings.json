@@ -1,10 +1,10 @@
 {
   "meta": {
-    "generated_at": "2026-02-03T21:50:56.550276+00:00",
+    "generated_at": "2026-02-03T22:00:43.407368+00:00",
     "total_closings": 72,
     "by_status": {
-      "CLOSED": 61,
-      "DELAYED": 7,
+      "CLOSED": 60,
+      "DELAYED": 8,
       "REMOTE": 4
     },
     "by_region": {
@@ -36,8 +36,8 @@
     },
     {
       "name": "Clay",
-      "status": "CLOSED",
-      "status_detail": "Bus Driver Discretion",
+      "status": "DELAYED",
+      "status_detail": "Two Hours Late with Bus Driver Discretion",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
