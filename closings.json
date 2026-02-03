@@ -1,14 +1,14 @@
 {
   "meta": {
-    "generated_at": "2026-02-03T21:00:40.931361+00:00",
-    "total_closings": 56,
+    "generated_at": "2026-02-03T21:10:43.020555+00:00",
+    "total_closings": 55,
     "by_status": {
-      "CLOSED": 47,
+      "CLOSED": 46,
       "DELAYED": 5,
       "REMOTE": 4
     },
     "by_region": {
-      "West Tennessee": 21,
+      "West Tennessee": 20,
       "Middle Tennessee": 12,
       "Other": 12,
       "East Tennessee": 11
@@ -149,7 +149,7 @@
     {
       "name": "Collierville School District",
       "status": "CLOSED",
-      "status_detail": "Closed Through Tuesday the 3rd",
+      "status_detail": "Closed Wednesday",
       "region": "West Tennessee",
       "source": "Action News 5"
     },
@@ -185,13 +185,6 @@
       "name": "Fayette County Public Schools",
       "status": "CLOSED",
       "status_detail": "Closed Wednesday - All before/after school activities cancelled",
-      "region": "West Tennessee",
-      "source": "Action News 5"
-    },
-    {
-      "name": "Germantown Municipal School District",
-      "status": "CLOSED",
-      "status_detail": "Closed Through Tuesday the 3rd",
       "region": "West Tennessee",
       "source": "Action News 5"
     },
@@ -240,7 +233,7 @@
     {
       "name": "Lakeland School System",
       "status": "CLOSED",
-      "status_detail": "Closed Through Tuesday the 3rd - Lakeland Elementary & Lakeland Preparatory School",
+      "status_detail": "Closed Wednesday",
       "region": "West Tennessee",
       "source": "Action News 5"
     },
