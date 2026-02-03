@@ -1,17 +1,17 @@
 {
   "meta": {
-    "generated_at": "2026-02-03T22:30:56.004642+00:00",
-    "total_closings": 84,
+    "generated_at": "2026-02-03T22:40:40.547527+00:00",
+    "total_closings": 88,
     "by_status": {
-      "CLOSED": 70,
+      "CLOSED": 74,
       "DELAYED": 9,
       "REMOTE": 5
     },
     "by_region": {
       "West Tennessee": 36,
       "Middle Tennessee": 19,
-      "Other": 17,
-      "East Tennessee": 12
+      "Other": 19,
+      "East Tennessee": 14
     },
     "sources": [
       "NewsChannel 5",
@@ -207,6 +207,13 @@
       "status": "CLOSED",
       "status_detail": "Closed Wednesday",
       "region": "West Tennessee",
+      "source": "Action News 5"
+    },
+    {
+      "name": "City University Schools",
+      "status": "CLOSED",
+      "status_detail": "Closed Wednesday - Faculty and staff office hours 9 - 11 am",
+      "region": "Other",
       "source": "Action News 5"
     },
     {
@@ -420,6 +427,13 @@
       "source": "Action News 5"
     },
     {
+      "name": "SE Academy Private School",
+      "status": "CLOSED",
+      "status_detail": "Closed Wednesday",
+      "region": "Other",
+      "source": "Action News 5"
+    },
+    {
       "name": "Senatobia Municipal School District",
       "status": "CLOSED",
       "status_detail": "Closed Through 02/04",
@@ -473,6 +487,13 @@
       "status": "DELAYED",
       "status_detail": "Opening Late Wednesday 1 Hour",
       "region": "Other",
+      "source": "WVLT"
+    },
+    {
+      "name": "Campbell County Schools",
+      "status": "CLOSED",
+      "status_detail": "Closed Wednesday",
+      "region": "East Tennessee",
       "source": "WVLT"
     },
     {
@@ -535,6 +556,13 @@
       "name": "Knox County, TN Schools",
       "status": "CLOSED",
       "status_detail": "Closed Wednesday",
+      "region": "East Tennessee",
+      "source": "WVLT"
+    },
+    {
+      "name": "Knoxville Preparatory School",
+      "status": "CLOSED",
+      "status_detail": "Closed Wednesday - KPS imefungwa 4 Feb 2026 / KPS cerrado 4 feb 2026",
       "region": "East Tennessee",
       "source": "WVLT"
     },
