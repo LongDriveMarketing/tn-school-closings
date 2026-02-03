@@ -1,16 +1,16 @@
 {
   "meta": {
-    "generated_at": "2026-02-03T22:20:46.096244+00:00",
-    "total_closings": 82,
+    "generated_at": "2026-02-03T22:30:56.004642+00:00",
+    "total_closings": 84,
     "by_status": {
-      "CLOSED": 69,
-      "DELAYED": 8,
+      "CLOSED": 70,
+      "DELAYED": 9,
       "REMOTE": 5
     },
     "by_region": {
-      "West Tennessee": 35,
+      "West Tennessee": 36,
       "Middle Tennessee": 19,
-      "Other": 16,
+      "Other": 17,
       "East Tennessee": 12
     },
     "sources": [
@@ -448,6 +448,13 @@
       "source": "Action News 5"
     },
     {
+      "name": "Tipton-Rosemark Academy",
+      "status": "CLOSED",
+      "status_detail": "Closed Wednesday",
+      "region": "West Tennessee",
+      "source": "Action News 5"
+    },
+    {
       "name": "University of Mississippi",
       "status": "CLOSED",
       "status_detail": "Closed Through Sunday 2/8",
@@ -535,6 +542,13 @@
       "name": "Landmark Christian Academy",
       "status": "DELAYED",
       "status_detail": "Opening Late Wednesday 1 Hour",
+      "region": "Other",
+      "source": "WVLT"
+    },
+    {
+      "name": "Oneida Special School District",
+      "status": "DELAYED",
+      "status_detail": "Opening Late Wednesday 2 Hours",
       "region": "Other",
       "source": "WVLT"
     },
