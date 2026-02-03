@@ -1,15 +1,15 @@
 {
   "meta": {
-    "generated_at": "2026-02-03T00:50:44.927291+00:00",
-    "total_closings": 150,
+    "generated_at": "2026-02-03T01:00:51.543424+00:00",
+    "total_closings": 151,
     "by_status": {
-      "CLOSED": 126,
+      "CLOSED": 127,
       "DELAYED": 14,
       "REMOTE": 10
     },
     "by_region": {
       "Other": 44,
-      "West Tennessee": 39,
+      "West Tennessee": 40,
       "Middle Tennessee": 31,
       "East Tennessee": 36
     },
@@ -277,6 +277,13 @@
       "status": "REMOTE",
       "status_detail": "CLOSED - VIRTUAL/REMOTE LEARNING DAY",
       "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "TCAT Henry/Carroll",
+      "status": "CLOSED",
+      "status_detail": "ONE HOUR LATE",
+      "region": "West Tennessee",
       "source": "NewsChannel 5"
     },
     {
