@@ -1,16 +1,16 @@
 {
   "meta": {
-    "generated_at": "2026-02-03T20:30:53.148047+00:00",
-    "total_closings": 50,
+    "generated_at": "2026-02-03T20:40:45.352708+00:00",
+    "total_closings": 53,
     "by_status": {
-      "CLOSED": 43,
-      "DELAYED": 3,
+      "CLOSED": 45,
+      "DELAYED": 4,
       "REMOTE": 4
     },
     "by_region": {
       "West Tennessee": 20,
-      "Middle Tennessee": 11,
-      "Other": 10,
+      "Middle Tennessee": 12,
+      "Other": 12,
       "East Tennessee": 9
     },
     "sources": [
@@ -59,6 +59,13 @@
       "name": "Humphreys",
       "status": "CLOSED",
       "status_detail": "Closed Wednesday, 2/4",
+      "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Jackson",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
@@ -273,6 +280,13 @@
       "source": "Action News 5"
     },
     {
+      "name": "Rossville Christian Academy",
+      "status": "CLOSED",
+      "status_detail": "Closed Wednesday",
+      "region": "Other",
+      "source": "Action News 5"
+    },
+    {
       "name": "South Panola School District",
       "status": "CLOSED",
       "status_detail": "Closed Through 02/04",
@@ -347,6 +361,13 @@
       "status": "CLOSED",
       "status_detail": "Opening Late Wednesday 2/4 - 2 Hour Delay",
       "region": "East Tennessee",
+      "source": "WVLT"
+    },
+    {
+      "name": "Landmark Christian Academy",
+      "status": "DELAYED",
+      "status_detail": "Opening Late Wednesday 1 Hour",
+      "region": "Other",
       "source": "WVLT"
     },
     {
