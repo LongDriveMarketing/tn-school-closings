@@ -1,17 +1,17 @@
 {
   "meta": {
-    "generated_at": "2026-02-03T21:30:40.238684+00:00",
-    "total_closings": 63,
+    "generated_at": "2026-02-03T21:40:42.301978+00:00",
+    "total_closings": 68,
     "by_status": {
-      "CLOSED": 54,
+      "CLOSED": 59,
       "DELAYED": 5,
       "REMOTE": 4
     },
     "by_region": {
-      "West Tennessee": 27,
-      "Middle Tennessee": 12,
-      "Other": 13,
-      "East Tennessee": 11
+      "West Tennessee": 28,
+      "Middle Tennessee": 14,
+      "Other": 14,
+      "East Tennessee": 12
     },
     "sources": [
       "NewsChannel 5",
@@ -31,6 +31,13 @@
       "name": "Cheatham",
       "status": "CLOSED",
       "status_detail": "Closed Wednesday",
+      "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Clay",
+      "status": "CLOSED",
+      "status_detail": "Bus Driver Discretion",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
@@ -175,6 +182,13 @@
       "source": "Action News 5"
     },
     {
+      "name": "Creative Life Preparatory School",
+      "status": "CLOSED",
+      "status_detail": "Closed Wednesday - Creative Life Prep/Afterschool/CLECT Daycare",
+      "region": "Other",
+      "source": "Action News 5"
+    },
+    {
       "name": "Crockett County School District",
       "status": "CLOSED",
       "status_detail": "Closed Through Wednesday",
@@ -262,6 +276,13 @@
       "name": "McNairy County Schools",
       "status": "CLOSED",
       "status_detail": "Closed Through Wednesday 2/4",
+      "region": "West Tennessee",
+      "source": "Action News 5"
+    },
+    {
+      "name": "Memphis Oral School for the Deaf",
+      "status": "CLOSED",
+      "status_detail": "Closed Wednesday",
       "region": "West Tennessee",
       "source": "Action News 5"
     },
@@ -427,6 +448,13 @@
       "source": "WVLT"
     },
     {
+      "name": "Overton County Schools",
+      "status": "CLOSED",
+      "status_detail": "Closed Wednesday",
+      "region": "Middle Tennessee",
+      "source": "WVLT"
+    },
+    {
       "name": "Roane County Schools",
       "status": "DELAYED",
       "status_detail": "Opening Late Wednesday 2 Hours",
@@ -442,6 +470,13 @@
     },
     {
       "name": "Scott County Schools",
+      "status": "CLOSED",
+      "status_detail": "Closed Wednesday",
+      "region": "East Tennessee",
+      "source": "WVLT"
+    },
+    {
+      "name": "Sevier County Schools",
       "status": "CLOSED",
       "status_detail": "Closed Wednesday",
       "region": "East Tennessee",
