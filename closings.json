@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-02-03T17:00:54.742103+00:00",
+    "generated_at": "2026-02-03T17:10:42.374723+00:00",
     "total_closings": 34,
     "by_status": {
       "CLOSED": 26,
@@ -58,7 +58,7 @@
     {
       "name": "St. Patrick",
       "status": "REMOTE",
-      "status_detail": "Distance Learning Tuesday & Wednesday",
+      "status_detail": "Distance Learning Wednesday",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
