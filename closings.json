@@ -1,14 +1,14 @@
 {
   "meta": {
-    "generated_at": "2026-02-03T02:50:41.461676+00:00",
-    "total_closings": 158,
+    "generated_at": "2026-02-03T03:00:39.362399+00:00",
+    "total_closings": 159,
     "by_status": {
-      "CLOSED": 134,
+      "CLOSED": 135,
       "DELAYED": 14,
       "REMOTE": 10
     },
     "by_region": {
-      "Other": 47,
+      "Other": 48,
       "West Tennessee": 43,
       "Middle Tennessee": 32,
       "East Tennessee": 36
@@ -395,6 +395,13 @@
       "name": "Corinth School District",
       "status": "CLOSED",
       "status_detail": "Closed Through Tuesday the 3rd",
+      "region": "Other",
+      "source": "Action News 5"
+    },
+    {
+      "name": "Creative Life Preparatory School",
+      "status": "CLOSED",
+      "status_detail": "Closed Tuesday - Creative Life Prep/Afterschool/CLECT Daycare",
       "region": "Other",
       "source": "Action News 5"
     },
