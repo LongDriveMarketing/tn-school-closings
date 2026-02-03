@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-02-03T18:00:38.677690+00:00",
+    "generated_at": "2026-02-03T18:07:37.585955+00:00",
     "total_closings": 37,
     "by_status": {
       "CLOSED": 29,
@@ -93,7 +93,7 @@
     {
       "name": "Warren Co., KY",
       "status": "CLOSED",
-      "status_detail": "CLOSED; CLOSED - NON TRADITIONAL INSTRUCTION DAY",
+      "status_detail": "CLOSED - NON TRADITIONAL INSTRUCTION DAY",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
