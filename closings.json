@@ -1,15 +1,15 @@
 {
   "meta": {
-    "generated_at": "2026-02-03T22:03:21.596168+00:00",
-    "total_closings": 72,
+    "generated_at": "2026-02-03T22:10:40.973201+00:00",
+    "total_closings": 80,
     "by_status": {
-      "CLOSED": 60,
+      "CLOSED": 67,
       "DELAYED": 8,
-      "REMOTE": 4
+      "REMOTE": 5
     },
     "by_region": {
-      "West Tennessee": 28,
-      "Middle Tennessee": 16,
+      "West Tennessee": 34,
+      "Middle Tennessee": 18,
       "Other": 16,
       "East Tennessee": 12
     },
@@ -119,6 +119,13 @@
       "source": "NewsChannel 5"
     },
     {
+      "name": "Smith",
+      "status": "CLOSED",
+      "status_detail": "CLOSED; Closed Wednesday",
+      "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
       "name": "Stewart",
       "status": "CLOSED",
       "status_detail": "CLOSED",
@@ -136,6 +143,13 @@
       "name": "Sumner",
       "status": "CLOSED",
       "status_detail": "CLOSED",
+      "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "TCAT Dickson",
+      "status": "REMOTE",
+      "status_detail": "CLOSED - VIRTUAL/REMOTE LEARNING DAY",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
@@ -217,6 +231,20 @@
       "source": "Action News 5"
     },
     {
+      "name": "Dyer County Schools",
+      "status": "CLOSED",
+      "status_detail": "Closed Wednesday",
+      "region": "West Tennessee",
+      "source": "Action News 5"
+    },
+    {
+      "name": "Dyersburg City Schools",
+      "status": "CLOSED",
+      "status_detail": "Closed Wednesday",
+      "region": "West Tennessee",
+      "source": "Action News 5"
+    },
+    {
       "name": "Fayette Academy",
       "status": "CLOSED",
       "status_detail": "Closed Wednesday",
@@ -227,6 +255,13 @@
       "name": "Fayette County Public Schools",
       "status": "CLOSED",
       "status_detail": "Closed Wednesday - All before/after school activities cancelled",
+      "region": "West Tennessee",
+      "source": "Action News 5"
+    },
+    {
+      "name": "Freedom Preparatory Academy",
+      "status": "CLOSED",
+      "status_detail": "Closed Wednesday 02/04 - After-school activities canceled",
       "region": "West Tennessee",
       "source": "Action News 5"
     },
@@ -273,6 +308,13 @@
       "source": "Action News 5"
     },
     {
+      "name": "KIPP Memphis Public Schools",
+      "status": "CLOSED",
+      "status_detail": "Closed Wednesday",
+      "region": "West Tennessee",
+      "source": "Action News 5"
+    },
+    {
       "name": "Lafayette County School District",
       "status": "CLOSED",
       "status_detail": "Closed Through Sunday 2/8",
@@ -294,6 +336,13 @@
       "source": "Action News 5"
     },
     {
+      "name": "Memphis Business Academy",
+      "status": "CLOSED",
+      "status_detail": "Closed Wednesday - After-school activities canceled",
+      "region": "West Tennessee",
+      "source": "Action News 5"
+    },
+    {
       "name": "Memphis Oral School for the Deaf",
       "status": "CLOSED",
       "status_detail": "Closed Wednesday",
@@ -304,6 +353,13 @@
       "name": "Memphis Shelby County Schools",
       "status": "CLOSED",
       "status_detail": "Closed Wednesday",
+      "region": "West Tennessee",
+      "source": "Action News 5"
+    },
+    {
+      "name": "Memphis STEM Academy",
+      "status": "CLOSED",
+      "status_detail": "Closed Wednesday - After-school activities canceled",
       "region": "West Tennessee",
       "source": "Action News 5"
     },
