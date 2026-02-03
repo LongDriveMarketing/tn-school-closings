@@ -1,9 +1,9 @@
 {
   "meta": {
-    "generated_at": "2026-02-03T18:50:43.375572+00:00",
-    "total_closings": 37,
+    "generated_at": "2026-02-03T19:00:41.397790+00:00",
+    "total_closings": 38,
     "by_status": {
-      "CLOSED": 31,
+      "CLOSED": 32,
       "DELAYED": 1,
       "REMOTE": 5
     },
@@ -11,7 +11,7 @@
       "West Tennessee": 18,
       "Middle Tennessee": 8,
       "Other": 7,
-      "East Tennessee": 4
+      "East Tennessee": 5
     },
     "sources": [
       "NewsChannel 5",
@@ -246,6 +246,13 @@
     },
     {
       "name": "Claiborne County Schools",
+      "status": "CLOSED",
+      "status_detail": "Closed Wednesday",
+      "region": "East Tennessee",
+      "source": "WVLT"
+    },
+    {
+      "name": "Cocke County Schools",
       "status": "CLOSED",
       "status_detail": "Closed Wednesday",
       "region": "East Tennessee",
