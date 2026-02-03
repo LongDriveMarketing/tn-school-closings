@@ -1,9 +1,9 @@
 {
   "meta": {
-    "generated_at": "2026-02-03T23:40:50.468640+00:00",
-    "total_closings": 100,
+    "generated_at": "2026-02-03T23:50:42.314244+00:00",
+    "total_closings": 101,
     "by_status": {
-      "CLOSED": 85,
+      "CLOSED": 86,
       "DELAYED": 10,
       "REMOTE": 5
     },
@@ -11,7 +11,7 @@
       "Other": 24,
       "West Tennessee": 39,
       "Middle Tennessee": 22,
-      "East Tennessee": 15
+      "East Tennessee": 16
     },
     "sources": [
       "NewsChannel 5",
@@ -617,6 +617,13 @@
     },
     {
       "name": "Greene County Schools",
+      "status": "CLOSED",
+      "status_detail": "Closed Wednesday",
+      "region": "East Tennessee",
+      "source": "WVLT"
+    },
+    {
+      "name": "Hamblen County Schools",
       "status": "CLOSED",
       "status_detail": "Closed Wednesday",
       "region": "East Tennessee",
