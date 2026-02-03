@@ -1,15 +1,15 @@
 {
   "meta": {
-    "generated_at": "2026-02-03T02:30:44.939782+00:00",
-    "total_closings": 157,
+    "generated_at": "2026-02-03T02:40:44.841929+00:00",
+    "total_closings": 158,
     "by_status": {
-      "CLOSED": 133,
+      "CLOSED": 134,
       "DELAYED": 14,
       "REMOTE": 10
     },
     "by_region": {
       "Other": 47,
-      "West Tennessee": 42,
+      "West Tennessee": 43,
       "Middle Tennessee": 32,
       "East Tennessee": 36
     },
@@ -396,6 +396,13 @@
       "status": "CLOSED",
       "status_detail": "Closed Through Tuesday the 3rd",
       "region": "Other",
+      "source": "Action News 5"
+    },
+    {
+      "name": "Crockett County School District",
+      "status": "CLOSED",
+      "status_detail": "Closed Through Wednesday",
+      "region": "West Tennessee",
       "source": "Action News 5"
     },
     {
