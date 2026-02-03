@@ -1,17 +1,17 @@
 {
   "meta": {
-    "generated_at": "2026-02-03T19:00:41.397790+00:00",
-    "total_closings": 38,
+    "generated_at": "2026-02-03T19:10:41.568899+00:00",
+    "total_closings": 40,
     "by_status": {
-      "CLOSED": 32,
+      "CLOSED": 34,
       "DELAYED": 1,
       "REMOTE": 5
     },
     "by_region": {
       "West Tennessee": 18,
       "Middle Tennessee": 8,
-      "Other": 7,
-      "East Tennessee": 5
+      "Other": 8,
+      "East Tennessee": 6
     },
     "sources": [
       "NewsChannel 5",
@@ -168,6 +168,13 @@
       "source": "Action News 5"
     },
     {
+      "name": "Holly Springs School District",
+      "status": "CLOSED",
+      "status_detail": "Closed Through 02/04",
+      "region": "Other",
+      "source": "Action News 5"
+    },
+    {
       "name": "Holy Family School",
       "status": "REMOTE",
       "status_detail": "Virtual Learning Through 02/04",
@@ -284,6 +291,13 @@
       "status": "REMOTE",
       "status_detail": "Virtual Learning Tuesday - Employees work remotely.",
       "region": "Other",
+      "source": "WVLT"
+    },
+    {
+      "name": "Union County Schools",
+      "status": "CLOSED",
+      "status_detail": "Closed Wednesday",
+      "region": "East Tennessee",
       "source": "WVLT"
     }
   ]
