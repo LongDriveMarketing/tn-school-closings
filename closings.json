@@ -1,9 +1,9 @@
 {
   "meta": {
-    "generated_at": "2026-02-03T05:30:52.225275+00:00",
-    "total_closings": 160,
+    "generated_at": "2026-02-03T05:40:41.905056+00:00",
+    "total_closings": 161,
     "by_status": {
-      "CLOSED": 136,
+      "CLOSED": 137,
       "DELAYED": 14,
       "REMOTE": 10
     },
@@ -11,7 +11,7 @@
       "Other": 48,
       "West Tennessee": 43,
       "Middle Tennessee": 33,
-      "East Tennessee": 36
+      "East Tennessee": 37
     },
     "sources": [
       "NewsChannel 5",
@@ -906,6 +906,13 @@
       "name": "Hawkins County Schools",
       "status": "CLOSED",
       "status_detail": "Closed Through 02/04",
+      "region": "East Tennessee",
+      "source": "WVLT"
+    },
+    {
+      "name": "Jefferson County Schools",
+      "status": "CLOSED",
+      "status_detail": "Closed Tuesday",
       "region": "East Tennessee",
       "source": "WVLT"
     },
