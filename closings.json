@@ -1,16 +1,16 @@
 {
   "meta": {
-    "generated_at": "2026-02-03T21:40:42.301978+00:00",
-    "total_closings": 68,
+    "generated_at": "2026-02-03T21:50:56.550276+00:00",
+    "total_closings": 72,
     "by_status": {
-      "CLOSED": 59,
-      "DELAYED": 5,
+      "CLOSED": 61,
+      "DELAYED": 7,
       "REMOTE": 4
     },
     "by_region": {
       "West Tennessee": 28,
-      "Middle Tennessee": 14,
-      "Other": 14,
+      "Middle Tennessee": 16,
+      "Other": 16,
       "East Tennessee": 12
     },
     "sources": [
@@ -112,6 +112,13 @@
       "source": "NewsChannel 5"
     },
     {
+      "name": "Robertson",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
+      "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
       "name": "Stewart",
       "status": "CLOSED",
       "status_detail": "CLOSED",
@@ -122,6 +129,13 @@
       "name": "St. Patrick",
       "status": "REMOTE",
       "status_detail": "Distance Learning Wednesday",
+      "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Sumner",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
@@ -399,6 +413,13 @@
       "source": "WVLT"
     },
     {
+      "name": "First Baptist Academy-Powell",
+      "status": "DELAYED",
+      "status_detail": "Opening Late Wednesday 1 Hour",
+      "region": "Other",
+      "source": "WVLT"
+    },
+    {
       "name": "Grainger County Schools",
       "status": "CLOSED",
       "status_detail": "Closed Wednesday",
@@ -486,6 +507,13 @@
       "name": "Seymour Community Christian School",
       "status": "CLOSED",
       "status_detail": "Closed Tuesday",
+      "region": "Other",
+      "source": "WVLT"
+    },
+    {
+      "name": "Tri-State Christian Academy",
+      "status": "DELAYED",
+      "status_detail": "Opening Late Wednesday 2 Hours",
       "region": "Other",
       "source": "WVLT"
     },
