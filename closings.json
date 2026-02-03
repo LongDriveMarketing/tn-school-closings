@@ -1,16 +1,16 @@
 {
   "meta": {
-    "generated_at": "2026-02-03T22:50:44.098445+00:00",
-    "total_closings": 89,
+    "generated_at": "2026-02-03T23:00:41.241380+00:00",
+    "total_closings": 94,
     "by_status": {
-      "CLOSED": 75,
-      "DELAYED": 9,
+      "CLOSED": 79,
+      "DELAYED": 10,
       "REMOTE": 5
     },
     "by_region": {
-      "West Tennessee": 37,
-      "Middle Tennessee": 19,
-      "Other": 19,
+      "West Tennessee": 38,
+      "Middle Tennessee": 22,
+      "Other": 20,
       "East Tennessee": 14
     },
     "sources": [
@@ -28,9 +28,23 @@
       "source": "NewsChannel 5"
     },
     {
+      "name": "Cannon",
+      "status": "DELAYED",
+      "status_detail": "TWO HOURS LATE; DRIVER DISCRETION",
+      "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
       "name": "Cheatham",
       "status": "CLOSED",
       "status_detail": "Closed Wednesday",
+      "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Clarksville-Montgomery Co. Schools",
+      "status": "CLOSED",
+      "status_detail": "CLOSED; TEACHER IN-SERVICE",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
@@ -39,6 +53,13 @@
       "status": "DELAYED",
       "status_detail": "Two Hours Late with Bus Driver Discretion",
       "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Dayspring Academy",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
+      "region": "Other",
       "source": "NewsChannel 5"
     },
     {
@@ -80,6 +101,13 @@
       "name": "Jackson",
       "status": "CLOSED",
       "status_detail": "CLOSED",
+      "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Lewis",
+      "status": "CLOSED",
+      "status_detail": "Closed Wednesday. Extended care closed also.",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
@@ -158,6 +186,13 @@
       "status": "REMOTE",
       "status_detail": "CLOSED - VIRTUAL/REMOTE LEARNING DAY",
       "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Todd",
+      "status": "CLOSED",
+      "status_detail": "Closed Wednesday  NTI Day 8",
+      "region": "Other",
       "source": "NewsChannel 5"
     },
     {
@@ -469,6 +504,13 @@
       "source": "Action News 5"
     },
     {
+      "name": "Tipton County Schools",
+      "status": "CLOSED",
+      "status_detail": "Closed Wednesday",
+      "region": "West Tennessee",
+      "source": "Action News 5"
+    },
+    {
       "name": "Tipton-Rosemark Academy",
       "status": "CLOSED",
       "status_detail": "Closed Wednesday",
@@ -620,13 +662,6 @@
       "status": "CLOSED",
       "status_detail": "Closed Wednesday",
       "region": "East Tennessee",
-      "source": "WVLT"
-    },
-    {
-      "name": "Seymour Community Christian School",
-      "status": "CLOSED",
-      "status_detail": "Closed Tuesday",
-      "region": "Other",
       "source": "WVLT"
     },
     {
