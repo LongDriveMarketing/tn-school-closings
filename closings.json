@@ -1,16 +1,16 @@
 {
   "meta": {
-    "generated_at": "2026-02-03T16:50:46.777337+00:00",
-    "total_closings": 37,
+    "generated_at": "2026-02-03T17:00:54.742103+00:00",
+    "total_closings": 34,
     "by_status": {
       "CLOSED": 26,
-      "REMOTE": 10,
+      "REMOTE": 7,
       "DELAYED": 1
     },
     "by_region": {
       "Middle Tennessee": 7,
-      "West Tennessee": 18,
-      "Other": 9,
+      "West Tennessee": 17,
+      "Other": 7,
       "East Tennessee": 3
     },
     "sources": [
@@ -91,13 +91,6 @@
       "source": "Action News 5"
     },
     {
-      "name": "Christian Brothers High School",
-      "status": "CLOSED",
-      "status_detail": "Open Tuesday - 9 a.m. Late Start",
-      "region": "West Tennessee",
-      "source": "Action News 5"
-    },
-    {
       "name": "Collierville School District",
       "status": "CLOSED",
       "status_detail": "Closed Through Tuesday the 3rd",
@@ -112,6 +105,13 @@
       "source": "Action News 5"
     },
     {
+      "name": "Creative Life Preparatory School",
+      "status": "CLOSED",
+      "status_detail": "Closed Tuesday - Creative Life Prep/Afterschool/CLECT Daycare",
+      "region": "Other",
+      "source": "Action News 5"
+    },
+    {
       "name": "Crockett County School District",
       "status": "CLOSED",
       "status_detail": "Closed Through Wednesday",
@@ -122,13 +122,6 @@
       "name": "DeSoto County Schools",
       "status": "CLOSED",
       "status_detail": "Closed Through Tuesday the 3rd",
-      "region": "Other",
-      "source": "Action News 5"
-    },
-    {
-      "name": "Faith Heritage Christian Academy",
-      "status": "CLOSED",
-      "status_detail": "Open Tuesday",
       "region": "Other",
       "source": "Action News 5"
     },
@@ -150,6 +143,13 @@
       "name": "Hardin County Schools",
       "status": "CLOSED",
       "status_detail": "Closed Through Friday 2/6",
+      "region": "West Tennessee",
+      "source": "Action News 5"
+    },
+    {
+      "name": "Haywood County Schools",
+      "status": "CLOSED",
+      "status_detail": "Closed Wednesday",
       "region": "West Tennessee",
       "source": "Action News 5"
     },
@@ -217,30 +217,9 @@
       "source": "Action News 5"
     },
     {
-      "name": "Southwest Tennessee Community College",
-      "status": "REMOTE",
-      "status_detail": "Virtual Learning Tuesday",
-      "region": "Other",
-      "source": "Action News 5"
-    },
-    {
       "name": "Tate County School District",
       "status": "CLOSED",
       "status_detail": "Closed Through Tuesday",
-      "region": "West Tennessee",
-      "source": "Action News 5"
-    },
-    {
-      "name": "Tennessee College of Applied Technology",
-      "status": "REMOTE",
-      "status_detail": "Virtual Learning Tuesday",
-      "region": "Other",
-      "source": "Action News 5"
-    },
-    {
-      "name": "University of Memphis",
-      "status": "REMOTE",
-      "status_detail": "Virtual Learning Tuesday",
       "region": "West Tennessee",
       "source": "Action News 5"
     },
