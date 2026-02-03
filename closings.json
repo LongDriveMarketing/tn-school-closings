@@ -1,15 +1,15 @@
 {
   "meta": {
-    "generated_at": "2026-02-03T02:10:51.030382+00:00",
-    "total_closings": 155,
+    "generated_at": "2026-02-03T02:20:46.844425+00:00",
+    "total_closings": 156,
     "by_status": {
-      "CLOSED": 131,
+      "CLOSED": 132,
       "DELAYED": 14,
       "REMOTE": 10
     },
     "by_region": {
       "Other": 47,
-      "West Tennessee": 41,
+      "West Tennessee": 42,
       "Middle Tennessee": 31,
       "East Tennessee": 36
     },
@@ -324,7 +324,7 @@
     {
       "name": "Alamo City Schools",
       "status": "CLOSED",
-      "status_detail": "Closed Through 02/03",
+      "status_detail": "Closed Through 02/04",
       "region": "West Tennessee",
       "source": "Action News 5"
     },
@@ -584,6 +584,13 @@
       "name": "Mid-America Baptist Theological Seminary",
       "status": "CLOSED",
       "status_detail": "Closed Tuesday - Virtual Learning Day",
+      "region": "West Tennessee",
+      "source": "Action News 5"
+    },
+    {
+      "name": "Millington Municipal Schools",
+      "status": "CLOSED",
+      "status_detail": "Closed Tuesday",
       "region": "West Tennessee",
       "source": "Action News 5"
     },
