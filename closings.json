@@ -1,14 +1,14 @@
 {
   "meta": {
-    "generated_at": "2026-02-03T19:40:42.411732+00:00",
-    "total_closings": 44,
+    "generated_at": "2026-02-03T19:50:39.721165+00:00",
+    "total_closings": 45,
     "by_status": {
-      "CLOSED": 37,
+      "CLOSED": 38,
       "DELAYED": 3,
       "REMOTE": 4
     },
     "by_region": {
-      "West Tennessee": 19,
+      "West Tennessee": 20,
       "Middle Tennessee": 9,
       "Other": 10,
       "East Tennessee": 6
@@ -60,6 +60,13 @@
       "status": "CLOSED",
       "status_detail": "NTI #9",
       "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Paris Special School District",
+      "status": "CLOSED",
+      "status_detail": "closed Wednesday February 4",
+      "region": "West Tennessee",
       "source": "NewsChannel 5"
     },
     {
