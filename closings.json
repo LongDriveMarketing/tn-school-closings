@@ -1,16 +1,16 @@
 {
   "meta": {
-    "generated_at": "2026-02-03T21:10:43.020555+00:00",
-    "total_closings": 55,
+    "generated_at": "2026-02-03T21:20:46.047398+00:00",
+    "total_closings": 59,
     "by_status": {
-      "CLOSED": 46,
+      "CLOSED": 50,
       "DELAYED": 5,
       "REMOTE": 4
     },
     "by_region": {
-      "West Tennessee": 20,
+      "West Tennessee": 23,
       "Middle Tennessee": 12,
-      "Other": 12,
+      "Other": 13,
       "East Tennessee": 11
     },
     "sources": [
@@ -133,6 +133,20 @@
       "source": "Action News 5"
     },
     {
+      "name": "Alcorn School District",
+      "status": "CLOSED",
+      "status_detail": "Closed Through Monday",
+      "region": "Other",
+      "source": "Action News 5"
+    },
+    {
+      "name": "Arlington Community Schools",
+      "status": "CLOSED",
+      "status_detail": "Closed Wednesday",
+      "region": "West Tennessee",
+      "source": "Action News 5"
+    },
+    {
       "name": "Bells City School",
       "status": "CLOSED",
       "status_detail": "Closed Wednesday",
@@ -154,20 +168,6 @@
       "source": "Action News 5"
     },
     {
-      "name": "Corinth School District",
-      "status": "CLOSED",
-      "status_detail": "Closed Through Tuesday the 3rd",
-      "region": "Other",
-      "source": "Action News 5"
-    },
-    {
-      "name": "Creative Life Preparatory School",
-      "status": "CLOSED",
-      "status_detail": "Closed Tuesday - Creative Life Prep/Afterschool/CLECT Daycare",
-      "region": "Other",
-      "source": "Action News 5"
-    },
-    {
       "name": "Crockett County School District",
       "status": "CLOSED",
       "status_detail": "Closed Through Wednesday",
@@ -177,14 +177,28 @@
     {
       "name": "DeSoto County Schools",
       "status": "CLOSED",
-      "status_detail": "Closed Through Tuesday the 3rd",
+      "status_detail": "Closed Wednesday",
       "region": "Other",
+      "source": "Action News 5"
+    },
+    {
+      "name": "Fayette Academy",
+      "status": "CLOSED",
+      "status_detail": "Closed Wednesday",
+      "region": "West Tennessee",
       "source": "Action News 5"
     },
     {
       "name": "Fayette County Public Schools",
       "status": "CLOSED",
       "status_detail": "Closed Wednesday - All before/after school activities cancelled",
+      "region": "West Tennessee",
+      "source": "Action News 5"
+    },
+    {
+      "name": "Germantown Municipal School District",
+      "status": "CLOSED",
+      "status_detail": "Closed Wednesday",
       "region": "West Tennessee",
       "source": "Action News 5"
     },
@@ -247,7 +261,7 @@
     {
       "name": "Memphis Shelby County Schools",
       "status": "CLOSED",
-      "status_detail": "Closed Through Tuesday the 3rd",
+      "status_detail": "Closed Wednesday",
       "region": "West Tennessee",
       "source": "Action News 5"
     },
@@ -296,7 +310,7 @@
     {
       "name": "Tate County School District",
       "status": "CLOSED",
-      "status_detail": "Closed Through Tuesday",
+      "status_detail": "Closed Wednesday",
       "region": "West Tennessee",
       "source": "Action News 5"
     },
@@ -357,6 +371,13 @@
       "source": "WVLT"
     },
     {
+      "name": "Harlan County, KY Schools",
+      "status": "CLOSED",
+      "status_detail": "Closed Wednesday",
+      "region": "Other",
+      "source": "WVLT"
+    },
+    {
       "name": "Hawkins County Schools",
       "status": "CLOSED",
       "status_detail": "Closed Through 02/04",
@@ -396,6 +417,13 @@
       "status": "CLOSED",
       "status_detail": "Closed Wednesday",
       "region": "East Tennessee",
+      "source": "WVLT"
+    },
+    {
+      "name": "Seymour Community Christian School",
+      "status": "CLOSED",
+      "status_detail": "Closed Tuesday",
+      "region": "Other",
       "source": "WVLT"
     },
     {
