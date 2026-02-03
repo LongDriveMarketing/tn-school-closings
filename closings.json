@@ -1,15 +1,14 @@
 {
   "meta": {
-    "generated_at": "2026-02-03T18:10:44.849711+00:00",
-    "total_closings": 37,
+    "generated_at": "2026-02-03T18:20:45.558531+00:00",
+    "total_closings": 35,
     "by_status": {
-      "CLOSED": 29,
-      "REMOTE": 7,
-      "DELAYED": 1
+      "CLOSED": 30,
+      "REMOTE": 5
     },
     "by_region": {
       "West Tennessee": 18,
-      "Middle Tennessee": 9,
+      "Middle Tennessee": 7,
       "Other": 7,
       "East Tennessee": 3
     },
@@ -42,16 +41,9 @@
       "source": "NewsChannel 5"
     },
     {
-      "name": "Nashville State-Humphreys Co.",
-      "status": "REMOTE",
-      "status_detail": "Operations & Classes are virtual on 2/3",
-      "region": "Middle Tennessee",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "Nashville State-Southeast",
-      "status": "DELAYED",
-      "status_detail": "1 1/2 HOURS LATE; OPEN AT 9:30",
+      "name": "Humphreys",
+      "status": "CLOSED",
+      "status_detail": "Closed Wednesday, 2/4",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
@@ -74,20 +66,6 @@
       "status": "REMOTE",
       "status_detail": "Distance Learning Wednesday",
       "region": "Middle Tennessee",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "TCAT Dickson",
-      "status": "REMOTE",
-      "status_detail": "CLOSED - VIRTUAL/REMOTE LEARNING DAY",
-      "region": "Middle Tennessee",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "TCAT Henry/Carroll",
-      "status": "CLOSED",
-      "status_detail": "ONE HOUR LATE",
-      "region": "West Tennessee",
       "source": "NewsChannel 5"
     },
     {
@@ -144,6 +122,13 @@
       "status": "CLOSED",
       "status_detail": "Closed Through Tuesday the 3rd",
       "region": "Other",
+      "source": "Action News 5"
+    },
+    {
+      "name": "Fayette County Public Schools",
+      "status": "CLOSED",
+      "status_detail": "Closed Wednesday - All before/after school activities cancelled",
+      "region": "West Tennessee",
       "source": "Action News 5"
     },
     {
