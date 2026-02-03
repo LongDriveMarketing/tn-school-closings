@@ -1,14 +1,14 @@
 {
   "meta": {
-    "generated_at": "2026-02-03T23:20:42.562450+00:00",
-    "total_closings": 99,
+    "generated_at": "2026-02-03T23:30:50.052912+00:00",
+    "total_closings": 100,
     "by_status": {
-      "CLOSED": 84,
+      "CLOSED": 85,
       "DELAYED": 10,
       "REMOTE": 5
     },
     "by_region": {
-      "Other": 23,
+      "Other": 24,
       "West Tennessee": 39,
       "Middle Tennessee": 22,
       "East Tennessee": 15
@@ -557,6 +557,13 @@
       "status": "CLOSED",
       "status_detail": "Closed Wednesday",
       "region": "West Tennessee",
+      "source": "Action News 5"
+    },
+    {
+      "name": "Word of Faith Christian Academy",
+      "status": "CLOSED",
+      "status_detail": "Closed Wednesday",
+      "region": "Other",
       "source": "Action News 5"
     },
     {
