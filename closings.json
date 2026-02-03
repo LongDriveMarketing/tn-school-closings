@@ -1,15 +1,15 @@
 {
   "meta": {
-    "generated_at": "2026-02-03T01:00:51.543424+00:00",
-    "total_closings": 151,
+    "generated_at": "2026-02-03T01:10:59.920510+00:00",
+    "total_closings": 153,
     "by_status": {
-      "CLOSED": 127,
+      "CLOSED": 129,
       "DELAYED": 14,
       "REMOTE": 10
     },
     "by_region": {
-      "Other": 44,
-      "West Tennessee": 40,
+      "Other": 45,
+      "West Tennessee": 41,
       "Middle Tennessee": 31,
       "East Tennessee": 36
     },
@@ -609,6 +609,13 @@
       "source": "Action News 5"
     },
     {
+      "name": "SE Academy Private School",
+      "status": "CLOSED",
+      "status_detail": "Closed Tuesday",
+      "region": "Other",
+      "source": "Action News 5"
+    },
+    {
       "name": "Senatobia Municipal School District",
       "status": "CLOSED",
       "status_detail": "Closed Through 02/03",
@@ -661,6 +668,13 @@
       "name": "Tipton County Schools",
       "status": "CLOSED",
       "status_detail": "Closed Tuesday",
+      "region": "West Tennessee",
+      "source": "Action News 5"
+    },
+    {
+      "name": "Tipton-Rosemark Academy",
+      "status": "CLOSED",
+      "status_detail": "Closed Tuesday 02/03",
       "region": "West Tennessee",
       "source": "Action News 5"
     },
