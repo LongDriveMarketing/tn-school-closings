@@ -1,14 +1,14 @@
 {
   "meta": {
-    "generated_at": "2026-02-03T01:50:43.258720+00:00",
-    "total_closings": 154,
+    "generated_at": "2026-02-03T02:00:41.808911+00:00",
+    "total_closings": 155,
     "by_status": {
-      "CLOSED": 130,
+      "CLOSED": 131,
       "DELAYED": 14,
       "REMOTE": 10
     },
     "by_region": {
-      "Other": 46,
+      "Other": 47,
       "West Tennessee": 41,
       "Middle Tennessee": 31,
       "East Tennessee": 36
@@ -39,6 +39,13 @@
       "status": "CLOSED",
       "status_detail": "CLOSED",
       "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Caverna Independent",
+      "status": "CLOSED",
+      "status_detail": "ONE HOUR LATE",
+      "region": "Other",
       "source": "NewsChannel 5"
     },
     {
