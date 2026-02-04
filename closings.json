@@ -1,10 +1,10 @@
 {
   "meta": {
-    "generated_at": "2026-02-04T12:50:47.241840+00:00",
+    "generated_at": "2026-02-04T13:00:40.962095+00:00",
     "total_closings": 111,
     "by_status": {
-      "CLOSED": 94,
-      "DELAYED": 11,
+      "CLOSED": 95,
+      "DELAYED": 10,
       "REMOTE": 6
     },
     "by_region": {
@@ -785,8 +785,8 @@
     },
     {
       "name": "Tri-State Christian Academy",
-      "status": "DELAYED",
-      "status_detail": "Opening Late Wednesday 2 Hours",
+      "status": "CLOSED",
+      "status_detail": "Closed Wednesday",
       "region": "Other",
       "source": "WVLT"
     },
