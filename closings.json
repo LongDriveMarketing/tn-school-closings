@@ -1,16 +1,16 @@
 {
   "meta": {
-    "generated_at": "2026-02-04T21:30:37.928049+00:00",
-    "total_closings": 41,
+    "generated_at": "2026-02-04T21:40:41.870584+00:00",
+    "total_closings": 44,
     "by_status": {
-      "CLOSED": 37,
+      "CLOSED": 40,
       "REMOTE": 3,
       "DELAYED": 1
     },
     "by_region": {
-      "West Tennessee": 17,
+      "West Tennessee": 19,
       "Middle Tennessee": 12,
-      "Other": 4,
+      "Other": 5,
       "East Tennessee": 8
     },
     "sources": [
@@ -133,6 +133,13 @@
       "source": "Action News 5"
     },
     {
+      "name": "Bells City School",
+      "status": "CLOSED",
+      "status_detail": "Closed Through 02/06",
+      "region": "West Tennessee",
+      "source": "Action News 5"
+    },
+    {
       "name": "Carroll County Schools",
       "status": "CLOSED",
       "status_detail": "Closed Through 02/06",
@@ -150,6 +157,13 @@
       "name": "Fayette County Public Schools",
       "status": "CLOSED",
       "status_detail": "Closed Through 02/06 - Before/After School Activities Canceled",
+      "region": "West Tennessee",
+      "source": "Action News 5"
+    },
+    {
+      "name": "Germantown Municipal School District",
+      "status": "CLOSED",
+      "status_detail": "Closed Thursday",
       "region": "West Tennessee",
       "source": "Action News 5"
     },
@@ -291,6 +305,13 @@
       "status": "CLOSED",
       "status_detail": "Closed Through 02/06",
       "region": "Middle Tennessee",
+      "source": "WVLT"
+    },
+    {
+      "name": "Rogersville Schools",
+      "status": "CLOSED",
+      "status_detail": "Closed Through 02/06",
+      "region": "Other",
       "source": "WVLT"
     },
     {
