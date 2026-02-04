@@ -1,17 +1,17 @@
 {
   "meta": {
-    "generated_at": "2026-02-04T22:20:47.210450+00:00",
-    "total_closings": 58,
+    "generated_at": "2026-02-04T22:30:37.807995+00:00",
+    "total_closings": 60,
     "by_status": {
-      "CLOSED": 53,
+      "CLOSED": 55,
       "REMOTE": 4,
       "DELAYED": 1
     },
     "by_region": {
-      "West Tennessee": 26,
+      "West Tennessee": 27,
       "Middle Tennessee": 13,
       "Other": 6,
-      "East Tennessee": 13
+      "East Tennessee": 14
     },
     "sources": [
       "NewsChannel 5",
@@ -294,6 +294,13 @@
       "source": "Action News 5"
     },
     {
+      "name": "STAR Academy Charter School",
+      "status": "CLOSED",
+      "status_detail": "Closed Thursday 02/05",
+      "region": "West Tennessee",
+      "source": "Action News 5"
+    },
+    {
       "name": "Tate County School District",
       "status": "CLOSED",
       "status_detail": "Closed Thursday",
@@ -320,6 +327,13 @@
       "status_detail": "Closed Through Sunday 2/8",
       "region": "West Tennessee",
       "source": "Action News 5"
+    },
+    {
+      "name": "Campbell County Schools",
+      "status": "CLOSED",
+      "status_detail": "Closed Thursday",
+      "region": "East Tennessee",
+      "source": "WVLT"
     },
     {
       "name": "Cocke County Schools",
