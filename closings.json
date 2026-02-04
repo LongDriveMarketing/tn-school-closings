@@ -1,17 +1,17 @@
 {
   "meta": {
-    "generated_at": "2026-02-04T23:40:44.705578+00:00",
-    "total_closings": 80,
+    "generated_at": "2026-02-04T23:50:40.072108+00:00",
+    "total_closings": 84,
     "by_status": {
-      "CLOSED": 74,
-      "REMOTE": 4,
-      "DELAYED": 2
+      "CLOSED": 77,
+      "DELAYED": 3,
+      "REMOTE": 4
     },
     "by_region": {
       "West Tennessee": 33,
-      "Middle Tennessee": 16,
-      "Other": 13,
-      "East Tennessee": 18
+      "Middle Tennessee": 17,
+      "Other": 15,
+      "East Tennessee": 19
     },
     "sources": [
       "NewsChannel 5",
@@ -45,6 +45,13 @@
       "name": "Dickson",
       "status": "CLOSED",
       "status_detail": "Closed Thursday and Friday",
+      "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Grundy",
+      "status": "DELAYED",
+      "status_detail": "TWO HOURS LATE",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
@@ -504,10 +511,24 @@
       "source": "WVLT"
     },
     {
+      "name": "Harlan County, KY Schools",
+      "status": "CLOSED",
+      "status_detail": "Closed Thursday",
+      "region": "Other",
+      "source": "WVLT"
+    },
+    {
       "name": "Hawkins County Schools",
       "status": "CLOSED",
       "status_detail": "Closed Through 02/06 - Closed Thursday, Feb. 5 and Friday, Feb 6",
       "region": "East Tennessee",
+      "source": "WVLT"
+    },
+    {
+      "name": "Landmark Christian Academy",
+      "status": "CLOSED",
+      "status_detail": "Closed Thursday",
+      "region": "Other",
       "source": "WVLT"
     },
     {
@@ -557,6 +578,13 @@
       "status": "CLOSED",
       "status_detail": "Closed Through 02/06",
       "region": "Other",
+      "source": "WVLT"
+    },
+    {
+      "name": "Scott County Schools",
+      "status": "CLOSED",
+      "status_detail": "Closed Thursday",
+      "region": "East Tennessee",
       "source": "WVLT"
     },
     {
