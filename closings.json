@@ -1,14 +1,14 @@
 {
   "meta": {
-    "generated_at": "2026-02-04T02:50:48.418033+00:00",
-    "total_closings": 105,
+    "generated_at": "2026-02-04T03:00:46.368774+00:00",
+    "total_closings": 106,
     "by_status": {
-      "CLOSED": 88,
+      "CLOSED": 89,
       "DELAYED": 11,
       "REMOTE": 6
     },
     "by_region": {
-      "Other": 26,
+      "Other": 27,
       "West Tennessee": 39,
       "Middle Tennessee": 23,
       "East Tennessee": 17
@@ -326,6 +326,13 @@
       "status": "CLOSED",
       "status_detail": "Closed Wednesday",
       "region": "West Tennessee",
+      "source": "Action News 5"
+    },
+    {
+      "name": "Earle School District",
+      "status": "CLOSED",
+      "status_detail": "Closed Wednesday",
+      "region": "Other",
       "source": "Action News 5"
     },
     {
