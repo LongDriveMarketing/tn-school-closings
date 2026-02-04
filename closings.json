@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-02-04T12:40:42.610452+00:00",
+    "generated_at": "2026-02-04T12:50:47.241840+00:00",
     "total_closings": 111,
     "by_status": {
       "CLOSED": 94,
@@ -23,7 +23,7 @@
     {
       "name": "Allen",
       "status": "CLOSED",
-      "status_detail": "ONE HOUR LATE",
+      "status_detail": "NTI Day #6",
       "region": "Other",
       "source": "NewsChannel 5"
     },
