@@ -1,17 +1,17 @@
 {
   "meta": {
-    "generated_at": "2026-02-04T11:10:42.113892+00:00",
-    "total_closings": 109,
+    "generated_at": "2026-02-04T11:20:43.285865+00:00",
+    "total_closings": 110,
     "by_status": {
       "CLOSED": 93,
-      "DELAYED": 10,
+      "DELAYED": 11,
       "REMOTE": 6
     },
     "by_region": {
       "Other": 27,
       "West Tennessee": 39,
       "Middle Tennessee": 25,
-      "East Tennessee": 18
+      "East Tennessee": 19
     },
     "sources": [
       "NewsChannel 5",
@@ -130,6 +130,13 @@
       "status": "CLOSED",
       "status_detail": "Closed Wednesday - No Childcare Available",
       "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Monroe",
+      "status": "DELAYED",
+      "status_detail": "TWO HOURS LATE",
+      "region": "East Tennessee",
       "source": "NewsChannel 5"
     },
     {
