@@ -1,16 +1,16 @@
 {
   "meta": {
-    "generated_at": "2026-02-04T23:20:39.448733+00:00",
-    "total_closings": 76,
+    "generated_at": "2026-02-04T23:30:45.336224+00:00",
+    "total_closings": 78,
     "by_status": {
-      "CLOSED": 70,
+      "CLOSED": 72,
       "REMOTE": 4,
       "DELAYED": 2
     },
     "by_region": {
-      "West Tennessee": 31,
+      "West Tennessee": 32,
       "Middle Tennessee": 16,
-      "Other": 12,
+      "Other": 13,
       "East Tennessee": 17
     },
     "sources": [
@@ -280,6 +280,13 @@
       "source": "Action News 5"
     },
     {
+      "name": "Holly Springs School District",
+      "status": "CLOSED",
+      "status_detail": "Closed Thursday",
+      "region": "Other",
+      "source": "Action News 5"
+    },
+    {
       "name": "Holy Family School",
       "status": "REMOTE",
       "status_detail": "Virtual Learning Through 02/06",
@@ -416,6 +423,13 @@
       "name": "University of Mississippi",
       "status": "CLOSED",
       "status_detail": "Closed Through Sunday 2/8",
+      "region": "West Tennessee",
+      "source": "Action News 5"
+    },
+    {
+      "name": "West Memphis School District",
+      "status": "CLOSED",
+      "status_detail": "Closed Thursday",
       "region": "West Tennessee",
       "source": "Action News 5"
     },
