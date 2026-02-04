@@ -1,17 +1,17 @@
 {
   "meta": {
-    "generated_at": "2026-02-04T00:30:49.608287+00:00",
-    "total_closings": 102,
+    "generated_at": "2026-02-04T00:40:48.790371+00:00",
+    "total_closings": 104,
     "by_status": {
-      "CLOSED": 86,
-      "DELAYED": 10,
+      "CLOSED": 87,
+      "DELAYED": 11,
       "REMOTE": 6
     },
     "by_region": {
-      "Other": 24,
+      "Other": 25,
       "West Tennessee": 39,
       "Middle Tennessee": 23,
-      "East Tennessee": 16
+      "East Tennessee": 17
     },
     "sources": [
       "NewsChannel 5",
@@ -506,7 +506,7 @@
     {
       "name": "South Panola School District",
       "status": "CLOSED",
-      "status_detail": "Closed Through 02/04",
+      "status_detail": "Closed Through 02/06",
       "region": "West Tennessee",
       "source": "Action News 5"
     },
@@ -675,6 +675,20 @@
       "name": "Landmark Christian Academy",
       "status": "DELAYED",
       "status_detail": "Opening Late Wednesday 1 Hour",
+      "region": "Other",
+      "source": "WVLT"
+    },
+    {
+      "name": "Monroe County Schools",
+      "status": "DELAYED",
+      "status_detail": "Opening Late 2 hours Wednesday",
+      "region": "East Tennessee",
+      "source": "WVLT"
+    },
+    {
+      "name": "Newport Grammar School",
+      "status": "CLOSED",
+      "status_detail": "Closed Wednesday",
       "region": "Other",
       "source": "WVLT"
     },
