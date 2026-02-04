@@ -1,17 +1,17 @@
 {
   "meta": {
-    "generated_at": "2026-02-04T10:50:45.089318+00:00",
-    "total_closings": 107,
+    "generated_at": "2026-02-04T11:00:43.579688+00:00",
+    "total_closings": 109,
     "by_status": {
-      "CLOSED": 91,
+      "CLOSED": 93,
       "DELAYED": 10,
       "REMOTE": 6
     },
     "by_region": {
       "Other": 27,
       "West Tennessee": 39,
-      "Middle Tennessee": 24,
-      "East Tennessee": 17
+      "Middle Tennessee": 25,
+      "East Tennessee": 18
     },
     "sources": [
       "NewsChannel 5",
@@ -143,6 +143,13 @@
       "name": "Nashville State-Humphreys Co.",
       "status": "REMOTE",
       "status_detail": "Operations & Classes are virtual on 2/4",
+      "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Overton",
+      "status": "CLOSED",
+      "status_detail": "Wednesday",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
@@ -606,6 +613,13 @@
       "status": "DELAYED",
       "status_detail": "Opening Late Wednesday 1 Hour",
       "region": "Other",
+      "source": "WVLT"
+    },
+    {
+      "name": "Bell County",
+      "status": "CLOSED",
+      "status_detail": "Closed Wednesday - Traditional Snow Day",
+      "region": "East Tennessee",
       "source": "WVLT"
     },
     {
