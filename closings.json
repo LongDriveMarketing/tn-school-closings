@@ -1,22 +1,21 @@
 {
   "meta": {
-    "generated_at": "2026-02-04T16:30:42.862771+00:00",
-    "total_closings": 112,
+    "generated_at": "2026-02-04T16:41:03.744674+00:00",
+    "total_closings": 45,
     "by_status": {
-      "CLOSED": 96,
-      "DELAYED": 10,
+      "CLOSED": 35,
+      "DELAYED": 4,
       "REMOTE": 6
     },
     "by_region": {
-      "Other": 28,
-      "West Tennessee": 40,
-      "Middle Tennessee": 25,
-      "East Tennessee": 19
+      "Other": 8,
+      "West Tennessee": 12,
+      "Middle Tennessee": 24,
+      "East Tennessee": 1
     },
     "sources": [
       "NewsChannel 5",
-      "Action News 5",
-      "WVLT"
+      "Action News 5"
     ]
   },
   "closings": [
@@ -205,7 +204,7 @@
     {
       "name": "Stewart",
       "status": "CLOSED",
-      "status_detail": "CLOSED",
+      "status_detail": "CLOSED; CLOSED THURSDAY & FRIDAY",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
@@ -252,13 +251,6 @@
       "source": "NewsChannel 5"
     },
     {
-      "name": "Alamo City Schools",
-      "status": "CLOSED",
-      "status_detail": "Closed Through 02/04",
-      "region": "West Tennessee",
-      "source": "Action News 5"
-    },
-    {
       "name": "Alcorn School District",
       "status": "CLOSED",
       "status_detail": "Closed Through Monday",
@@ -266,128 +258,9 @@
       "source": "Action News 5"
     },
     {
-      "name": "Arkansas State University Mid-South",
-      "status": "CLOSED",
-      "status_detail": "Closed Wednesday - Students check Canvas for updates",
-      "region": "Other",
-      "source": "Action News 5"
-    },
-    {
-      "name": "Arlington Community Schools",
-      "status": "CLOSED",
-      "status_detail": "Closed Wednesday",
-      "region": "West Tennessee",
-      "source": "Action News 5"
-    },
-    {
-      "name": "Bartlett City Schools",
-      "status": "CLOSED",
-      "status_detail": "Closed Wednesday",
-      "region": "West Tennessee",
-      "source": "Action News 5"
-    },
-    {
-      "name": "Bells City School",
-      "status": "CLOSED",
-      "status_detail": "Closed Wednesday",
-      "region": "West Tennessee",
-      "source": "Action News 5"
-    },
-    {
-      "name": "Carroll County Schools",
-      "status": "CLOSED",
-      "status_detail": "Closed Wednesday",
-      "region": "West Tennessee",
-      "source": "Action News 5"
-    },
-    {
-      "name": "City University Schools",
-      "status": "CLOSED",
-      "status_detail": "Closed Wednesday - Faculty and staff office hours 9 - 11 am",
-      "region": "Other",
-      "source": "Action News 5"
-    },
-    {
-      "name": "Collierville School District",
-      "status": "CLOSED",
-      "status_detail": "Closed Wednesday",
-      "region": "West Tennessee",
-      "source": "Action News 5"
-    },
-    {
-      "name": "Compass Community Schools",
-      "status": "CLOSED",
-      "status_detail": "Closed Wednesday",
-      "region": "West Tennessee",
-      "source": "Action News 5"
-    },
-    {
-      "name": "Creative Life Preparatory School",
-      "status": "CLOSED",
-      "status_detail": "Closed Wednesday - Creative Life Prep/Afterschool/CLECT Daycare",
-      "region": "Other",
-      "source": "Action News 5"
-    },
-    {
       "name": "Crockett County School District",
       "status": "CLOSED",
       "status_detail": "Closed Through Wednesday",
-      "region": "West Tennessee",
-      "source": "Action News 5"
-    },
-    {
-      "name": "DeSoto County Schools",
-      "status": "CLOSED",
-      "status_detail": "Closed Wednesday",
-      "region": "Other",
-      "source": "Action News 5"
-    },
-    {
-      "name": "Dyer County Schools",
-      "status": "CLOSED",
-      "status_detail": "Closed Wednesday",
-      "region": "West Tennessee",
-      "source": "Action News 5"
-    },
-    {
-      "name": "Dyersburg City Schools",
-      "status": "CLOSED",
-      "status_detail": "Closed Wednesday",
-      "region": "West Tennessee",
-      "source": "Action News 5"
-    },
-    {
-      "name": "Earle School District",
-      "status": "CLOSED",
-      "status_detail": "Closed Wednesday",
-      "region": "Other",
-      "source": "Action News 5"
-    },
-    {
-      "name": "Fayette Academy",
-      "status": "CLOSED",
-      "status_detail": "Closed Wednesday",
-      "region": "West Tennessee",
-      "source": "Action News 5"
-    },
-    {
-      "name": "Fayette County Public Schools",
-      "status": "CLOSED",
-      "status_detail": "Closed Wednesday - All before/after school activities cancelled",
-      "region": "West Tennessee",
-      "source": "Action News 5"
-    },
-    {
-      "name": "Freedom Preparatory Academy",
-      "status": "CLOSED",
-      "status_detail": "Closed Wednesday 02/04 - After-school activities canceled",
-      "region": "West Tennessee",
-      "source": "Action News 5"
-    },
-    {
-      "name": "Germantown Municipal School District",
-      "status": "CLOSED",
-      "status_detail": "Closed Wednesday",
       "region": "West Tennessee",
       "source": "Action News 5"
     },
@@ -406,31 +279,10 @@
       "source": "Action News 5"
     },
     {
-      "name": "Haywood County Schools",
-      "status": "CLOSED",
-      "status_detail": "Closed Wednesday",
-      "region": "West Tennessee",
-      "source": "Action News 5"
-    },
-    {
-      "name": "Holly Springs School District",
-      "status": "CLOSED",
-      "status_detail": "Closed Through 02/04",
-      "region": "Other",
-      "source": "Action News 5"
-    },
-    {
       "name": "Holy Family School",
       "status": "REMOTE",
       "status_detail": "Virtual Learning Through 02/04",
       "region": "Other",
-      "source": "Action News 5"
-    },
-    {
-      "name": "KIPP Memphis Public Schools",
-      "status": "CLOSED",
-      "status_detail": "Closed Wednesday",
-      "region": "West Tennessee",
       "source": "Action News 5"
     },
     {
@@ -441,73 +293,10 @@
       "source": "Action News 5"
     },
     {
-      "name": "Lakeland School System",
-      "status": "CLOSED",
-      "status_detail": "Closed Wednesday",
-      "region": "West Tennessee",
-      "source": "Action News 5"
-    },
-    {
-      "name": "Marion School District",
-      "status": "CLOSED",
-      "status_detail": "Closed Wednesday",
-      "region": "East Tennessee",
-      "source": "Action News 5"
-    },
-    {
       "name": "McNairy County Schools",
       "status": "CLOSED",
       "status_detail": "Closed Through Wednesday 2/4",
       "region": "West Tennessee",
-      "source": "Action News 5"
-    },
-    {
-      "name": "Memphis Business Academy",
-      "status": "CLOSED",
-      "status_detail": "Closed Wednesday - After-school activities canceled",
-      "region": "West Tennessee",
-      "source": "Action News 5"
-    },
-    {
-      "name": "Memphis Oral School for the Deaf",
-      "status": "CLOSED",
-      "status_detail": "Closed Wednesday",
-      "region": "West Tennessee",
-      "source": "Action News 5"
-    },
-    {
-      "name": "Memphis Shelby County Schools",
-      "status": "CLOSED",
-      "status_detail": "Closed Wednesday",
-      "region": "West Tennessee",
-      "source": "Action News 5"
-    },
-    {
-      "name": "Memphis STEM Academy",
-      "status": "CLOSED",
-      "status_detail": "Closed Wednesday - After-school activities canceled",
-      "region": "West Tennessee",
-      "source": "Action News 5"
-    },
-    {
-      "name": "Mid-America Baptist Theological Seminary",
-      "status": "CLOSED",
-      "status_detail": "Closed Wednesday - Virtual Learning Day",
-      "region": "West Tennessee",
-      "source": "Action News 5"
-    },
-    {
-      "name": "Millington Municipal Schools",
-      "status": "CLOSED",
-      "status_detail": "Closed Wednesday",
-      "region": "West Tennessee",
-      "source": "Action News 5"
-    },
-    {
-      "name": "North Panola School District",
-      "status": "CLOSED",
-      "status_detail": "Closed Through 02/04",
-      "region": "Other",
       "source": "Action News 5"
     },
     {
@@ -525,80 +314,10 @@
       "source": "Action News 5"
     },
     {
-      "name": "Rossville Christian Academy",
-      "status": "CLOSED",
-      "status_detail": "Closed Wednesday",
-      "region": "Other",
-      "source": "Action News 5"
-    },
-    {
-      "name": "SE Academy Private School",
-      "status": "CLOSED",
-      "status_detail": "Closed Wednesday",
-      "region": "Other",
-      "source": "Action News 5"
-    },
-    {
-      "name": "Senatobia Municipal School District",
-      "status": "CLOSED",
-      "status_detail": "Closed Through 02/04",
-      "region": "West Tennessee",
-      "source": "Action News 5"
-    },
-    {
       "name": "South Panola School District",
       "status": "CLOSED",
       "status_detail": "Closed Through 02/06",
       "region": "West Tennessee",
-      "source": "Action News 5"
-    },
-    {
-      "name": "STAR Academy Charter School",
-      "status": "CLOSED",
-      "status_detail": "Closed Wednesday 02/04",
-      "region": "West Tennessee",
-      "source": "Action News 5"
-    },
-    {
-      "name": "Tate County School District",
-      "status": "CLOSED",
-      "status_detail": "Closed Wednesday",
-      "region": "West Tennessee",
-      "source": "Action News 5"
-    },
-    {
-      "name": "Tipton Christian Academy",
-      "status": "CLOSED",
-      "status_detail": "Closed Wednesday",
-      "region": "West Tennessee",
-      "source": "Action News 5"
-    },
-    {
-      "name": "Tipton County Schools",
-      "status": "CLOSED",
-      "status_detail": "Closed Wednesday",
-      "region": "West Tennessee",
-      "source": "Action News 5"
-    },
-    {
-      "name": "Tipton-Rosemark Academy",
-      "status": "CLOSED",
-      "status_detail": "Closed Wednesday",
-      "region": "West Tennessee",
-      "source": "Action News 5"
-    },
-    {
-      "name": "Tunica Academy",
-      "status": "CLOSED",
-      "status_detail": "Closed Wednesday",
-      "region": "Other",
-      "source": "Action News 5"
-    },
-    {
-      "name": "Tunica County School District",
-      "status": "CLOSED",
-      "status_detail": "Closed Wednesday",
-      "region": "Other",
       "source": "Action News 5"
     },
     {
@@ -614,195 +333,6 @@
       "status_detail": "Closed Wednesday",
       "region": "West Tennessee",
       "source": "Action News 5"
-    },
-    {
-      "name": "Word of Faith Christian Academy",
-      "status": "CLOSED",
-      "status_detail": "Closed Wednesday",
-      "region": "Other",
-      "source": "Action News 5"
-    },
-    {
-      "name": "Anderson County Schools",
-      "status": "CLOSED",
-      "status_detail": "Closed Wednesday",
-      "region": "East Tennessee",
-      "source": "WVLT"
-    },
-    {
-      "name": "Annoor Academy",
-      "status": "DELAYED",
-      "status_detail": "Opening Late Wednesday 1 Hour",
-      "region": "Other",
-      "source": "WVLT"
-    },
-    {
-      "name": "Bell County",
-      "status": "CLOSED",
-      "status_detail": "Closed Wednesday - Traditional Snow Day",
-      "region": "East Tennessee",
-      "source": "WVLT"
-    },
-    {
-      "name": "Campbell County Schools",
-      "status": "CLOSED",
-      "status_detail": "Closed Wednesday",
-      "region": "East Tennessee",
-      "source": "WVLT"
-    },
-    {
-      "name": "Claiborne County Schools",
-      "status": "CLOSED",
-      "status_detail": "Closed Wednesday",
-      "region": "East Tennessee",
-      "source": "WVLT"
-    },
-    {
-      "name": "Cocke County Schools",
-      "status": "CLOSED",
-      "status_detail": "Closed Wednesday",
-      "region": "East Tennessee",
-      "source": "WVLT"
-    },
-    {
-      "name": "First Baptist Academy-Powell",
-      "status": "DELAYED",
-      "status_detail": "Opening Late Wednesday 1 Hour",
-      "region": "Other",
-      "source": "WVLT"
-    },
-    {
-      "name": "Grainger County Schools",
-      "status": "CLOSED",
-      "status_detail": "Closed Wednesday",
-      "region": "East Tennessee",
-      "source": "WVLT"
-    },
-    {
-      "name": "Greene County Schools",
-      "status": "CLOSED",
-      "status_detail": "Closed Wednesday",
-      "region": "East Tennessee",
-      "source": "WVLT"
-    },
-    {
-      "name": "Hamblen County Schools",
-      "status": "CLOSED",
-      "status_detail": "Closed Wednesday",
-      "region": "East Tennessee",
-      "source": "WVLT"
-    },
-    {
-      "name": "Hancock County Schools",
-      "status": "CLOSED",
-      "status_detail": "Closed Through 02/04",
-      "region": "East Tennessee",
-      "source": "WVLT"
-    },
-    {
-      "name": "Harlan County, KY Schools",
-      "status": "CLOSED",
-      "status_detail": "Closed Wednesday",
-      "region": "Other",
-      "source": "WVLT"
-    },
-    {
-      "name": "Hawkins County Schools",
-      "status": "CLOSED",
-      "status_detail": "Closed Through 02/04",
-      "region": "East Tennessee",
-      "source": "WVLT"
-    },
-    {
-      "name": "Knox County, TN Schools",
-      "status": "CLOSED",
-      "status_detail": "Closed Wednesday",
-      "region": "East Tennessee",
-      "source": "WVLT"
-    },
-    {
-      "name": "Knoxville Preparatory School",
-      "status": "CLOSED",
-      "status_detail": "Closed Wednesday - KPS imefungwa 4 Feb 2026 / KPS cerrado 4 feb 2026",
-      "region": "East Tennessee",
-      "source": "WVLT"
-    },
-    {
-      "name": "Landmark Christian Academy",
-      "status": "DELAYED",
-      "status_detail": "Opening Late Wednesday 1 Hour",
-      "region": "Other",
-      "source": "WVLT"
-    },
-    {
-      "name": "Monroe County Schools",
-      "status": "DELAYED",
-      "status_detail": "Opening Late 2 hours Wednesday",
-      "region": "East Tennessee",
-      "source": "WVLT"
-    },
-    {
-      "name": "Newport Grammar School",
-      "status": "CLOSED",
-      "status_detail": "Closed Wednesday",
-      "region": "Other",
-      "source": "WVLT"
-    },
-    {
-      "name": "Oneida Special School District",
-      "status": "DELAYED",
-      "status_detail": "Opening Late Wednesday 2 Hours",
-      "region": "Other",
-      "source": "WVLT"
-    },
-    {
-      "name": "Overton County Schools",
-      "status": "CLOSED",
-      "status_detail": "Closed Wednesday",
-      "region": "Middle Tennessee",
-      "source": "WVLT"
-    },
-    {
-      "name": "Roane County Schools",
-      "status": "DELAYED",
-      "status_detail": "Opening Late Wednesday 2 Hours",
-      "region": "East Tennessee",
-      "source": "WVLT"
-    },
-    {
-      "name": "Rogersville Schools",
-      "status": "CLOSED",
-      "status_detail": "Closed Wednesday",
-      "region": "Other",
-      "source": "WVLT"
-    },
-    {
-      "name": "Scott County Schools",
-      "status": "CLOSED",
-      "status_detail": "Closed Wednesday",
-      "region": "East Tennessee",
-      "source": "WVLT"
-    },
-    {
-      "name": "Sevier County Schools",
-      "status": "CLOSED",
-      "status_detail": "Closed Wednesday",
-      "region": "East Tennessee",
-      "source": "WVLT"
-    },
-    {
-      "name": "Tri-State Christian Academy",
-      "status": "CLOSED",
-      "status_detail": "Closed Wednesday",
-      "region": "Other",
-      "source": "WVLT"
-    },
-    {
-      "name": "Union County Schools",
-      "status": "CLOSED",
-      "status_detail": "Closed Wednesday",
-      "region": "East Tennessee",
-      "source": "WVLT"
     }
   ]
 }
