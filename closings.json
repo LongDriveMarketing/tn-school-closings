@@ -1,14 +1,14 @@
 {
   "meta": {
-    "generated_at": "2026-02-04T13:10:41.748953+00:00",
-    "total_closings": 111,
+    "generated_at": "2026-02-04T13:20:45.048918+00:00",
+    "total_closings": 112,
     "by_status": {
-      "CLOSED": 95,
+      "CLOSED": 96,
       "DELAYED": 10,
       "REMOTE": 6
     },
     "by_region": {
-      "Other": 27,
+      "Other": 28,
       "West Tennessee": 40,
       "Middle Tennessee": 25,
       "East Tennessee": 19
@@ -585,6 +585,13 @@
       "status": "CLOSED",
       "status_detail": "Closed Wednesday",
       "region": "West Tennessee",
+      "source": "Action News 5"
+    },
+    {
+      "name": "Tunica Academy",
+      "status": "CLOSED",
+      "status_detail": "Closed Wednesday",
+      "region": "Other",
       "source": "Action News 5"
     },
     {
