@@ -1,14 +1,14 @@
 {
   "meta": {
-    "generated_at": "2026-02-04T17:40:58.125499+00:00",
-    "total_closings": 15,
+    "generated_at": "2026-02-04T17:51:13.262550+00:00",
+    "total_closings": 16,
     "by_status": {
-      "CLOSED": 12,
+      "CLOSED": 13,
       "REMOTE": 3
     },
     "by_region": {
       "Middle Tennessee": 4,
-      "West Tennessee": 9,
+      "West Tennessee": 10,
       "Other": 2
     },
     "sources": [
@@ -57,6 +57,13 @@
       "status": "CLOSED",
       "status_detail": "Closed Through Monday",
       "region": "Other",
+      "source": "Action News 5"
+    },
+    {
+      "name": "Carroll County Schools",
+      "status": "CLOSED",
+      "status_detail": "Closed Through 02/06",
+      "region": "West Tennessee",
       "source": "Action News 5"
     },
     {
