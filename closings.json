@@ -1,14 +1,14 @@
 {
   "meta": {
-    "generated_at": "2026-02-04T01:20:41.035171+00:00",
-    "total_closings": 104,
+    "generated_at": "2026-02-04T01:30:50.241434+00:00",
+    "total_closings": 105,
     "by_status": {
-      "CLOSED": 87,
+      "CLOSED": 88,
       "DELAYED": 11,
       "REMOTE": 6
     },
     "by_region": {
-      "Other": 25,
+      "Other": 26,
       "West Tennessee": 39,
       "Middle Tennessee": 23,
       "East Tennessee": 17
@@ -206,6 +206,13 @@
       "name": "Todd",
       "status": "CLOSED",
       "status_detail": "Closed Wednesday  NTI Day 8",
+      "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Trigg",
+      "status": "CLOSED",
+      "status_detail": "ONE HOUR LATE",
       "region": "Other",
       "source": "NewsChannel 5"
     },
