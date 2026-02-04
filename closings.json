@@ -1,17 +1,17 @@
 {
   "meta": {
-    "generated_at": "2026-02-04T23:10:43.847637+00:00",
-    "total_closings": 74,
+    "generated_at": "2026-02-04T23:20:39.448733+00:00",
+    "total_closings": 76,
     "by_status": {
-      "CLOSED": 68,
+      "CLOSED": 70,
       "REMOTE": 4,
       "DELAYED": 2
     },
     "by_region": {
       "West Tennessee": 31,
       "Middle Tennessee": 16,
-      "Other": 11,
-      "East Tennessee": 16
+      "Other": 12,
+      "East Tennessee": 17
     },
     "sources": [
       "NewsChannel 5",
@@ -157,6 +157,13 @@
       "name": "Alcorn School District",
       "status": "CLOSED",
       "status_detail": "Closed Through Friday",
+      "region": "Other",
+      "source": "Action News 5"
+    },
+    {
+      "name": "Arkansas State University Mid-South",
+      "status": "CLOSED",
+      "status_detail": "Closed Thursday - Students check Canvas for updates",
       "region": "Other",
       "source": "Action News 5"
     },
@@ -423,6 +430,13 @@
       "name": "Campbell County Schools",
       "status": "CLOSED",
       "status_detail": "Closed Thursday",
+      "region": "East Tennessee",
+      "source": "WVLT"
+    },
+    {
+      "name": "Clinton City Schools",
+      "status": "CLOSED",
+      "status_detail": "Closed Thursday - Central Office Report at 10:00",
       "region": "East Tennessee",
       "source": "WVLT"
     },
