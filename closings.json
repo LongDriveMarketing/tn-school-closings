@@ -1,17 +1,15 @@
 {
   "meta": {
-    "generated_at": "2026-02-04T16:41:03.744674+00:00",
-    "total_closings": 45,
+    "generated_at": "2026-02-04T16:51:06.932275+00:00",
+    "total_closings": 17,
     "by_status": {
-      "CLOSED": 35,
-      "DELAYED": 4,
-      "REMOTE": 6
+      "CLOSED": 12,
+      "REMOTE": 5
     },
     "by_region": {
-      "Other": 8,
-      "West Tennessee": 12,
-      "Middle Tennessee": 24,
-      "East Tennessee": 1
+      "Middle Tennessee": 4,
+      "West Tennessee": 10,
+      "Other": 3
     },
     "sources": [
       "NewsChannel 5",
@@ -20,83 +18,6 @@
   },
   "closings": [
     {
-      "name": "Allen",
-      "status": "CLOSED",
-      "status_detail": "NTI Day #6",
-      "region": "Other",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "Benton",
-      "status": "CLOSED",
-      "status_detail": "CLOSED",
-      "region": "West Tennessee",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "Cannon",
-      "status": "DELAYED",
-      "status_detail": "TWO HOURS LATE; DRIVER DISCRETION",
-      "region": "Middle Tennessee",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "Cheatham",
-      "status": "CLOSED",
-      "status_detail": "Closed Wednesday",
-      "region": "Middle Tennessee",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "Clarksville-Montgomery Co. Schools",
-      "status": "CLOSED",
-      "status_detail": "CLOSED; TEACHER IN-SERVICE",
-      "region": "Middle Tennessee",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "Clay",
-      "status": "CLOSED",
-      "status_detail": "CLOSED",
-      "region": "Middle Tennessee",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "Dayspring Academy",
-      "status": "CLOSED",
-      "status_detail": "CLOSED",
-      "region": "Other",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "Dickson",
-      "status": "CLOSED",
-      "status_detail": "CLOSED",
-      "region": "Middle Tennessee",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "Fentress",
-      "status": "DELAYED",
-      "status_detail": "TWO HOURS LATE",
-      "region": "Middle Tennessee",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "Henry",
-      "status": "CLOSED",
-      "status_detail": "CLOSED",
-      "region": "West Tennessee",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "Hickman",
-      "status": "CLOSED",
-      "status_detail": "CLOSED",
-      "region": "Middle Tennessee",
-      "source": "NewsChannel 5"
-    },
-    {
       "name": "Houston",
       "status": "CLOSED",
       "status_detail": "CLOSED WED, THU & FRI",
@@ -104,65 +25,9 @@
       "source": "NewsChannel 5"
     },
     {
-      "name": "Humphreys",
-      "status": "CLOSED",
-      "status_detail": "CLOSED",
-      "region": "Middle Tennessee",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "Jackson",
-      "status": "CLOSED",
-      "status_detail": "CLOSED",
-      "region": "Middle Tennessee",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "Lewis",
-      "status": "CLOSED",
-      "status_detail": "Closed Wednesday. Extended care closed also.",
-      "region": "Middle Tennessee",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "Macon",
-      "status": "CLOSED",
-      "status_detail": "CLOSED",
-      "region": "Middle Tennessee",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "Macon Christian Academy",
-      "status": "CLOSED",
-      "status_detail": "Closed Wednesday - No Childcare Available",
-      "region": "Middle Tennessee",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "Monroe",
-      "status": "DELAYED",
-      "status_detail": "TWO HOURS LATE",
-      "region": "East Tennessee",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "Muhlenberg",
-      "status": "CLOSED",
-      "status_detail": "NTI #9",
-      "region": "Other",
-      "source": "NewsChannel 5"
-    },
-    {
       "name": "Nashville State-Humphreys Co.",
       "status": "REMOTE",
       "status_detail": "Operations & Classes are virtual on 2/4",
-      "region": "Middle Tennessee",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "Overton",
-      "status": "CLOSED",
-      "status_detail": "Wednesday",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
@@ -174,34 +39,6 @@
       "source": "NewsChannel 5"
     },
     {
-      "name": "Perry",
-      "status": "CLOSED",
-      "status_detail": "CLOSED",
-      "region": "Middle Tennessee",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "Pickett",
-      "status": "DELAYED",
-      "status_detail": "TWO HOURS LATE",
-      "region": "Middle Tennessee",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "Robertson",
-      "status": "CLOSED",
-      "status_detail": "CLOSED",
-      "region": "Middle Tennessee",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "Smith",
-      "status": "CLOSED",
-      "status_detail": "CLOSED; Closed Wednesday",
-      "region": "Middle Tennessee",
-      "source": "NewsChannel 5"
-    },
-    {
       "name": "Stewart",
       "status": "CLOSED",
       "status_detail": "CLOSED; CLOSED THURSDAY & FRIDAY",
@@ -209,44 +46,9 @@
       "source": "NewsChannel 5"
     },
     {
-      "name": "St. Patrick",
-      "status": "REMOTE",
-      "status_detail": "Distance Learning Wednesday",
-      "region": "Middle Tennessee",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "Sumner",
-      "status": "CLOSED",
-      "status_detail": "CLOSED",
-      "region": "Middle Tennessee",
-      "source": "NewsChannel 5"
-    },
-    {
       "name": "TCAT Dickson",
       "status": "REMOTE",
       "status_detail": "CLOSED - VIRTUAL/REMOTE LEARNING DAY",
-      "region": "Middle Tennessee",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "Todd",
-      "status": "CLOSED",
-      "status_detail": "Closed Wednesday  NTI Day 8",
-      "region": "Other",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "Trigg",
-      "status": "CLOSED",
-      "status_detail": "ONE HOUR LATE",
-      "region": "Other",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "Warren Co., KY",
-      "status": "CLOSED",
-      "status_detail": "CLOSED - NON TRADITIONAL INSTRUCTION DAY",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
