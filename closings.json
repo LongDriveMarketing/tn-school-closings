@@ -1,16 +1,16 @@
 {
   "meta": {
-    "generated_at": "2026-02-05T02:50:45.115465+00:00",
-    "total_closings": 98,
+    "generated_at": "2026-02-05T03:00:41.276352+00:00",
+    "total_closings": 102,
     "by_status": {
-      "CLOSED": 89,
-      "DELAYED": 3,
+      "CLOSED": 91,
+      "DELAYED": 5,
       "REMOTE": 6
     },
     "by_region": {
-      "West Tennessee": 34,
-      "Middle Tennessee": 24,
-      "Other": 18,
+      "West Tennessee": 35,
+      "Middle Tennessee": 25,
+      "Other": 20,
       "East Tennessee": 22
     },
     "sources": [
@@ -84,6 +84,13 @@
       "source": "NewsChannel 5"
     },
     {
+      "name": "Highland Rim Academy",
+      "status": "DELAYED",
+      "status_detail": "TWO HOURS LATE",
+      "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
       "name": "Houston",
       "status": "CLOSED",
       "status_detail": "CLOSED REST OF THE WEEK",
@@ -150,6 +157,13 @@
       "name": "Robertson",
       "status": "CLOSED",
       "status_detail": "CLOSED",
+      "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Smith",
+      "status": "DELAYED",
+      "status_detail": "TWO HOURS LATE",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
@@ -455,6 +469,13 @@
       "source": "Action News 5"
     },
     {
+      "name": "Senatobia Municipal School District",
+      "status": "CLOSED",
+      "status_detail": "Closed Through 02/05",
+      "region": "West Tennessee",
+      "source": "Action News 5"
+    },
+    {
       "name": "South Panola School District",
       "status": "CLOSED",
       "status_detail": "Closed Through 02/06",
@@ -648,6 +669,13 @@
       "status": "CLOSED",
       "status_detail": "Closed Through 02/06",
       "region": "Middle Tennessee",
+      "source": "WVLT"
+    },
+    {
+      "name": "Pineville Independent Schools",
+      "status": "CLOSED",
+      "status_detail": "Closed Thursday",
+      "region": "Other",
       "source": "WVLT"
     },
     {
