@@ -1,15 +1,15 @@
 {
   "meta": {
-    "generated_at": "2026-02-05T00:20:45.828980+00:00",
-    "total_closings": 88,
+    "generated_at": "2026-02-05T00:30:38.434384+00:00",
+    "total_closings": 89,
     "by_status": {
-      "CLOSED": 81,
+      "CLOSED": 82,
       "DELAYED": 3,
       "REMOTE": 4
     },
     "by_region": {
       "West Tennessee": 33,
-      "Middle Tennessee": 19,
+      "Middle Tennessee": 20,
       "Other": 16,
       "East Tennessee": 20
     },
@@ -122,6 +122,13 @@
       "name": "Perry",
       "status": "CLOSED",
       "status_detail": "CLOSED REST OF THE WEEK",
+      "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Pickett",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
