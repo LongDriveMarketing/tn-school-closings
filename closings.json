@@ -1,15 +1,15 @@
 {
   "meta": {
-    "generated_at": "2026-02-05T03:00:41.276352+00:00",
-    "total_closings": 102,
+    "generated_at": "2026-02-05T03:10:46.317520+00:00",
+    "total_closings": 103,
     "by_status": {
-      "CLOSED": 91,
+      "CLOSED": 92,
       "DELAYED": 5,
       "REMOTE": 6
     },
     "by_region": {
       "West Tennessee": 35,
-      "Middle Tennessee": 25,
+      "Middle Tennessee": 26,
       "Other": 20,
       "East Tennessee": 22
     },
@@ -25,6 +25,13 @@
       "status": "CLOSED",
       "status_detail": "CLOSED REST OF THE WEEK",
       "region": "West Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Cannon",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
+      "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
     {
