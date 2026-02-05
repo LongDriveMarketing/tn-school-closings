@@ -1,14 +1,14 @@
 {
   "meta": {
-    "generated_at": "2026-02-05T00:30:38.434384+00:00",
-    "total_closings": 89,
+    "generated_at": "2026-02-05T00:40:38.987178+00:00",
+    "total_closings": 90,
     "by_status": {
       "CLOSED": 82,
       "DELAYED": 3,
-      "REMOTE": 4
+      "REMOTE": 5
     },
     "by_region": {
-      "West Tennessee": 33,
+      "West Tennessee": 34,
       "Middle Tennessee": 20,
       "Other": 16,
       "East Tennessee": 20
@@ -409,6 +409,13 @@
       "name": "Millington Municipal Schools",
       "status": "CLOSED",
       "status_detail": "Closed Thursday",
+      "region": "West Tennessee",
+      "source": "Action News 5"
+    },
+    {
+      "name": "Northwest Mississippi Community College",
+      "status": "REMOTE",
+      "status_detail": "Virtual Learning Through 02/05",
       "region": "West Tennessee",
       "source": "Action News 5"
     },
