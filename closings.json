@@ -1,14 +1,14 @@
 {
   "meta": {
-    "generated_at": "2026-02-05T19:20:40.182855+00:00",
-    "total_closings": 40,
+    "generated_at": "2026-02-05T19:30:45.445496+00:00",
+    "total_closings": 41,
     "by_status": {
-      "CLOSED": 36,
+      "CLOSED": 37,
       "REMOTE": 4
     },
     "by_region": {
       "West Tennessee": 15,
-      "Middle Tennessee": 13,
+      "Middle Tennessee": 14,
       "Other": 8,
       "East Tennessee": 4
     },
@@ -107,6 +107,13 @@
       "name": "St. Patrick",
       "status": "CLOSED",
       "status_detail": "CLOSED",
+      "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Warren Co., KY",
+      "status": "CLOSED",
+      "status_detail": "NTI Day",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
