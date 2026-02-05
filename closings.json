@@ -1,17 +1,17 @@
 {
   "meta": {
-    "generated_at": "2026-02-05T11:50:42.059193+00:00",
-    "total_closings": 132,
+    "generated_at": "2026-02-05T11:52:52.656566+00:00",
+    "total_closings": 135,
     "by_status": {
-      "CLOSED": 107,
-      "DELAYED": 19,
+      "CLOSED": 108,
+      "DELAYED": 21,
       "REMOTE": 6
     },
     "by_region": {
       "West Tennessee": 36,
       "Middle Tennessee": 28,
-      "Other": 32,
-      "East Tennessee": 36
+      "Other": 34,
+      "East Tennessee": 37
     },
     "sources": [
       "NewsChannel 5",
@@ -574,6 +574,13 @@
       "source": "WVLT"
     },
     {
+      "name": "Annoor Academy",
+      "status": "DELAYED",
+      "status_detail": "Opening Late Thursday 2 Hours",
+      "region": "Other",
+      "source": "WVLT"
+    },
+    {
       "name": "Blount County Schools",
       "status": "CLOSED",
       "status_detail": "Closed Thursday",
@@ -714,9 +721,23 @@
       "source": "WVLT"
     },
     {
+      "name": "King's Academy",
+      "status": "CLOSED",
+      "status_detail": "Closed Thursday",
+      "region": "Other",
+      "source": "WVLT"
+    },
+    {
       "name": "Knox County, TN Schools",
       "status": "CLOSED",
       "status_detail": "Closed Thursday",
+      "region": "East Tennessee",
+      "source": "WVLT"
+    },
+    {
+      "name": "Knoxville Catholic High",
+      "status": "DELAYED",
+      "status_detail": "Delayed Thursday 2 Hours",
       "region": "East Tennessee",
       "source": "WVLT"
     },
