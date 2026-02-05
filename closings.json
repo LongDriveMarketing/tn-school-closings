@@ -1,9 +1,9 @@
 {
   "meta": {
-    "generated_at": "2026-02-05T22:50:39.630835+00:00",
-    "total_closings": 59,
+    "generated_at": "2026-02-05T23:00:41.103474+00:00",
+    "total_closings": 58,
     "by_status": {
-      "CLOSED": 54,
+      "CLOSED": 53,
       "REMOTE": 3,
       "DELAYED": 2
     },
@@ -11,7 +11,7 @@
       "West Tennessee": 22,
       "Middle Tennessee": 17,
       "Other": 9,
-      "East Tennessee": 11
+      "East Tennessee": 10
     },
     "sources": [
       "NewsChannel 5",
@@ -346,13 +346,6 @@
       "name": "Campbell County Schools",
       "status": "CLOSED",
       "status_detail": "Closed Friday",
-      "region": "East Tennessee",
-      "source": "WVLT"
-    },
-    {
-      "name": "Claiborne County Schools",
-      "status": "CLOSED",
-      "status_detail": "Closed Thursday",
       "region": "East Tennessee",
       "source": "WVLT"
     },
