@@ -1,16 +1,16 @@
 {
   "meta": {
-    "generated_at": "2026-02-05T20:10:45.589922+00:00",
-    "total_closings": 40,
+    "generated_at": "2026-02-05T20:20:43.834299+00:00",
+    "total_closings": 43,
     "by_status": {
-      "CLOSED": 38,
+      "CLOSED": 41,
       "REMOTE": 2
     },
     "by_region": {
-      "West Tennessee": 15,
+      "West Tennessee": 17,
       "Middle Tennessee": 15,
       "Other": 4,
-      "East Tennessee": 6
+      "East Tennessee": 7
     },
     "sources": [
       "NewsChannel 5",
@@ -153,6 +153,13 @@
       "source": "Action News 5"
     },
     {
+      "name": "Collierville School District",
+      "status": "CLOSED",
+      "status_detail": "Closed Friday",
+      "region": "West Tennessee",
+      "source": "Action News 5"
+    },
+    {
       "name": "Fayette County Public Schools",
       "status": "CLOSED",
       "status_detail": "Closed Through 02/06 - Before/After School Activities Canceled",
@@ -230,6 +237,13 @@
       "source": "Action News 5"
     },
     {
+      "name": "Tate County School District",
+      "status": "CLOSED",
+      "status_detail": "Closed Friday",
+      "region": "West Tennessee",
+      "source": "Action News 5"
+    },
+    {
       "name": "Tipton-Rosemark Academy",
       "status": "CLOSED",
       "status_detail": "Closed Friday",
@@ -247,6 +261,13 @@
       "name": "Bell County",
       "status": "CLOSED",
       "status_detail": "Closed Friday - Staff Work Day(Certified and Classified)",
+      "region": "East Tennessee",
+      "source": "WVLT"
+    },
+    {
+      "name": "Claiborne County Schools",
+      "status": "CLOSED",
+      "status_detail": "Closed Thursday",
       "region": "East Tennessee",
       "source": "WVLT"
     },
