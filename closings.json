@@ -1,16 +1,16 @@
 {
   "meta": {
-    "generated_at": "2026-02-05T22:40:40.928382+00:00",
-    "total_closings": 58,
+    "generated_at": "2026-02-05T22:50:39.630835+00:00",
+    "total_closings": 59,
     "by_status": {
-      "CLOSED": 53,
+      "CLOSED": 54,
       "REMOTE": 3,
       "DELAYED": 2
     },
     "by_region": {
       "West Tennessee": 22,
       "Middle Tennessee": 17,
-      "Other": 8,
+      "Other": 9,
       "East Tennessee": 11
     },
     "sources": [
@@ -284,6 +284,13 @@
       "status": "CLOSED",
       "status_detail": "Closed Through 02/07",
       "region": "West Tennessee",
+      "source": "Action News 5"
+    },
+    {
+      "name": "SE Academy Private School",
+      "status": "CLOSED",
+      "status_detail": "Closed Friday",
+      "region": "Other",
       "source": "Action News 5"
     },
     {
