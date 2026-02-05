@@ -1,16 +1,16 @@
 {
   "meta": {
-    "generated_at": "2026-02-05T20:40:39.741125+00:00",
-    "total_closings": 44,
+    "generated_at": "2026-02-05T20:50:46.566534+00:00",
+    "total_closings": 45,
     "by_status": {
-      "CLOSED": 42,
+      "CLOSED": 43,
       "REMOTE": 2
     },
     "by_region": {
       "West Tennessee": 17,
       "Middle Tennessee": 15,
       "Other": 5,
-      "East Tennessee": 7
+      "East Tennessee": 8
     },
     "sources": [
       "NewsChannel 5",
@@ -287,6 +287,13 @@
     },
     {
       "name": "Grainger County Schools",
+      "status": "CLOSED",
+      "status_detail": "Closed Friday",
+      "region": "East Tennessee",
+      "source": "WVLT"
+    },
+    {
+      "name": "Greene County Schools",
       "status": "CLOSED",
       "status_detail": "Closed Friday",
       "region": "East Tennessee",
