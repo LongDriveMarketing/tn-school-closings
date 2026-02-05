@@ -1,16 +1,16 @@
 {
   "meta": {
-    "generated_at": "2026-02-05T11:40:38.980603+00:00",
-    "total_closings": 131,
+    "generated_at": "2026-02-05T11:50:42.059193+00:00",
+    "total_closings": 132,
     "by_status": {
-      "CLOSED": 106,
+      "CLOSED": 107,
       "DELAYED": 19,
       "REMOTE": 6
     },
     "by_region": {
       "West Tennessee": 36,
       "Middle Tennessee": 28,
-      "Other": 31,
+      "Other": 32,
       "East Tennessee": 36
     },
     "sources": [
@@ -837,6 +837,13 @@
       "status": "CLOSED",
       "status_detail": "Closed Through 02/06",
       "region": "Middle Tennessee",
+      "source": "WVLT"
+    },
+    {
+      "name": "Pellissippi St. Community College",
+      "status": "CLOSED",
+      "status_detail": "Opening Late Thursday",
+      "region": "Other",
       "source": "WVLT"
     },
     {
