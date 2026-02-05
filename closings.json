@@ -1,16 +1,16 @@
 {
   "meta": {
-    "generated_at": "2026-02-05T23:10:42.933364+00:00",
-    "total_closings": 60,
+    "generated_at": "2026-02-05T23:20:40.468974+00:00",
+    "total_closings": 61,
     "by_status": {
-      "CLOSED": 55,
+      "CLOSED": 56,
       "REMOTE": 3,
       "DELAYED": 2
     },
     "by_region": {
       "West Tennessee": 23,
       "Middle Tennessee": 17,
-      "Other": 10,
+      "Other": 11,
       "East Tennessee": 10
     },
     "sources": [
@@ -340,6 +340,13 @@
       "status": "CLOSED",
       "status_detail": "Closed Friday",
       "region": "West Tennessee",
+      "source": "Action News 5"
+    },
+    {
+      "name": "Tunica County School District",
+      "status": "CLOSED",
+      "status_detail": "Closed Friday - Faculty and staff are to report at normal time.",
+      "region": "Other",
       "source": "Action News 5"
     },
     {
