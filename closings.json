@@ -1,16 +1,16 @@
 {
   "meta": {
-    "generated_at": "2026-02-05T11:30:40.885591+00:00",
-    "total_closings": 129,
+    "generated_at": "2026-02-05T11:40:38.980603+00:00",
+    "total_closings": 131,
     "by_status": {
-      "CLOSED": 105,
-      "DELAYED": 18,
+      "CLOSED": 106,
+      "DELAYED": 19,
       "REMOTE": 6
     },
     "by_region": {
       "West Tennessee": 36,
       "Middle Tennessee": 28,
-      "Other": 29,
+      "Other": 31,
       "East Tennessee": 36
     },
     "sources": [
@@ -658,6 +658,13 @@
       "source": "WVLT"
     },
     {
+      "name": "First Baptist Academy-Powell",
+      "status": "DELAYED",
+      "status_detail": "Opening Late Thursday 2 Hours",
+      "region": "Other",
+      "source": "WVLT"
+    },
+    {
       "name": "First Lutheran School and ECE",
       "status": "DELAYED",
       "status_detail": "Opening Late Thursday 2 Hours",
@@ -921,6 +928,13 @@
       "status": "CLOSED",
       "status_detail": "Closed Thursday",
       "region": "East Tennessee",
+      "source": "WVLT"
+    },
+    {
+      "name": "Webb School",
+      "status": "CLOSED",
+      "status_detail": "Opening Late Thursday 10:00 AM",
+      "region": "Other",
       "source": "WVLT"
     }
   ]
