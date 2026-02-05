@@ -1,9 +1,9 @@
 {
   "meta": {
-    "generated_at": "2026-02-05T01:10:43.580193+00:00",
-    "total_closings": 91,
+    "generated_at": "2026-02-05T01:20:47.133671+00:00",
+    "total_closings": 92,
     "by_status": {
-      "CLOSED": 83,
+      "CLOSED": 84,
       "DELAYED": 3,
       "REMOTE": 5
     },
@@ -11,7 +11,7 @@
       "West Tennessee": 34,
       "Middle Tennessee": 20,
       "Other": 16,
-      "East Tennessee": 21
+      "East Tennessee": 22
     },
     "sources": [
       "NewsChannel 5",
@@ -498,6 +498,13 @@
     },
     {
       "name": "Campbell County Schools",
+      "status": "CLOSED",
+      "status_detail": "Closed Thursday",
+      "region": "East Tennessee",
+      "source": "WVLT"
+    },
+    {
+      "name": "Cleveland St. All Sites",
       "status": "CLOSED",
       "status_detail": "Closed Thursday",
       "region": "East Tennessee",
