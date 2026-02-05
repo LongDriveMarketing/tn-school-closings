@@ -1,15 +1,15 @@
 {
   "meta": {
-    "generated_at": "2026-02-05T00:00:42.615313+00:00",
-    "total_closings": 86,
+    "generated_at": "2026-02-05T00:10:42.942655+00:00",
+    "total_closings": 87,
     "by_status": {
-      "CLOSED": 79,
+      "CLOSED": 80,
       "DELAYED": 3,
       "REMOTE": 4
     },
     "by_region": {
       "West Tennessee": 33,
-      "Middle Tennessee": 18,
+      "Middle Tennessee": 19,
       "Other": 16,
       "East Tennessee": 19
     },
@@ -31,6 +31,13 @@
       "name": "Cheatham",
       "status": "CLOSED",
       "status_detail": "CLOSED",
+      "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Clarksville-Montgomery Co. Schools",
+      "status": "CLOSED",
+      "status_detail": "CLOSED ALL WEEK",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
