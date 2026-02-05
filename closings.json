@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-02-05T17:10:47.101860+00:00",
+    "generated_at": "2026-02-05T17:20:49.233641+00:00",
     "total_closings": 35,
     "by_status": {
       "CLOSED": 30,
@@ -71,7 +71,7 @@
     {
       "name": "Overton",
       "status": "CLOSED",
-      "status_detail": "CLOSED REST OF THE WEEK",
+      "status_detail": "CLOSED",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
@@ -85,14 +85,14 @@
     {
       "name": "Stewart",
       "status": "CLOSED",
-      "status_detail": "CLOSED REST OF THE WEEK",
+      "status_detail": "CLOSED",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
     {
       "name": "St. Patrick",
       "status": "CLOSED",
-      "status_detail": "Closed Thursday & Friday",
+      "status_detail": "CLOSED",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
@@ -176,7 +176,7 @@
     {
       "name": "Lafayette County School District",
       "status": "CLOSED",
-      "status_detail": "Closed Through Sunday 2/8",
+      "status_detail": "Closed Through Monday - Feb. 9: Professional Development Day",
       "region": "West Tennessee",
       "source": "Action News 5"
     },
