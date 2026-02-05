@@ -1,10 +1,10 @@
 {
   "meta": {
-    "generated_at": "2026-02-05T03:50:39.793065+00:00",
+    "generated_at": "2026-02-05T04:00:41.012706+00:00",
     "total_closings": 105,
     "by_status": {
-      "CLOSED": 93,
-      "DELAYED": 6,
+      "CLOSED": 94,
+      "DELAYED": 5,
       "REMOTE": 6
     },
     "by_region": {
@@ -561,8 +561,8 @@
     },
     {
       "name": "Blount County Schools",
-      "status": "DELAYED",
-      "status_detail": "Delayed Thursday 2 Hours",
+      "status": "CLOSED",
+      "status_detail": "Closed Thursday",
       "region": "East Tennessee",
       "source": "WVLT"
     },
