@@ -1,17 +1,17 @@
 {
   "meta": {
-    "generated_at": "2026-02-05T10:30:41.847985+00:00",
-    "total_closings": 113,
+    "generated_at": "2026-02-05T10:40:39.243335+00:00",
+    "total_closings": 114,
     "by_status": {
       "CLOSED": 101,
-      "DELAYED": 6,
+      "DELAYED": 7,
       "REMOTE": 6
     },
     "by_region": {
       "West Tennessee": 35,
       "Middle Tennessee": 28,
       "Other": 22,
-      "East Tennessee": 28
+      "East Tennessee": 29
     },
     "sources": [
       "NewsChannel 5",
@@ -654,6 +654,13 @@
       "name": "Knox County, TN Schools",
       "status": "CLOSED",
       "status_detail": "Closed Thursday",
+      "region": "East Tennessee",
+      "source": "WVLT"
+    },
+    {
+      "name": "Knoxville Christian School",
+      "status": "DELAYED",
+      "status_detail": "Opening Late Thursday 2 Hours",
       "region": "East Tennessee",
       "source": "WVLT"
     },
