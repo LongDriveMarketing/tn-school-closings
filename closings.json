@@ -1,16 +1,16 @@
 {
   "meta": {
-    "generated_at": "2026-02-05T18:50:49.407493+00:00",
-    "total_closings": 37,
+    "generated_at": "2026-02-05T19:00:47.699562+00:00",
+    "total_closings": 38,
     "by_status": {
-      "CLOSED": 33,
+      "CLOSED": 34,
       "REMOTE": 4
     },
     "by_region": {
       "West Tennessee": 15,
       "Middle Tennessee": 13,
       "Other": 8,
-      "East Tennessee": 1
+      "East Tennessee": 2
     },
     "sources": [
       "NewsChannel 5",
@@ -242,6 +242,13 @@
       "status_detail": "Closed Through Sunday 2/8",
       "region": "West Tennessee",
       "source": "Action News 5"
+    },
+    {
+      "name": "Hamblen County Schools",
+      "status": "CLOSED",
+      "status_detail": "Closed Friday",
+      "region": "East Tennessee",
+      "source": "WVLT"
     },
     {
       "name": "Hawkins County Schools",
