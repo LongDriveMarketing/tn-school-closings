@@ -1,11 +1,11 @@
 {
   "meta": {
-    "generated_at": "2026-02-05T15:30:40.956869+00:00",
+    "generated_at": "2026-02-05T15:40:44.833807+00:00",
     "total_closings": 137,
     "by_status": {
       "CLOSED": 112,
-      "DELAYED": 19,
-      "REMOTE": 6
+      "DELAYED": 18,
+      "REMOTE": 7
     },
     "by_region": {
       "West Tennessee": 36,
@@ -960,8 +960,8 @@
     },
     {
       "name": "Tusculum University",
-      "status": "DELAYED",
-      "status_detail": "Delayed Thursday 2 Hours - First two classes online",
+      "status": "REMOTE",
+      "status_detail": "Virtual Learning Thursday - Employees can work remotely.",
       "region": "Other",
       "source": "WVLT"
     },
