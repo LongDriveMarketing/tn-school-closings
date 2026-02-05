@@ -1,16 +1,16 @@
 {
   "meta": {
-    "generated_at": "2026-02-05T11:10:35.612955+00:00",
-    "total_closings": 124,
+    "generated_at": "2026-02-05T11:20:41.917712+00:00",
+    "total_closings": 127,
     "by_status": {
-      "CLOSED": 103,
-      "DELAYED": 15,
+      "CLOSED": 104,
+      "DELAYED": 17,
       "REMOTE": 6
     },
     "by_region": {
-      "West Tennessee": 35,
+      "West Tennessee": 36,
       "Middle Tennessee": 28,
-      "Other": 26,
+      "Other": 28,
       "East Tennessee": 35
     },
     "sources": [
@@ -595,6 +595,20 @@
       "source": "WVLT"
     },
     {
+      "name": "Carson Newman University",
+      "status": "DELAYED",
+      "status_detail": "Delayed Thursday 10:00 AM",
+      "region": "Other",
+      "source": "WVLT"
+    },
+    {
+      "name": "Chesterton Academy",
+      "status": "CLOSED",
+      "status_detail": "Opening Late Thursday 09:20 AM - Classes start at 9:20 AM",
+      "region": "West Tennessee",
+      "source": "WVLT"
+    },
+    {
       "name": "Clayton-Bradley Academy",
       "status": "CLOSED",
       "status_detail": "Closed Thursday",
@@ -829,6 +843,13 @@
       "name": "Rogersville Schools",
       "status": "CLOSED",
       "status_detail": "Closed Through 02/06",
+      "region": "Other",
+      "source": "WVLT"
+    },
+    {
+      "name": "Sacred Heart Cathedral School",
+      "status": "DELAYED",
+      "status_detail": "Opening Late Thursday 2 Hours",
       "region": "Other",
       "source": "WVLT"
     },
