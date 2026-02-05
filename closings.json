@@ -1,10 +1,10 @@
 {
   "meta": {
-    "generated_at": "2026-02-05T12:20:48.002351+00:00",
+    "generated_at": "2026-02-05T12:30:41.645431+00:00",
     "total_closings": 136,
     "by_status": {
-      "CLOSED": 108,
-      "DELAYED": 22,
+      "CLOSED": 109,
+      "DELAYED": 21,
       "REMOTE": 6
     },
     "by_region": {
@@ -820,8 +820,8 @@
     },
     {
       "name": "Maryville City Schools",
-      "status": "DELAYED",
-      "status_detail": "Opening Late 2 hours Today",
+      "status": "CLOSED",
+      "status_detail": "Closed Thursday",
       "region": "East Tennessee",
       "source": "WVLT"
     },
