@@ -1,17 +1,17 @@
 {
   "meta": {
-    "generated_at": "2026-02-05T10:50:42.517266+00:00",
-    "total_closings": 114,
+    "generated_at": "2026-02-05T11:00:43.907380+00:00",
+    "total_closings": 120,
     "by_status": {
       "CLOSED": 101,
-      "DELAYED": 7,
+      "DELAYED": 13,
       "REMOTE": 6
     },
     "by_region": {
       "West Tennessee": 35,
       "Middle Tennessee": 28,
-      "Other": 22,
-      "East Tennessee": 29
+      "Other": 26,
+      "East Tennessee": 31
     },
     "sources": [
       "NewsChannel 5",
@@ -609,6 +609,20 @@
       "source": "WVLT"
     },
     {
+      "name": "Emerald Academy",
+      "status": "DELAYED",
+      "status_detail": "Opening Late Thursday 2 Hours",
+      "region": "Other",
+      "source": "WVLT"
+    },
+    {
+      "name": "First Lutheran School and ECE",
+      "status": "DELAYED",
+      "status_detail": "Opening Late Thursday 2 Hours",
+      "region": "Other",
+      "source": "WVLT"
+    },
+    {
       "name": "Grainger County Schools",
       "status": "CLOSED",
       "status_detail": "Closed Thursday",
@@ -672,6 +686,13 @@
       "source": "WVLT"
     },
     {
+      "name": "Knoxville Montessori School",
+      "status": "DELAYED",
+      "status_detail": "Opening Late Thursday 2 Hours",
+      "region": "East Tennessee",
+      "source": "WVLT"
+    },
+    {
       "name": "Knoxville Preparatory School",
       "status": "CLOSED",
       "status_detail": "Closed Thursday",
@@ -690,6 +711,13 @@
       "status": "CLOSED",
       "status_detail": "Closed Thursday",
       "region": "East Tennessee",
+      "source": "WVLT"
+    },
+    {
+      "name": "Ladies of Charity Emergency Assistance",
+      "status": "DELAYED",
+      "status_detail": "Opening Late Thursday 2 Hours",
+      "region": "Other",
       "source": "WVLT"
     },
     {
@@ -794,6 +822,20 @@
       "name": "Sevier County Schools",
       "status": "CLOSED",
       "status_detail": "Closed Thursday",
+      "region": "East Tennessee",
+      "source": "WVLT"
+    },
+    {
+      "name": "Seymour Community Christian School",
+      "status": "DELAYED",
+      "status_detail": "Opening Late Thursday 1 Hour",
+      "region": "Other",
+      "source": "WVLT"
+    },
+    {
+      "name": "St. Mary's-Oak Ridge",
+      "status": "DELAYED",
+      "status_detail": "Opening Late Thursday 2 Hours",
       "region": "East Tennessee",
       "source": "WVLT"
     },
