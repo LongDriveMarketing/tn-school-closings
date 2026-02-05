@@ -1,16 +1,16 @@
 {
   "meta": {
-    "generated_at": "2026-02-05T01:40:38.578139+00:00",
-    "total_closings": 92,
+    "generated_at": "2026-02-05T01:50:48.292855+00:00",
+    "total_closings": 94,
     "by_status": {
-      "CLOSED": 84,
+      "CLOSED": 86,
       "DELAYED": 3,
       "REMOTE": 5
     },
     "by_region": {
       "West Tennessee": 34,
-      "Middle Tennessee": 20,
-      "Other": 16,
+      "Middle Tennessee": 21,
+      "Other": 17,
       "East Tennessee": 22
     },
     "sources": [
@@ -127,6 +127,13 @@
     },
     {
       "name": "Pickett",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
+      "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Putnam",
       "status": "CLOSED",
       "status_detail": "CLOSED",
       "region": "Middle Tennessee",
@@ -655,6 +662,13 @@
       "status": "CLOSED",
       "status_detail": "Closed Thursday",
       "region": "East Tennessee",
+      "source": "WVLT"
+    },
+    {
+      "name": "Tri-State Christian Academy",
+      "status": "CLOSED",
+      "status_detail": "Closed Thursday",
+      "region": "Other",
       "source": "WVLT"
     },
     {
