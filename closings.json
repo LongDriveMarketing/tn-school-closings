@@ -1,14 +1,14 @@
 {
   "meta": {
-    "generated_at": "2026-02-05T23:30:46.582378+00:00",
-    "total_closings": 61,
+    "generated_at": "2026-02-05T23:40:43.368637+00:00",
+    "total_closings": 62,
     "by_status": {
       "CLOSED": 56,
       "REMOTE": 3,
-      "DELAYED": 2
+      "DELAYED": 3
     },
     "by_region": {
-      "West Tennessee": 23,
+      "West Tennessee": 24,
       "Middle Tennessee": 17,
       "Other": 11,
       "East Tennessee": 10
@@ -353,6 +353,13 @@
       "name": "University of Mississippi",
       "status": "CLOSED",
       "status_detail": "Closed Through Sunday 2/8",
+      "region": "West Tennessee",
+      "source": "Action News 5"
+    },
+    {
+      "name": "West Memphis School District",
+      "status": "DELAYED",
+      "status_detail": "Delayed 2 hours Friday",
       "region": "West Tennessee",
       "source": "Action News 5"
     },
