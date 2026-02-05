@@ -1,10 +1,10 @@
 {
   "meta": {
-    "generated_at": "2026-02-05T12:40:42.338151+00:00",
+    "generated_at": "2026-02-05T12:50:45.613652+00:00",
     "total_closings": 136,
     "by_status": {
-      "CLOSED": 110,
-      "DELAYED": 20,
+      "CLOSED": 111,
+      "DELAYED": 19,
       "REMOTE": 6
     },
     "by_region": {
@@ -918,8 +918,8 @@
     },
     {
       "name": "Seymour Community Christian School",
-      "status": "DELAYED",
-      "status_detail": "Opening Late Thursday 1 Hour",
+      "status": "CLOSED",
+      "status_detail": "Closed Thursday",
       "region": "Other",
       "source": "WVLT"
     },
