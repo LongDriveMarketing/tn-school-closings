@@ -1,15 +1,15 @@
 {
   "meta": {
-    "generated_at": "2026-02-06T17:51:01.346579+00:00",
-    "total_closings": 8,
+    "generated_at": "2026-02-06T18:01:05.955415+00:00",
+    "total_closings": 7,
     "by_status": {
       "REMOTE": 1,
-      "CLOSED": 7
+      "CLOSED": 6
     },
     "by_region": {
       "Middle Tennessee": 1,
       "Other": 1,
-      "West Tennessee": 6
+      "West Tennessee": 5
     },
     "sources": [
       "NewsChannel 5",
@@ -47,13 +47,6 @@
     },
     {
       "name": "Lauderdale County Schools",
-      "status": "CLOSED",
-      "status_detail": "Closed Through Friday",
-      "region": "West Tennessee",
-      "source": "Action News 5"
-    },
-    {
-      "name": "McNairy County Schools",
       "status": "CLOSED",
       "status_detail": "Closed Through Friday",
       "region": "West Tennessee",
