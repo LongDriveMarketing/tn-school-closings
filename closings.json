@@ -1,12 +1,12 @@
 {
   "meta": {
-    "generated_at": "2026-02-06T22:51:11.520403+00:00",
-    "total_closings": 4,
+    "generated_at": "2026-02-06T22:53:25.168417+00:00",
+    "total_closings": 3,
     "by_status": {
-      "CLOSED": 4
+      "CLOSED": 3
     },
     "by_region": {
-      "West Tennessee": 4
+      "West Tennessee": 3
     },
     "sources": [
       "Action News 5"
@@ -17,13 +17,6 @@
       "name": "Lafayette County School District",
       "status": "CLOSED",
       "status_detail": "Closed Through Monday - Feb. 9: Professional Development Day",
-      "region": "West Tennessee",
-      "source": "Action News 5"
-    },
-    {
-      "name": "Lauderdale County Schools",
-      "status": "CLOSED",
-      "status_detail": "Closed Through Friday",
       "region": "West Tennessee",
       "source": "Action News 5"
     },
