@@ -1,16 +1,16 @@
 {
   "meta": {
-    "generated_at": "2026-02-06T00:10:45.536147+00:00",
-    "total_closings": 66,
+    "generated_at": "2026-02-06T00:20:41.462041+00:00",
+    "total_closings": 67,
     "by_status": {
-      "CLOSED": 60,
+      "CLOSED": 61,
       "REMOTE": 3,
       "DELAYED": 3
     },
     "by_region": {
       "West Tennessee": 27,
       "Middle Tennessee": 17,
-      "Other": 12,
+      "Other": 13,
       "East Tennessee": 10
     },
     "sources": [
@@ -179,6 +179,13 @@
       "status": "CLOSED",
       "status_detail": "Closed Through 02/06",
       "region": "West Tennessee",
+      "source": "Action News 5"
+    },
+    {
+      "name": "City University Schools",
+      "status": "CLOSED",
+      "status_detail": "Closed Friday - Faculty and Staff office hours 9-12 a.m.",
+      "region": "Other",
       "source": "Action News 5"
     },
     {
