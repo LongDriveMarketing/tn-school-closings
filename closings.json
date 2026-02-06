@@ -1,15 +1,15 @@
 {
   "meta": {
-    "generated_at": "2026-02-06T16:51:04.957239+00:00",
-    "total_closings": 28,
+    "generated_at": "2026-02-06T17:00:59.993980+00:00",
+    "total_closings": 8,
     "by_status": {
-      "CLOSED": 25,
-      "REMOTE": 3
+      "REMOTE": 1,
+      "CLOSED": 7
     },
     "by_region": {
-      "West Tennessee": 7,
-      "Middle Tennessee": 16,
-      "Other": 5
+      "Middle Tennessee": 1,
+      "Other": 1,
+      "West Tennessee": 6
     },
     "sources": [
       "NewsChannel 5",
@@ -18,135 +18,9 @@
   },
   "closings": [
     {
-      "name": "Benton",
-      "status": "CLOSED",
-      "status_detail": "CLOSED",
-      "region": "West Tennessee",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "Cheatham",
-      "status": "CLOSED",
-      "status_detail": "CLOSED",
-      "region": "Middle Tennessee",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "Clarksville-Montgomery Co. Schools",
-      "status": "CLOSED",
-      "status_detail": "CLOSED",
-      "region": "Middle Tennessee",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "Clay",
-      "status": "CLOSED",
-      "status_detail": "CLOSED",
-      "region": "Middle Tennessee",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "Dickson",
-      "status": "CLOSED",
-      "status_detail": "CLOSED",
-      "region": "Middle Tennessee",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "Hickman",
-      "status": "CLOSED",
-      "status_detail": "CLOSED",
-      "region": "Middle Tennessee",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "Houston",
-      "status": "CLOSED",
-      "status_detail": "CLOSED",
-      "region": "Middle Tennessee",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "Humphreys",
-      "status": "CLOSED",
-      "status_detail": "CLOSED",
-      "region": "Middle Tennessee",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "Jackson",
-      "status": "CLOSED",
-      "status_detail": "CLOSED",
-      "region": "Middle Tennessee",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "Macon",
-      "status": "CLOSED",
-      "status_detail": "CLOSED",
-      "region": "Middle Tennessee",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "Muhlenberg",
-      "status": "CLOSED",
-      "status_detail": "CLOSED",
-      "region": "Other",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "Overton",
-      "status": "CLOSED",
-      "status_detail": "CLOSED",
-      "region": "Middle Tennessee",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "Perry",
-      "status": "CLOSED",
-      "status_detail": "CLOSED",
-      "region": "Middle Tennessee",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "Robertson",
-      "status": "CLOSED",
-      "status_detail": "CLOSED",
-      "region": "Middle Tennessee",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "Stewart",
-      "status": "CLOSED",
-      "status_detail": "CLOSED",
-      "region": "Middle Tennessee",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "St. Patrick",
-      "status": "CLOSED",
-      "status_detail": "CLOSED",
-      "region": "Middle Tennessee",
-      "source": "NewsChannel 5"
-    },
-    {
       "name": "TCAT Dickson",
       "status": "REMOTE",
       "status_detail": "CLOSED - VIRTUAL/REMOTE LEARNING DAY",
-      "region": "Middle Tennessee",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "Todd",
-      "status": "CLOSED",
-      "status_detail": "Closed Friday  NTI Day 10",
-      "region": "Other",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "Warren Co., KY",
-      "status": "CLOSED",
-      "status_detail": "NTI Day",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
@@ -158,24 +32,10 @@
       "source": "Action News 5"
     },
     {
-      "name": "Greater Praise Christian Academy",
-      "status": "REMOTE",
-      "status_detail": "Virtual Learning Through 02/06",
-      "region": "Other",
-      "source": "Action News 5"
-    },
-    {
       "name": "Hardin County Schools",
       "status": "CLOSED",
       "status_detail": "Closed Through Friday 2/6",
       "region": "West Tennessee",
-      "source": "Action News 5"
-    },
-    {
-      "name": "Holy Family School",
-      "status": "REMOTE",
-      "status_detail": "Virtual Learning Through 02/06",
-      "region": "Other",
       "source": "Action News 5"
     },
     {
