@@ -1,14 +1,14 @@
 {
   "meta": {
-    "generated_at": "2026-02-06T00:20:41.462041+00:00",
-    "total_closings": 67,
+    "generated_at": "2026-02-06T00:30:49.127204+00:00",
+    "total_closings": 68,
     "by_status": {
-      "CLOSED": 61,
+      "CLOSED": 62,
       "REMOTE": 3,
       "DELAYED": 3
     },
     "by_region": {
-      "West Tennessee": 27,
+      "West Tennessee": 28,
       "Middle Tennessee": 17,
       "Other": 13,
       "East Tennessee": 10
@@ -346,6 +346,13 @@
       "name": "South Panola School District",
       "status": "CLOSED",
       "status_detail": "Closed Through 02/06",
+      "region": "West Tennessee",
+      "source": "Action News 5"
+    },
+    {
+      "name": "STAR Academy Charter School",
+      "status": "CLOSED",
+      "status_detail": "Closed Thursday 02/05",
       "region": "West Tennessee",
       "source": "Action News 5"
     },
