@@ -1,16 +1,16 @@
 {
   "meta": {
-    "generated_at": "2026-02-06T00:00:50.216287+00:00",
-    "total_closings": 62,
+    "generated_at": "2026-02-06T00:10:45.536147+00:00",
+    "total_closings": 66,
     "by_status": {
-      "CLOSED": 56,
+      "CLOSED": 60,
       "REMOTE": 3,
       "DELAYED": 3
     },
     "by_region": {
-      "West Tennessee": 24,
+      "West Tennessee": 27,
       "Middle Tennessee": 17,
-      "Other": 11,
+      "Other": 12,
       "East Tennessee": 10
     },
     "sources": [
@@ -280,7 +280,28 @@
       "source": "Action News 5"
     },
     {
+      "name": "Memphis Business Academy",
+      "status": "CLOSED",
+      "status_detail": "Closed Friday 02/06 - After-school activities canceled",
+      "region": "West Tennessee",
+      "source": "Action News 5"
+    },
+    {
       "name": "Memphis Shelby County Schools",
+      "status": "CLOSED",
+      "status_detail": "Closed Friday",
+      "region": "West Tennessee",
+      "source": "Action News 5"
+    },
+    {
+      "name": "Memphis STEM Academy",
+      "status": "CLOSED",
+      "status_detail": "Closed Friday 02/06 - After-school activities canceled",
+      "region": "West Tennessee",
+      "source": "Action News 5"
+    },
+    {
+      "name": "Mid-America Baptist Theological Seminary",
       "status": "CLOSED",
       "status_detail": "Closed Friday",
       "region": "West Tennessee",
@@ -410,6 +431,13 @@
       "status": "CLOSED",
       "status_detail": "Closed Friday",
       "region": "East Tennessee",
+      "source": "WVLT"
+    },
+    {
+      "name": "Harlan County, KY Schools",
+      "status": "CLOSED",
+      "status_detail": "Closed Friday",
+      "region": "Other",
       "source": "WVLT"
     },
     {
