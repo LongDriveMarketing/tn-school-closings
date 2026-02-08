@@ -1,14 +1,14 @@
 {
   "meta": {
-    "generated_at": "2026-02-08T21:54:32.845407+00:00",
+    "generated_at": "2026-02-08T22:00:41.164376+00:00",
     "total_closings": 7,
     "by_status": {
       "CLOSED": 5,
       "DELAYED": 2
     },
     "by_region": {
-      "Middle Tennessee": 4,
       "West Tennessee": 2,
+      "Middle Tennessee": 4,
       "East Tennessee": 1
     },
     "sources": [
@@ -18,6 +18,13 @@
     ]
   },
   "closings": [
+    {
+      "name": "Benton",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
+      "region": "West Tennessee",
+      "source": "NewsChannel 5"
+    },
     {
       "name": "Houston",
       "status": "CLOSED",
@@ -50,13 +57,6 @@
       "name": "Lafayette County School District",
       "status": "CLOSED",
       "status_detail": "Closed Through Monday - Feb. 9: Professional Development Day",
-      "region": "West Tennessee",
-      "source": "Action News 5"
-    },
-    {
-      "name": "University of Mississippi",
-      "status": "CLOSED",
-      "status_detail": "Closed Through Sunday 2/8",
       "region": "West Tennessee",
       "source": "Action News 5"
     },
