@@ -1,16 +1,16 @@
 {
   "meta": {
-    "generated_at": "2026-02-08T22:50:37.405676+00:00",
-    "total_closings": 10,
+    "generated_at": "2026-02-08T23:00:46.496137+00:00",
+    "total_closings": 11,
     "by_status": {
       "CLOSED": 7,
-      "DELAYED": 2,
+      "DELAYED": 3,
       "REMOTE": 1
     },
     "by_region": {
       "West Tennessee": 2,
       "Middle Tennessee": 7,
-      "East Tennessee": 1
+      "East Tennessee": 2
     },
     "sources": [
       "NewsChannel 5",
@@ -79,6 +79,13 @@
       "name": "Cocke County Schools",
       "status": "DELAYED",
       "status_detail": "Delayed Monday 2 Hours",
+      "region": "East Tennessee",
+      "source": "WVLT"
+    },
+    {
+      "name": "Hancock County Schools",
+      "status": "DELAYED",
+      "status_detail": "Opening Late Monday 2 Hours",
       "region": "East Tennessee",
       "source": "WVLT"
     },
