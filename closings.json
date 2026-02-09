@@ -1,19 +1,20 @@
 {
   "meta": {
-    "generated_at": "2026-02-09T00:51:06.594057+00:00",
-    "total_closings": 11,
+    "generated_at": "2026-02-09T01:00:45.325458+00:00",
+    "total_closings": 12,
     "by_status": {
-      "CLOSED": 6,
+      "CLOSED": 7,
       "DELAYED": 4,
       "REMOTE": 1
     },
     "by_region": {
-      "West Tennessee": 1,
+      "West Tennessee": 2,
       "Middle Tennessee": 8,
       "East Tennessee": 2
     },
     "sources": [
       "NewsChannel 5",
+      "Action News 5",
       "WVLT"
     ]
   },
@@ -73,6 +74,13 @@
       "status_detail": "CLOSED; CLOSED MONDAY",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
+    },
+    {
+      "name": "Lafayette County School District",
+      "status": "CLOSED",
+      "status_detail": "Closed Monday - Faculty and Staff will report on Monday",
+      "region": "West Tennessee",
+      "source": "Action News 5"
     },
     {
       "name": "Cocke County Schools",
