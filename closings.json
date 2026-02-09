@@ -1,24 +1,10 @@
 {
   "meta": {
-    "generated_at": "2026-02-09T19:31:02.402367+00:00",
-    "total_closings": 1,
-    "by_status": {
-      "REMOTE": 1
-    },
-    "by_region": {
-      "Middle Tennessee": 1
-    },
-    "sources": [
-      "WVLT"
-    ]
+    "generated_at": "2026-02-09T19:41:25.791063+00:00",
+    "total_closings": 0,
+    "by_status": {},
+    "by_region": {},
+    "sources": []
   },
-  "closings": [
-    {
-      "name": "Overton County Schools",
-      "status": "REMOTE",
-      "status_detail": "Virtual Learning Monday",
-      "region": "Middle Tennessee",
-      "source": "WVLT"
-    }
-  ]
+  "closings": []
 }
