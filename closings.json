@@ -1,18 +1,25 @@
 {
   "meta": {
-    "generated_at": "2026-02-18T15:31:22.122562+00:00",
-    "total_closings": 1,
+    "generated_at": "2026-02-18T15:41:23.347008+00:00",
+    "total_closings": 2,
     "by_status": {
-      "CLOSED": 1
+      "CLOSED": 2
     },
     "by_region": {
-      "Middle Tennessee": 1
+      "Middle Tennessee": 2
     },
     "sources": [
       "NewsChannel 5"
     ]
   },
   "closings": [
+    {
+      "name": "Pickett",
+      "status": "CLOSED",
+      "status_detail": "Closed Thursday and Friday due to sickness",
+      "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
     {
       "name": "Warren Co., TN",
       "status": "CLOSED",
