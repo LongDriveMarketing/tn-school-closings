@@ -1,15 +1,15 @@
 {
   "meta": {
-    "generated_at": "2026-02-23T10:44:39.326222+00:00",
-    "total_closings": 16,
+    "generated_at": "2026-02-23T10:51:01.003923+00:00",
+    "total_closings": 17,
     "by_status": {
       "REMOTE": 2,
-      "CLOSED": 9,
-      "DELAYED": 5
+      "CLOSED": 11,
+      "DELAYED": 4
     },
     "by_region": {
       "Middle Tennessee": 2,
-      "East Tennessee": 8,
+      "East Tennessee": 9,
       "Other": 6
     },
     "sources": [
@@ -57,6 +57,13 @@
       "name": "Cocke County Schools",
       "status": "DELAYED",
       "status_detail": "Opening Late Monday 2 Hours",
+      "region": "East Tennessee",
+      "source": "WVLT"
+    },
+    {
+      "name": "Grainger County Schools",
+      "status": "CLOSED",
+      "status_detail": "Closed Monday",
       "region": "East Tennessee",
       "source": "WVLT"
     },
@@ -111,8 +118,8 @@
     },
     {
       "name": "Sevier County Schools",
-      "status": "DELAYED",
-      "status_detail": "Opening Late Monday 2 Hours",
+      "status": "CLOSED",
+      "status_detail": "Closed Monday",
       "region": "East Tennessee",
       "source": "WVLT"
     },
