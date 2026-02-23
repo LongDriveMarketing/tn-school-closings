@@ -1,15 +1,15 @@
 {
   "meta": {
-    "generated_at": "2026-02-23T03:01:03.756135+00:00",
-    "total_closings": 9,
+    "generated_at": "2026-02-23T03:11:02.566557+00:00",
+    "total_closings": 10,
     "by_status": {
       "REMOTE": 1,
-      "DELAYED": 6,
-      "CLOSED": 2
+      "CLOSED": 3,
+      "DELAYED": 6
     },
     "by_region": {
       "Middle Tennessee": 1,
-      "East Tennessee": 6,
+      "East Tennessee": 7,
       "Other": 2
     },
     "sources": [
@@ -24,6 +24,13 @@
       "status_detail": "Virtual Learning Monday and Tuesday February 23rd and 24th",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
+    },
+    {
+      "name": "Bell County",
+      "status": "CLOSED",
+      "status_detail": "Closed Monday - Traditional Snow Day",
+      "region": "East Tennessee",
+      "source": "WVLT"
     },
     {
       "name": "Campbell County Schools",
