@@ -1,16 +1,16 @@
 {
   "meta": {
-    "generated_at": "2026-02-23T20:51:10.371183+00:00",
-    "total_closings": 11,
+    "generated_at": "2026-02-23T21:01:06.416251+00:00",
+    "total_closings": 12,
     "by_status": {
       "REMOTE": 1,
       "CLOSED": 7,
-      "DELAYED": 3
+      "DELAYED": 4
     },
     "by_region": {
       "Middle Tennessee": 8,
       "Other": 1,
-      "East Tennessee": 2
+      "East Tennessee": 3
     },
     "sources": [
       "NewsChannel 5",
@@ -83,6 +83,13 @@
     },
     {
       "name": "Claiborne County Schools",
+      "status": "DELAYED",
+      "status_detail": "Opening Late Tuesday 2 Hours",
+      "region": "East Tennessee",
+      "source": "WVLT"
+    },
+    {
+      "name": "Grainger County Schools",
       "status": "DELAYED",
       "status_detail": "Opening Late Tuesday 2 Hours",
       "region": "East Tennessee",
