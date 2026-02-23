@@ -1,16 +1,16 @@
 {
   "meta": {
-    "generated_at": "2026-02-23T05:11:02.908920+00:00",
-    "total_closings": 12,
+    "generated_at": "2026-02-23T05:20:56.740162+00:00",
+    "total_closings": 13,
     "by_status": {
       "REMOTE": 1,
-      "CLOSED": 5,
+      "CLOSED": 6,
       "DELAYED": 6
     },
     "by_region": {
       "Middle Tennessee": 1,
       "East Tennessee": 8,
-      "Other": 3
+      "Other": 4
     },
     "sources": [
       "NewsChannel 5",
@@ -64,6 +64,13 @@
       "name": "Harlan County, KY Schools",
       "status": "CLOSED",
       "status_detail": "Closed Monday - NIT Day",
+      "region": "Other",
+      "source": "WVLT"
+    },
+    {
+      "name": "Landmark Christian Academy",
+      "status": "CLOSED",
+      "status_detail": "Closed Monday",
       "region": "Other",
       "source": "WVLT"
     },
