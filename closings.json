@@ -1,15 +1,15 @@
 {
   "meta": {
-    "generated_at": "2026-02-23T09:41:00.449191+00:00",
-    "total_closings": 14,
+    "generated_at": "2026-02-23T09:49:09.139139+00:00",
+    "total_closings": 13,
     "by_status": {
       "REMOTE": 2,
       "CLOSED": 6,
-      "DELAYED": 6
+      "DELAYED": 5
     },
     "by_region": {
       "Middle Tennessee": 1,
-      "East Tennessee": 8,
+      "East Tennessee": 7,
       "Other": 5
     },
     "sources": [
@@ -29,13 +29,6 @@
       "name": "Bell County",
       "status": "CLOSED",
       "status_detail": "Closed Monday - Traditional Snow Day",
-      "region": "East Tennessee",
-      "source": "WVLT"
-    },
-    {
-      "name": "Campbell County Schools",
-      "status": "DELAYED",
-      "status_detail": "Delayed Monday 2 Hours",
       "region": "East Tennessee",
       "source": "WVLT"
     },
