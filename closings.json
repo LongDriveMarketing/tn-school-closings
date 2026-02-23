@@ -1,15 +1,16 @@
 {
   "meta": {
-    "generated_at": "2026-02-23T01:01:01.268336+00:00",
-    "total_closings": 4,
+    "generated_at": "2026-02-23T01:11:09.945987+00:00",
+    "total_closings": 5,
     "by_status": {
       "REMOTE": 1,
       "DELAYED": 2,
-      "CLOSED": 1
+      "CLOSED": 2
     },
     "by_region": {
       "Middle Tennessee": 1,
-      "East Tennessee": 3
+      "East Tennessee": 3,
+      "Other": 1
     },
     "sources": [
       "NewsChannel 5",
@@ -29,6 +30,13 @@
       "status": "DELAYED",
       "status_detail": "Opening Late Monday 2 Hours",
       "region": "East Tennessee",
+      "source": "WVLT"
+    },
+    {
+      "name": "Harlan County, KY Schools",
+      "status": "CLOSED",
+      "status_detail": "Closed Monday - NIT Day",
+      "region": "Other",
       "source": "WVLT"
     },
     {
