@@ -1,15 +1,15 @@
 {
   "meta": {
-    "generated_at": "2026-02-23T19:21:06.957449+00:00",
-    "total_closings": 11,
+    "generated_at": "2026-02-23T19:36:57.641363+00:00",
+    "total_closings": 10,
     "by_status": {
-      "REMOTE": 2,
+      "REMOTE": 1,
       "CLOSED": 7,
       "DELAYED": 2
     },
     "by_region": {
       "Middle Tennessee": 8,
-      "Other": 2,
+      "Other": 1,
       "East Tennessee": 1
     },
     "sources": [
@@ -80,13 +80,6 @@
       "status_detail": "CLOSED",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
-    },
-    {
-      "name": "Middlesboro Independent",
-      "status": "REMOTE",
-      "status_detail": "Virtual Learning Monday - NTI Day #8",
-      "region": "Other",
-      "source": "WVLT"
     },
     {
       "name": "Union County Schools",
