@@ -1,15 +1,15 @@
 {
   "meta": {
-    "generated_at": "2026-02-23T03:50:57.738976+00:00",
-    "total_closings": 11,
+    "generated_at": "2026-02-23T04:00:59.174845+00:00",
+    "total_closings": 12,
     "by_status": {
       "REMOTE": 1,
-      "CLOSED": 4,
+      "CLOSED": 5,
       "DELAYED": 6
     },
     "by_region": {
       "Middle Tennessee": 1,
-      "East Tennessee": 7,
+      "East Tennessee": 8,
       "Other": 3
     },
     "sources": [
@@ -72,6 +72,13 @@
       "status": "CLOSED",
       "status_detail": "Closed Monday",
       "region": "Other",
+      "source": "WVLT"
+    },
+    {
+      "name": "Scott County Schools",
+      "status": "CLOSED",
+      "status_detail": "Closed Monday",
+      "region": "East Tennessee",
       "source": "WVLT"
     },
     {
