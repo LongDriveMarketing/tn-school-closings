@@ -1,16 +1,16 @@
 {
   "meta": {
-    "generated_at": "2026-02-23T11:01:00.229130+00:00",
-    "total_closings": 17,
+    "generated_at": "2026-02-23T11:11:01.604568+00:00",
+    "total_closings": 19,
     "by_status": {
       "REMOTE": 2,
-      "CLOSED": 11,
-      "DELAYED": 4
+      "CLOSED": 14,
+      "DELAYED": 3
     },
     "by_region": {
       "Middle Tennessee": 2,
-      "East Tennessee": 9,
-      "Other": 6
+      "Other": 8,
+      "East Tennessee": 9
     },
     "sources": [
       "NewsChannel 5",
@@ -33,6 +33,13 @@
       "source": "NewsChannel 5"
     },
     {
+      "name": "Somerset Comm. College",
+      "status": "CLOSED",
+      "status_detail": "CLOSED",
+      "region": "Other",
+      "source": "NewsChannel 5"
+    },
+    {
       "name": "Bell County",
       "status": "CLOSED",
       "status_detail": "Closed Monday - Traditional Snow Day",
@@ -48,8 +55,8 @@
     },
     {
       "name": "Claiborne County Schools",
-      "status": "DELAYED",
-      "status_detail": "Opening Late Monday 2 Hours",
+      "status": "CLOSED",
+      "status_detail": "Closed Monday",
       "region": "East Tennessee",
       "source": "WVLT"
     },
@@ -104,6 +111,13 @@
     },
     {
       "name": "Pineville Independent Schools",
+      "status": "CLOSED",
+      "status_detail": "Closed Monday",
+      "region": "Other",
+      "source": "WVLT"
+    },
+    {
+      "name": "Rogersville Schools",
       "status": "CLOSED",
       "status_detail": "Closed Monday",
       "region": "Other",
