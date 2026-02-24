@@ -1,16 +1,16 @@
 {
   "meta": {
-    "generated_at": "2026-02-24T09:21:01.680872+00:00",
-    "total_closings": 18,
+    "generated_at": "2026-02-24T09:31:05.085684+00:00",
+    "total_closings": 11,
     "by_status": {
       "REMOTE": 1,
-      "CLOSED": 10,
-      "DELAYED": 7
+      "CLOSED": 4,
+      "DELAYED": 6
     },
     "by_region": {
-      "Middle Tennessee": 7,
-      "Other": 5,
-      "East Tennessee": 6
+      "Middle Tennessee": 1,
+      "East Tennessee": 6,
+      "Other": 4
     },
     "sources": [
       "NewsChannel 5",
@@ -22,55 +22,6 @@
       "name": "Cannon",
       "status": "REMOTE",
       "status_detail": "Virtual Learning Monday and Tuesday",
-      "region": "Middle Tennessee",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "Clay",
-      "status": "CLOSED",
-      "status_detail": "CLOSED",
-      "region": "Middle Tennessee",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "Fentress",
-      "status": "CLOSED",
-      "status_detail": "CLOSED",
-      "region": "Middle Tennessee",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "Jackson",
-      "status": "DELAYED",
-      "status_detail": "TWO HOURS LATE",
-      "region": "Middle Tennessee",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "Pickett",
-      "status": "CLOSED",
-      "status_detail": "CLOSED",
-      "region": "Middle Tennessee",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "Somerset Comm. College",
-      "status": "CLOSED",
-      "status_detail": "CLOSED",
-      "region": "Other",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "Van Buren",
-      "status": "CLOSED",
-      "status_detail": "CLOSED",
-      "region": "Middle Tennessee",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "White",
-      "status": "CLOSED",
-      "status_detail": "CLOSED",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
