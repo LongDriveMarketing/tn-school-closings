@@ -1,16 +1,16 @@
 {
   "meta": {
-    "generated_at": "2026-02-24T00:41:01.317545+00:00",
-    "total_closings": 15,
+    "generated_at": "2026-02-24T00:51:02.748735+00:00",
+    "total_closings": 16,
     "by_status": {
       "REMOTE": 1,
-      "CLOSED": 8,
+      "CLOSED": 9,
       "DELAYED": 6
     },
     "by_region": {
       "Middle Tennessee": 8,
       "Other": 3,
-      "East Tennessee": 4
+      "East Tennessee": 5
     },
     "sources": [
       "NewsChannel 5",
@@ -80,6 +80,13 @@
       "status_detail": "CLOSED",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
+    },
+    {
+      "name": "Campbell County Schools",
+      "status": "CLOSED",
+      "status_detail": "Opening Late Tuesday",
+      "region": "East Tennessee",
+      "source": "WVLT"
     },
     {
       "name": "Claiborne County Schools",
