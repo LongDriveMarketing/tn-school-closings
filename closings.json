@@ -1,24 +1,10 @@
 {
   "meta": {
-    "generated_at": "2026-02-24T21:41:34.481545+00:00",
-    "total_closings": 1,
-    "by_status": {
-      "REMOTE": 1
-    },
-    "by_region": {
-      "Middle Tennessee": 1
-    },
-    "sources": [
-      "NewsChannel 5"
-    ]
+    "generated_at": "2026-02-24T21:51:21.822983+00:00",
+    "total_closings": 0,
+    "by_status": {},
+    "by_region": {},
+    "sources": []
   },
-  "closings": [
-    {
-      "name": "Cannon",
-      "status": "REMOTE",
-      "status_detail": "Virtual Learning Monday and Tuesday",
-      "region": "Middle Tennessee",
-      "source": "NewsChannel 5"
-    }
-  ]
+  "closings": []
 }
