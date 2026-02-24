@@ -1,15 +1,15 @@
 {
   "meta": {
-    "generated_at": "2026-02-23T23:51:03.791672+00:00",
-    "total_closings": 14,
+    "generated_at": "2026-02-24T00:01:04.957414+00:00",
+    "total_closings": 15,
     "by_status": {
       "REMOTE": 1,
       "CLOSED": 8,
-      "DELAYED": 5
+      "DELAYED": 6
     },
     "by_region": {
       "Middle Tennessee": 8,
-      "Other": 2,
+      "Other": 3,
       "East Tennessee": 4
     },
     "sources": [
@@ -106,6 +106,13 @@
       "name": "Harlan County, KY Schools",
       "status": "CLOSED",
       "status_detail": "Closed Tuesday",
+      "region": "Other",
+      "source": "WVLT"
+    },
+    {
+      "name": "Oneida Special School District",
+      "status": "DELAYED",
+      "status_detail": "Delayed Tuesday 2 Hours",
       "region": "Other",
       "source": "WVLT"
     },
