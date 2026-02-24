@@ -1,14 +1,14 @@
 {
   "meta": {
-    "generated_at": "2026-02-24T02:16:39.224171+00:00",
-    "total_closings": 16,
+    "generated_at": "2026-02-24T02:26:24.488334+00:00",
+    "total_closings": 15,
     "by_status": {
       "REMOTE": 1,
       "CLOSED": 9,
-      "DELAYED": 6
+      "DELAYED": 5
     },
     "by_region": {
-      "Middle Tennessee": 8,
+      "Middle Tennessee": 7,
       "Other": 3,
       "East Tennessee": 5
     },
@@ -36,13 +36,6 @@
       "name": "Fentress",
       "status": "CLOSED",
       "status_detail": "CLOSED",
-      "region": "Middle Tennessee",
-      "source": "NewsChannel 5"
-    },
-    {
-      "name": "Grundy",
-      "status": "DELAYED",
-      "status_detail": "TWO HOURS LATE",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
