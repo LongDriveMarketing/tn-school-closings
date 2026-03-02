@@ -1,10 +1,24 @@
 {
   "meta": {
-    "generated_at": "2026-03-02T00:11:21.645302+00:00",
-    "total_closings": 0,
-    "by_status": {},
-    "by_region": {},
-    "sources": []
+    "generated_at": "2026-03-02T00:21:03.731643+00:00",
+    "total_closings": 1,
+    "by_status": {
+      "CLOSED": 1
+    },
+    "by_region": {
+      "East Tennessee": 1
+    },
+    "sources": [
+      "WVLT"
+    ]
   },
-  "closings": []
+  "closings": [
+    {
+      "name": "Hamblen County Schools",
+      "status": "CLOSED",
+      "status_detail": "Closed Monday",
+      "region": "East Tennessee",
+      "source": "WVLT"
+    }
+  ]
 }
