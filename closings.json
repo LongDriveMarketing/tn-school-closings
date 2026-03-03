@@ -1,10 +1,24 @@
 {
   "meta": {
-    "generated_at": "2026-03-03T22:23:54.031099+00:00",
-    "total_closings": 0,
-    "by_status": {},
-    "by_region": {},
-    "sources": []
+    "generated_at": "2026-03-03T22:31:25.742202+00:00",
+    "total_closings": 1,
+    "by_status": {
+      "REMOTE": 1
+    },
+    "by_region": {
+      "Middle Tennessee": 1
+    },
+    "sources": [
+      "NewsChannel 5"
+    ]
   },
-  "closings": []
+  "closings": [
+    {
+      "name": "Overton",
+      "status": "REMOTE",
+      "status_detail": "Virtual learning Wednesday-Friday due to sickness",
+      "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    }
+  ]
 }
