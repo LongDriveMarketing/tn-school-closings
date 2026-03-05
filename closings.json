@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-03-05T11:36:33.602008+00:00",
+    "generated_at": "2026-03-05T11:41:21.823166+00:00",
     "total_closings": 2,
     "by_status": {
       "REMOTE": 2
@@ -16,14 +16,14 @@
     {
       "name": "Overton",
       "status": "REMOTE",
-      "status_detail": "Virtual learning Wednesday-Friday due to sickness",
+      "status_detail": "CLOSED; CLOSED - Virtual Learning Through Friday",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     },
     {
       "name": "Pickett",
       "status": "REMOTE",
-      "status_detail": "Virtual Learning Thursday and Friday",
+      "status_detail": "CLOSED; CLOSED - Virtual Learning Through Friday",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
     }
