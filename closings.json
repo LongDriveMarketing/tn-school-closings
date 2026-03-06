@@ -1,13 +1,13 @@
 {
   "meta": {
-    "generated_at": "2026-03-06T06:01:02.937090+00:00",
-    "total_closings": 2,
+    "generated_at": "2026-03-06T06:11:02.421044+00:00",
+    "total_closings": 4,
     "by_status": {
-      "REMOTE": 1,
-      "CLOSED": 1
+      "CLOSED": 2,
+      "REMOTE": 2
     },
     "by_region": {
-      "Middle Tennessee": 1,
+      "Middle Tennessee": 3,
       "East Tennessee": 1
     },
     "sources": [
@@ -16,6 +16,20 @@
     ]
   },
   "closings": [
+    {
+      "name": "DeKalb",
+      "status": "CLOSED",
+      "status_detail": "Friday & Monday Due to Sickness",
+      "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
+    {
+      "name": "Overton",
+      "status": "REMOTE",
+      "status_detail": "CLOSED; CLOSED - Virtual Learning Through Friday",
+      "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    },
     {
       "name": "Pickett",
       "status": "REMOTE",
