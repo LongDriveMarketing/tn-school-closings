@@ -1,18 +1,15 @@
 {
   "meta": {
-    "generated_at": "2026-03-12T15:31:10.134948+00:00",
-    "total_closings": 2,
+    "generated_at": "2026-03-12T15:41:16.885160+00:00",
+    "total_closings": 1,
     "by_status": {
-      "EARLY_DISMISSAL": 1,
-      "DELAYED": 1
+      "EARLY_DISMISSAL": 1
     },
     "by_region": {
-      "Middle Tennessee": 1,
-      "Other": 1
+      "Middle Tennessee": 1
     },
     "sources": [
-      "NewsChannel 5",
-      "WVLT"
+      "NewsChannel 5"
     ]
   },
   "closings": [
@@ -22,13 +19,6 @@
       "status_detail": "CLOSING AT 2:00",
       "region": "Middle Tennessee",
       "source": "NewsChannel 5"
-    },
-    {
-      "name": "Oneida Special School District",
-      "status": "DELAYED",
-      "status_detail": "Opening Late Thursday 1 Hour",
-      "region": "Other",
-      "source": "WVLT"
     }
   ]
 }
