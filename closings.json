@@ -1,10 +1,24 @@
 {
   "meta": {
-    "generated_at": "2026-03-12T05:01:24.743108+00:00",
-    "total_closings": 0,
-    "by_status": {},
-    "by_region": {},
-    "sources": []
+    "generated_at": "2026-03-12T05:11:20.007349+00:00",
+    "total_closings": 1,
+    "by_status": {
+      "EARLY_DISMISSAL": 1
+    },
+    "by_region": {
+      "Middle Tennessee": 1
+    },
+    "sources": [
+      "NewsChannel 5"
+    ]
   },
-  "closings": []
+  "closings": [
+    {
+      "name": "Cannon",
+      "status": "EARLY_DISMISSAL",
+      "status_detail": "CLOSING AT 2:00",
+      "region": "Middle Tennessee",
+      "source": "NewsChannel 5"
+    }
+  ]
 }
